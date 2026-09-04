@@ -198,7 +198,8 @@ def main():
         "fetched_at": now.isoformat(timespec="seconds").replace("+00:00", "Z"),
         "lookback_hours": lookback,
         "sources_total": len(sources),
-        "sources_ok": sum(1 for r in results if r["ok"]),
+        "sources_ok": len({r["name"] for r in results if r["ok"]} | {c["source"] for c in candidates}),
+        "sources_reached_now": sum(1 for r in results if r["ok"]),
         "source_report": report,
         "candidates": candidates,
     }
