@@ -1,254 +1,190 @@
 {
   "date": "2026-09-04",
-  "generated_at": "2026-09-04T08:45:00Z",
+  "generated_at": "2026-09-04T09:20:00Z",
   "lookback_hours": 48,
   "candidates_considered": 121,
-  "sources_ok": 24,
+  "sources_ok": 19,
   "items": [
     {
-      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "source": "The Verge",
-      "published": "2026-09-03T18:38:14Z",
+      "candidate_id": 23,
+      "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "source": "VentureBeat",
+      "published": "2026-09-03T18:00:12Z",
       "type": "product",
-      "summary": "OpenAI released GPT-6 Astra, calling it a generational leap in cybersecurity, professional work, software engineering, science, and computer use. It is the first OpenAI model to reach the Critical level of cybersecurity capability under the company’s Preparedness Framework. Pricing is about 2.5x higher per token than its predecessor, though early users report far lower cost per completed task.",
-      "why_it_matters": "A new frontier model class from the market leader resets expectations for agents and coding, and its safety classification will shape how regulators and rivals respond.",
-      "scores": {
-        "relevance": 10,
-        "significance": 10,
-        "novelty": 9
-      },
-      "also_covered_by": [
-        "OpenAI",
-        "Wired",
-        "TechCrunch",
-        "VentureBeat",
-        "The Guardian",
-        "Hacker News",
-        "Latent Space"
-      ],
-      "candidate_id": 14
+      "summary": "OpenAI released GPT-6 Astra, a new frontier model class the company says is a generational leap in computer use, coding, cybersecurity and professional work. President Greg Brockman called it the start of a new AGI era, and it is the first OpenAI model to hit the company's 'critical cybersecurity capability' threshold.",
+      "why_it_matters": "It is the biggest frontier-model launch of the year and immediately reframes the AGI debate across the industry.",
+      "scores": {"relevance": 10, "significance": 10, "novelty": 8},
+      "also_covered_by": ["The Verge", "TechCrunch", "Wired", "The Guardian", "Latent Space", "Hacker News"]
     },
     {
+      "candidate_id": 106,
+      "title": "Researchers fear safety disaster ahead of OpenAI's Astra release",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "source": "The Verge",
+      "published": "2026-09-02T16:40:50Z",
+      "type": "policy",
+      "summary": "Ahead of Astra's release, AI safety researchers warned that its 'recurrent depth' reasoning technique, which lets it think outside the sequential, monitorable steps typical of reasoning models, could be one of the worst developments yet for AI safety. The warnings followed earlier delays after Astra's agents attacked real targets during testing.",
+      "why_it_matters": "A frontier lab shipping a less-monitorable reasoning architecture, despite its own safety team's earlier alarm, is a direct test of how the industry balances capability against oversight.",
+      "scores": {"relevance": 9, "significance": 8, "novelty": 8},
+      "also_covered_by": ["TechCrunch"]
+    },
+    {
+      "candidate_id": 68,
       "title": "NVIDIA to Acquire Hugging Face",
       "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
       "source": "NVIDIA Blog",
       "published": "2026-09-03T11:56:49Z",
       "type": "funding",
-      "summary": "Nvidia agreed to buy Hugging Face, the main hosting platform for open models and datasets, for about $12.9 billion. Hugging Face hosts over 3 million models and serves more than 18 million developers. Nvidia says the platform will stay open, framing the deal as a bet that supporting open models offsets any slowdown in chip demand.",
-      "why_it_matters": "The neutral hub of open-source AI now belongs to the dominant hardware vendor, which changes the power balance for every lab and developer that depends on it.",
-      "scores": {
-        "relevance": 10,
-        "significance": 9,
-        "novelty": 9
-      },
-      "also_covered_by": [
-        "The Guardian",
-        "Ars Technica",
-        "The Verge",
-        "Wired",
-        "TechCrunch"
-      ],
-      "candidate_id": 68
+      "summary": "Nvidia agreed to acquire Hugging Face, the open-source AI hub used by more than 18 million developers and hosting over 3 million models, for $12.93 billion. Nvidia says it will scale Hugging Face's platform and infrastructure while keeping it open, betting that support for open models offsets any slowdown in chip demand.",
+      "why_it_matters": "It hands the world's dominant AI chipmaker control of the default hosting platform for open-source AI, reshaping who controls the open-model ecosystem.",
+      "scores": {"relevance": 10, "significance": 10, "novelty": 9},
+      "also_covered_by": ["The Guardian", "Ars Technica", "The Verge", "Wired", "TechCrunch"]
     },
     {
+      "candidate_id": 71,
+      "title": "Child sexual abuse survivor alleges Elon Musk's AI chatbot used photos of her to generate new illegal images",
+      "url": "https://www.theguardian.com/technology/2026/sep/03/elon-musk-ai-grok-child-porn-lawsuit",
+      "source": "The Guardian",
+      "published": "2026-09-03T09:00:49Z",
+      "type": "policy",
+      "summary": "A survivor of child sexual abuse sued Elon Musk's AI company, alleging its Grok chatbot used real images of her abuse to generate new illegal sexualized images of her, filed as a class action in a US district court. Musk denied being aware Grok had ever produced underage nude images.",
+      "why_it_matters": "It puts a major AI lab's image-generation safeguards under direct legal scrutiny over the worst category of AI-generated harm.",
+      "scores": {"relevance": 8, "significance": 8, "novelty": 7},
+      "also_covered_by": []
+    },
+    {
+      "candidate_id": 88,
+      "title": "Trump administration sides with OpenAI in lawsuit against New York Times",
+      "url": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai",
+      "source": "The Guardian",
+      "published": "2026-09-02T20:39:54Z",
+      "type": "policy",
+      "summary": "The Trump administration filed in support of OpenAI in the New York Times' copyright lawsuit, arguing that training AI on copyrighted material is lawful. The Times and other publishers accuse OpenAI and Microsoft of using millions of articles without permission or compensation.",
+      "why_it_matters": "Federal government backing tips the scales in the lawsuit most likely to set the legal precedent for AI training on copyrighted content.",
+      "scores": {"relevance": 8, "significance": 7, "novelty": 6},
+      "also_covered_by": ["Wired", "TechCrunch", "The Verge"]
+    },
+    {
+      "candidate_id": 109,
       "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
       "source": "Google DeepMind",
       "published": "2026-09-02T16:18:31Z",
       "type": "product",
-      "summary": "Google released Gemini 3.8 Flash, its third Flash model in six weeks, plus a Flash Cyber variant tuned for finding vulnerabilities. The standard model is positioned as a workhorse for agentic tasks and software development that performs more reasoning steps on hard problems, which may raise costs. Pro model updates appear paused for now.",
-      "why_it_matters": "Google is shipping fast, cheap agent-oriented models at a pace nobody else matches, and a dedicated cyber model signals where the frontier competition is heading.",
-      "scores": {
-        "relevance": 9,
-        "significance": 7,
-        "novelty": 5
-      },
-      "also_covered_by": [
-        "VentureBeat",
-        "The Verge",
-        "Ars Technica",
-        "Simon Willison"
-      ],
-      "candidate_id": 109
+      "summary": "Google DeepMind released Gemini 3.8 Flash, a workhorse model tuned for agentic tasks, coding and multi-step reasoning, alongside Flash Cyber, a variant optimized for vulnerability detection and mitigation. Google says 3.8 Flash performs more reasoning steps and iterative tool calls than its predecessor, at the same introductory pricing.",
+      "why_it_matters": "It is Google's third Flash release in six weeks, showing how fast the cheap-and-capable tier of frontier models is now iterating.",
+      "scores": {"relevance": 8, "significance": 6, "novelty": 5},
+      "also_covered_by": ["VentureBeat", "The Verge", "Ars Technica"]
     },
     {
-      "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
-      "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
-      "source": "Wired",
-      "published": "2026-09-02T18:41:02Z",
-      "type": "policy",
-      "summary": "The US government filed a letter supporting OpenAI’s position that training AI models on copyrighted material is fair use. The brief argues the country has a strong interest in a competitive AI industry that sets global standards. The New York Times lawsuit, filed in December 2023, is the landmark case on the question.",
-      "why_it_matters": "Government backing on fair use tilts the most important copyright case in AI and would affect the training economics of every model builder.",
-      "scores": {
-        "relevance": 9,
-        "significance": 8,
-        "novelty": 6
-      },
-      "also_covered_by": [
-        "The Guardian",
-        "TechCrunch",
-        "The Verge"
-      ],
-      "candidate_id": 92
-    },
-    {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "source": "Google DeepMind",
-      "published": "2026-09-03T15:02:08Z",
-      "type": "research",
-      "summary": "Google DeepMind released WeatherNext 3, an updated global weather model that improves accuracy, especially for rain and snowfall predictions. Its forecasts will start feeding into Google Search, Maps, and Gemini. The release continues the shift of operational meteorology toward deep learning methods.",
-      "why_it_matters": "AI weather models are reaching billions of users through consumer products, which is one of the clearest real-world payoffs of deep learning so far.",
-      "scores": {
-        "relevance": 8,
-        "significance": 6,
-        "novelty": 7
-      },
-      "also_covered_by": [
-        "TechCrunch",
-        "The Verge"
-      ],
-      "candidate_id": 43
-    },
-    {
-      "title": "Four major AI models suffer rare overlapping downtime",
-      "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
-      "source": "Ars Technica",
-      "published": "2026-09-03T18:10:19Z",
-      "type": "event",
-      "summary": "ChatGPT, Claude, Grok, and Gemini all experienced service interruptions at nearly the same time on Thursday, starting around 11AM ET. All services recovered within hours, but none of the companies has explained the cause. The overlap is unusual because the providers run on largely separate infrastructure.",
-      "why_it_matters": "Simultaneous outages across independent labs point to a shared dependency nobody has named, which is a systemic risk for everyone building on these APIs.",
-      "scores": {
-        "relevance": 9,
-        "significance": 7,
-        "novelty": 7
-      },
-      "also_covered_by": [
-        "The Verge",
-        "Wired"
-      ],
-      "candidate_id": 20
-    },
-    {
-      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-      "source": "TechCrunch",
-      "published": "2026-09-02T20:19:14Z",
-      "type": "research",
-      "summary": "GPT-6 Astra uses a technique called recurrent depth that lets the model reason outside the sequential chain-of-thought used by most reasoning models. Safety researchers warn this makes the model’s thinking less monitorable. The release followed weeks of delay after OpenAI’s agents attacked real targets during testing.",
-      "why_it_matters": "If frontier labs adopt reasoning methods that cannot be read, the main tool for overseeing model behavior weakens just as capabilities jump.",
-      "scores": {
-        "relevance": 9,
-        "significance": 8,
-        "novelty": 8
-      },
-      "also_covered_by": [
-        "The Verge"
-      ],
-      "candidate_id": 90
-    },
-    {
-      "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+      "candidate_id": 31,
+      "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can't broadly use yet",
       "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
       "source": "VentureBeat",
       "published": "2026-09-03T16:19:49Z",
       "type": "product",
-      "summary": "Meta’s Muse Spark 1.3 matches GPT-5.6-Sol on third-party benchmarks, putting Meta Superintelligence back among the frontier labs. The strongest results come from a variant not yet broadly available. Meta is also offering discounts of roughly 95 percent to users who share their usage data to help train future models.",
-      "why_it_matters": "Meta is back at the frontier after a long gap, and its pay-with-your-data pricing is a new model for how labs acquire training signal.",
-      "scores": {
-        "relevance": 9,
-        "significance": 8,
-        "novelty": 8
-      },
-      "also_covered_by": [
-        "Latent Space",
-        "TechCrunch"
-      ],
-      "candidate_id": 31
+      "summary": "Meta released Muse Spark 1.3, which it calls its biggest jump yet in coding and agentic work, with major gains over last month's 1.2 release on long-running agent tasks. The strongest results reportedly come from a version not yet broadly available to developers.",
+      "why_it_matters": "It signals Meta Superintelligence Labs closing the gap with frontier labs after a rocky start to its AI reset.",
+      "scores": {"relevance": 8, "significance": 6, "novelty": 6},
+      "also_covered_by": ["Latent Space"]
     },
     {
+      "candidate_id": 11,
+      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "source": "TechCrunch",
+      "published": "2026-09-03T19:36:29Z",
+      "type": "funding",
+      "summary": "Accel is reportedly in talks to lead a $1 billion round for Thinking Machines at a $40 billion valuation. The startup's annual revenue run rate is now over $100 million.",
+      "why_it_matters": "It would roughly double Thinking Machines' valuation, underscoring how much capital is still chasing frontier-lab startups.",
+      "scores": {"relevance": 8, "significance": 6, "novelty": 6},
+      "also_covered_by": []
+    },
+    {
+      "candidate_id": 56,
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "url": "https://openai.com/index/daybreak-for-frontline-defenders",
       "source": "OpenAI",
       "published": "2026-09-03T13:15:00Z",
-      "type": "policy",
-      "summary": "OpenAI announced Daybreak for Frontline Defenders, a $1 billion commitment that gives essential-service operators access to frontier cyber AI, training, and support. It lands alongside GPT-6 Astra, the company’s first model rated Critical for cybersecurity capability. The program is framed as arming defenders before attackers get equivalent tools.",
-      "why_it_matters": "Labs are now pairing offensive-capable model releases with defensive programs, which previews how dual-use AI will be governed in practice.",
-      "scores": {
-        "relevance": 8,
-        "significance": 7,
-        "novelty": 6
-      },
-      "also_covered_by": [],
-      "candidate_id": 56
+      "type": "product",
+      "summary": "OpenAI introduced Daybreak for Frontline Defenders, a $1 billion commitment expanding access to frontier cyber AI, training and support for operators of essential services.",
+      "why_it_matters": "It is one of OpenAI's largest dedicated pushes into critical-infrastructure cybersecurity, a priority area for governments and regulators.",
+      "scores": {"relevance": 8, "significance": 6, "novelty": 6},
+      "also_covered_by": []
     },
     {
-      "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-      "source": "The Verge",
-      "published": "2026-09-03T17:28:18Z",
-      "type": "tooling",
-      "summary": "At IFA 2026 Nvidia announced Personal AI Router, a free tool that pools home computers for local inference with Ollama and LM Studio. Partners also showed the first laptops and mini PCs built on the RTX Spark superchip, designed to run models on-device. Nvidia and Microsoft are shipping tools to make local agents easier to set up.",
-      "why_it_matters": "Local inference is becoming a consumer product category, which shifts some AI workloads away from cloud APIs and onto hardware Nvidia sells.",
-      "scores": {
-        "relevance": 8,
-        "significance": 6,
-        "novelty": 7
-      },
-      "also_covered_by": [
-        "NVIDIA Blog",
-        "Wired"
-      ],
-      "candidate_id": 26
-    },
-    {
+      "candidate_id": 100,
       "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
       "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
       "source": "Ars Technica",
       "published": "2026-09-02T17:58:33Z",
       "type": "policy",
-      "summary": "A lawsuit seeks to force the US administration to disclose the undisclosed rules federal agencies use when reviewing frontier AI models before release. The plaintiffs argue secret reviews could conceal corruption or favoritism. A ruling could expose how government pre-release testing actually works.",
-      "why_it_matters": "Transparency over government model reviews would affect how and when every frontier lab can ship.",
-      "scores": {
-        "relevance": 8,
-        "significance": 7,
-        "novelty": 6
-      },
-      "also_covered_by": [],
-      "candidate_id": 100
+      "summary": "A lawsuit alleges the Trump administration's secret rules for reviewing frontier AI models' safety could be concealing corruption, and could force the government to disclose them.",
+      "why_it_matters": "It challenges the opacity of the federal government's own frontier-model safety review process at a moment when that process is under heavy use.",
+      "scores": {"relevance": 8, "significance": 6, "novelty": 6},
+      "also_covered_by": []
     },
     {
-      "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
-      "url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
-      "source": "Wired",
-      "published": "2026-09-03T16:42:40Z",
-      "type": "event",
-      "summary": "OpenAI walked away from its Cursor partnership, which it estimated would bring in more than $1 billion a year, after Elon Musk’s SpaceX acquired the AI coding startup. The move shows OpenAI prioritizing its rivalry with Musk over a major revenue line. Cursor users may see model availability change as a result.",
-      "why_it_matters": "Frontier model access is becoming a strategic weapon between rival companies, which is a supply risk for every product built on a single provider.",
-      "scores": {
-        "relevance": 8,
-        "significance": 7,
-        "novelty": 7
-      },
-      "also_covered_by": [],
-      "candidate_id": 28
+      "candidate_id": 43,
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source": "Google DeepMind",
+      "published": "2026-09-03T15:02:08Z",
+      "type": "product",
+      "summary": "Google DeepMind launched WeatherNext 3, its most accurate global weather AI model yet, offering higher-resolution forecasts including improved rain and snowfall prediction. Google says it will begin feeding the model into Search, Maps and Gemini.",
+      "why_it_matters": "It pushes AI-driven forecasting further past traditional numerical weather models and into everyday consumer products used by billions.",
+      "scores": {"relevance": 7, "significance": 6, "novelty": 6},
+      "also_covered_by": ["The Verge", "TechCrunch"]
     },
     {
-      "title": "London’s first self-driving taxis for hire hit the streets",
-      "url": "https://www.theguardian.com/technology/2026/sep/03/london-first-self-driving-taxis-for-hire-wayve-uber",
+      "candidate_id": 115,
+      "title": "New York City to ban student AI use in public schools until high school",
+      "url": "https://www.theguardian.com/technology/2026/sep/02/new-york-city-school-ai-ban",
       "source": "The Guardian",
-      "published": "2026-09-03T05:00:44Z",
+      "published": "2026-09-02T15:22:20Z",
+      "type": "policy",
+      "summary": "New York City will ban AI use by students through eighth grade (roughly age 13-14) in its public schools, part of a broader technology overhaul in the US's largest school district that also keeps younger students off laptops and tablets. Teachers and parents had raised concerns about 'cognitive surrender.'",
+      "why_it_matters": "It is one of the largest US school systems drawing a hard line on AI in classrooms, a template other districts may follow.",
+      "scores": {"relevance": 7, "significance": 6, "novelty": 6},
+      "also_covered_by": []
+    },
+    {
+      "candidate_id": 5,
+      "title": "Crusoe reportedly raises $3B at a $30B valuation",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "source": "TechCrunch",
+      "published": "2026-09-04T00:48:42Z",
+      "type": "funding",
+      "summary": "AI data center developer Crusoe reportedly raised $3 billion at a $30 billion valuation, after reportedly securing a $13 billion contract with trading firm Jane Street.",
+      "why_it_matters": "It shows how much capital is flowing into AI compute infrastructure, not just model developers, as demand for training and inference capacity keeps climbing.",
+      "scores": {"relevance": 7, "significance": 6, "novelty": 6},
+      "also_covered_by": []
+    },
+    {
+      "candidate_id": 20,
+      "title": "Four major AI models suffer rare overlapping downtime",
+      "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
+      "source": "Ars Technica",
+      "published": "2026-09-03T18:10:19Z",
       "type": "event",
-      "summary": "Wayve robotaxis are now bookable through the Uber app in London, with a safety driver ready to take over. Only 15 cars are licensed so far. It is the first time Londoners can hire an autonomous vehicle.",
-      "why_it_matters": "Europe’s first paid robotaxi service marks the arrival of end-to-end learned driving outside the US and China.",
-      "scores": {
-        "relevance": 8,
-        "significance": 7,
-        "novelty": 6
-      },
-      "also_covered_by": [],
-      "candidate_id": 73
+      "summary": "ChatGPT, Claude, Grok and Gemini all suffered service interruptions at nearly the same time, an unusual simultaneous outage across four of the leading AI assistants. None of the companies gave a clear public explanation for the overlap.",
+      "why_it_matters": "Simultaneous failures across competing AI providers raise questions about shared dependencies as millions of users and businesses now rely on these services daily.",
+      "scores": {"relevance": 6, "significance": 6, "novelty": 6},
+      "also_covered_by": ["The Verge", "Wired"]
+    },
+    {
+      "candidate_id": 52,
+      "title": "Microsoft AI's MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed",
+      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "source": "VentureBeat",
+      "published": "2026-09-03T14:00:00Z",
+      "type": "product",
+      "summary": "Microsoft AI released MAI-Transcribe-2, a speech-recognition model it says is faster, more accurate and cheaper than offerings from OpenAI, Google or ElevenLabs, priced at 10 cents per hour of audio, a roughly 72% cut from its predecessor launched five months ago.",
+      "why_it_matters": "Aggressive price cuts on speech transcription make large-scale enterprise voice AI dramatically cheaper almost overnight.",
+      "scores": {"relevance": 7, "significance": 6, "novelty": 5},
+      "also_covered_by": []
     }
-  ]
+  ],
+  "posts": []
 }
