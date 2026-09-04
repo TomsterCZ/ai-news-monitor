@@ -12,7 +12,7 @@ import json
 import math
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -123,6 +123,18 @@ def fmt_local(iso, tz):
         return iso
 
 
+def next_update(generated_iso, config, tz):
+    """Next scheduled routine run after generated_at, formatted in the site timezone."""
+    try:
+        gen = datetime.fromisoformat((generated_iso or "").replace("Z", "+00:00")).astimezone(timezone.utc)
+    except ValueError:
+        gen = datetime.now(timezone.utc)
+    nxt = gen.replace(hour=config.get("schedule_utc_hour", 4), minute=config.get("schedule_utc_minute", 0), second=0, microsecond=0)
+    while nxt <= gen:
+        nxt += timedelta(hours=config.get("update_every_hours", 24))
+    return nxt.astimezone(tz).strftime("%a %-d %b %Y, %H:%M")
+
+
 def fmt_num(n):
     n = n or 0
     if n >= 1_000_000:
@@ -156,7 +168,7 @@ h1{font-size:28px;margin:0;letter-spacing:-.02em}h1 small{display:block;font-siz
 .actions{display:flex;gap:8px;flex-wrap:wrap}
 .btn{display:inline-block;padding:9px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:14px;font-weight:500}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}.btn:hover{text-decoration:none;filter:brightness(1.05)}
-.meta{color:var(--muted);font-size:13px;margin:4px 0 20px}
+.meta{color:var(--muted);font-size:13px;margin:4px 0 20px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}.meta .btn{padding:6px 12px;font-size:13px}
 .layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
 @media(max-width:960px){.layout{grid-template-columns:1fr}}
 .col h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 12px;font-weight:600}
@@ -261,9 +273,10 @@ def render_page(day, config, all_dates, sources, accounts, is_latest, tz):
 <body><div class="wrap">
 <header>
   <h1>{esc(title)}<small>Top AI stories and posts for {esc(date_label)}</small></h1>
-  <div class="actions">{latest_btn}{refresh_btn}</div>
+  <div class="actions">{latest_btn}</div>
 </header>
-<div class="meta">Updated {esc(generated)} ({esc(config["timezone"])}) · last {day.get("lookback_hours", config["lookback_hours"])} hours{stats}</div>
+<div class="meta"><span>Updated {esc(generated)} ({esc(config["timezone"])}) · covers the last {day.get("lookback_hours", config["lookback_hours"])} hours{stats}</span></div>
+<div class="meta" style="margin-top:-12px"><span>Updates every {config.get("update_every_hours", 24)} hours · <b>Next update: {esc(next_update(day.get("generated_at"), config, tz))}</b> ({esc(config["timezone"])})</span>{refresh_btn}</div>
 {notice}
 <div class="layout">
   <section class="col"><h3>Top {len(day["items"])} articles</h3>{items_html}</section>

@@ -1,5 +1,5 @@
 {
-  "_comment": "Sources tracked by the AI News Monitor. weight: 0.5-1.5 multiplier on the item score. type: lab | research | media | community | expert | newsletter. Set enabled=false to skip a source without deleting it.",
+  "_comment": "Sources tracked by the AI News Monitor. weight: 0.5-1.5 multiplier on the item score. type: lab | research | media | community | expert | newsletter. Set enabled=false to skip a source without deleting it. No usable RSS as of Sep 2026: Reuters, IBM, Intel, AMD, Oracle, PR Newswire, Business Wire, xAI, Mistral, Anthropic, Cohere, Stability AI, Perplexity.",
   "sources": [
     {
       "name": "OpenAI",
@@ -193,6 +193,101 @@
       "weight": 0.8,
       "enabled": false,
       "note": "Hundreds of papers per day; enable only if you want raw research in the mix"
+    },
+    {
+      "name": "Wall Street Journal",
+      "url": "https://feeds.content.dowjones.io/public/rss/RSSWSJD",
+      "type": "media",
+      "weight": 1.2,
+      "enabled": true,
+      "note": "Technology section; non-AI items are discarded at scoring"
+    },
+    {
+      "name": "Bloomberg",
+      "url": "https://feeds.bloomberg.com/technology/news.rss",
+      "type": "media",
+      "weight": 1.2,
+      "enabled": true,
+      "note": "Technology section"
+    },
+    {
+      "name": "Financial Times",
+      "url": "https://www.ft.com/artificial-intelligence?format=rss",
+      "type": "media",
+      "weight": 1.2,
+      "enabled": true
+    },
+    {
+      "name": "New York Times",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+      "type": "media",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "Technology section"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+      "type": "media",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "Technology section"
+    },
+    {
+      "name": "The Economist",
+      "url": "https://www.economist.com/science-and-technology/rss.xml",
+      "type": "media",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "Science and technology section"
+    },
+    {
+      "name": "Microsoft News",
+      "url": "https://news.microsoft.com/feed/",
+      "type": "lab",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "Official press releases"
+    },
+    {
+      "name": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/releases.xml",
+      "type": "lab",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "Official press releases"
+    },
+    {
+      "name": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/rss-feed.rss",
+      "type": "lab",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "Official press releases; non-AI items are discarded"
+    },
+    {
+      "name": "Amazon News",
+      "url": "https://www.aboutamazon.com/news/rss",
+      "type": "lab",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "Official newsroom; non-AI items are discarded"
+    },
+    {
+      "name": "Samsung Newsroom",
+      "url": "https://news.samsung.com/global/feed",
+      "type": "lab",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "Official newsroom; non-AI items are discarded"
+    },
+    {
+      "name": "Salesforce News",
+      "url": "https://www.salesforce.com/news/feed/",
+      "type": "lab",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "Official newsroom"
     }
   ]
 }
