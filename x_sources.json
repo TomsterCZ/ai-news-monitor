@@ -1,0 +1,17 @@
+{
+  "_comment": "X (Twitter) accounts tracked by the AI News Monitor. weight: 0.5-1.5 bonus/penalty on the post score. Posts are fetched by pipeline/fetch_x.py through the official X API (pay-per-use, needs the X_BEARER_TOKEN secret in GitHub Actions). Set enabled=false to skip an account.",
+  "accounts": [
+    {"handle": "karpathy",      "name": "Andrej Karpathy",   "group": "influencer", "weight": 1.3, "enabled": true},
+    {"handle": "sama",          "name": "Sam Altman",        "group": "influencer", "weight": 1.3, "enabled": true},
+    {"handle": "demishassabis", "name": "Demis Hassabis",    "group": "influencer", "weight": 1.3, "enabled": true},
+    {"handle": "AndrewYNg",     "name": "Andrew Ng",         "group": "influencer", "weight": 1.2, "enabled": true},
+    {"handle": "ylecun",        "name": "Yann LeCun",        "group": "influencer", "weight": 1.1, "enabled": true},
+    {"handle": "emollick",      "name": "Ethan Mollick",     "group": "influencer", "weight": 1.2, "enabled": true},
+    {"handle": "swyx",          "name": "swyx",              "group": "influencer", "weight": 1.1, "enabled": true},
+    {"handle": "DrJimFan",      "name": "Jim Fan",           "group": "influencer", "weight": 1.1, "enabled": true},
+    {"handle": "rowancheung",   "name": "Rowan Cheung",      "group": "influencer", "weight": 1.0, "enabled": true},
+    {"handle": "AnthropicAI",   "name": "Anthropic",         "group": "lab",        "weight": 1.3, "enabled": true, "note": "Anthropic has no RSS feed, so its X account stands in"},
+    {"handle": "cermak",        "name": "Miloš Čermák",      "group": "czech",      "weight": 1.1, "enabled": true},
+    {"handle": "MarekP",        "name": "Marek Prokop",      "group": "czech",      "weight": 1.1, "enabled": true, "note": "Handle to be confirmed by the owner"}
+  ]
+}

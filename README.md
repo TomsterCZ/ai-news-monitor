@@ -25,10 +25,43 @@ Final score = weighted base (0-10)
             + corroboration_bonus x number of extra sources covering the story (capped),
 clamped to 0-10. All knobs live in `config.json`.
 
+## X posts (right column)
+
+`pipeline/fetch_x.py` reads the accounts in `x_sources.json` through the
+official X API v2 and writes `data/x_candidates/<date>.json` with likes,
+reposts and views for each post. It runs inside the same GitHub Actions
+workflow and needs a repository secret named `X_BEARER_TOKEN`:
+
+1. Create a project and app at https://developer.x.com (pay-per-use plan; a
+   card is required, about $0.005 per post read, so roughly $1 per day for
+   12 accounts at 10 posts each).
+2. Copy the app's Bearer Token.
+3. In GitHub: repository Settings > Secrets and variables > Actions > New
+   repository secret, name `X_BEARER_TOKEN`, paste the token.
+4. Run the "Fetch candidates" workflow manually once (Actions tab) and check
+   that `data/x_candidates/<today>.json` appears.
+
+Post score = 0.6 x relevance (judged by the routine) + 0.4 x engagement
+(log scale of likes + 3 x reposts + views / 200) + account weight bonus.
+
+## Custom domain
+
+GitHub Pages serves a custom domain for free; only the domain itself costs
+money (a `.cz` is about CZK 200-300 per year, a `.com` about $10-15).
+
+1. Buy the domain at any registrar (Cloudflare, Wedos, Forpsi, Namecheap).
+2. In DNS add a `CNAME` record for `www` (or a subdomain such as `ai`)
+   pointing to `tomstercz.github.io`. For the bare domain add `A` records to
+   185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153.
+3. In the repository: Settings > Pages > Custom domain, enter the domain and
+   tick "Enforce HTTPS". GitHub writes `docs/CNAME`; commit it.
+4. Update `site_url` in `config.json`.
+
 ## Tuning
 
-- Add, remove, re-weight or disable sources in `sources.json`. Weights around
-  1.0; a lab announcing its own work deserves more than an aggregator.
+- Add, remove, re-weight or disable sources in `sources.json` and X accounts
+  in `x_sources.json`. Weights around 1.0; a lab announcing its own work
+  deserves more than an aggregator.
 - Change weights, lookback window, top N or bonuses in `config.json`.
 - Edit the selection rules and rubric in `ROUTINE.md`.
 

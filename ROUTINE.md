@@ -49,6 +49,24 @@ Assign one `type`: research, product, funding, policy, event, opinion, tooling.
 
 The final score is computed by `pipeline/build.py` (weighted base, source weight, corroboration bonus). You only supply the three component scores.
 
+## 2b. X posts (right column of the page)
+
+If `data/x_candidates/$DATE.json` exists and has posts (the GitHub Actions
+workflow writes it when the X API key is configured), read it. Each post has
+`id`, `url`, `author_handle`, `author_name`, `author_weight`, `created_at`,
+`text`, `metrics` (likes, reposts, replies, views, bookmarks).
+
+Select up to 15 posts that are strictly serious AI news: announcements,
+releases, research results, benchmarks, policy, well-argued analysis. Discard
+jokes, personal updates, replies to drama, memes, promotions, and anything
+not about AI. A Czech-language post is fine if it is serious AI news.
+
+Score each kept post with `relevance` 0-10 using the same definition as for
+articles. Engagement (likes, reposts, views) is added automatically by the
+build step; you do not score it.
+
+If the file is missing or empty, set `"posts": []`.
+
 ## 3. Write the edition file
 
 Write `data/daily/$DATE.json` (overwrite if it exists; a re-run means a fresh edition):
@@ -73,13 +91,27 @@ Write `data/daily/$DATE.json` (overwrite if it exists; a re-run means a fresh ed
       "scores": {"relevance": 9, "significance": 8, "novelty": 7},
       "also_covered_by": ["The Verge", "TechCrunch"]
     }
+  ],
+  "posts": [
+    {
+      "id": "<id copied VERBATIM from the X candidate>",
+      "url": "<url copied from the X candidate>",
+      "author_handle": "<copied>",
+      "author_name": "<copied>",
+      "created_at": "<copied>",
+      "text": "<text copied verbatim from the X candidate>",
+      "metrics": <metrics object copied from the X candidate>,
+      "why_it_matters": "<optional one sentence>",
+      "scores": {"relevance": 8}
+    }
   ]
 }
 ```
 
 Rules:
 - `url`, `title`, `source`, `published` must be copied exactly from the candidate. The build step rejects any url that is not in the candidates file.
-- Order does not matter; the build step ranks and keeps the top 10.
+- Post `id` and `text` must be copied exactly; the build step rejects unknown ids.
+- Order does not matter; the build step ranks and keeps the top 10 articles and top 10 posts.
 - If the day is thin, fewer items are fine, but never pad with weak items.
 
 ## 4. Build and verify
@@ -106,7 +138,7 @@ your final message so the owner can fix access.
 
 ## Do not
 
-- Do not modify `pipeline/`, `config.json`, `sources.json`, `README.md` or this file.
+- Do not modify `pipeline/`, `.github/`, `config.json`, `sources.json`, `x_sources.json`, `README.md` or this file.
 - Do not fetch article pages one by one; the candidate summaries are enough.
 - Do not install packages; everything is standard library.
 
