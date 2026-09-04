@@ -1,0 +1,198 @@
+{
+  "_comment": "Sources tracked by the AI News Monitor. weight: 0.5-1.5 multiplier on the item score. type: lab | research | media | community | expert | newsletter. Set enabled=false to skip a source without deleting it.",
+  "sources": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "type": "lab",
+      "weight": 1.3,
+      "enabled": true
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "type": "lab",
+      "weight": 1.3,
+      "enabled": true
+    },
+    {
+      "name": "Google AI",
+      "url": "https://blog.google/technology/ai/rss/",
+      "type": "lab",
+      "weight": 1.2,
+      "enabled": true
+    },
+    {
+      "name": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "type": "research",
+      "weight": 1.2,
+      "enabled": true
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/blog/feed/",
+      "type": "research",
+      "weight": 1.1,
+      "enabled": true
+    },
+    {
+      "name": "Meta Newsroom",
+      "url": "https://about.fb.com/news/feed/",
+      "type": "lab",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "Company-wide newsroom; non-AI items are discarded at scoring"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "type": "lab",
+      "weight": 1.1,
+      "enabled": true
+    },
+    {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "type": "lab",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+      "type": "lab",
+      "weight": 0.8,
+      "enabled": true
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "type": "media",
+      "weight": 1.2,
+      "enabled": true
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "type": "media",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "type": "media",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/ai/feed/",
+      "type": "media",
+      "weight": 1.1,
+      "enabled": true
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://feeds.feedburner.com/venturebeat/SZYF",
+      "type": "media",
+      "weight": 0.9,
+      "enabled": true
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "type": "media",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+      "type": "media",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage?points=150",
+      "type": "community",
+      "weight": 0.9,
+      "enabled": true
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "type": "expert",
+      "weight": 1.1,
+      "enabled": true
+    },
+    {
+      "name": "Import AI",
+      "url": "https://importai.substack.com/feed",
+      "type": "newsletter",
+      "weight": 1.2,
+      "enabled": true
+    },
+    {
+      "name": "Interconnects",
+      "url": "https://www.interconnects.ai/feed",
+      "type": "expert",
+      "weight": 1.1,
+      "enabled": true
+    },
+    {
+      "name": "Latent Space",
+      "url": "https://www.latent.space/feed",
+      "type": "expert",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "Ahead of AI",
+      "url": "https://magazine.sebastianraschka.com/feed",
+      "type": "expert",
+      "weight": 1.1,
+      "enabled": true
+    },
+    {
+      "name": "One Useful Thing",
+      "url": "https://www.oneusefulthing.org/feed",
+      "type": "expert",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "The Batch",
+      "url": "https://www.deeplearning.ai/the-batch/",
+      "type": "newsletter",
+      "weight": 1.1,
+      "enabled": false,
+      "note": "No RSS feed exists; kept for reference only"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "type": "lab",
+      "weight": 1.3,
+      "enabled": false,
+      "note": "No RSS feed exists; kept for reference only"
+    },
+    {
+      "name": "MIT News",
+      "url": "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml",
+      "type": "research",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "type": "research",
+      "weight": 0.8,
+      "enabled": false,
+      "note": "Hundreds of papers per day; enable only if you want raw research in the mix"
+    }
+  ]
+}

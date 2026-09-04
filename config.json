@@ -1,0 +1,27 @@
+{
+  "_comment": "Tuning knobs for the AI News Monitor. Score: base = w_rel*relevance + w_sig*significance + w_nov*novelty (0-10). final = base + (source_weight - 1) * source_scale + corroboration_bonus * min(extra_sources, corroboration_max_sources), clamped to 0-10.",
+  "site_title": "AI News Monitor",
+  "site_url": "https://tomstercz.github.io/ai-news-monitor/",
+  "timezone": "Europe/Prague",
+  "lookback_hours": 48,
+  "top_n": 10,
+  "max_items_per_source": 40,
+  "weights": {
+    "relevance": 0.35,
+    "significance": 0.4,
+    "novelty": 0.25
+  },
+  "corroboration_bonus": 0.4,
+  "corroboration_max_sources": 3,
+  "types": [
+    "research",
+    "product",
+    "funding",
+    "policy",
+    "event",
+    "opinion",
+    "tooling"
+  ],
+  "refresh_url": "",
+  "source_scale": 4.0
+}
