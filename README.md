@@ -27,19 +27,29 @@ clamped to 0-10. All knobs live in `config.json`.
 
 ## X posts (right column)
 
-`pipeline/fetch_x.py` reads the accounts in `x_sources.json` through the
-official X API v2 and writes `data/x_candidates/<date>.json` with likes,
-reposts and views for each post. It runs inside the same GitHub Actions
-workflow and needs a repository secret named `X_BEARER_TOKEN`:
+X closed its free API, and every unofficial timeline mirror (Nitter, syndication
+widgets, third-party viewers) is dead, stale or blocked as of September 2026.
+The free path that works is a two-step one, implemented in `pipeline/fetch_x.py`:
 
-1. Create a project and app at https://developer.x.com (pay-per-use plan; a
-   card is required, about $0.005 per post read, so roughly $1 per day for
-   12 accounts at 10 posts each).
-2. Copy the app's Bearer Token.
-3. In GitHub: repository Settings > Secrets and variables > Actions > New
-   repository secret, name `X_BEARER_TOKEN`, paste the token.
-4. Run the "Fetch candidates" workflow manually once (Actions tab) and check
-   that `data/x_candidates/<today>.json` appears.
+1. Google's Programmable Search JSON API finds each account's post URLs from
+   the last two days (one query per account, 100 free queries per day).
+2. X's public embed endpoint returns each post's text, date, likes and reply
+   count. Reposts and views are not available this way.
+
+Setup (free, about ten minutes):
+
+1. https://programmablesearchengine.google.com > Add. Name it anything, in
+   "Sites to search" enter `x.com/*`, create it, and copy the **Search engine ID**.
+2. https://developers.google.com/custom-search/v1/overview > "Get a Key".
+   Create or pick a Google Cloud project and copy the **API key**.
+3. GitHub repository > Settings > Secrets and variables > Actions > New
+   repository secret, twice: `GOOGLE_CSE_ID` and `GOOGLE_CSE_KEY`.
+4. Actions tab > "Fetch candidates" > Run workflow. Check that
+   `data/x_candidates/<today>.json` appears with posts.
+
+The fetch runs at most every five hours (12 queries each) to stay inside the
+quota; a manual workflow run always fetches. If an `X_BEARER_TOKEN` secret is
+present the official API is used instead, with view counts.
 
 Post score = 0.6 x relevance (judged by the routine) + 0.4 x engagement
 (log scale of likes + 3 x reposts + views / 200) + account weight bonus.

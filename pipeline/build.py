@@ -85,7 +85,7 @@ def final_score(item, config, source_weights):
 
 def engagement_score(metrics):
     m = metrics or {}
-    raw = 1 + m.get("likes", 0) + 3 * m.get("reposts", 0) + m.get("views", 0) / 200
+    raw = 1 + (m.get("likes") or 0) + 3 * (m.get("reposts") or 0) + (m.get("views") or 0) / 200
     return round(min(10.0, 2.2 * math.log10(raw)), 1)
 
 
@@ -107,7 +107,7 @@ def enrich(day, config, source_weights, account_weights):
     posts = day.get("posts") or []
     for p in posts:
         p["score"], p["engagement"], p["author_weight"] = post_score(p, config, account_weights)
-    posts.sort(key=lambda p: (-p["score"], -(p["metrics"].get("likes", 0))))
+    posts.sort(key=lambda p: (-p["score"], -(p["metrics"].get("likes") or 0)))
     day["posts"] = posts[: config.get("top_posts", 10)]
     for rank, p in enumerate(day["posts"], 1):
         p["rank"] = rank
@@ -214,6 +214,11 @@ def render_item(it):
 
 def render_post(p):
     m = p.get("metrics") or {}
+    metric_spans = "".join(
+        f'<span title="{label}">{icon} {fmt_num(m.get(key))}</span>'
+        for key, icon, label in (("likes", "♥", "Likes"), ("reposts", "↻", "Reposts and quotes"), ("replies", "💬", "Replies"), ("views", "◉", "Views"))
+        if m.get(key) is not None
+    )
     note = f'<p class="why"><b>Why it matters:</b> {esc(p["why_it_matters"])}</p>' if p.get("why_it_matters") else ""
     return f"""
 <article class="post">
@@ -221,9 +226,7 @@ def render_post(p):
   <p class="text">{linkify(p["text"])}</p>
   {note}
   <div class="metrics">
-    <span title="Likes">♥ {fmt_num(m.get("likes"))}</span>
-    <span title="Reposts and quotes">↻ {fmt_num(m.get("reposts"))}</span>
-    <span title="Views">◉ {fmt_num(m.get("views"))}</span>
+    {metric_spans}
     <span class="s" title="Relevance {p["scores"]["relevance"]} · engagement {p["engagement"]}">score {p["score"]:.1f}</span>
     <a href="{esc(p["url"])}" target="_blank" rel="noopener">Open on X</a>
   </div>
