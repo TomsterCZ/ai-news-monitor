@@ -8,8 +8,10 @@ Site: https://tomstercz.github.io/ai-news-monitor/
 ## How it works
 
 1. `pipeline/fetch.py` pulls every enabled feed in `sources.json`, keeps items
-   from the last `lookback_hours`, dedupes them and writes
-   `data/candidates/<date>.json`.
+   from the last `lookback_hours`, dedupes them, merges with any candidates
+   already committed for the day and writes `data/candidates/<date>.json`.
+   A GitHub Actions workflow (`.github/workflows/fetch.yml`) runs it every three
+   hours because the Claude cloud sandbox cannot reach the feeds directly.
 2. A Claude routine (cloud agent) follows `ROUTINE.md`: it reads the
    candidates, discards noise, merges duplicate coverage, scores each story
    for relevance, significance and novelty, and writes `data/daily/<date>.json`.

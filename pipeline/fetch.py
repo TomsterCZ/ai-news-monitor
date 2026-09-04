@@ -161,9 +161,26 @@ def main():
     with cf.ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(lambda s: fetch_source(s, since, cap), sources))
 
+    # Merge with an existing candidates file for the same date (written earlier by
+    # GitHub Actions or a previous run) so a blocked or flaky network never
+    # replaces good data with an empty list.
+    out_path = ROOT / "data" / "candidates" / f"{args.date}.json"
+    previous = []
+    if out_path.exists():
+        try:
+            prev = load_json(out_path)
+            previous = prev.get("candidates", [])
+            print(f"Merging with existing {out_path.name} ({len(previous)} candidates fetched at {prev.get('fetched_at')})")
+        except (ValueError, KeyError):
+            previous = []
+    merged = [{"items": r["items"]} for r in results] + [{"items": previous}]
+
     seen_urls, seen_titles, candidates = set(), set(), []
-    for r in results:
+    for r in merged:
         for it in r["items"]:
+            dt = parse_date(it.get("published")) if it.get("published") else None
+            if dt is not None and dt < since:
+                continue
             key_u = normalize_url(it["url"])
             key_t = re.sub(r"[^a-z0-9]+", " ", it["title"].lower()).strip()
             if key_u in seen_urls or key_t in seen_titles:
@@ -185,12 +202,14 @@ def main():
         "source_report": report,
         "candidates": candidates,
     }
-    out_path = ROOT / "data" / "candidates" / f"{args.date}.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
 
-    print(f"Wrote {out_path.relative_to(ROOT)}: {len(candidates)} candidates from {out['sources_ok']}/{len(sources)} sources (lookback {lookback}h)")
+    print(f"Wrote {out_path.relative_to(ROOT)}: {len(candidates)} candidates; this fetch reached {out['sources_ok']}/{len(sources)} sources (lookback {lookback}h)")
+    if out["sources_ok"] == 0 and not candidates:
+        print("ERROR: no source reachable and no previous candidates for this date", file=sys.stderr)
+        return 1
     for r in report:
         status = f"{r['kept']:3d} kept / {r['fetched']:3d} fetched" if r["ok"] else f"FAILED {r['error']}"
         print(f"  {r['name']:<22} {status}")

@@ -12,9 +12,13 @@ DATE=$(date -u +%F)
 python3 pipeline/fetch.py --date "$DATE"
 ```
 
-The script prints how many sources succeeded. If zero sources succeed, network
-access is blocked: stop and end with a clear message saying so. If some sources
-fail, continue; that is normal.
+The script merges what it can fetch with the candidates file already committed
+for today (a GitHub Actions workflow refreshes that file every three hours,
+because this sandbox may have no outbound web access). Read the summary line:
+"N candidates; this fetch reached X/Y sources". Failures with "Tunnel connection
+failed" are expected here and fine. Continue as long as N is at least 20.
+If N is below 20, stop and end with a clear message saying the candidates were
+unavailable; do not try other ways to download news.
 
 Read the whole file `data/candidates/$DATE.json`. Each candidate has `id`,
 `title`, `url`, `source`, `source_type`, `source_weight`, `published`, `summary`.
