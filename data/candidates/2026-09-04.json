@@ -1,9 +1,9 @@
 {
  "date": "2026-09-04",
- "fetched_at": "2026-09-04T08:49:57Z",
+ "fetched_at": "2026-09-04T08:50:29Z",
  "lookback_hours": 48,
  "sources_total": 24,
- "sources_ok": 24,
+ "sources_ok": 23,
  "source_report": [
   {
    "name": "OpenAI",
@@ -133,10 +133,10 @@
   },
   {
    "name": "Import AI",
-   "ok": true,
-   "fetched": 20,
+   "ok": false,
+   "fetched": 0,
    "kept": 0,
-   "error": ""
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "name": "Interconnects",
