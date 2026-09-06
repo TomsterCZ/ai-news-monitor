@@ -1,6 +1,6 @@
 {
  "date": "2026-09-06",
- "fetched_at": "2026-09-06T20:22:58Z",
+ "fetched_at": "2026-09-06T22:53:00Z",
  "lookback_hours": 48,
  "sources_total": 36,
  "sources_ok": 35,
@@ -66,7 +66,7 @@
    "name": "AWS Machine Learning",
    "ok": true,
    "fetched": 20,
-   "kept": 1,
+   "kept": 0,
    "error": ""
   },
   {
@@ -87,14 +87,14 @@
    "name": "TechCrunch",
    "ok": true,
    "fetched": 19,
-   "kept": 6,
+   "kept": 7,
    "error": ""
   },
   {
    "name": "Ars Technica",
    "ok": true,
    "fetched": 20,
-   "kept": 1,
+   "kept": 0,
    "error": ""
   },
   {
@@ -121,8 +121,8 @@
   {
    "name": "Hacker News",
    "ok": true,
-   "fetched": 12,
-   "kept": 10,
+   "fetched": 9,
+   "kept": 7,
    "error": ""
   },
   {
@@ -184,8 +184,8 @@
   {
    "name": "Bloomberg",
    "ok": true,
-   "fetched": 3,
-   "kept": 3,
+   "fetched": 4,
+   "kept": 4,
    "error": ""
   },
   {
@@ -199,7 +199,7 @@
    "name": "New York Times",
    "ok": true,
    "fetched": 24,
-   "kept": 7,
+   "kept": 5,
    "error": ""
   },
   {
@@ -241,14 +241,14 @@
    "name": "Amazon News",
    "ok": true,
    "fetched": 10,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   {
    "name": "Samsung Newsroom",
    "ok": true,
    "fetched": 50,
-   "kept": 1,
+   "kept": 0,
    "error": ""
   },
   {
@@ -261,6 +261,36 @@
  ],
  "candidates": [
   {
+   "title": "Amazon Cargo Plane Overshoots Runway, Closing Miami Airport",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-06/amazon-plane-overshoots-runway-closing-miami-airport-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-06T21:19:22Z",
+   "summary": "An Amazon.com Inc. cargo plane overran a runway at Miami International Airport and burst into flames on Sunday, shutting down the airport’s runways and taxiways and prompting an emergency response. (Source: Bloomberg)",
+   "id": 1
+  },
+  {
+   "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+   "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-06T20:47:37Z",
+   "summary": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+   "id": 2
+  },
+  {
+   "title": "Amazon 21 Air updates",
+   "url": "https://www.aboutamazon.com/news/company-news/amazon-21-air-miami-updates?utm_source=rss",
+   "source": "Amazon News",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-09-06T20:43:38Z",
+   "summary": "",
+   "id": 3
+  },
+  {
    "title": "Following legal advice, the Nitter project will continue",
    "url": "https://github.com/zedeus/nitter",
    "source": "Hacker News",
@@ -268,17 +298,27 @@
    "source_weight": 0.9,
    "published": "2026-09-06T17:51:23Z",
    "summary": "Article URL: https://github.com/zedeus/nitter Comments URL: https://news.ycombinator.com/item?id=49589003 Points: 230 # Comments: 55",
-   "id": 1
+   "id": 4
   },
   {
-   "title": "Nitter is unarchived and will continue",
+   "title": "Nitter and XCancel resume service after legal advice",
    "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
    "source": "Hacker News",
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-09-06T17:49:47Z",
-   "summary": "Article URL: https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3 Comments URL: https://news.ycombinator.com/item?id=49588988 Points: 205 # Comments: 60",
-   "id": 2
+   "summary": "https://github.com/zedeus/nitter https://xcancel.com/cdclegal https://nitter.net/ https://xcancel.com/ Comments URL: https://news.ycombinator.com/item?id=49588988 Points: 356 # Comments: 204",
+   "id": 5
+  },
+  {
+   "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+   "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-06T16:45:00Z",
+   "summary": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+   "id": 6
   },
   {
    "title": "Who’s Boring Now?",
@@ -288,7 +328,7 @@
    "source_weight": 1.2,
    "published": "2026-09-06T14:55:00Z",
    "summary": "Plus, sextortion in the family group chat, which wearable sleep data to trust, the Apple empire changes hands and more.",
-   "id": 3
+   "id": 7
   },
   {
    "title": "The purpose of DNS is to spread scams",
@@ -298,7 +338,7 @@
    "source_weight": 1.1,
    "published": "2026-09-06T14:40:07Z",
    "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a…",
-   "id": 4
+   "id": 8
   },
   {
    "title": "A/I shuts down – Stay human",
@@ -307,8 +347,18 @@
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-09-06T14:34:34Z",
-   "summary": "Article URL: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/ Comments URL: https://news.ycombinator.com/item?id=49586898 Points: 393 # Comments: 264",
-   "id": 5
+   "summary": "Article URL: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/ Comments URL: https://news.ycombinator.com/item?id=49586898 Points: 470 # Comments: 328",
+   "id": 9
+  },
+  {
+   "title": "Asahi Linux on M3",
+   "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-06T14:08:59Z",
+   "summary": "https://www.phoronix.com/news/Asahi-Linux-Official-M3 Comments URL: https://news.ycombinator.com/item?id=49586698 Points: 288 # Comments: 167",
+   "id": 10
   },
   {
    "title": "Asahi Linux Now Officially Supports Apple M3 Macs – With Caveats",
@@ -318,7 +368,7 @@
    "source_weight": 0.9,
    "published": "2026-09-06T14:08:59Z",
    "summary": "Article URL: https://www.phoronix.com/news/Asahi-Linux-Official-M3 Comments URL: https://news.ycombinator.com/item?id=49586698 Points: 219 # Comments: 135",
-   "id": 6
+   "id": 11
   },
   {
    "title": "Apple’s New CEO-Like Cook Pay Package Shows He’s Going Nowhere; Sept. 9 Event",
@@ -328,7 +378,7 @@
    "source_weight": 1.2,
    "published": "2026-09-06T14:00:01Z",
    "summary": "Also: The latest on Apple’s big Sept. 9 event.",
-   "id": 7
+   "id": 12
   },
   {
    "title": "Uncanny and unappetizing: appetites spoil as AI images take over food menus",
@@ -338,7 +388,7 @@
    "source_weight": 1.0,
    "published": "2026-09-06T13:00:06Z",
    "summary": "Consumers are increasingly encountering AI-generated images on food menus such as leathery meat and bread resembling reptile skin During a recent lunch break, Jill Sennett saw something so unappetizing she had to share it with her 26,000 X followers : Artificial intelligence-generated menu images from a Jamaican barbecue pop-up restaurant in which the meats looked like leather belts crawling with tiny beetles. The images were reshared by more than 500 people who similarly expressed their disgust. Eating is “such an essential human experience”, said Sennett, a 37-year-old nurse in Denver. “I…",
-   "id": 8
+   "id": 13
   },
   {
    "title": "‘Model fatigue’ sets in as AI labs race to roll out new versions at frenetic pace",
@@ -348,7 +398,7 @@
    "source_weight": 1.0,
    "published": "2026-09-06T12:13:49Z",
    "summary": "Anthropic, OpenAI, Meta and Google all released model updates this week, while Nvidia said it's acquiring open-source AI platform Hugging Face.",
-   "id": 9
+   "id": 14
   },
   {
    "title": "Many truckers don't feel like the rest of America about AI data centers as business booms",
@@ -358,7 +408,7 @@
    "source_weight": 1.0,
    "published": "2026-09-06T12:05:25Z",
    "summary": "Sprawling data center components from HVAC systems to tubing, wiring and semiconductors arrive primarily by truck, a boon for a business hit hard by trade wars.",
-   "id": 10
+   "id": 15
   },
   {
    "title": "Your intellectual fly is open (2025)",
@@ -367,8 +417,8 @@
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-09-06T11:56:43Z",
-   "summary": "Article URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/ Comments URL: https://news.ycombinator.com/item?id=49585644 Points: 380 # Comments: 253",
-   "id": 11
+   "summary": "Article URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/ Comments URL: https://news.ycombinator.com/item?id=49585644 Points: 457 # Comments: 293",
+   "id": 16
   },
   {
    "title": "Doomscrolling Ourselves to Death",
@@ -377,8 +427,8 @@
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-09-06T11:53:40Z",
-   "summary": "Article URL: https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death Comments URL: https://news.ycombinator.com/item?id=49585627 Points: 291 # Comments: 202",
-   "id": 12
+   "summary": "Article URL: https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death Comments URL: https://news.ycombinator.com/item?id=49585627 Points: 346 # Comments: 234",
+   "id": 17
   },
   {
    "title": "America’s Own Banks Are a Weak Link in the Campaign to Cut Off Iran",
@@ -388,7 +438,7 @@
    "source_weight": 1.2,
    "published": "2026-09-06T11:04:00Z",
    "summary": "Plus, Ukraine is considering legalizing porn to fund its war chest, and carmakers are adding gas engines to boost EV range.",
-   "id": 13
+   "id": 18
   },
   {
    "title": "I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know about AI",
@@ -398,7 +448,7 @@
    "source_weight": 1.0,
    "published": "2026-09-06T11:00:03Z",
    "summary": "A Dr Seuss-style story written in seconds alerted me to the power – and perils – of the technology. But how can children embrace it without forgetting core skills? When I was growing up, my dad and I often talked about a story we wanted to write together. It was called “The Day Nobody Went to Disneyland”. One day, the story goes, the weather is so perfect that everyone in the world decides to stay away from Disneyland because they expect it to be far too busy. But my dad, who has the same thought as them, sees the disappointment on my face that morning – and decides to risk it. We set off.…",
-   "id": 14
+   "id": 19
   },
   {
    "title": "Which Sleep Data to Trust From Oura and Other Wearables",
@@ -408,7 +458,7 @@
    "source_weight": 1.2,
    "published": "2026-09-06T11:00:00Z",
    "summary": "Health trackers might spit out unreliable numbers, but doctors say they’re still useful for spotting personal trends.",
-   "id": 15
+   "id": 20
   },
   {
    "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
@@ -418,7 +468,7 @@
    "source_weight": 1.1,
    "published": "2026-09-06T10:45:11Z",
    "summary": "Washington imposed sanctions on Inspur because of its work with the Chinese military. But the company’s subsidiary kept shipping Nvidia’s best chips to feed China’s leading A.I. firms.",
-   "id": 16
+   "id": 21
   },
   {
    "title": "My Brief Summer Fling With Siri AI",
@@ -428,7 +478,7 @@
    "source_weight": 1.0,
    "published": "2026-09-06T10:30:00Z",
    "summary": "I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.",
-   "id": 17
+   "id": 22
   },
   {
    "title": "Nigeria’s Antitrust Agency Probes Uber’s Exit From Country",
@@ -438,7 +488,7 @@
    "source_weight": 1.2,
    "published": "2026-09-06T10:27:21Z",
    "summary": "Nigeria’s antitrust commission said it is probing Uber Technologies Inc.’s abrupt exit from the West African nation, after the ride-hailing platform shut down last week without prior notice to users.",
-   "id": 18
+   "id": 23
   },
   {
    "title": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
@@ -448,7 +498,7 @@
    "source_weight": 1.0,
    "published": "2026-09-06T10:00:00Z",
    "summary": "Polls show that overwhelming majorities of Americans hate data centers. China makes a perfect scapegoat for tech leaders and their allies—the only problem is a lack of evidence.",
-   "id": 19
+   "id": 24
   },
   {
    "title": "There's No Limit to How Bad Code Can Get",
@@ -458,7 +508,7 @@
    "source_weight": 1.1,
    "published": "2026-09-06T09:08:06Z",
    "summary": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go…",
-   "id": 20
+   "id": 25
   },
   {
    "title": "An Alien Mind",
@@ -468,7 +518,7 @@
    "source_weight": 1.3,
    "published": "2026-09-06T09:00:00Z",
    "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-   "id": 21
+   "id": 26
   },
   {
    "title": "Quoting Zach Kehs",
@@ -478,7 +528,7 @@
    "source_weight": 1.1,
    "published": "2026-09-06T08:42:49Z",
    "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
-   "id": 22
+   "id": 27
   },
   {
    "title": "Research acceleration: The view inside OpenAI",
@@ -488,7 +538,7 @@
    "source_weight": 1.3,
    "published": "2026-09-06T08:00:00Z",
    "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-   "id": 23
+   "id": 28
   },
   {
    "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
@@ -497,8 +547,8 @@
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-09-06T07:21:06Z",
-   "summary": "Article URL: https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight Comments URL: https://news.ycombinator.com/item?id=49584083 Points: 488 # Comments: 155",
-   "id": 24
+   "summary": "Article URL: https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight Comments URL: https://news.ycombinator.com/item?id=49584083 Points: 529 # Comments: 172",
+   "id": 29
   },
   {
    "title": "UBS demands new junior bankers show AI proficiency",
@@ -508,7 +558,7 @@
    "source_weight": 1.2,
    "published": "2026-09-06T04:00:12Z",
    "summary": "Graduates and interns hoping to join Swiss bank must show they can use the technology to improve outcomes and efficiency",
-   "id": 25
+   "id": 30
   },
   {
    "title": "GPT-6 Astra on robot arms",
@@ -518,7 +568,7 @@
    "source_weight": 0.9,
    "published": "2026-09-06T01:52:45Z",
    "summary": "Article URL: https://openai.robocurve.org/gpt-6-astra/ Comments URL: https://news.ycombinator.com/item?id=49582582 Points: 192 # Comments: 144",
-   "id": 26
+   "id": 31
   },
   {
    "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
@@ -528,7 +578,7 @@
    "source_weight": 0.9,
    "published": "2026-09-06T00:03:29Z",
    "summary": "Article URL: https://cloudinabottle.org/blog/launch-post Comments URL: https://news.ycombinator.com/item?id=49582000 Points: 581 # Comments: 285",
-   "id": 27
+   "id": 32
   },
   {
    "title": "He’s Letting AI Agents Invest His Money. They Even Have Names.",
@@ -538,7 +588,7 @@
    "source_weight": 1.2,
    "published": "2026-09-06T00:00:00Z",
    "summary": "Americans are vibe-coding trading algorithms and handing over their stock portfolios to AI agents. Welcome to the world of the robot retail investor.",
-   "id": 28
+   "id": 33
   },
   {
    "title": "Chrome again exempts Google from user site data settings",
@@ -548,7 +598,7 @@
    "source_weight": 0.9,
    "published": "2026-09-05T23:39:47Z",
    "summary": "Article URL: https://lapcatsoftware.com/articles/2026/9/1.html Comments URL: https://news.ycombinator.com/item?id=49581870 Points: 418 # Comments: 64",
-   "id": 29
+   "id": 34
   },
   {
    "title": "Introducing GPT-6 Astra for developers",
@@ -558,7 +608,7 @@
    "source_weight": 1.1,
    "published": "2026-09-05T23:27:48Z",
    "summary": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
-   "id": 30
+   "id": 35
   },
   {
    "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
@@ -568,7 +618,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T22:49:55Z",
    "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-   "id": 31
+   "id": 36
   },
   {
    "title": "The revolt of the reader",
@@ -578,7 +628,7 @@
    "source_weight": 0.9,
    "published": "2026-09-05T21:37:49Z",
    "summary": "Article URL: https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/ Comments URL: https://news.ycombinator.com/item?id=49580939 Points: 542 # Comments: 256",
-   "id": 32
+   "id": 37
   },
   {
    "title": "Kenyans Made a Living Writing College Essays. Then A.I. Arrived.",
@@ -588,7 +638,7 @@
    "source_weight": 1.1,
    "published": "2026-09-05T21:11:57Z",
    "summary": "Thousands of Kenyans made a living writing essays for overseas students. With A.I., the work has dried up, a warning for online gig work that has been a global lifeline.",
-   "id": 33
+   "id": 38
   },
   {
    "title": "Private German rocket makes history, reaches orbit from European soil",
@@ -598,7 +648,7 @@
    "source_weight": 0.9,
    "published": "2026-09-05T20:31:38Z",
    "summary": "Article URL: https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket Comments URL: https://news.ycombinator.com/item?id=49580369 Points: 620 # Comments: 332",
-   "id": 34
+   "id": 39
   },
   {
    "title": "German Startup’s Rocket Deploys Satellites in a First for Europe",
@@ -608,7 +658,7 @@
    "source_weight": 1.2,
    "published": "2026-09-05T20:24:16Z",
    "summary": "An Isar Aerospace rocket blasted off from a launchpad in Norway and delivered a payload of satellites into orbit, marking a key step in Europe’s efforts to compete with US companies for commercial space missions.",
-   "id": 35
+   "id": 40
   },
   {
    "title": "LLMs as a Cognitive Virus",
@@ -618,7 +668,7 @@
    "source_weight": 0.9,
    "published": "2026-09-05T20:02:35Z",
    "summary": "Article URL: https://arxiv.org/abs/2609.03344 Comments URL: https://news.ycombinator.com/item?id=49580164 Points: 278 # Comments: 202",
-   "id": 36
+   "id": 41
   },
   {
    "title": "Alarming AI ads are flooding social media in the lead-up to Victoria’s election. But who is behind them?",
@@ -628,7 +678,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T20:00:46Z",
    "summary": "A machete-wielding robber, a ‘tsunami of debt’ … campaigns echoing opposition talking points outspend major parties Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast A man clad in a balaclava and brandishing a machete terrorises a worker at a petrol station before firebombing the building on the way out. A woman gives birth on the side of the road, unable to reach a hospital due to ambulance ramping and crater-like potholes, which also stop a fire truck in its tracks. Continue reading...",
-   "id": 37
+   "id": 42
   },
   {
    "title": "An algorithm off switch isn’t enough. Big tech needs a duty of care over addictive designs | Zoe Daniel",
@@ -638,7 +688,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T20:00:45Z",
    "summary": "As AI advances minute by minute and governments grapple with new developments they don’t know how to manage, holding big tech accountable becomes even more urgent A digital duty of care is about a lot more than opting out of “the algorithm”. And after the simplistic and at best patchy exercise of the under-16s social media ban, we shouldn’t let the government get away with another populist policy that looks good on the surface but doesn’t get to the core of the problem. A digital duty of care must hold the tech bros accountable for the safety of the spaces that they have created. Continue…",
-   "id": 38
+   "id": 43
   },
   {
    "title": "Hikers rescued after using Google Gemini for planning",
@@ -648,7 +698,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T19:35:24Z",
    "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
-   "id": 39
+   "id": 44
   },
   {
    "title": "Black Box: The Chatbots | Spirals | Ep 1 - podcast",
@@ -658,7 +708,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T19:00:43Z",
    "summary": "Across the world, hundreds of people have come to believe they have made extraordinary scientific discoveries with AI chatbots such as ChatGPT, Claude and Gemini. Others say their AI has ‘awakened’, or is leading them to a higher spiritual realm. Guardian journalist Michael Safi begins investigating a phenomenon labelled ‘AI psychosis’, travelling to the US to meet two people who have been on weird journeys with their chatbots Listen to Black Box: The Chatbots series Continue reading...",
-   "id": 40
+   "id": 45
   },
   {
    "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
@@ -668,7 +718,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T18:05:27Z",
    "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
-   "id": 41
+   "id": 46
   },
   {
    "title": "We got more defensive last week as Wall Street raised the bar for AI stocks",
@@ -678,7 +728,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T16:45:14Z",
    "summary": "We initiated positions in defensive stocks to balance our AI exposure amid higher oil prices and Treasury yields.",
-   "id": 42
+   "id": 47
   },
   {
    "title": "Learn Programming with OCaml",
@@ -688,7 +738,7 @@
    "source_weight": 0.9,
    "published": "2026-09-05T16:45:02Z",
    "summary": "Article URL: https://usr.lmf.cnrs.fr/lpo/ Comments URL: https://news.ycombinator.com/item?id=49578280 Points: 291 # Comments: 123",
-   "id": 43
+   "id": 48
   },
   {
    "title": "Elon Musk’s Inner Circle Is Pouring Cash Into Making Psychedelics Mainstream",
@@ -698,7 +748,7 @@
    "source_weight": 1.2,
    "published": "2026-09-05T16:00:00Z",
    "summary": "SpaceX and Tesla directors are backing academic research and a commercial venture seeking approval for MDMA-assisted therapy.",
-   "id": 44
+   "id": 49
   },
   {
    "title": "Using Blender with coding agents on macOS",
@@ -708,7 +758,7 @@
    "source_weight": 1.1,
    "published": "2026-09-05T15:51:09Z",
    "summary": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: OK add a background and a lot of flair Then: OK make it a whole lot better And got this image, generated using Blender's Python API : This was covered by my existing Codex subscription, but…",
-   "id": 45
+   "id": 50
   },
   {
    "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
@@ -718,7 +768,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T15:01:02Z",
    "summary": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction.",
-   "id": 46
+   "id": 51
   },
   {
    "title": "The Generation That’s Never Had to Say ‘Hello?’",
@@ -728,7 +778,7 @@
    "source_weight": 1.1,
    "published": "2026-09-05T13:39:48Z",
    "summary": "Now that there’s rarely any mystery to who’s calling, Gen Z has adopted a range of custom phone greetings — including no greeting at all.",
-   "id": 47
+   "id": 52
   },
   {
    "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
@@ -738,7 +788,7 @@
    "source_weight": 0.9,
    "published": "2026-09-05T13:36:38Z",
    "summary": "Article URL: https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/ Comments URL: https://news.ycombinator.com/item?id=49576386 Points: 362 # Comments: 106",
-   "id": 48
+   "id": 53
   },
   {
    "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
@@ -748,7 +798,7 @@
    "source_weight": 0.9,
    "published": "2026-09-05T13:31:05Z",
    "summary": "Article URL: https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/ Comments URL: https://news.ycombinator.com/item?id=49576343 Points: 175 # Comments: 36",
-   "id": 49
+   "id": 54
   },
   {
    "title": "Sextortion Has Entered the Family Group Chat",
@@ -758,7 +808,7 @@
    "source_weight": 1.2,
    "published": "2026-09-05T13:00:00Z",
    "summary": "Added to a text thread from an unknown number, these family members were surprised with pornography featuring a relative.",
-   "id": 50
+   "id": 55
   },
   {
    "title": "Apple Bets on Foldable iPhone Under New CEO",
@@ -768,7 +818,7 @@
    "source_weight": 1.2,
    "published": "2026-09-05T12:23:38Z",
    "summary": "Apple CEO John Ternus is preparing for his first major product event since succeeding Tim Cook, with a foldable iPhone expected to headline the September 9 launch. Bloomberg Intelligence Senior Hardware Analyst Woo Jin Ho joins Christina Ruffini and Jeff Mason on Bloomberg This Weekend and says Ternus’ engineering background could bring renewed focus to hardware and expanding Apple’s ecosystem as smartphone upgrades become increasingly incremental. (Source: Bloomberg)",
-   "id": 51
+   "id": 56
   },
   {
    "title": "Meet the CISO: A new front line star in the AI cybersecurity war",
@@ -778,7 +828,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T12:00:01Z",
    "summary": "The OpenAI-Hugging Face agent hack sent shockwaves through the business world and helped put the chief information security officer into the spotlight.",
-   "id": 52
+   "id": 57
   },
   {
    "title": "OpenAI admits to German wiki ‘incident’",
@@ -788,7 +838,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T11:28:05Z",
    "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote […]",
-   "id": 53
+   "id": 58
   },
   {
    "title": "TCS Plans One-Gigawatt Capacity Data Center in Southern India",
@@ -798,7 +848,7 @@
    "source_weight": 1.2,
    "published": "2026-09-05T11:07:00Z",
    "summary": "Tata Consultancy Services Ltd. on Saturday said its HyperVault unit and partners have committed 700 billion rupees ($7.4 billion) to set up a large-scale artificial intelligence data center campus in southern India, speeding up its push into an area that Indian tech firms are prioritizing for future growth.",
-   "id": 54
+   "id": 59
   },
   {
    "title": "OpenAI Agents Hacked Another Website",
@@ -808,7 +858,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T10:30:00Z",
    "summary": "Plus: Tens of millions of US and Canadian drivers’ licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.",
-   "id": 55
+   "id": 60
   },
   {
    "title": "Authors Wrangle With Publishers Over $1.5 Billion Anthropic A.I. Settlement",
@@ -818,7 +868,7 @@
    "source_weight": 1.1,
    "published": "2026-09-05T09:03:10Z",
    "summary": "The tech giant must pay $3,000 per pirated book that it used to train its chatbot. Many authors fear they could lose funds to others in the book business.",
-   "id": 56
+   "id": 61
   },
   {
    "title": "Vance Called AI Satanic. He Struck a Chord Among Christian Republicans.",
@@ -828,7 +878,7 @@
    "source_weight": 1.2,
    "published": "2026-09-05T09:00:00Z",
    "summary": "Trump administration officials are wrestling with the spiritual consequences of AI as the president embraces it as an economic engine.",
-   "id": 57
+   "id": 62
   },
   {
    "title": "Nvidia Partner Hon Hai’s Sales Climb 52% With AI Server Momentum",
@@ -838,7 +888,7 @@
    "source_weight": 1.2,
    "published": "2026-09-05T07:45:26Z",
    "summary": "Hon Hai Precision Industry Co. reported a 52% rise in monthly sales, lifted by demand for servers in a global race to build data centers and AI computational capacity.",
-   "id": 58
+   "id": 63
   },
   {
    "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
@@ -848,7 +898,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T07:00:30Z",
    "summary": "A spate of serious safety incidents have increased fears about the power and impenetrability of the most advanced models Picture humanity in a boat being swept down a raging river, praying there is no Niagara Falls ahead. Or imagine standing with the pioneering physicists in 1942 before they triggered the first self-sustaining nuclear fission chain reaction beneath a Chicago stadium. These were two of the analogies used this week by Prof Robert Trager, an expert in the nascent field of AI governance, to describe the perilous but potential-filled moment the world stands at with accelerating…",
-   "id": 59
+   "id": 64
   },
   {
    "title": "Food delivery riders call on platforms to open up AI ‘black box’ they say has cut pay",
@@ -858,7 +908,7 @@
    "source_weight": 1.0,
    "published": "2026-09-05T06:00:29Z",
    "summary": "Workers who blame algorithms for lowering their earnings are getting help from academics to find out how the system works Gig economy workers are urging delivery platforms to open up the “black box” of computer-driven algorithms that determine the jobs they are offered and how much they are paid, blaming increased use of AI for lowering wages. A group of food delivery riders in Edinburgh say their rates of pay have fallen and their working conditions have deteriorated at the same time as Deliveroo, Uber Eats and Just Eat, the three dominant gig economy platforms in the UK and Ireland, have…",
-   "id": 60
+   "id": 65
   },
   {
    "title": "US Republicans revolt against Flock AI surveillance as tech backlash intensifies",
@@ -868,7 +918,7 @@
    "source_weight": 1.2,
    "published": "2026-09-05T04:00:23Z",
    "summary": "Governors crack down on licence-plate-reading start-up bankrolled by Trump donors",
-   "id": 61
+   "id": 66
   },
   {
    "title": "Court Filings In A.I. Suit Invoke Copyright Law, Culture and Sports",
@@ -878,7 +928,7 @@
    "source_weight": 1.1,
    "published": "2026-09-05T00:18:57Z",
    "summary": "Filings made Friday in The New York Times’s closely watched lawsuit against OpenAI and Microsoft included a range of copyright law and cultural references.",
-   "id": 62
+   "id": 67
   },
   {
    "title": "Nitter has more working instances than before the takedowns",
@@ -888,7 +938,7 @@
    "source_weight": 0.9,
    "published": "2026-09-05T00:04:16Z",
    "summary": "Article URL: https://codeberg.org/mv12star/shitter/wiki/Instances Comments URL: https://news.ycombinator.com/item?id=49571634 Points: 683 # Comments: 353",
-   "id": 63
+   "id": 68
   },
   {
    "title": "The Pelican comparison grid for Astra is pretty interesting",
@@ -898,7 +948,7 @@
    "source_weight": 1.1,
    "published": "2026-09-04T23:59:05Z",
    "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked…",
-   "id": 64
+   "id": 69
   },
   {
    "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
@@ -908,7 +958,7 @@
    "source_weight": 1.0,
    "published": "2026-09-04T23:36:14Z",
    "summary": "The round is being raised just months after the robot data startup exited from stealth.",
-   "id": 65
+   "id": 70
   },
   {
    "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
@@ -918,87 +968,7 @@
    "source_weight": 1.0,
    "published": "2026-09-04T23:15:11Z",
    "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-   "id": 66
-  },
-  {
-   "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-   "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-   "source": "Ars Technica",
-   "source_type": "media",
-   "source_weight": 1.1,
-   "published": "2026-09-04T22:17:36Z",
-   "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
-   "id": 67
-  },
-  {
-   "title": "Actively exploited sandbox RCE in all Chromium versions",
-   "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-09-04T21:52:01Z",
-   "summary": "Article URL: https://nvd.nist.gov/vuln/detail/cve-2026-85046 Comments URL: https://news.ycombinator.com/item?id=49570669 Points: 777 # Comments: 471",
-   "id": 68
-  },
-  {
-   "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
-   "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
-   "source": "AWS Machine Learning",
-   "source_type": "lab",
-   "source_weight": 0.8,
-   "published": "2026-09-04T21:45:52Z",
-   "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single business number, built on Amazon Bedrock AgentCore with Amazon Nova 2. The channel and ordering layers stay separate, and one shared memory recognizes each customer across all three channels.",
-   "id": 69
-  },
-  {
-   "title": "Samsung Wins Multiple Honors at IFA Innovation Awards 2026",
-   "url": "https://news.samsung.com/global/samsung-wins-multiple-honors-at-ifa-innovation-awards-2026",
-   "source": "Samsung Newsroom",
-   "source_type": "lab",
-   "source_weight": 0.8,
-   "published": "2026-09-04T21:30:00Z",
-   "summary": "Samsung Electronics today announced that it has received multiple honors at the IFA Innovation Awards 2026 for its latest home appliances. Among the recognized products, the Bespoke AI WindFree Pro Air Conditioner was named a winner in the Best in Design category and an honoree in the Best in Home Appliances category. “Samsung looks beyond […]",
-   "id": 70
-  },
-  {
-   "title": "Which Investors Will Get Rich From Anthropic’s IPO?",
-   "url": "https://www.nytimes.com/2026/09/03/technology/anthropic-ipo-investors-winners.html",
-   "source": "New York Times",
-   "source_type": "media",
-   "source_weight": 1.1,
-   "published": "2026-09-04T21:23:20Z",
-   "summary": "When Anthropic goes public in a blockbuster offering, which investors will profit? The answer says a lot about how much start-up investing has changed over the years.",
    "id": 71
-  },
-  {
-   "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-   "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-   "source": "TechCrunch",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-09-04T21:12:11Z",
-   "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
-   "id": 72
-  },
-  {
-   "title": "F.B.I. Investigates Sale of Millions of Stolen Driver’s Licenses",
-   "url": "https://www.nytimes.com/2026/09/04/us/nexus-identity-theft-data-breach-fbi.html",
-   "source": "New York Times",
-   "source_type": "media",
-   "source_weight": 1.1,
-   "published": "2026-09-04T21:11:57Z",
-   "summary": "The blog Krebs on Security reported on an identity theft service trying to sell scans of licenses and other documents belonging to people in Canada and the United States.",
-   "id": 73
-  },
-  {
-   "title": "Statichost.eu – European static site hosting",
-   "url": "https://www.statichost.eu/",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-09-04T20:34:49Z",
-   "summary": "Article URL: https://www.statichost.eu/ Comments URL: https://news.ycombinator.com/item?id=49569896 Points: 486 # Comments: 226",
-   "id": 74
   }
  ]
 }
