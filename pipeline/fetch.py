@@ -161,18 +161,28 @@ def main():
     with cf.ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(lambda s: fetch_source(s, since, cap), sources))
 
-    # Merge with an existing candidates file for the same date (written earlier by
-    # GitHub Actions or a previous run) so a blocked or flaky network never
-    # replaces good data with an empty list.
+    # Merge with candidates files already committed for this date AND the
+    # previous date (written earlier by GitHub Actions or a previous run).
+    # GitHub's free scheduled-workflow cron does not fire reliably at its
+    # stated time -- it can run hours late or skip a slot -- so a fetch that
+    # actually landed just before midnight UTC would otherwise be invisible
+    # to a run that starts just after midnight. Looking back one extra file
+    # costs nothing: every item is still filtered by its real published time
+    # against the lookback window below, never by which file it came from.
     out_path = ROOT / "data" / "candidates" / f"{args.date}.json"
+    prev_date = (datetime.strptime(args.date, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
+    prev_path = ROOT / "data" / "candidates" / f"{prev_date}.json"
     previous = []
-    if out_path.exists():
+    for p in (out_path, prev_path):
+        if not p.exists():
+            continue
         try:
-            prev = load_json(out_path)
-            previous = prev.get("candidates", [])
-            print(f"Merging with existing {out_path.name} ({len(previous)} candidates fetched at {prev.get('fetched_at')})")
+            prev = load_json(p)
+            items = prev.get("candidates", [])
+            previous.extend(items)
+            print(f"Merging with {p.name} ({len(items)} candidates fetched at {prev.get('fetched_at')})")
         except (ValueError, KeyError):
-            previous = []
+            pass
     merged = [{"items": r["items"]} for r in results] + [{"items": previous}]
 
     seen_urls, seen_titles, candidates = set(), set(), []

@@ -12,9 +12,13 @@ DATE=$(date -u +%F)
 python3 pipeline/fetch.py --date "$DATE"
 ```
 
-The script merges what it can fetch with the candidates file already committed
-for today (a GitHub Actions workflow refreshes that file every three hours,
-because this sandbox may have no outbound web access). Read the summary line:
+The script merges what it can fetch with the candidates files already
+committed for today AND yesterday (a GitHub Actions workflow refreshes these
+every few hours, because this sandbox may have no outbound web access; GitHub's
+free scheduler can run that workflow late or skip a slot, which is why both
+days are merged -- every item is still filtered by its own published time
+against the lookback window, so stale duplicates are harmless). Read the
+summary line:
 "N candidates; this fetch reached X/Y sources". Failures with "Tunnel connection
 failed" are expected here and fine. Continue as long as N is at least 20.
 If N is below 20, stop and end with a clear message saying the candidates were
