@@ -114,6 +114,19 @@ def enrich(day, config, source_weights, account_weights):
     return day
 
 
+def sanitize_generated_at(raw, now):
+    """Guard against a routine writing a wrong/future timestamp by hand instead
+    of checking the real clock. Falls back to the real build time whenever the
+    supplied value is missing, unparseable, or implausibly in the future."""
+    try:
+        dt = datetime.fromisoformat((raw or "").replace("Z", "+00:00")).astimezone(timezone.utc)
+    except ValueError:
+        dt = None
+    if dt is None or dt > now + timedelta(minutes=15):
+        return now.isoformat(timespec="seconds").replace("+00:00", "Z")
+    return raw
+
+
 def fmt_local(iso, tz):
     if not iso:
         return ""
@@ -299,6 +312,7 @@ def main():
     source_weights = {s["name"]: s["weight"] for s in sources}
     account_weights = {a["handle"].lower(): a["weight"] for a in accounts}
     tz = ZoneInfo(config["timezone"])
+    now = datetime.now(timezone.utc)
     files = sorted((ROOT / "data" / "daily").glob("*.json"))
     if not files:
         print("No daily files in data/daily; nothing to build", file=sys.stderr)
@@ -307,6 +321,7 @@ def main():
     for f in files:
         day = load_json(f)
         day.setdefault("date", f.stem)
+        day["generated_at"] = sanitize_generated_at(day.get("generated_at"), now)
         problems = validate(day, config)
         if problems:
             print(f"{f.name}: INVALID", file=sys.stderr)
