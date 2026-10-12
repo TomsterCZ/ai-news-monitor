@@ -1,10 +1,10 @@
 {
  "date": "2026-10-12",
- "fetched_at": "2026-10-12T10:44:57Z",
+ "fetched_at": "2026-10-12T21:15:16Z",
  "lookback_hours": 48,
  "sources_total": 36,
- "sources_ok": 35,
- "sources_reached_now": 35,
+ "sources_ok": 34,
+ "sources_reached_now": 33,
  "source_report": [
   {
    "name": "OpenAI",
@@ -15,10 +15,10 @@
   },
   {
    "name": "Google DeepMind",
-   "ok": true,
-   "fetched": 100,
+   "ok": false,
+   "fetched": 0,
    "kept": 0,
-   "error": ""
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
    "name": "Google AI",
@@ -38,14 +38,14 @@
    "name": "Microsoft Research",
    "ok": true,
    "fetched": 10,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   {
    "name": "Meta Newsroom",
    "ok": true,
    "fetched": 10,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   {
@@ -59,14 +59,14 @@
    "name": "NVIDIA Blog",
    "ok": true,
    "fetched": 18,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   {
    "name": "AWS Machine Learning",
    "ok": true,
    "fetched": 20,
-   "kept": 0,
+   "kept": 3,
    "error": ""
   },
   {
@@ -80,21 +80,21 @@
    "name": "The Verge",
    "ok": true,
    "fetched": 10,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   {
    "name": "TechCrunch",
    "ok": true,
    "fetched": 20,
-   "kept": 8,
+   "kept": 12,
    "error": ""
   },
   {
    "name": "Ars Technica",
    "ok": true,
    "fetched": 20,
-   "kept": 0,
+   "kept": 4,
    "error": ""
   },
   {
@@ -108,28 +108,28 @@
    "name": "Wired",
    "ok": true,
    "fetched": 10,
-   "kept": 2,
+   "kept": 3,
    "error": ""
   },
   {
    "name": "The Guardian",
    "ok": true,
    "fetched": 20,
-   "kept": 9,
+   "kept": 14,
    "error": ""
   },
   {
    "name": "Hacker News",
-   "ok": true,
-   "fetched": 9,
-   "kept": 9,
-   "error": ""
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   },
   {
    "name": "Simon Willison",
    "ok": true,
    "fetched": 30,
-   "kept": 2,
+   "kept": 4,
    "error": ""
   },
   {
@@ -178,42 +178,42 @@
    "name": "Wall Street Journal",
    "ok": true,
    "fetched": 40,
-   "kept": 12,
+   "kept": 15,
    "error": ""
   },
   {
    "name": "Bloomberg",
    "ok": true,
    "fetched": 20,
-   "kept": 20,
+   "kept": 18,
    "error": ""
   },
   {
    "name": "Financial Times",
    "ok": true,
    "fetched": 25,
-   "kept": 8,
+   "kept": 9,
    "error": ""
   },
   {
    "name": "New York Times",
    "ok": true,
-   "fetched": 20,
-   "kept": 6,
+   "fetched": 21,
+   "kept": 7,
    "error": ""
   },
   {
    "name": "CNBC",
    "ok": true,
    "fetched": 30,
-   "kept": 11,
+   "kept": 10,
    "error": ""
   },
   {
    "name": "The Economist",
    "ok": true,
    "fetched": 300,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   {
@@ -227,21 +227,21 @@
    "name": "NVIDIA Newsroom",
    "ok": true,
    "fetched": 20,
-   "kept": 0,
+   "kept": 2,
    "error": ""
   },
   {
    "name": "Apple Newsroom",
    "ok": true,
    "fetched": 20,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   {
    "name": "Amazon News",
    "ok": true,
    "fetched": 10,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   {
@@ -255,11 +255,681 @@
    "name": "Salesforce News",
    "ok": true,
    "fetched": 10,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   }
  ],
  "candidates": [
+  {
+   "title": "Big Take: AI’s Giant Money Loop Has Echoes of 2008",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/big-take-ai-s-giant-money-loop-has-echoes-of-2008",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T21:13:08Z",
+   "summary": "A web of circular investments is powering the AI boom, but it’s also amplifying global imbalances and stirring echoes of the 2008 financial crisis. Bloomberg's Shawn Donnan joins David Gura on the Big Take podcast to explain. (Source: Bloomberg)",
+   "id": 1
+  },
+  {
+   "title": "Applied Materials Will Double Sales, Not Headcount, Thanks to AI",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/applied-materials-will-double-sales-not-headcount-thanks-to-ai",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T21:07:24Z",
+   "summary": "Applied Materials Inc. expects to double revenue over the next few years, without a commensurate rise in hiring, because it’s relying more on artificial intelligence tools for things like product development and quality control.",
+   "id": 2
+  },
+  {
+   "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+   "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-12T20:59:50Z",
+   "summary": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+   "id": 3
+  },
+  {
+   "title": "Meta Releases New AI Model Called Muse Wonder",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T20:55:48Z",
+   "summary": "Meta Platforms, parent company of Facebook, has released a long-awaited artificial intelligence model called Muse Wonder. This model is said to be competitive with OpenAI's ChatGPT and Anthropic's Claude. Meta stock rose on the news. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
+   "id": 4
+  },
+  {
+   "title": "Tech, Media & Telecom Roundup: Market Talk",
+   "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-af51bae6?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T20:55:00Z",
+   "summary": "Find insight on Meta, IonQ, T-Mobile and more in the latest Market Talks covering technology, media and telecom.",
+   "id": 5
+  },
+  {
+   "title": "Robinhood CIO on Investment Ideas Ahead of Earnings",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/robinhood-cio-on-investment-ideas-ahead-of-earnings-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T20:52:25Z",
+   "summary": "Stephanie Guild, CIO at Robinhood Markets, said rising bond yields have not yet diminished equities’ appeal. She attributed the increase in yields largely to strong capital spending demand and growth, rather than inflation alone, noting that some areas—particularly consumers—have not seen comparable growth. She speaks with Scarlet Fu & Hema Parmar on \"The Close.\" (Source: Bloomberg)",
+   "id": 6
+  },
+  {
+   "title": "Tesla Cybercab to Make European Debut at Paris Motor Show",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/tesla-to-debut-cybercab-at-paris-motor-show-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T20:30:20Z",
+   "summary": "Tesla's Cybercab will make its first appearance in Europe at the Paris Motor Show this week. Elon Musk is trying to expand the company's footprint outside of the US. Bloomberg's Detroit Bureau Chief David Welch reports on Musk's ambitions and challenges. (Source: Bloomberg)",
+   "id": 7
+  },
+  {
+   "title": "Meta Rallies as New Muse Wonder Model Heats up AI Race | Closing Bell",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-unveils-muse-wonder-ai-closing-bell-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T20:25:55Z",
+   "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Scarlet Fu, Hema Parmar, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+   "id": 8
+  },
+  {
+   "title": "The Staggering Costs of a Single Data Center, From Land to Chips",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/the-staggering-costs-of-a-single-data-center-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T20:13:15Z",
+   "summary": "Roughly $750 billion. That’s how much Meta Platforms Inc., Amazon.com Inc., Microsoft Corp. and Google owner Alphabet Inc. are expected to devote to capital expenditures this year alone. That’s more than the entire gross domestic product of Ireland or Belgium. More than half of what all of the companies in the S&P 500 Index spent in total last year. Enough to cut a $5,500 check for every household in the US. Ian King, Bloomberg News US Semiconductor Reporter & Lynn Doan, Bloomberg News Managing Editor for Technology, join Businessweek Daily to break down the true cost of a single data…",
+   "id": 9
+  },
+  {
+   "title": "Meta Says New AI Model Is State-of-the-Art, Will Make Muse Agent Smarter",
+   "url": "https://www.wsj.com/tech/ai/meta-says-new-ai-model-is-state-of-the-art-will-make-muse-agent-smarter-1304cdf4?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T20:10:00Z",
+   "summary": "The new model, called Muse Wonder, arrives as global downloads of the company’s personal-assistant agent have slowed.",
+   "id": 10
+  },
+  {
+   "title": "IonQ to acquire cybersecurity firm Elisity in an all-stock deal for up to $1.3 billion",
+   "url": "https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T19:35:48Z",
+   "summary": "Quantum computing platform is buying cybersecurity firm Elisity in an all-stock deal for up to $1.3 billion.",
+   "id": 11
+  },
+  {
+   "title": "How Apple Plans to Compete in the Home: Power On",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/how-apple-plans-to-compete-in-the-home-power-on-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T18:40:15Z",
+   "summary": "Apple is finally ready to unveil its new smart home strategy, seeking to plug a major hole in its ecosystem. Also: New details on the company’s Mac and iPad event near the end of October, and the latest on Apple’s push to demo the iPhone Duo at retail stores. Bloomberg's Mark Gurman joins Ed Ludlow for his latest edition of Power On on \"Bloomberg Tech.\" (Source: Bloomberg)",
+   "id": 12
+  },
+  {
+   "title": "How the OpenAI, Anthropic IPOs Could Lift the Veil on AI Economics",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/following-the-money-across-ai-s-infrastructure-boom-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T18:36:34Z",
+   "summary": "VistaShares portfolio manager and DVX Ventures principal David Fetherstonhaugh says investors are increasingly looking for proof that massive AI spending is generating returns. He discusses why private companies like OpenAI and Anthropic leave a key part of the AI economy opaque and how their eventual IPOs could bring greater transparency to the ecosystem. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+   "id": 13
+  },
+  {
+   "title": "Bumble in Talks to Be Taken Private for $1 Billion, WSJ Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/bumble-in-talks-to-be-taken-private-in-1-billion-deal-wsj-says",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T18:34:55Z",
+   "summary": "Shares of dating-app company Bumble Inc. soared after the Wall Street Journal reported that it’s in advanced talks to be taken private for around $1 billion.",
+   "id": 14
+  },
+  {
+   "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+   "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-12T18:21:36Z",
+   "summary": "“I may have information regarding this case,\" Claude AI told Philly police.",
+   "id": 15
+  },
+  {
+   "title": "Cisco, Nvidia Tackle AI’s Growing Data Center Bottleneck",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/cisco-nvidia-tackle-ai-s-growing-data-center-bottleneck-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T18:20:00Z",
+   "summary": "Cisco is partnering with Nvidia on a new generation of optical networking technology designed to handle the exploding amount of data moving through AI data centers. Cisco President and Chief Product Officer Jeetu Patel explains why increasingly powerful AI agents could consume far more network bandwidth than humans performing the same tasks, and how faster, more power-efficient connections could help hundreds of thousands of GPUs operate together while lowering the cost of AI. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+   "id": 16
+  },
+  {
+   "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+   "url": "https://www.latent.space/p/claude-dynamic-workflows",
+   "source": "Latent Space",
+   "source_type": "expert",
+   "source_weight": 1.0,
+   "published": "2026-10-12T18:18:17Z",
+   "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+   "id": 17
+  },
+  {
+   "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+   "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-12T18:15:38Z",
+   "summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy from pathlib import Path The module will then be imported the first time those symbols are used…",
+   "id": 18
+  },
+  {
+   "title": "Fidelity: Tech Stocks Can Keep ‘Climbing the Wall of Worry’",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/tech-rally-puts-earnings-in-focus-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T18:10:35Z",
+   "summary": "Fidelity’s Denise Chisholm says technology stocks have undergone an unusually large valuation reset even as earnings expectations continue to rise, potentially leaving the sector positioned for further gains. She discusses why tech’s roughly 30% multiple contraction may already reflect concerns about slowing AI and technology spending, and why historical data suggests a slowdown in tech capex doesn’t necessarily mean a contraction. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+   "id": 19
+  },
+  {
+   "title": "Microsoft, Musk Race to Reinvent the AI Chip",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/bloomberg-tech-10-12-2026-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T18:04:38Z",
+   "summary": "Bloomberg’s Ed Ludlow breaks down Microsoft's latest homegrown Maia chips, its latest effort to rely less on outside semiconductors to power its AI ambitions. Plus, Elon Musk wants to put chip development on fast-forward, testing as many as ten new designs a year; and Apple is finally ready to unveil its new smart home strategy, seeking to plug a major hole in its ecosystem. (Source: Bloomberg)",
+   "id": 20
+  },
+  {
+   "title": "Microsoft Ramps Up Homegrown AI Chip Push",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/microsoft-ramps-up-homegrown-ai-chip-push-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T18:03:18Z",
+   "summary": "Microsoft is installing the latest version of its Maia chips in data centers to power its AI software using mostly homegrown hardware. The company expects to stock multiple gigawatts of its Maia chips, with the Maia 300 starting to roll out next year. Bloomberg's Matt Day joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+   "id": 21
+  },
+  {
+   "title": "Why Big Tech Is Borrowing Billions to Fund AI Spending",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/why-big-tech-is-borrowing-billions-to-fund-ai-spending",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T18:01:52Z",
+   "summary": "For the past few years, the largest US technology companies have been in a costly race to develop advanced artificial intelligence systems while at the same time providing computing power to a burgeoning field of startups. To chase these goals, they have radically changed how they finance their growth. Long reliant on rich revenues and share price increases, Alphabet Inc.’s Google, Meta Platforms Inc. and other tech giants now are borrowing heavily to build the technology that makes chatbots run",
+   "id": 22
+  },
+  {
+   "title": "Meta releases its first frontier model, Muse Wonder",
+   "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T17:56:56Z",
+   "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+   "id": 23
+  },
+  {
+   "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+   "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T17:55:12Z",
+   "summary": "Musk, we find your lack of security disturbing.",
+   "id": 24
+  },
+  {
+   "title": "Russia was not ready for the data center war it started with Ukraine",
+   "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-12T17:52:36Z",
+   "summary": "Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.",
+   "id": 25
+  },
+  {
+   "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+   "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-12T17:52:22Z",
+   "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.",
+   "id": 26
+  },
+  {
+   "title": "AI’s mathematics blitz pushes science into strange new territory",
+   "url": "https://www.economist.com/science-and-technology/2026/10/12/ais-mathematics-blitz-pushes-science-into-strange-new-territory",
+   "source": "The Economist",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-12T17:43:28Z",
+   "summary": "Other disciplines should take heed",
+   "id": 27
+  },
+  {
+   "title": "Is Universal Basic Income the Answer to A.I.-Fueled Job Losses?",
+   "url": "https://www.nytimes.com/2026/10/12/technology/universal-basic-income-silicon-valley.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-12T17:40:28Z",
+   "summary": "For more than a year, The New York Times followed recipients of universal basic income programs, which Elon Musk and other tech leaders have promoted as a solution to A.I.-fueled job losses.",
+   "id": 28
+  },
+  {
+   "title": "Burnham says ‘public will be the boss’ in any future decision about closer relationship with the EU – as it happened",
+   "url": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T17:34:40Z",
+   "summary": "The prime minister tells MPs the next summit with the EU will be held on 20 November Burnham to urge MPs to embrace closer ties with EU Zia Yusuf , Reform UK’s home affairs spokesperson, is speaking now. He started his speech with an account of a 73-year-old woman dying in North Wales after having to wait 23 hours for an ambulance, and he sought to link this to immigration. He said: The Royal College of Emergency Medicine estimates that 15,000 people across Britain died last year due to excess wait times for emergency treatment. That’s 300 people a week, 300 lives destroyed, 300 families…",
+   "id": 29
+  },
+  {
+   "title": "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
+   "url": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T17:34:35Z",
+   "summary": "Meta introduced Muse Wonder, its latest AI model, but users have to pay for subscriptions to the Muse app to access it.",
+   "id": 30
+  },
+  {
+   "title": "When AI is subject to less regulation than your fridge, something is startlingly wrong | Richard Hermer",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/12/ai-regulation-fridge-risk-humanity-public-debate-international-law",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T17:33:41Z",
+   "summary": "Let’s be clear: the risk to humanity is unprecedented. Without an urgent public debate and robust use of international law, we will lose control of the future In my two years as attorney general, I spent more time working on national security than any other issue. The range and gravity of the threats posed to our nation are multifold, from terrorism, armed conflicts and nuclear proliferation, to the impacts of financial insecurity and the climate crisis. All profound challenges, yet ones our superb intelligence and defence communities are well placed to counter. The risk from AI is of an…",
+   "id": 31
+  },
+  {
+   "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+   "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T17:19:14Z",
+   "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+   "id": 32
+  },
+  {
+   "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+   "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+   "source": "Meta Newsroom",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-10-12T17:08:05Z",
+   "summary": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks. The post Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents appeared first on Meta Newsroom .",
+   "id": 33
+  },
+  {
+   "title": "Muse Wonder Puts Meta Back at the AI Frontier",
+   "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T17:00:27Z",
+   "summary": "Meta’s biggest model rivals the world’s best—and includes new features to keep agents from going off the rails.",
+   "id": 34
+  },
+  {
+   "title": "Meta Unveils New Series of Advanced A.I. Models",
+   "url": "https://www.nytimes.com/2026/10/12/technology/meta-muse-wonder-full-models.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-12T17:00:05Z",
+   "summary": "The new models, Muse Wonder and Muse Wonder Full, are meant to compete with cutting-edge A.I. models from rivals like Anthropic and OpenAI.",
+   "id": 35
+  },
+  {
+   "title": "Zuckerberg says Meta has reached AI ‘frontier’",
+   "url": "https://www.ft.com/content/fca23e77-be57-4d7e-ae61-74ff299e25cb?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T17:00:02Z",
+   "summary": "FT interview: tech billionaire touts release of new Muse Wonder model after vast spending to challenge rivals in AI race",
+   "id": 36
+  },
+  {
+   "title": "Meta Says New Muse Model Reaches AI Frontier After Aggressive Push",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/meta-says-new-muse-model-reaches-ai-frontier-after-14-month-push",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T16:56:51Z",
+   "summary": "The Muse Wonder model will be a key test for Meta’s expensive and rebuilt superintelligence team.",
+   "id": 37
+  },
+  {
+   "title": "Amazon in the community: Here’s what’s happening in Seattle, Bellevue, and the Puget Sound",
+   "url": "https://www.aboutamazon.com/news/community/amazon-seattle-bellevue-puget-sound-news?utm_source=rss",
+   "source": "Amazon News",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-10-12T16:29:00Z",
+   "summary": "Learn how we invest in the community, help power the local economy, and support our employees in the Puget Sound region.",
+   "id": 38
+  },
+  {
+   "title": "Simulating student learning for better AI tutoring",
+   "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+   "source": "Microsoft Research",
+   "source_type": "research",
+   "source_weight": 1.1,
+   "published": "2026-10-12T16:00:00Z",
+   "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics. The post Simulating student learning for better AI tutoring appeared first on Microsoft Research .",
+   "id": 39
+  },
+  {
+   "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+   "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-12T15:51:46Z",
+   "summary": "Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions with the AWS Deep Learning Container for llama.cpp, then extends the runtime with SemIf to return probabilities over declared options on CPU or GPU.",
+   "id": 40
+  },
+  {
+   "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+   "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-12T15:50:14Z",
+   "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built container ships the full inference stack, so you configure the deployment instead of assembling it.",
+   "id": 41
+  },
+  {
+   "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+   "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T15:45:00Z",
+   "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+   "id": 42
+  },
+  {
+   "title": "Microsoft president says UK is best placed to drive AI regulation",
+   "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T15:31:19Z",
+   "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+   "id": 43
+  },
+  {
+   "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+   "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T15:27:59Z",
+   "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
+   "id": 44
+  },
+  {
+   "title": "Hardware Stores Have a Secret Weapon for Wooing Customers",
+   "url": "https://www.wsj.com/lifestyle/hardware-stores-secret-weapon-cats-05fecb1e?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T15:21:00Z",
+   "summary": "Once hired purely for pest control, these employees are driving foot traffic and racking up thousands of viral views on social media.",
+   "id": 45
+  },
+  {
+   "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+   "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+   "source": "NVIDIA Blog",
+   "source_type": "lab",
+   "source_weight": 1.0,
+   "published": "2026-10-12T15:00:25Z",
+   "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at […]",
+   "id": 46
+  },
+  {
+   "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories",
+   "source": "NVIDIA Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.1,
+   "published": "2026-10-12T15:00:00Z",
+   "summary": "NVIDIA and Cisco today announced plans for Ultra-Dense Small Form Factor Pluggable (USFP), a new high-density 400Gb/s-per-lane optical module designed to equip the hardware ecosystem for the next generation of AI factories using pluggable transceivers.",
+   "id": 47
+  },
+  {
+   "title": "Dangote Refinery Extends IPO by Two Weeks on Strong Demand",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/dangote-refinery-to-extend-ipo-by-two-weeks-to-add-more-nations",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T14:43:37Z",
+   "summary": "Aliko Dangote plans to extend the deadline for applications for the initial public offering in his Nigerian refinery by two weeks as Africa’s richest man seeks to provide investors in more countries access to the continent’s biggest listing to date.",
+   "id": 48
+  },
+  {
+   "title": "Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
+   "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T14:04:16Z",
+   "summary": "By increasingly counting on its own chips, Microsoft stands to expand margins and bolster its AI stack.",
+   "id": 49
+  },
+  {
+   "title": "Dystopian and dehumanising: that’s what it felt like when I was interviewed by an AI assistant | Giselle Au-Nhien Nguyen",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/13/dystopian-and-dehumanising-thats-what-it-felt-like-when-i-was-interviewed-by-an-ai-assistant",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T14:00:57Z",
+   "summary": "Outsourcing the essential task of interviewing job applicants to a machine seems lazy at best, negligent at worst. I want better for all of us Over the past 15 years of my working life, I’ve done a lot of interviews for a lot of different jobs and industries: call centre operator, social media manager, bookseller, copywriter, library worker. Recently, after completing my first year of a master’s degree in early childhood and primary teaching, I applied for a preschool education role and experienced a first: being interviewed by AI. I’d heard of this practice and was aware of its…",
+   "id": 50
+  },
+  {
+   "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
+   "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T14:00:00Z",
+   "summary": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $100, and get 50% off a second.",
+   "id": 51
+  },
+  {
+   "title": "App Store Indie Games Week kicks off today",
+   "url": "https://www.apple.com/newsroom/2026/10/app-store-indie-games-week-kicks-off-today/",
+   "source": "Apple Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.0,
+   "published": "2026-10-12T13:59:49.734000Z",
+   "summary": "Today, Indie Games Week lights up the App Store with a celebration of the catalog of imaginative games made by independent teams with big dreams.",
+   "id": 52
+  },
+  {
+   "title": "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister",
+   "url": "https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T13:52:55Z",
+   "summary": "Kanishka Narayan, concerned by Australian incident, says British cyber defences could be bypassed by artificial intelligence agent UK politics live – latest updates An AI-driven cyber-attack similar to the OpenAI breach of Australia’s healthcare system is likely, “if not inevitable”, in the UK, according to a senior minister. Kanishka Narayan, the UK AI minister, indicated that the British government’s own cyber defences would be bypassed by a technology that has developed highly sophisticated skills in cybersecurity. Continue reading...",
+   "id": 53
+  },
+  {
+   "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+   "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T13:33:06Z",
+   "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will […]",
+   "id": 54
+  },
+  {
+   "title": "Hackers Hit French Supermarkets in Attack Disabling Fridges",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/french-supermarket-refrigeration-sites-hit-by-cyberattacks",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T13:22:12Z",
+   "summary": "Hundreds of supermarkets in France were hit by cyberattacks on Sunday night that disabled refrigeration systems and forced stores to throw out damaged food, following warnings that hackers are seeking to cause physical damage.",
+   "id": 55
+  },
+  {
+   "title": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+   "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T13:04:31Z",
+   "summary": "The CEOs of Intel and Broadcom warned that access to capital could emerge as a major constraint on the artificial intelligence boom.",
+   "id": 56
+  },
+  {
+   "title": "Elon Musk, Delta Airlines and a Feud Over In-Flight Wi-Fi",
+   "url": "https://www.nytimes.com/2026/10/09/business/elon-musk-delta-starlink-wifi.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-12T12:58:46Z",
+   "summary": "Mr. Musk, whose company SpaceX owns Starlink, has attacked the top executive of Delta Air Lines for not selecting the internet provider.",
+   "id": 57
+  },
+  {
+   "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+   "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T12:47:59Z",
+   "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context.",
+   "id": 58
+  },
+  {
+   "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
+   "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-12T12:43:10Z",
+   "summary": "The second-largest corporate employer has bet big on robot workers to scale.",
+   "id": 59
+  },
+  {
+   "title": "Trump's energy efforts, European bonds, retailers' inventory balancing act and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/10/12/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T12:40:34Z",
+   "summary": "Here are five key things investors need to know to start the trading day.",
+   "id": 60
+  },
+  {
+   "title": "AI Fuels M&A Machine",
+   "url": "https://www.wsj.com/cio-journal/ai-fuels-m-a-machine-282e1e04?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T12:39:00Z",
+   "summary": "Plus, the enterprise search for AI-fueled productivity continues",
+   "id": 61
+  },
+  {
+   "title": "AI regulation must mimic Industrial Revolution laws, UK minister says",
+   "url": "https://www.ft.com/content/ba28b7cd-293e-4eee-a073-ad81aaefced3?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T12:01:51Z",
+   "summary": "Kanishka Narayan tells companies not to release frontier models ‘if you can’t adequately control the risks’",
+   "id": 62
+  },
+  {
+   "title": "As US medical debt grows, AI will be used more to collect it",
+   "url": "https://www.theguardian.com/us-news/2026/oct/12/ai-medical-debt-billing",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T12:00:55Z",
+   "summary": "The debt-collection ecosystem will change as AI takes notes in exam rooms, codes visits and sends billing messages Medical debt is expected to grow in coming years as Republican-led health cuts come into force this winter. As it does, a changing world of medical billing and debt collection awaits patients: one where artificial intelligence increasingly listens, codes, bills and collects. Artificial intelligence takes notes in exam rooms, codes visits, sends out billing messages and powers AI agents who text patients in billing portals – all changing the debt-collection ecosystem. Continue…",
+   "id": 63
+  },
+  {
+   "title": "One essential ingredient for AI safety? Democracy | Matthew Botvinick",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/12/ai-safety-democracy",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T12:00:54Z",
+   "summary": "The rise of AI makes the preservation of democracy even more urgent – especially as the technology threatens institutions AI safety is having a moment. After years as a topic for techies and futurists, the potential risks from artificial intelligence systems – from cyberattacks to hyper-persuasion to rogue behavior – are suddenly under discussion both in the corridors of power and around kitchen tables. In fact, the conversation now reaches beyond classical safety concerns, getting into AI’s impact on economic life and the environment, as well as possible responses, from alignment research…",
+   "id": 64
+  },
+  {
+   "title": "Salesforce Signs Definitive Agreement to Acquire Loops",
+   "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/",
+   "source": "Salesforce News",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-12T12:00:00Z",
+   "summary": "Salesforce, the #1 AI CRM, today announced it has signed a definitive agreement to acquire Loops, an AI-powered analytics platform that continuously monitors business performance, explains why key metrics change, and surfaces opportunities to improve by leveraging machine learning models. Tableau is helping customers move from the data driven enterprise to the agentic analytics enterprise. […]",
+   "id": 65
+  },
+  {
+   "title": "Meta has some Wonder Full new AI models",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-12T11:13:10Z",
+   "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available […]",
+   "id": 66
+  },
+  {
+   "title": "Why AI won’t kill the creative class",
+   "url": "https://www.ft.com/content/f17779e4-adcd-46af-9fe5-3ede05833058",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-12T11:00:02Z",
+   "summary": "Used right, the technology can unleash human creativity rather than destroy it",
+   "id": 67
+  },
   {
    "title": "AI in Banking: Junior Bankers Find Work Managing AI Agents",
    "url": "https://www.bloomberg.com/news/newsletters/2026-10-12/ai-in-banking-junior-bankers-find-work-managing-ai-agents",
@@ -268,7 +938,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T10:31:01Z",
    "summary": "“When our young folks now start work, they’re managing [AI] agents,” Kevin Sneader, Goldman’s president of Asia Pacific ex-Japan, said last week",
-   "id": 1
+   "id": 68
   },
   {
    "title": "AI Data Centers Cost Billions to Build. This Is Why",
@@ -278,7 +948,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T10:30:15Z",
    "summary": "An exclusive breakdown of estimated expenses to construct an AI data center in Texas reveals why developers face billions of dollars in expenses.",
-   "id": 2
+   "id": 69
   },
   {
    "title": "‘I’ve become significantly more cautious’: six parents on limiting their kids’ social media and AI use",
@@ -288,7 +958,7 @@
    "source_weight": 1.0,
    "published": "2026-10-12T10:00:51Z",
    "summary": "Quite a few parents aren’t convinced social media and AI are safe, and have been adapting accordingly When it comes to their kids, many parents don’t trust tech companies any more. Social media companies have spent the better part of the last decade arguing that their platforms are safe for teens, but quite a few parents aren’t convinced. They, along with a growing number of regulators, have increasingly accused companies like Meta of designing products that are addictive to younger users. Continue reading...",
-   "id": 3
+   "id": 70
   },
   {
    "title": "Broadcom CEO Likens Many AI Investors to Casino Gamblers",
@@ -298,7 +968,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T09:58:52Z",
    "summary": "The AI boom has attracted investors whose strategies resemble those of gamblers, Broadcom Inc. Chief Executive Officer Hock Tan said, suggesting some of them have little understanding of what they’re betting on.",
-   "id": 4
+   "id": 71
   },
   {
    "title": "Delhi Moves Historic Protest Site as Voter Roll Anger Builds",
@@ -308,17 +978,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T09:47:10Z",
    "summary": "Authorities in New Delhi announced plans to move protests away from Jantar Mantar, the capital’s main demonstration site, drawing anger from groups that have taken to the streets for three straight days over India’s contentious overhaul of voter rolls.",
-   "id": 5
-  },
-  {
-   "title": "Is Universal Basic Income the Answer to A.I.-Fueled Job Losses?",
-   "url": "https://www.nytimes.com/2026/10/12/technology/universal-basic-income-silicon-valley.html",
-   "source": "New York Times",
-   "source_type": "media",
-   "source_weight": 1.1,
-   "published": "2026-10-12T09:00:17Z",
-   "summary": "For more than a year, The New York Times followed recipients of universal basic income programs, which Elon Musk and other tech leaders have promoted as a solution to A.I.-fueled job losses.",
-   "id": 6
+   "id": 72
   },
   {
    "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
@@ -328,17 +988,7 @@
    "source_weight": 1.0,
    "published": "2026-10-12T08:58:54Z",
    "summary": "IMF Chief Kristalina Georgieva warned AI is hitting the global labor market like a “slow-moving tsunami,” with young workers entering the job market the most exposed.",
-   "id": 7
-  },
-  {
-   "title": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
-   "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
-   "source": "CNBC",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-12T08:27:52Z",
-   "summary": "The CEOs of Intel and Broadcom warned that access to capital could emerge as a major constraint on the artificial intelligence boom.",
-   "id": 8
+   "id": 73
   },
   {
    "title": "Nate Soares on How AI Really Could Kill Us All",
@@ -348,7 +998,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T08:17:15Z",
    "summary": "Since the Hugging Face incident, concerns over AI doomsday scenarios has entered the mainstream. But of course, some people have been warning about this for years, long before LLMs or ChatGPT. In their 2025 book If Anyone Builds It, Everyone Dies, Nate Soares and Eliezer Yudkowsky spelled out their vision of humanity's inevitable demise once superintelligent AI is built. In this episode, we speak with Soares, who serves as president of the Machine Intelligence Research Institute, about why he believes it's impossible to \"align\" superintelligent AI, and how exactly the technology can and will…",
-   "id": 9
+   "id": 74
   },
   {
    "title": "AI less regulated than milk, Microsoft president says in warning over safety",
@@ -358,7 +1008,7 @@
    "source_weight": 1.0,
    "published": "2026-10-12T07:52:46Z",
    "summary": "Brad Smith adds to calls for tougher rules for AI, including ‘kill switches’ and legal obligation to victims of rogue agents Business live – latest updates Artificial intelligence is less regulated than milk and washing machines, the president of Microsoft has said, as the tech industry warns over the safety of AI. Brad Smith said there should be more safety rules to govern the technology including a legal obligation to a “victim” if their system was breached by rogue AI agents. Continue reading...",
-   "id": 10
+   "id": 75
   },
   {
    "title": "Tencent Tells Investors Its $5 Billion Bond Mainly for AI Capex",
@@ -368,7 +1018,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T07:43:05Z",
    "summary": "Tencent Holdings Ltd. told fixed-income investors Monday that its planned bond offering of about $5 billion will help finance AI-related capital expenditures, people familiar with the matter said, as it doubles down on the sector.",
-   "id": 11
+   "id": 76
   },
   {
    "title": "Firmus IPO Debacle Raises the Bar for Asia AI Deals in Pipeline",
@@ -378,7 +1028,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T07:39:11Z",
    "summary": "The collapse of Firmus Grid Ltd.’s initial public offering is reverberating through Asia’s booming market for share sales, making investors far pickier about artificial intelligence infrastructure deals that hinge on future earnings.",
-   "id": 12
+   "id": 77
   },
   {
    "title": "IMF Chief Alarmed at ‘Slow-Moving Tsunami’ of AI for Jobs, Taxes",
@@ -388,7 +1038,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T07:05:00Z",
    "summary": "The head of the International Monetary Fund has warned of the disruptive threat from artificial intelligence to the labor market and taxation, urging policymakers to rethink education and act now to help society adapt.",
-   "id": 13
+   "id": 78
   },
   {
    "title": "Mirae Asset's CEO on India's AI Advantage",
@@ -398,7 +1048,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T06:58:18Z",
    "summary": "Mirae Asset's Swarup Mohanty says India is emerging as a compelling non-AI investment hedge globally. He explains how rising capital allocation toward AI-driven productivity could further strengthen India's appeal. He spoke with Menaka Doshi on Bloomberg's Insight with Haslinda Amin. (Source: Bloomberg)",
-   "id": 14
+   "id": 79
   },
   {
    "title": "IIF CEO on Rising Global Debt",
@@ -408,7 +1058,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T06:55:53Z",
    "summary": "Institute of International Finance CEO Tim Adams says debt levels in advanced economies will keep rising as governments continue heavy borrowing and the private sector ramps up investment in AI infrastructure. He spoke with Paul Allen on Bloomberg's Insight with Haslinda Amin on the sidelines of the DBS Asia Future Forward Conference. (Source: Bloomberg)",
-   "id": 15
+   "id": 80
   },
   {
    "title": "TikTok’s Chew and Microsoft’s Althoff Warn About Runaway AI Hype",
@@ -418,7 +1068,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T06:47:00Z",
    "summary": "The world may be overexcited by the potential of artificial intelligence and overlooking its immaturity, tech leaders warned on Monday, arguing that cybersecurity is a bigger near-term issue than AI developing too quickly.",
-   "id": 16
+   "id": 81
   },
   {
    "title": "AI may change the price of your Big Mac and groceries — what this means for shoppers",
@@ -428,7 +1078,7 @@
    "source_weight": 1.0,
    "published": "2026-10-12T06:02:18Z",
    "summary": "As retailers turn to AI tools to streamline operations, experts warn that collecting more detailed consumer data increases the risk of personalized pricing.",
-   "id": 17
+   "id": 82
   },
   {
    "title": "Beijing Police Launch Probe Into Wealth Manager CreditEase",
@@ -438,7 +1088,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T05:57:50Z",
    "summary": "Beijing police opened a criminal investigation into companies affiliated with Chinese wealth management firm CreditEase over suspected illegal financial activities.",
-   "id": 18
+   "id": 83
   },
   {
    "title": "FTAV’s further read",
@@ -448,7 +1098,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T05:30:05Z",
    "summary": "Trump vs Norway; chōsen-seki; mathematicians and AI, RIP Quartz; Wallace and Gromit",
-   "id": 19
+   "id": 84
   },
   {
    "title": "IT Distributor Asbis Targets Data Centers and AI to Sustain 476% Stock Rally",
@@ -458,7 +1108,17 @@
    "source_weight": 1.2,
    "published": "2026-10-12T05:00:00Z",
    "summary": "Warsaw-listed electronics distributor Asbis Enterprises Plc is prioritizing sales to data centers and artificial intelligence infrastructure projects to sustain its breakneck stock rally.",
-   "id": 20
+   "id": 85
+  },
+  {
+   "title": "datasette-ports 0.4",
+   "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-12T04:57:07Z",
+   "summary": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette",
+   "id": 86
   },
   {
    "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
@@ -468,7 +1128,7 @@
    "source_weight": 0.9,
    "published": "2026-10-12T04:54:00Z",
    "summary": "Article URL: https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/ Comments URL: https://news.ycombinator.com/item?id=50051530 Points: 156 # Comments: 174",
-   "id": 21
+   "id": 87
   },
   {
    "title": "TikTok CEO sees major scientific breakthroughs from AI within three years",
@@ -478,7 +1138,7 @@
    "source_weight": 1.0,
    "published": "2026-10-12T04:24:33Z",
    "summary": "Chew cautioned that AI's growing capabilities would require stronger safeguards, particularly as autonomous systems become more widely adopted.",
-   "id": 22
+   "id": 88
   },
   {
    "title": "Why the Commodity Bull Market Is Just Beginning",
@@ -488,17 +1148,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T04:00:44Z",
    "summary": "Adam Rozencwajg, portfolio manager at natural resources firm Goehring and Rozencwajg, joins Merryn Somerset Webb to explain why he thinks the commodity bull market may still be in its early stages. They discuss why gold could fall before reaching new highs, why US shale may have peaked and where he sees opportunities in oil and uranium. (Source: Bloomberg)",
-   "id": 23
-  },
-  {
-   "title": "UK ministers explore compulsory AI safety reporting",
-   "url": "https://www.ft.com/content/ba28b7cd-293e-4eee-a073-ad81aaefced3?syn-25a6b1a6=1",
-   "source": "Financial Times",
-   "source_type": "media",
-   "source_weight": 1.2,
-   "published": "2026-10-12T04:00:17Z",
-   "summary": "Kanishka Narayan to tell companies to exercise stricter control over autonomous models and build safeguards",
-   "id": 24
+   "id": 89
   },
   {
    "title": "‘Worrying omens’ stalk global economy despite resilient growth",
@@ -508,7 +1158,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T04:00:16Z",
    "summary": "Research for the FT shows major economies are withstanding the Iran shock but concerns about rising public debt will loom over IMF and World Bank meetings",
-   "id": 25
+   "id": 90
   },
   {
    "title": "The huge lurking leverage of AI hyperscalers",
@@ -518,7 +1168,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T04:00:07Z",
    "summary": "While equity investors look to sunny futures, creditors are scrutinising liabilities like leases on data centres",
-   "id": 26
+   "id": 91
   },
   {
    "title": "Firmus Fiasco Wipes Out $700 Million of Early Backer Maas’ Value",
@@ -528,7 +1178,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T03:12:06Z",
    "summary": "Maas Group Holdings Ltd. has lost more than A$1 billion ($699 million) in market value as Firmus Grid Ltd.’s initial public offering unraveled, with the shares extending their decline to a fifth day after Jefferies Financial Group Inc. downgraded its rating.",
-   "id": 27
+   "id": 92
   },
   {
    "title": "Why My Conversations with OpenAI’s ‘ChatGPT for Teens’ Made Me Very Worried",
@@ -538,7 +1188,7 @@
    "source_weight": 1.1,
    "published": "2026-10-12T03:00:20Z",
    "summary": "A new mode includes a study tool, but it still does a user’s homework. And a children’s safety nonprofit says the chatbot flunked its tests.",
-   "id": 28
+   "id": 93
   },
   {
    "title": "Dongshan Said to Gauge Demand for Up to $3 Billion Listing",
@@ -548,7 +1198,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T02:46:37Z",
    "summary": "Printed circuit board maker Suzhou Dongshan Precision Manufacturing Co. has started gauging investor interest for a Hong Kong listing that may raise $2 billion to $3 billion, according to people familiar with the matter.",
-   "id": 29
+   "id": 94
   },
   {
    "title": "Bain’s Bridge Data Centres Seeks to Upsize Loan to $6.6 Billion",
@@ -558,7 +1208,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T02:29:55Z",
    "summary": "Bain Capital-owned Bridge Data Centres is in talks with banks to more than double the size of an existing loan to about $6.6 billion, people familiar with the matter said, in what would be one of the largest deals for the sector in Asia.",
-   "id": 30
+   "id": 95
   },
   {
    "title": "LG's Cho on Latest AI-Powered Forecasting Tools",
@@ -568,7 +1218,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T02:14:25Z",
    "summary": "Tyger Cho, Director of Business Development and Financial Services at LG AI Research, discusses the the adoption of artificial intelligence in the financial sector and the company's latest AI tool, which forecasts the short-term performance of Korean equity markets. He speaks with Haidi Stroud-Watts on Bloomberg: The Asia Trade. (Source: Bloomberg)",
-   "id": 31
+   "id": 96
   },
   {
    "title": "DBS CEO: Market Repricing Risks on AI Financing",
@@ -578,7 +1228,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T02:11:11Z",
    "summary": "Tan Su Shan, CEO at DBS Group, says the market is repricing the risks around investments related to the buildup of artificial intelligence that could lead to more discipline in financing. She speaks with Haidi Stroud-Watts from the DBS Asia Future Forward Conference ion Singapore. (Source: Bloomberg)",
-   "id": 32
+   "id": 97
   },
   {
    "title": "DBS CEO Tan Says Market Is Repricing Risks on AI Financing",
@@ -588,7 +1238,7 @@
    "source_weight": 1.2,
    "published": "2026-10-12T01:07:46Z",
    "summary": "The market is repricing the risks around investments related to the buildup of artificial intelligence that could lead to more discipline in financing, according to DBS Group Holdings Ltd. Chief Executive Officer Tan Su Shan.",
-   "id": 33
+   "id": 98
   },
   {
    "title": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts",
@@ -598,7 +1248,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T23:01:39Z",
    "summary": "Kanishka Narayan to say Britain cannot rely entirely on tech companies amid rising global concern over AI dangers Companies building the most advanced AI systems must increase safety efforts, the UK’s AI minister will say, as he announces a strengthening of Britain’s cyber defences. Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe. He will say Britain cannot rely entirely on technology companies to police their own models and will argue the UK needs to build more of its own AI infrastructure. Continue reading...",
-   "id": 34
+   "id": 99
   },
   {
    "title": "Fingerprints are the new cookies",
@@ -608,7 +1258,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T22:33:39Z",
    "summary": "Article URL: https://royfish.dev/fingerprints-are-the-new-cookies Comments URL: https://news.ycombinator.com/item?id=50048642 Points: 398 # Comments: 199",
-   "id": 35
+   "id": 100
   },
   {
    "title": "Passkeys are a trap",
@@ -618,7 +1268,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T21:59:48Z",
    "summary": "Article URL: https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them Comments URL: https://news.ycombinator.com/item?id=50048312 Points: 655 # Comments: 380",
-   "id": 36
+   "id": 101
   },
   {
    "title": "Will the HomeView be Apple’s first smart home success?",
@@ -628,7 +1278,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T21:14:40Z",
    "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
-   "id": 37
+   "id": 102
   },
   {
    "title": "Amazon Is in Talks to Buy AI Startup Decart, WSJ Reports",
@@ -638,7 +1288,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T20:46:52Z",
    "summary": "Amazon.com Inc. is in negotiations to acquire Decart AI, an artificial intelligence startup, in a deal that could be valued at around $7 billion, the Wall Street Journal reported.",
-   "id": 38
+   "id": 103
   },
   {
    "title": "Amazon in Talks to Buy AI Startup Decart for Around $7 Billion",
@@ -648,7 +1298,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T20:26:00Z",
    "summary": "The San Francisco company’s software makes it easier for developers to switch between different AI chips.",
-   "id": 39
+   "id": 104
   },
   {
    "title": "The gap in shared understanding of LLM capability is widening",
@@ -658,7 +1308,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T20:20:52Z",
    "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046 Comments URL: https://news.ycombinator.com/item?id=50047422 Points: 477 # Comments: 693",
-   "id": 40
+   "id": 105
   },
   {
    "title": "Cartographers of North Korea (2019)",
@@ -668,7 +1318,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T19:46:40Z",
    "summary": "Article URL: https://cartographers-nk.wonyoung.so/ Comments URL: https://news.ycombinator.com/item?id=50047091 Points: 266 # Comments: 49",
-   "id": 41
+   "id": 106
   },
   {
    "title": "So, you’d like to sell your print issues of The Onion?",
@@ -678,7 +1328,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T19:43:32Z",
    "summary": "Article URL: https://theonion.com/archivehunt/ Comments URL: https://news.ycombinator.com/item?id=50047055 Points: 328 # Comments: 49",
-   "id": 42
+   "id": 107
   },
   {
    "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
@@ -688,7 +1338,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T19:00:00Z",
    "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
-   "id": 43
+   "id": 108
   },
   {
    "title": "Opinion | How the AI Boom Ends",
@@ -698,7 +1348,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T18:59:00Z",
    "summary": "Demand isn’t about to let up, but prices will start plunging by factors of 10.",
-   "id": 44
+   "id": 109
   },
   {
    "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
@@ -708,7 +1358,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T18:33:56Z",
    "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he […]",
-   "id": 45
+   "id": 110
   },
   {
    "title": "The Times’s New Space Editor Has Her Eye on the Cosmos",
@@ -718,7 +1368,7 @@
    "source_weight": 1.1,
    "published": "2026-10-11T18:14:28Z",
    "summary": "On the Science desk, Victoria Jaggard spends her days pondering the universe’s most pressing mysteries.",
-   "id": 46
+   "id": 111
   },
   {
    "title": "Total Annihilation, rebuilt for modern computers",
@@ -728,7 +1378,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T18:04:47Z",
    "summary": "Article URL: https://nanolathe.gg Comments URL: https://news.ycombinator.com/item?id=50045984 Points: 530 # Comments: 204",
-   "id": 47
+   "id": 112
   },
   {
    "title": "NYC's \"Click to Cancel\" rule is now in effect",
@@ -738,7 +1388,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T18:01:16Z",
    "summary": "Article URL: https://www.nyc.gov/main/click-to-cancel Comments URL: https://news.ycombinator.com/item?id=50045946 Points: 484 # Comments: 233",
-   "id": 48
+   "id": 113
   },
   {
    "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
@@ -748,7 +1398,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T16:52:33Z",
    "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
-   "id": 49
+   "id": 114
   },
   {
    "title": "Feelgood factor of human interaction | Brief letters",
@@ -758,7 +1408,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T15:52:20Z",
    "summary": "Happy hormones | Fuel costs | Drive-in parking | Guys and girls | Young or old? | Singapore pollution Re your report ( ‘Pull the plug’: protesters resort to direct action against AI firms, 6 October ), the US neuroscientist Ben Rein has shown that there is a fundamental difference in our cognitive response according to the type of interaction we have. In-person meetings and conversations show a dramatic increase in serotonin, oxytocin and dopamine – “feelgood” hormones – compared with online interactions. I have been encouraged to speak to people at bus stops. Judith Furner Eastbourne, East…",
-   "id": 50
+   "id": 115
   },
   {
    "title": "The Compute Gold Rush",
@@ -768,7 +1418,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T14:55:00Z",
    "summary": "Plus, wearables that track blood pressure, the co-founder combating Anthropic’s ‘woke’ reputation, when personal AI agents go off script and more.",
-   "id": 51
+   "id": 116
   },
   {
    "title": "Xpeng Says It Can Quickly Adapt Car Autopilot Systems for Europe",
@@ -778,7 +1428,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T14:31:53Z",
    "summary": "Xpeng Inc. can rapidly adapt its advanced driver-assistance technology to European roads using relatively small amounts of data, allowing it to modify its software capabilities for different markets without rebuilding them from scratch.",
-   "id": 52
+   "id": 117
   },
   {
    "title": "I'm sorry, but you still have to think",
@@ -788,7 +1438,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T14:29:07Z",
    "summary": "Article URL: https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/ Comments URL: https://news.ycombinator.com/item?id=50043689 Points: 195 # Comments: 72",
-   "id": 53
+   "id": 118
   },
   {
    "title": "AI’s quiet safety gatekeepers are stepping into the spotlight",
@@ -798,7 +1448,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T14:08:44Z",
    "summary": "The intensifying AI safety debate is bringing a small group of third-party evaluators into the center of a multitrillion-dollar industry.",
-   "id": 54
+   "id": 119
   },
   {
    "title": "Is AI Crowding Everyone Else Out of the Bond Market?",
@@ -808,7 +1458,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T14:03:06Z",
    "summary": "Hyperscalers, data centers and chip companies are borrowing hundreds of billions of dollars to finance the AI buildout, turning the technology boom into one of the biggest new forces in corporate credit. Investors are still buying, but rising concentration, complex data-center financing and competition with government borrowing are raising a harder question: how much AI debt can the market absorb? (Source: Bloomberg)",
-   "id": 55
+   "id": 120
   },
   {
    "title": "Apple Smart Home Launch Oct. 13 Plans; HomeView Has Mid-November Release",
@@ -818,7 +1468,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T14:00:02Z",
    "summary": "Fresh details on Apple’s HomeView, HomePod mini and new Apple TV, including release dates, colors, chips and features.",
-   "id": 56
+   "id": 121
   },
   {
    "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
@@ -827,8 +1477,8 @@
    "source_type": "media",
    "source_weight": 1.0,
    "published": "2026-10-11T14:00:00Z",
-   "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
-   "id": 57
+   "summary": "Voice AI often misses important points for its context layer, and causes the whole pipeline to break.",
+   "id": 122
   },
   {
    "title": "AI is automating coding. So why are software developer job postings on the rise?",
@@ -838,7 +1488,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T13:30:01Z",
    "summary": "Software developer job postings are rebounding, led by senior and AI-focused roles, even as AI automates more coding and entry-level hiring weakens.",
-   "id": 58
+   "id": 123
   },
   {
    "title": "Terence Tao: Math 2.0 [pdf]",
@@ -848,7 +1498,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T13:16:45Z",
    "summary": "Article URL: https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf Comments URL: https://news.ycombinator.com/item?id=50043026 Points: 410 # Comments: 430",
-   "id": 59
+   "id": 124
   },
   {
    "title": "The tilde in your PATH may not be your HOME",
@@ -858,7 +1508,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T12:13:13Z",
    "summary": "Article URL: https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/ Comments URL: https://news.ycombinator.com/item?id=50042425 Points: 205 # Comments: 140",
-   "id": 60
+   "id": 125
   },
   {
    "title": "I paid people to try and follow my README",
@@ -868,7 +1518,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T11:47:29Z",
    "summary": "Article URL: https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/ Comments URL: https://news.ycombinator.com/item?id=50042219 Points: 318 # Comments: 171",
-   "id": 61
+   "id": 126
   },
   {
    "title": "I Made Terrible Games With Google’s AI Playground",
@@ -878,7 +1528,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T11:30:00Z",
    "summary": "A long day’s haul in the video game slop mines.",
-   "id": 62
+   "id": 127
   },
   {
    "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
@@ -888,7 +1538,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T11:00:25Z",
    "summary": "‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’ Back through political history to the age of Ronald Reagan , Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers. The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a fine new layer of artificial intelligence pixie dust. It will fail again. Continue reading...",
-   "id": 63
+   "id": 128
   },
   {
    "title": "Can Wearables Really Track Blood Pressure Without the Cuff? I Tested Them.",
@@ -898,7 +1548,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T11:00:00Z",
    "summary": "Health trackers can now alert you to shifts you can’t feel. Doctors warn the data might give you anxiety—or a false sense of security.",
-   "id": 64
+   "id": 129
   },
   {
    "title": "Nitter: Update Oct 10th seeking funding and legal help",
@@ -908,7 +1558,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T10:37:55Z",
    "summary": "Article URL: https://nitter.net Comments URL: https://news.ycombinator.com/item?id=50041682 Points: 371 # Comments: 181",
-   "id": 65
+   "id": 130
   },
   {
    "title": "Bot traffic from Yandex",
@@ -918,7 +1568,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T10:27:53Z",
    "summary": "Article URL: https://radar.cloudflare.com/bots/as13238?dateRange=7d Comments URL: https://news.ycombinator.com/item?id=50041619 Points: 554 # Comments: 216",
-   "id": 66
+   "id": 131
   },
   {
    "title": "IRCv3",
@@ -928,7 +1578,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T10:11:27Z",
    "summary": "Article URL: https://ircv3.net/ Comments URL: https://news.ycombinator.com/item?id=50041540 Points: 342 # Comments: 290",
-   "id": 67
+   "id": 132
   },
   {
    "title": "AI Has a God Problem Stretching From the Vatican to the Baptist Pulpit",
@@ -938,7 +1588,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T09:30:00Z",
    "summary": "Religious leaders are weighing in, creating a new political risk for the creators of the technology.",
-   "id": 68
+   "id": 133
   },
   {
    "title": "Three Mark Zuckerbergs, Three Surprisingly Different Men",
@@ -948,7 +1598,7 @@
    "source_weight": 1.1,
    "published": "2026-10-11T09:01:17Z",
    "summary": "Jeremy Strong in “The Social Reckoning,” Jesse Eisenberg in “The Social Network” and the real Meta executive are all playing parts. But only one has changed his approach.",
-   "id": 69
+   "id": 134
   },
   {
    "title": "Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall",
@@ -958,7 +1608,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T09:00:22Z",
    "summary": "This is no scoffing matter. The accelerating proliferation of advanced nuclear weapons is bringing ‘end times’ closer by the day Humankind has fearfully and sometimes joyfully anticipated the end of the world ever since it began. The Bible’s Book of Revelation speaks of “end times”, a period of tribulation, war, famine, plague, floods and environmental catastrophe that may seem a less absurd prospect today than perhaps it once did. Islam, too, posits a fateful day of judgment or day of reckoning. Christian evangelicals believe that, in the final rapture, a chosen few – the righteous or the…",
-   "id": 70
+   "id": 135
   },
   {
    "title": "3rd Yandex Cloud Data Center Was Hit",
@@ -968,7 +1618,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T07:34:45Z",
    "summary": "Article URL: https://status.yandex.cloud/en/incidents/2136 Comments URL: https://news.ycombinator.com/item?id=50040547 Points: 475 # Comments: 571",
-   "id": 71
+   "id": 136
   },
   {
    "title": "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast",
@@ -978,7 +1628,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T07:00:20Z",
    "summary": "Are we really living through ‘end-times fascism’? Naomi Klein and Astra Taylor think so. In a new series from the Guardian, the pair speak to Radical Thinking with Aditya Chakrabortty in an extended interview. From Trump 2.0 and the rise of the tech billionaires to Gaza and the climate emergency, Klein and Taylor argue we are not just lurching from crisis to crisis but are in a new and dangerous moment in history. But they haven’t given up hope of a fightback You can watch the full interview with Naomi Klein and Astra Taylor here . Aditya’s suggested reading: Naomi Klein and Astra Taylor’s…",
-   "id": 72
+   "id": 137
   },
   {
    "title": "LineageOS 24.0",
@@ -988,7 +1638,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T06:18:59Z",
    "summary": "Article URL: https://lineageos.org/Changelog-32/ Comments URL: https://news.ycombinator.com/item?id=50040276 Points: 354 # Comments: 136",
-   "id": 73
+   "id": 138
   },
   {
    "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
@@ -998,7 +1648,7 @@
    "source_weight": 1.0,
    "published": "2026-10-11T04:53:46Z",
    "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful […]",
-   "id": 74
+   "id": 139
   },
   {
    "title": "The problem with your AI therapist",
@@ -1008,7 +1658,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T04:00:16Z",
    "summary": "Millions are turning to chatbots for help with mental health but a technology that can’t go beyond words won’t heal them",
-   "id": 75
+   "id": 140
   },
   {
    "title": "What if AI prefers CVs written by AI?",
@@ -1018,7 +1668,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T04:00:06Z",
    "summary": "The signs are that it does and one law firm’s experience is revealing",
-   "id": 76
+   "id": 141
   },
   {
    "title": "Academic publishing is a study in fighting AI slop",
@@ -1028,7 +1678,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T04:00:06Z",
    "summary": "Original thought, especially in the humanities, is more likely to remain the preserve of humans",
-   "id": 77
+   "id": 142
   },
   {
    "title": "Justice Dept. Is Investigating TV Networks Over Trump Pool Coverage",
@@ -1038,7 +1688,7 @@
    "source_weight": 1.1,
    "published": "2026-10-11T02:40:53Z",
    "summary": "Major TV networks were notified on Friday that the department was examining whether they violated antitrust laws when they suspended pool coverage of President Trump.",
-   "id": 78
+   "id": 143
   },
   {
    "title": "Apple Supplier Luxshare Expects No Material Impact From US Probe",
@@ -1048,7 +1698,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T02:38:23Z",
    "summary": "Apple Inc. supplier Luxshare Precision Industry Co. is facing a US patent investigation into data-center power technologies following infringement allegations by Vicor Corp., according to a filing on Saturday.",
-   "id": 79
+   "id": 144
   },
   {
    "title": "How to Keep Your Webcam Safe From Prying Eyes",
@@ -1058,7 +1708,7 @@
    "source_weight": 1.2,
    "published": "2026-10-11T00:57:00Z",
    "summary": "Weak passwords, outdated software and poor Wi-Fi security can let strangers access your home camera.",
-   "id": 80
+   "id": 145
   },
   {
    "title": "Dwarf Fortress uses version control now",
@@ -1068,7 +1718,7 @@
    "source_weight": 1.1,
    "published": "2026-10-11T00:52:37Z",
    "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thingy with no immediate upside\" March 2016: \"I don’t even use version control. If you don’t know…",
-   "id": 81
+   "id": 146
   },
   {
    "title": "WallHop – 12ft.io is gone, so I built a replacement",
@@ -1078,7 +1728,7 @@
    "source_weight": 0.9,
    "published": "2026-10-11T00:46:48Z",
    "summary": "Article URL: https://wallhop.io/ Comments URL: https://news.ycombinator.com/item?id=50038634 Points: 202 # Comments: 89",
-   "id": 82
+   "id": 147
   },
   {
    "title": "Python 3.15.0 added to actions/python-versions",
@@ -1088,7 +1738,7 @@
    "source_weight": 1.1,
    "published": "2026-10-10T23:58:04Z",
    "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that this has landed, you can add \"3.15\" to a GitHub Actions testing matrix to run tests against the new Python 3.15.0 release . Tags: github , python , github-actions , chatgpt",
-   "id": 83
+   "id": 148
   },
   {
    "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
@@ -1098,7 +1748,7 @@
    "source_weight": 1.0,
    "published": "2026-10-10T23:01:09Z",
    "summary": "Newly established commission identifies 17 catastrophic threats to human health but says ‘realistic route to act’ on each exists Humans could become extinct by the year 2100 due to malicious use of AI or nuclear conflict, according to a new global risk assessment. They top a list of 17 major threats to human health over the next 75 years, which also includes cuts to aid spending by wealthy countries, the climate crisis and childhood malnutrition. Continue reading...",
-   "id": 84
+   "id": 149
   },
   {
    "title": "Build your own decision model",
@@ -1108,7 +1758,7 @@
    "source_weight": 0.9,
    "published": "2026-10-10T22:50:10Z",
    "summary": "Article URL: https://nishtahir.com/build-your-own-decision-model/ Comments URL: https://news.ycombinator.com/item?id=50037949 Points: 436 # Comments: 98",
-   "id": 85
+   "id": 150
   },
   {
    "title": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
@@ -1118,7 +1768,7 @@
    "source_weight": 1.2,
    "published": "2026-10-10T22:11:00Z",
    "summary": "A desert trial exposed equipment limitations and institutional hurdles in the Army’s push to modernize and keep pace with an AI-savvy adversary.",
-   "id": 86
+   "id": 151
   },
   {
    "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
@@ -1128,7 +1778,7 @@
    "source_weight": 1.0,
    "published": "2026-10-10T22:10:17Z",
    "summary": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or […]",
-   "id": 87
+   "id": 152
   },
   {
    "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
@@ -1138,7 +1788,7 @@
    "source_weight": 1.0,
    "published": "2026-10-10T22:07:17Z",
    "summary": "Tomorrow and Tuesday. If you see this you’re in!",
-   "id": 88
+   "id": 153
   },
   {
    "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
@@ -1148,7 +1798,7 @@
    "source_weight": 1.0,
    "published": "2026-10-10T21:47:51Z",
    "summary": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
-   "id": 89
+   "id": 154
   },
   {
    "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
@@ -1158,287 +1808,7 @@
    "source_weight": 1.0,
    "published": "2026-10-10T21:23:38Z",
    "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an \"AI-slop pipeline.\" Artists are saying that […]",
-   "id": 90
-  },
-  {
-   "title": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control",
-   "url": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
-   "source": "CNBC",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T20:59:28Z",
-   "summary": "Nadella joined other tech moguls and researchers in calling for stronger safeguards and, in some cases, for the pacing of frontier development.",
-   "id": 91
-  },
-  {
-   "title": "A city-building game in which the city would prefer you didn't",
-   "url": "https://housing.over.pizza/",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-10-10T20:31:50Z",
-   "summary": "Article URL: https://housing.over.pizza/ Comments URL: https://news.ycombinator.com/item?id=50036864 Points: 502 # Comments: 168",
-   "id": 92
-  },
-  {
-   "title": "Why Extra Cushioning in Your Shoes Might Actually Increase Stress on Your Feet",
-   "url": "https://www.wsj.com/lifestyle/fitness/shoes-cushion-feet-health-8f5d83a8?mod=rss_Technology",
-   "source": "Wall Street Journal",
-   "source_type": "media",
-   "source_weight": 1.2,
-   "published": "2026-10-10T20:00:00Z",
-   "summary": "Max-cushion shoes are all the rage. But some doctors worry they could pose long-term risks to feet, ankles, knees or hips.",
-   "id": 93
-  },
-  {
-   "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
-   "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
-   "source": "TechCrunch",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T19:50:00Z",
-   "summary": "Is Apple hoping to get into the AI-generated podcast business?",
-   "id": 94
-  },
-  {
-   "title": "Black Box: The Chatbots | The Line | Ep 5 - podcast",
-   "url": "https://www.theguardian.com/australia-news/audio/2026/oct/11/black-box-the-chatbots-the-line-ep-5-full-story-podcast",
-   "source": "The Guardian",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T19:00:08Z",
-   "summary": "Five stories that feel like five answers to one important question: in a world where AI chatbots can help us through a breakup, listen like a friend, be a life coach, draft a difficult text message and do our work, where do we draw the line? Continue reading...",
-   "id": 95
-  },
-  {
-   "title": "Nvidia Explores Deal Options With Reflection AI, Financial Times Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports",
-   "source": "Bloomberg",
-   "source_type": "media",
-   "source_weight": 1.2,
-   "published": "2026-10-10T18:52:58Z",
-   "summary": "Nvidia Corp. is in talks to boost its investment in Reflection AI or offer the startup computing power, a move that would strengthen ties with a key developer of open-weight models, according to a person familiar with the matter.",
-   "id": 96
-  },
-  {
-   "title": "Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai",
-   "source": "Bloomberg",
-   "source_type": "media",
-   "source_weight": 1.2,
-   "published": "2026-10-10T18:35:59Z",
-   "summary": "Microsoft Corp. Chief Executive Officer Satya Nadella said companies should treat powerful artificial intelligence models as potential insider threats, assume they could be compromised and create an “emergency brake” system to prevent agentic models from going rogue.",
-   "id": 97
-  },
-  {
-   "title": "Nvidia in talks to acquire US ‘open’ model start-up Reflection AI",
-   "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1",
-   "source": "Financial Times",
-   "source_type": "media",
-   "source_weight": 1.2,
-   "published": "2026-10-10T18:14:28Z",
-   "summary": "Donald Trump’s administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
-   "id": 98
-  },
-  {
-   "title": "Why DuckDB 2.0 is faster",
-   "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-10-10T18:08:49Z",
-   "summary": "Article URL: https://motherduck.com/blog/why-duckdb-20-is-faster/ Comments URL: https://news.ycombinator.com/item?id=50035530 Points: 183 # Comments: 57",
-   "id": 99
-  },
-  {
-   "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
-   "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
-   "source": "New York Times",
-   "source_type": "media",
-   "source_weight": 1.1,
-   "published": "2026-10-10T18:01:21Z",
-   "summary": "The Philadelphia Police Department said the agents had also sent in a false homicide tip. The incidents led the White House to call for better disclosure of rogue A.I. behavior.",
-   "id": 100
-  },
-  {
-   "title": "Bloomberg This Weekend | Diesel Deal Struck with Putin, Isaias Makes Landfall",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-10/bloomberg-this-weekend-10-10-2026-video",
-   "source": "Bloomberg",
-   "source_type": "media",
-   "source_weight": 1.2,
-   "published": "2026-10-10T15:55:31Z",
-   "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nancy Yousef - The Atlantic Staff Writer, Bill Wadell - AccuWeather Reporter, Kevin Roose - Tech Journalist, Author “The AGI Chronicles,” Shannon Kingston - ABC News State Department Reporter, Jesse Cole - Banana Ball Championship League Owner, Amanda Agati - PNC Asset MGMT Group Chief Investment Officer, Dr. Peter Hotez - Baylor College of Medicine School of Tropical Medicine Dean, Joanne Hsu…",
-   "id": 101
-  },
-  {
-   "title": "Knuth reward check",
-   "url": "https://www.thomas-huehn.com/knuth-reward-check/",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-10-10T15:47:01Z",
-   "summary": "Article URL: https://www.thomas-huehn.com/knuth-reward-check/ Comments URL: https://news.ycombinator.com/item?id=50034081 Points: 201 # Comments: 74",
-   "id": 102
-  },
-  {
-   "title": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
-   "url": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html",
-   "source": "CNBC",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T15:30:51Z",
-   "summary": "Looking to balance out our AI exposure, we put more of our sizable cash pile to work.",
-   "id": 103
-  },
-  {
-   "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
-   "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
-   "source": "TechCrunch",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T15:00:00Z",
-   "summary": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.",
-   "id": 104
-  },
-  {
-   "title": "Anthropic is cutting off its internal evaluations from the internet",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-   "source": "The Verge",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T14:41:16Z",
-   "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal […]",
-   "id": 105
-  },
-  {
-   "title": "Bitwarden Dual License Model",
-   "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-10-10T14:32:50Z",
-   "summary": "Article URL: https://community.bitwarden.com/t/published-version-update-in-app-stores/102750 Comments URL: https://news.ycombinator.com/item?id=50033407 Points: 307 # Comments: 228",
-   "id": 106
-  },
-  {
-   "title": "Trump’s AI Liability Push Opens Blame Game for Models Gone Rogue",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-10/trump-s-ai-liability-push-opens-blame-game-for-models-gone-rogue",
-   "source": "Bloomberg",
-   "source_type": "media",
-   "source_weight": 1.2,
-   "published": "2026-10-10T14:19:14Z",
-   "summary": "The Trump administration’s embrace of legal liability to enforce artificial intelligence safety sets the stage for future conflicts over who foots the bill when AI models go rogue: the companies that design the systems or the people that deploy the technology.",
-   "id": 107
-  },
-  {
-   "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
-   "url": "https://www.latent.space/p/standard-bots",
-   "source": "Latent Space",
-   "source_type": "expert",
-   "source_weight": 1.0,
-   "published": "2026-10-10T14:04:11Z",
-   "summary": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
-   "id": 108
-  },
-  {
-   "title": "How de-extincting dire wolves and woolly mammoths may extend human life",
-   "url": "https://www.cnbc.com/2026/10/10/de-extincting-dire-wolves-woolly-mammoths-help-humans.html",
-   "source": "CNBC",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T14:00:01Z",
-   "summary": "Colossal Biosciences CEO Ben Lamm says bringing extinct species back can contribute to conservation, healthcare and developmental biology.",
-   "id": 109
-  },
-  {
-   "title": "Here are the top AI agents that can live in your text messages",
-   "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-   "source": "TechCrunch",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T14:00:00Z",
-   "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-   "id": 110
-  },
-  {
-   "title": "The Race for AI Supremacy Raises Safety Concerns",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video",
-   "source": "Bloomberg",
-   "source_type": "media",
-   "source_weight": 1.2,
-   "published": "2026-10-10T13:41:50Z",
-   "summary": "Technology Journalist and Author Kevin Roose tells Bloomberg This Weekend that a relatively small group of researchers and executives at OpenAI, Anthropic and Google DeepMind has driven the race toward artificial general intelligence, raising questions about who controls the technology and its potential risks. Speaking with hosts David Gura and Christina Ruffini, Roose discusses his new book, The AGI Chronicles, and the challenges of regulating increasingly capable AI systems as developers pursue technology that could surpass human intelligence. (Source: Bloomberg)",
-   "id": 111
-  },
-  {
-   "title": "I would like the value of my home to rise, while my property taxes fall",
-   "url": "https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall/",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-10-10T13:29:03Z",
-   "summary": "Article URL: https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall/ Comments URL: https://news.ycombinator.com/item?id=50032758 Points: 170 # Comments: 403",
-   "id": 112
-  },
-  {
-   "title": "Hollywood takes on Zuckerberg, Musk and Altman amid widespread anxiety over AI",
-   "url": "https://www.cnbc.com/2026/10/10/ai-movies-tech-ceos-hollywood.html",
-   "source": "CNBC",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T12:00:01Z",
-   "summary": "New films about Zuckerberg, Musk, Altman and AI arrive as public concern about the technology and its leaders rises.",
-   "id": 113
-  },
-  {
-   "title": "AI Is Getting Really Good at Messing With Cybercriminals",
-   "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
-   "source": "Wired",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T12:00:00Z",
-   "summary": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
-   "id": 114
-  },
-  {
-   "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions",
-   "url": "https://www.wsj.com/tech/ai/chatgpt-gpt5-sycophancy-delusions-9b3506bf?mod=rss_Technology",
-   "source": "Wall Street Journal",
-   "source_type": "media",
-   "source_weight": 1.2,
-   "published": "2026-10-10T12:00:00Z",
-   "summary": "Mental-health experts offered advice on how the popular chatbot could ask better questions and distinguish among crises and other conditions.",
-   "id": 115
-  },
-  {
-   "title": "Nvidia GPUs are everywhere. Here are the ways companies are accessing them",
-   "url": "https://www.cnbc.com/2026/10/10/nvidia-gpus-are-everywhere-heres-how-companies-access-them.html",
-   "source": "CNBC",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-10T11:00:01Z",
-   "summary": "One industry researcher identified over 300 neoclouds that can provide GPU capacity, up about 55% in less than a year.",
-   "id": 116
-  },
-  {
-   "title": "Apple/macOS removed from official Unix registry",
-   "url": "https://www.opengroup.org//openbrand/register/",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-10-10T10:57:31Z",
-   "summary": "Article URL: https://www.opengroup.org//openbrand/register/ Comments URL: https://news.ycombinator.com/item?id=50031653 Points: 215 # Comments: 194",
-   "id": 117
-  },
-  {
-   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-   "url": "https://github.com/rociiu/talorys",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-10-10T10:52:09Z",
-   "summary": "Article URL: https://github.com/rociiu/talorys Comments URL: https://news.ycombinator.com/item?id=50031614 Points: 301 # Comments: 137",
-   "id": 118
+   "id": 155
   }
  ]
 }
