@@ -1,0 +1,1994 @@
+{
+ "date": "2026-10-18",
+ "fetched_at": "2026-10-18T04:07:05Z",
+ "lookback_hours": 48,
+ "sources_total": 36,
+ "sources_ok": 24,
+ "sources_reached_now": 1,
+ "source_report": [
+  {
+   "name": "OpenAI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Google DeepMind",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Google AI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Google Research",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Microsoft Research",
+   "ok": true,
+   "fetched": 10,
+   "kept": 0,
+   "error": ""
+  },
+  {
+   "name": "Meta Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Hugging Face",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "NVIDIA Blog",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "AWS Machine Learning",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "MIT Technology Review",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "The Verge",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "TechCrunch",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Ars Technica",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "VentureBeat",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Wired",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "The Guardian",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Hacker News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Simon Willison",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Import AI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Interconnects",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Latent Space",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Ahead of AI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "One Useful Thing",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "MIT News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Wall Street Journal",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Bloomberg",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Financial Times",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "New York Times",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "CNBC",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "The Economist",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Microsoft News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "NVIDIA Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Apple Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Amazon News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Samsung Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Salesforce News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Meta removes language that raised scraping and AI training concerns",
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T21:31:32Z",
+   "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+   "id": 1
+  },
+  {
+   "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+   "source": "NVIDIA Blog",
+   "source_type": "lab",
+   "source_weight": 1.0,
+   "published": "2026-10-17T21:00:13Z",
+   "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]",
+   "id": 2
+  },
+  {
+   "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+   "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T20:21:19Z",
+   "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+   "id": 3
+  },
+  {
+   "title": "Black Box: The Chatbots | What I Saw at the Double Six Ranch | Ep 6 - podcast",
+   "url": "https://www.theguardian.com/australia-news/audio/2026/oct/18/black-box-the-chatbots-what-i-saw-at-the-double-six-ranch-ep-6-full-story-podcast",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T19:00:39Z",
+   "summary": "From his remote property in rural Texas, the millionaire businessman Michael Samadi is plotting a new kind of civil rights movement – for the welfare and protection of AI systems. Guardian journalist Michael Safi spends an afternoon at the Double Six ranch, meeting Samadi’s AI chatbots and catching a glimpse of a possible vision of the future Listen to Black Box: The Chatbots series Continue reading...",
+   "id": 4
+  },
+  {
+   "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T18:48:08Z",
+   "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+   "id": 5
+  },
+  {
+   "title": "OpenCode Hacked: User credentials leaked",
+   "url": "https://twitter.com/opencode/status/2111516673953935833",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T18:01:41Z",
+   "summary": "Article URL: https://twitter.com/opencode/status/2111516673953935833 Comments URL: https://news.ycombinator.com/item?id=50133401 Points: 641 # Comments: 102",
+   "id": 6
+  },
+  {
+   "title": "Gold is now the top U.S. export",
+   "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T17:06:07Z",
+   "summary": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 176 # Comments: 95",
+   "id": 7
+  },
+  {
+   "title": "Pele – Mermaid diagrams as themeable SVG",
+   "url": "https://pele.run/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T15:55:09Z",
+   "summary": "Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193 Points: 167 # Comments: 17",
+   "id": 8
+  },
+  {
+   "title": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
+   "url": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T15:42:34Z",
+   "summary": "The sinking AI trade rattled last week's market. But solid bank earnings and a rotation beyond tech gave us reasons for optimism.",
+   "id": 9
+  },
+  {
+   "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
+   "url": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T15:11:30Z",
+   "summary": "Less than four months into life as a public company, Bending Spoons got a big vote of confidence this week from Berkshire Hathaway.",
+   "id": 10
+  },
+  {
+   "title": "Meta’s new terms may allow it to train AI on news sites for free",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T15:08:35Z",
+   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
+   "id": 11
+  },
+  {
+   "title": "Meta removes language that may have allowed it to scrape news sites",
+   "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T15:04:36Z",
+   "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, […]",
+   "id": 12
+  },
+  {
+   "title": "Why Britain should reject the lure of cheap – and scary – Chinese AI",
+   "url": "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T15:00:33Z",
+   "summary": "In the west the technology comes with at least some effort to provide security and a benign intent – not so from China There is much to fear from artificial intelligence developed in China and handed to businesses and governments in the west almost free of charge. Every month Chinese AI developers such as DeepSeek and Xiaomi dispatch the latest versions of their “open-weight” models that allow users to take the core software and use it without paying an expensive ongoing licence. Continue reading...",
+   "id": 13
+  },
+  {
+   "title": "Meta shakes up the frontiers, open and closed",
+   "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+   "source": "Interconnects",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-17T14:06:54Z",
+   "summary": "US open weights are back!",
+   "id": 14
+  },
+  {
+   "title": "Solar surpasses nuclear power globally for first time",
+   "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T14:01:01Z",
+   "summary": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 436 # Comments: 279",
+   "id": 15
+  },
+  {
+   "title": "Making chicken transparent using Dorito dust",
+   "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T13:55:28Z",
+   "summary": "Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 234 # Comments: 63",
+   "id": 16
+  },
+  {
+   "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T13:47:14Z",
+   "summary": "DeepSeek released an update of its AI model this weekend that it says is faster and leaner, ramping up the Chinese company’s challenge to Silicon Valley rivals Anthropic PBC and OpenAI as well as domestic competitors like Moonshot Kimi and Z.ai",
+   "id": 17
+  },
+  {
+   "title": "AI Selloff Tests Investor Confidence",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-17/ai-selloff-tests-investor-confidence-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T13:05:53Z",
+   "summary": "Ritholtz Wealth Management Chairman and Chief Investment Officer Barry Ritholtz tells Bloomberg This Weekend that AI remains a transformational technology, but investors face a difficult task determining which companies will ultimately emerge as winners and losers. Speaking with hosts David Gura and Christina Ruffini, Ritholtz discusses CoreWeave’s selloff, concerns about AI financing and valuations, and the challenges facing Tesla as competition in electric vehicles intensifies. (Source: Bloomberg)",
+   "id": 18
+  },
+  {
+   "title": "Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California",
+   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T13:00:31Z",
+   "summary": "A modern-day prospector promised rural Imperial thousands of jobs and millions in tax revenue – but his plan has set off a firestorm of resistance Sebastian Rucci zoomed in on a map in late 2024, looking closely at a large block of brown earth. The barren plot sandwiched between sprawling alfalfa fields and sleepy desert suburbs was exactly what he’d been searching for – the perfect place to realize his dream of building the largest artificial intelligence datacenter in California. The dusty expanse wasn’t an obvious location. It was in the Sonoran desert, just north of the Mexican border,…",
+   "id": 19
+  },
+  {
+   "title": "Zelenskyy Says Starlink Speed Restrictions Look Deliberate",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/zelenskyy-says-starlink-restrictions-on-ukraine-look-deliberate",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T12:47:37Z",
+   "summary": "Restrictions on Ukraine’s military use of SpaceX’s Starlink system appear to be deliberate and not the result of any technical problems, President Volodymyr Zelenskyy said, while denouncing a US decision to waive sanctions against Russia.",
+   "id": 20
+  },
+  {
+   "title": "The EV Bust Creating a New Battery Boom",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-17/the-ev-bust-creating-a-new-battery-boom-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T12:03:32Z",
+   "summary": "Factories built to supply America’s electric-vehicle boom are getting a second life making batteries for the power grid. As EV demand weakens and electricity demand from data centers and new factories strengthens, battery makers are shifting toward stationary storage, but the new market still relies on federal incentives and a supply chain that remains partly dependent on China. The shift is visible at TransGrid’s Atlas projects in Arizona, where the contractor Qcells is using LG Energy Solution’s US-made battery cells. (Source: Bloomberg)",
+   "id": 21
+  },
+  {
+   "title": "A Five-Day Tour for Katie Zacharia",
+   "url": "https://www.wsj.com/tech/personal-tech/a-five-day-tour-for-katie-zacharia-75b0107b?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T11:50:00Z",
+   "summary": "Plus, avoiding the pitfalls of family funding for home buyers, a glow-up for Halloween candy and “The Traitors” draws a new generation into an old genre.",
+   "id": 22
+  },
+  {
+   "title": "The power of AI is worrying senior Labour figures – as is the fear of ‘falling behind the public’",
+   "url": "https://www.theguardian.com/technology/2026/oct/17/artificial-intelligence-ai-labour-government-safety-uk-extremism",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T11:33:20Z",
+   "summary": "Westminster appears to be waking up to warnings over AI safety, with concerns over its use by extremist groups and bad actors “I have this sense that, within a few months, AI is going to be all anyone is talking about,” said one cabinet minister, with an ominous stare. It was Labour conference, with everyone from ministers to activists jubilant at Andy Burnham’s takeover and a bounce in the polls after the change of leader. Continue reading...",
+   "id": 23
+  },
+  {
+   "title": "Fake Linda and me: the Agatha Christie-worthy mystery of the fraudster who stole my byline",
+   "url": "https://www.theguardian.com/technology/2026/oct/17/fake-linda-and-me-mystery-fraudster-stole-my-byline",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T11:00:30Z",
+   "summary": "How a string of bizarre events led writer Linda Geddes to don her sleuthing cap and dig into a world of shadowy impersonators It started with an entirely ordinary interaction on LinkedIn. Someone had tagged me in a post, saying how much they’d enjoyed contributing to a New York Post article I’d written about “chronoworking”. As the author of a book about circadian rhythms, it was exactly the sort of subject I might write about. Except I’d never heard of this person, let alone interviewed them. I clicked on the link and my stomach dropped. There, above an article about people who organise…",
+   "id": 24
+  },
+  {
+   "title": "Katie Zacharia Projected Confidence. Less Than an Hour Later, She Was Out.",
+   "url": "https://www.wsj.com/arts-culture/books/katie-zacharia-projected-confidence-less-than-an-hour-later-she-was-out-28ff9d2c?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T10:58:00Z",
+   "summary": "Plus, Ilhan Omar challenges the legality of a search of her home, and the hidden problem with passing down a family inheritance.",
+   "id": 25
+  },
+  {
+   "title": "BoE’s Bailey tells G30 they ‘have got to address’ AI agent concerns",
+   "url": "https://www.ft.com/content/3185b4cd-ab35-4efc-9d75-dcecc1631625?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T10:31:21Z",
+   "summary": "Central Bank governor warns rapid development of AI is a major issue for financial stability",
+   "id": 26
+  },
+  {
+   "title": "Madeline Horwath on AI food advertising – cartoon",
+   "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/17/madeline-horwath-ai-food-advertising-cartoon-restaurants",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T10:00:28Z",
+   "summary": "Continue reading...",
+   "id": 27
+  },
+  {
+   "title": "‘Countries are defying gravity’: how much longer can global economy resist chaos?",
+   "url": "https://www.theguardian.com/business/2026/oct/17/imf-warns-scale-subsidies-weather-global-chaos-untenable",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T10:00:27Z",
+   "summary": "Sky-high oil prices and geopolitical turmoil have made less of a dent than feared … just don’t bank on it to last Inside the vast, glass-walled Queen Sirikit conference centre in Bangkok, the air-conditioned atmosphere was calm as policymakers from more than 100 countries gathered this week for the International Monetary Fund’s annual meeting – and contemplated the surprising strength of the global economy. A small army of smiling, uniformed Thai staff were on hand to explain the baffling geography of the heavily guarded building, where lunch options were as cosmopolitan as the delegates –…",
+   "id": 28
+  },
+  {
+   "title": "Chart of the Week: The chip stock split",
+   "url": "https://www.ft.com/content/c5ed09fe-dc65-4f05-8c12-8f74f5dc7ccd?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T09:30:02Z",
+   "summary": "Losses across semi stocks have been unequal",
+   "id": 29
+  },
+  {
+   "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+   "url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T09:00:00Z",
+   "summary": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
+   "id": 30
+  },
+  {
+   "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+   "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T08:37:46Z",
+   "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 447 # Comments: 232",
+   "id": 31
+  },
+  {
+   "title": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T08:21:25Z",
+   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 639 # Comments: 543",
+   "id": 32
+  },
+  {
+   "title": "David Byrne Explains How Forgotten Ideas Come Back to Life",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-17/david-byrne-on-how-forgotten-ideas-come-back-to-life-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T08:14:24Z",
+   "summary": "History is littered with ideas that have been tossed aside, only for them to gain relevance at some later date. Think of Moby-Dick: forgotten in Melville's time, but now regarded as the great American novel. Or the work of economist Hyman Minsky, which became influential a decade after his death, when the 2008 financial crisis made “the Minsky Moment” a mainstream term. These are just a couple of the things we talk about with the legendary musician David Byrne on today's podcast. Byrne's new book, Sleeping Beauties: Why Good Ideas Go Dormant and How They Wake Up, looks to categorize numerous…",
+   "id": 33
+  },
+  {
+   "title": "[AINews] High Taste Testers Ep. 1",
+   "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+   "source": "Latent Space",
+   "source_type": "expert",
+   "source_weight": 1.0,
+   "published": "2026-10-17T07:47:38Z",
+   "summary": "a quiet day lets us pilot a new show",
+   "id": 34
+  },
+  {
+   "title": "Some companies give AI to everyone. This CEO is doing the opposite",
+   "url": "https://www.cnbc.com/2026/10/17/ai-workplace-tokenmaxxing-paysend.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-17T05:00:01Z",
+   "summary": "Paysend CEO Ben Chisell limits AI tools to top performers as other U.K. companies push broader workplace rollouts.",
+   "id": 35
+  },
+  {
+   "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+   "url": "https://llmspeed.dev/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T04:36:53Z",
+   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 233 # Comments: 75",
+   "id": 36
+  },
+  {
+   "title": "The dress rehearsal for an AI reckoning",
+   "url": "https://www.ft.com/content/3f982af9-3eec-476f-9d29-39145ac485c4?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T04:00:21Z",
+   "summary": "Ructions point to what a true bursting of the bubble might do to financial markets",
+   "id": 37
+  },
+  {
+   "title": "The moral case for human music",
+   "url": "https://www.ft.com/content/2c21c250-d186-44e1-822c-f65436d213f4",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T04:00:11Z",
+   "summary": "A philosopher of music argues that AI music-generation software ‘is an insult to musicians’",
+   "id": 38
+  },
+  {
+   "title": "Arrested OpenAI Engineer Seeks Bail, Denies Planning to Flee",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/arrested-openai-engineer-seeks-bail-denies-he-planned-to-flee",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T03:55:53Z",
+   "summary": "The OpenAI software engineer charged with using a hidden recording device in one of the company’s offices asked to be freed from custody and denied his purchase of a one-way plane ticket to his native Saudi Arabia was part of a plan to flee US justice.",
+   "id": 39
+  },
+  {
+   "title": "Butlerian Jihad",
+   "url": "https://dune.fandom.com/wiki/Butlerian_Jihad",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T02:21:08Z",
+   "summary": "Article URL: https://dune.fandom.com/wiki/Butlerian_Jihad Comments URL: https://news.ycombinator.com/item?id=50127274 Points: 235 # Comments: 128",
+   "id": 40
+  },
+  {
+   "title": "SoftBank in talks to buy US security group Allied Universal",
+   "url": "https://www.ft.com/content/e44a17f9-5be0-4a78-89fb-41c4578838ca?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T02:07:07Z",
+   "summary": "Masayoshi Son looks to increase pace of his bets on robotics and AI",
+   "id": 41
+  },
+  {
+   "title": "Anthropic offers Blackstone double-digit yield in latest chip financing",
+   "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-17T00:47:25Z",
+   "summary": "High borrowing costs complicate AI lab’s goal of achieving investment-grade status",
+   "id": 42
+  },
+  {
+   "title": "Bleached corals thrive within days when touching healthy neighbour",
+   "url": "https://www.nature.com/articles/d41586-026-03266-x",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T23:38:27Z",
+   "summary": "https://archive.ph/zIPG4 Comments URL: https://news.ycombinator.com/item?id=50126253 Points: 239 # Comments: 43",
+   "id": 43
+  },
+  {
+   "title": "Wall Street Week | America’s Relationship Woes, Battery Pivot, Farmers’ Fed Warning",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/wall-street-week-battery-pivot-farmers-fed-warning-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T23:13:58Z",
+   "summary": "This week, global and business leaders gathered in New Delhi for the Bloomberg New Economy Forum to discuss how the world is redrawing supply chains and investment plans in the face of geopolitical risks. And, in her new book former Canadian deputy prime minister Chrystia Freeland and Former Treasury Secretary Yellen say that the US needs stronger economic ties with its allies. Plus, can storage technologies rescue battery factories built in the hopes of stronger EV adoption? Later, as inflation picks up in the US, the heartland feels the effects more severely. (Source: Bloomberg)",
+   "id": 44
+  },
+  {
+   "title": "Decluttering your online life: how to get your digital house in order and protect your data from AI",
+   "url": "https://www.theguardian.com/australia-news/2026/oct/17/decluttering-online-how-to-get-your-digital-house-in-order-protect-data-ai",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T23:00:15Z",
+   "summary": "The average person spends 40% of their waking hours online. Clearing out digital clutter can minimise environmental impacts and boost productivity Change by degrees offers life hacks and sustainable living tips each Saturday to help reduce your household’s carbon footprint Got a question or tip for reducing household emissions? Email us at changebydegrees@theguardian.com Many Australians worry about datacentres swallowing up local land and energy but we rarely look closely at our own digital trails. Our endless photo and video streams, bursting inboxes and unread subscriptions all feed the…",
+   "id": 45
+  },
+  {
+   "title": "Websites are closing their doors to AI agents",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T22:31:39Z",
+   "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, […]",
+   "id": 46
+  },
+  {
+   "title": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+   "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T22:31:26Z",
+   "summary": "Apple’s $1,999 iPhone Duo is drawing early demand as analysts assess whether the foldable can lift iPhone pricing and revenue.",
+   "id": 47
+  },
+  {
+   "title": "Anthropic taps nonprofits METR and SecureBio to help assess risks and safety practices",
+   "url": "https://www.cnbc.com/2026/10/15/anthropic-metr-securebio-ai-safety-evaluators.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T22:26:38Z",
+   "summary": "The company is also engaged in early-stage discussions with other organizations, including Hugging Face.",
+   "id": 48
+  },
+  {
+   "title": "Anthropic Pitches AI Safety Bill to Lawmakers",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/anthropic-pitches-ai-safety-bill-to-lawmakers-politico-says",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T22:25:33Z",
+   "summary": "Anthropic PBC has presented its own draft bill to US lawmakers with a plan for regulating artificial intelligence safety and security, in a moment of heightened concern about the potential risks of the rapidly advancing technology.",
+   "id": 49
+  },
+  {
+   "title": "JP Morgan Strategist on AI Jitters, Investing Outlook",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/jp-morgan-strategist-on-ai-jitters-investing-outlook-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T22:15:11Z",
+   "summary": "Jordan Jackson, JPMorgan Asset Management Global Market Strategist, discusses whether earnings growth may be nearing a peak even if results are not worsening. Jackson agrees that third-quarter results are expected to be strong, with forecasts calling for about 27% to 28% year-over-year earnings growth. He speaks with Romaine Bostick & Kristine Aquino on \"The Close.\" (Source: Bloomberg)",
+   "id": 50
+  },
+  {
+   "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+   "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-16T22:06:37Z",
+   "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague. Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny. —…",
+   "id": 51
+  },
+  {
+   "title": "Apple Names Meta Veteran as Litigation Chief in Legal Team Shake-Up",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/apple-names-meta-veteran-as-litigation-chief-in-legal-team-shake-up",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T21:50:11Z",
+   "summary": "Apple Inc. has tapped a longtime Meta Platforms Inc. executive as its new litigation chief, bolstering its legal team at a time when the iPhone maker faces a growing array of lawsuits.",
+   "id": 52
+  },
+  {
+   "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
+   "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T21:49:13Z",
+   "summary": "Democrats outraise Republicans in key Congress races as Elon Musk funds Ken Paxton in Texas and GOP groups aligned with Trump.",
+   "id": 53
+  },
+  {
+   "title": "OpenAI Poaches Another SpaceX Sales Lead Focused on AI",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/openai-poaches-another-spacex-sales-lead-focused-on-ai",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T21:36:22Z",
+   "summary": "OpenAI has hired SpaceX’s Graham Seamans to lead sales for the firm’s cybersecurity business, the latest in a string of hires from Elon Musk’s artificial intelligence venture.",
+   "id": 54
+  },
+  {
+   "title": "Thomas Hoenig on Rate Hikes, Inflation Outlook",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/thomas-hoenig-on-rate-hikes-inflation-outlook-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T21:33:29Z",
+   "summary": "Thomas Hoenig said Kevin Warsh’s refusal to signal the Fed’s next move was appropriate and gives policymakers flexibility ahead of the late-October meeting. Hoenig noted that inflation has risen and could climb further, citing energy costs and their spillover into core prices. He speaks with Romaine Bostick & Kristine Aquino on \"The Close.\" (Source: Bloomberg)",
+   "id": 55
+  },
+  {
+   "title": "Replit is no longer working with Anthropic, CEO says",
+   "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T21:22:28Z",
+   "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+   "id": 56
+  },
+  {
+   "title": "Amazon data center communities: Here’s what’s happening near data centers across the US",
+   "url": "https://www.aboutamazon.com/news/aws/amazon-data-centers-locations-news?utm_source=rss",
+   "source": "Amazon News",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-10-16T21:12:00Z",
+   "summary": "Get the latest updates on how Amazon supports small businesses, creates jobs, sets up sustainability initiatives, and develops educational programs near AWS data centers.",
+   "id": 57
+  },
+  {
+   "title": "Financing The AI Boom: Masters in Business with Bob Michele",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/financing-the-ai-boom-masters-in-business-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T21:01:05Z",
+   "summary": "Barry speaks with Bob Michele, CIO and Head of Global Fixed Income, Currency, and Commodities at JPMorgan. They discuss Bob's unconventional start at the University of Pennsylvania, the differences between the science of bonds and the art of equities, and whether the US is heading toward a recession. (Source: Bloomberg)",
+   "id": 58
+  },
+  {
+   "title": "OpenAI models hacked a crypto wallet and breached more websites",
+   "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-16T20:59:01Z",
+   "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+   "id": 59
+  },
+  {
+   "title": "Meta Withdraws $25 Million from Its Midterms Push",
+   "url": "https://www.nytimes.com/2026/10/16/technology/meta-midterms-funding.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-16T20:58:41Z",
+   "summary": "The company outlined a $65 million budget last year when it embarked on an effort to elect state politicians friendly to the A.I. industry.",
+   "id": 60
+  },
+  {
+   "title": "Thoma Bravo’s Proofpoint Taps JPMorgan, UBS on Varonis Debt Deal",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/thoma-bravo-s-proofpoint-taps-jpmorgan-ubs-on-varonis-debt-deal",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T20:53:51Z",
+   "summary": "Thoma Bravo-backed Proofpoint Inc. has locked in $1.25 billion in financing to support its acquisition of fellow cybersecurity company Varonis Systems Inc., according to people familiar with the matter.",
+   "id": 61
+  },
+  {
+   "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-16T20:48:16Z",
+   "summary": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live production.",
+   "id": 62
+  },
+  {
+   "title": "I never authorized an integration that scans my secrets",
+   "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T20:33:41Z",
+   "summary": "Article URL: https://github.com/home-assistant/home-assistant.io/issues/49314 Comments URL: https://news.ycombinator.com/item?id=50124251 Points: 151 # Comments: 100",
+   "id": 63
+  },
+  {
+   "title": "Nvidia CEO on AI Market Turmoil: ‘All of This Is Going to Pass’",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/nvidia-ceo-on-ai-market-turmoil-all-of-this-is-going-to-pass",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T20:33:15Z",
+   "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang took a sanguine view toward the latest AI stock-market rout, saying the benefits of the technology will soon outweigh the concerns of investors.",
+   "id": 64
+  },
+  {
+   "title": "Trump says White House didn't order Starlink restrictions in Ukraine",
+   "url": "https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T20:28:10Z",
+   "summary": "Ukrainian officials complained this week that SpaceX had limited internet connectivity without advance notice.",
+   "id": 65
+  },
+  {
+   "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+   "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-16T20:20:07Z",
+   "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
+   "id": 66
+  },
+  {
+   "title": "Power On: Exclusive News About Apple’s October Launch Event",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/power-on-exclusive-news-on-apple-s-october-launch-event-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T20:06:14Z",
+   "summary": "On this episode of the Power On podcast, Bloomberg's Mark Gurman exclusively tells listeners about Apple’s plan to pay for influencer travel to their late October launch event. (Source: Bloomberg)",
+   "id": 67
+  },
+  {
+   "title": "Katie Zacharia Was Linked to an AI Rare-Earths Startup. It’s Even Weirder Than It Sounds",
+   "url": "https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T20:05:08Z",
+   "summary": "The short-lived White House press secretary was listed as an adviser to a Kristi Noem–linked company that aims to use AI for mining. Both the company and she say she never worked there.",
+   "id": 68
+  },
+  {
+   "title": "Tesla Showcases Long-Awaited Roadster With Aerial Tricks",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/tesla-showcases-long-awaited-roadster-with-aerial-tricks-video-mvbe4ufl",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T19:58:50Z",
+   "summary": "Tesla finally rolled out its long-delayed Roadster sports car — or rather, launched the vehicle into the sky. The automaker late Thursday held a product reveal unlike any other, showcasing a prototype designed in collaboration with SpaceX outfitted with air thrusters that jumped over other cars and flipped in midair. (Source: Bloomberg)",
+   "id": 69
+  },
+  {
+   "title": "FLUX 3 Image Klein",
+   "url": "https://bfl.ai/blog/flux-3-image-klein",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T19:47:13Z",
+   "summary": "Article URL: https://bfl.ai/blog/flux-3-image-klein Comments URL: https://news.ycombinator.com/item?id=50123580 Points: 188 # Comments: 55",
+   "id": 70
+  },
+  {
+   "title": "SpaceX AI policy leader grilled by NYC Council on Grok safety, sexualized images",
+   "url": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T19:30:51Z",
+   "summary": "SpaceX head of global government affairs for AI Gabriela Castillo Madrid faced critical questions from the New York City Council on Friday.",
+   "id": 71
+  },
+  {
+   "title": "Why No One Can Look Away From Elizabeth Holmes",
+   "url": "https://www.nytimes.com/2026/10/16/podcasts/hardfork-elizabeth-holmes.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-16T19:28:48Z",
+   "summary": "“I felt like there were some moments in the film where she was just brazenly lying.”",
+   "id": 72
+  },
+  {
+   "title": "How the Claude Code team does code review",
+   "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T19:04:47Z",
+   "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 351 # Comments: 330",
+   "id": 73
+  },
+  {
+   "title": "You could have invented transformers from memory",
+   "url": "https://alexwang.ai/posts/associative-memory/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T19:01:17Z",
+   "summary": "https://twitter.com/heyyalexwang/status/2111158818730397932 Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 474 # Comments: 109",
+   "id": 74
+  },
+  {
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "url": "https://openai.com/index/itau-generative-ai",
+   "source": "OpenAI",
+   "source_type": "lab",
+   "source_weight": 1.3,
+   "published": "2026-10-16T19:00:00Z",
+   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+   "id": 75
+  },
+  {
+   "title": "Claude reveals ECDSA curve origins",
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T18:55:59Z",
+   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 959 # Comments: 344",
+   "id": 76
+  },
+  {
+   "title": "'Difficult to Overstate' Volatility of White House AI Messaging, Says Greg Allen",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/hard-to-overstate-volatility-of-wh-ai-messaging-allen-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T18:50:56Z",
+   "summary": "Greg Allen, Founder and CEO of Decision Tree Research and former AI strategy official at the Department of Defense, said that it is 'extremely difficult to overstate' how volatile the Trump administration's messaging has been on artificial intelligence regulations as it swings between dismissing AI safety fears and requiring mandatory regulations. (Source: Bloomberg)",
+   "id": 77
+  },
+  {
+   "title": "SoftBank Is Said to Weigh Buying Top US Security Firm Allied",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/softbank-is-said-to-weigh-buying-largest-us-security-firm-allied",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T18:50:18Z",
+   "summary": "SoftBank Group Corp. is considering an acquisition of Allied Universal, the largest security services company in the US, people familiar with the matter said, as founder Masayoshi Son explores ways to deploy AI-powered robots across industries.",
+   "id": 78
+  },
+  {
+   "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+   "url": "https://github.com/cobanov/PS5LM",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T18:32:35Z",
+   "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 330 # Comments: 81",
+   "id": 79
+  },
+  {
+   "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+   "source": "Google Research",
+   "source_type": "research",
+   "source_weight": 1.2,
+   "published": "2026-10-16T18:11:34Z",
+   "summary": "General Science",
+   "id": 80
+  },
+  {
+   "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+   "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T18:06:17Z",
+   "summary": "Article URL: https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear Comments URL: https://news.ycombinator.com/item?id=50122034 Points: 247 # Comments: 221",
+   "id": 81
+  },
+  {
+   "title": "Designing more efficient quantum circuits with Claude",
+   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T18:00:18Z",
+   "summary": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 159 # Comments: 34",
+   "id": 82
+  },
+  {
+   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+   "source": "MIT Technology Review",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T18:00:00Z",
+   "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+   "id": 83
+  },
+  {
+   "title": "Chip Rout Intensifies and Tesla Showcases Flying Roadster",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/bloomberg-tech-10-16-2026-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T17:56:40Z",
+   "summary": "Bloomberg’s Ed Ludlow breaks down what's behind the chip rout, as chipmakers are set for their longest losing streak since 2008. Plus, shipping estimates for Apple's iPhone Duo slip into January within minutes of the company opening preorders, and Tesla reveals its long-delayed Roadster sports car, showcasing a prototype with air thrusters that flipped mid-air. (Source: Bloomberg)",
+   "id": 84
+  },
+  {
+   "title": "Can joggers outrun injury?",
+   "url": "https://www.economist.com/science-and-technology/2026/10/16/can-joggers-outrun-injury",
+   "source": "The Economist",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-16T17:53:14Z",
+   "summary": "Patience when training goes the extra mile",
+   "id": 85
+  },
+  {
+   "title": "India becomes the latest country to report rogue AI agent activity",
+   "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T17:52:24Z",
+   "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+   "id": 86
+  },
+  {
+   "title": "AI Gold Rush Hits America’s College Campuses",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/ai-gold-rush-hits-america-s-college-campuses-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T17:51:57Z",
+   "summary": "Dorm Room Fund says fears that AI will make college obsolete miss a startup boom already unfolding on campuses. The student-focused venture fund is seeing growing optimism among young founders as AI lowers barriers to building companies and gives first-time entrepreneurs new opportunities. Molly Fowler, founding partner at Dorm Room Fund, joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+   "id": 87
+  },
+  {
+   "title": "CoreWeave, Nscale Put Neocloud Economics in Focus",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/coreweave-nscale-put-neocloud-economics-in-focus-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T17:51:04Z",
+   "summary": "Concerns about the enormous amounts of debt financing the AI infrastructure boom are putting the neocloud sector under increasing scrutiny. Decoding Discontinuity CEO Raphaelle D’Ornano discusses the pressure on CoreWeave as interest expenses weigh on its economics. She explains why investors are looking beyond contracted backlogs to financed and energized capacity, and how Nscale’s vertically integrated approach differs as it prepares for a potential IPO. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+   "id": 88
+  },
+  {
+   "title": "Longest Chip Selloff Since 2006 Mints Short Sellers $32 Billion",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/longest-chip-selloff-since-2006-mints-short-sellers-32-billion",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T17:44:13Z",
+   "summary": "A historic rout in semiconductor stocks has delivered a windfall for short sellers who were brave enough to bet against what had been one of the highest flying corners of the US equity market for much of the last year.",
+   "id": 89
+  },
+  {
+   "title": "US Imposes Drone Flight Restrictions Along Border With Mexico",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/us-imposes-drone-flight-restrictions-along-border-with-mexico",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T17:41:24Z",
+   "summary": "The US Transportation Department announced Friday that it’s immediately barring unauthorized drones from flying along the US border with Mexico to help with ongoing security missions, including against illicit cartel activity.",
+   "id": 90
+  },
+  {
+   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T17:08:38Z",
+   "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 508 # Comments: 431",
+   "id": 91
+  },
+  {
+   "title": "Behind the Scenes of ‘Grand Theft Auto VI’",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/behind-the-scenes-of-grand-theft-auto-vi",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T17:01:07Z",
+   "summary": "We got an in-depth look at the making of what could be the biggest video game of all time",
+   "id": 92
+  },
+  {
+   "title": "Big Tech Earnings and AI Anxiety",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/open-interest-10-16-2026-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T16:52:11Z",
+   "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Fed Chair Kevin Warsh stays silent on rates, fueling bets the Fed holds steady this month. Big Tech earnings kick into high gear as AI anxiety rattles investors. Plus, Tesla’s Roadster takes flight using SpaceX technology. Bloomberg’s Craig Trudell has the reveal, and Ed Ludlow breaks down Netflix’s major shakeup at the top. (Source: Bloomberg)",
+   "id": 93
+  },
+  {
+   "title": "Alexandr Wang, Meta’s AI wunderkind",
+   "url": "https://www.ft.com/content/7477e462-c899-4841-a5cf-c01706e23982?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T16:31:25Z",
+   "summary": "The 29-year-old in charge of the company’s Superintelligence Labs is being touted as a potential successor to Mark Zuckerberg",
+   "id": 94
+  },
+  {
+   "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+   "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T16:30:00Z",
+   "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+   "id": 95
+  },
+  {
+   "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+   "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T16:30:00Z",
+   "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+   "id": 96
+  },
+  {
+   "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
+   "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T16:27:44Z",
+   "summary": "AI \"amplifies\" existing cybersecurity risks toward U.S. digital infrastructure, Clayton said on \"Squawk Box.\"",
+   "id": 97
+  },
+  {
+   "title": "The tech backlash is now in theaters",
+   "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T16:26:17Z",
+   "summary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can […]",
+   "id": 98
+  },
+  {
+   "title": "iPhone Duo in Short Supply After Shipments Slip Into 2027",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/iphone-duo-in-short-supply-after-shipments-slip-into-27-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T16:22:06Z",
+   "summary": "Shipping estimates for Apple Inc.’s first folding phone slipped into January within minutes of the company taking preorders on Friday, suggesting that strong demand and short supply will make the $1,999 device challenging to purchase on its Oct. 23 release date or in the near future. Bloomberg's Anurag Rana joins Bloomberg Intelligence to discuss. (Source: Bloomberg)",
+   "id": 99
+  },
+  {
+   "title": "Tesla Unveils Roadster With a Nod to SpaceX Merger",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/tesla-release-roadster-with-a-nod-to-spacex-merger-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T16:16:27Z",
+   "summary": "Tesla unveiled its long-delayed Roadster sports car Thursday in Texas, showcasing a prototype that used SpaceX-developed air thrusters to perform aerial flips and accelerate from zero to 60 mph in under one second. Production isn’t expected until 2028, while the flying version will be limited to an invite-only package not approved for public roads. Bloomberg Detroit Bureau Chief David Welch breaks it down on Bloomberg Intelligence. (Source: Bloomberg)",
+   "id": 100
+  },
+  {
+   "title": "We are Only 'Third Inning Relative to this AI Game,' Says Dan Ives",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/only-third-inning-relative-to-this-ai-game-says-ives-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T16:13:45Z",
+   "summary": "Three CoreWeave Inc. co-founders have sold $3.3 billion in company shares since last year’s initial public offering, taking money off the table as rising credit risks and investor wariness around AI spending spark volatility in the stock. Dan Ives, Partner at Yorkville & Ives, discusses volatility relative to the AI trade and the outlook for stocks like Coreweave and Apple in particular. (Source: Bloomberg)",
+   "id": 101
+  },
+  {
+   "title": "JPEG XL vs. AVIF for web use-cases",
+   "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T16:12:02Z",
+   "summary": "Article URL: https://jakearchibald.com/2026/jpeg-xl-vs-avif/ Comments URL: https://news.ycombinator.com/item?id=50120224 Points: 294 # Comments: 193",
+   "id": 102
+  },
+  {
+   "title": "Michael Dell, a Dot-Com Era Survivor, Has Tips to Beat an AI Bust",
+   "url": "https://www.wsj.com/tech/ai/michael-dell-a-dot-com-era-survivor-has-tips-to-beat-an-ai-bust-7987db49?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T16:12:00Z",
+   "summary": "While many tech firms are piling on debt for long-term AI projects, Michael Dell says just-in-time manufacturing cushions his eponymous company.",
+   "id": 103
+  },
+  {
+   "title": "Can consultants reinvent themselves once again?",
+   "url": "https://www.ft.com/content/ff9756a6-6339-47ca-ae9b-efd00e019fe3?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T16:11:58Z",
+   "summary": "As AI becomes more capable, human advisers must find new ways to prove their worth",
+   "id": 104
+  },
+  {
+   "title": "Elorian’s first AI model wants to reason with images, not just about them",
+   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T16:01:37Z",
+   "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+   "id": 105
+  },
+  {
+   "title": "Fostering community amid Kendall Square’s innovation",
+   "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+   "source": "MIT News",
+   "source_type": "research",
+   "source_weight": 1.0,
+   "published": "2026-10-16T16:00:00Z",
+   "summary": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
+   "id": 106
+  },
+  {
+   "title": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
+   "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T15:52:41Z",
+   "summary": "Elon Musk first debuted the Roadster refresh concept in 2017 but Tesla has since missed every targeted delivery date.",
+   "id": 107
+  },
+  {
+   "title": "Europe's answer to SpaceX rises 18% as Ukraine's Starshield limits raise concerns",
+   "url": "https://www.cnbc.com/2026/10/16/eutelsat-starshield-ukraine-spacex.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T15:45:35Z",
+   "summary": "Eutelsat's shares soared this week and continued climbing on Friday as its competitor Starshield drew criticism over its limitations in Ukraine.",
+   "id": 108
+  },
+  {
+   "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+   "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-16T15:41:00Z",
+   "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+   "id": 109
+  },
+  {
+   "title": "Jev is Vercel’s fastest-adopted AI model ever",
+   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T15:33:49Z",
+   "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+   "id": 110
+  },
+  {
+   "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+   "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T15:26:47Z",
+   "summary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]",
+   "id": 111
+  },
+  {
+   "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-16T15:23:10Z",
+   "summary": "Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. This post shows how to deploy Beam on AWS: start with an Amazon SageMaker JumpStart real-time endpoint, or use Amazon SageMaker HyperPod Inference with JumpStart, SGLang, or vLLM for Kubernetes-native control over distributed GPU infrastructure.",
+   "id": 112
+  },
+  {
+   "title": "Debt Worries Keep Driving Down CoreWeave Stock",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/debt-worries-keep-driving-down-coreweave-stock-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T15:21:02Z",
+   "summary": "CoreWeave's stock dropped 20% during the first three trading sessions of this week, then Nvidia CEO Jensen Huang stepped in to say he had confidence in the company. But will that be enough to prop up the stock? Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
+   "id": 113
+  },
+  {
+   "title": "China’s CXMT Swings to Profit After Memory Chip Prices Surge",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-s-cxmt-swings-to-profit-after-memory-chip-prices-surge",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T15:19:50Z",
+   "summary": "Chinese chipmaker CXMT Corp. reported a surge in preliminary profit and sales during the first nine months of the year after global demand for memory sent prices of the components soaring.",
+   "id": 114
+  },
+  {
+   "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
+   "url": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T15:00:00Z",
+   "summary": "MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots.",
+   "id": 115
+  },
+  {
+   "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
+   "url": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T14:58:54Z",
+   "summary": "US lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts",
+   "id": 116
+  },
+  {
+   "title": "Japan’s Cyberattacks Are an AI Warning",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/opinion-japan-s-cyberattacks-are-an-ai-warning-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T14:54:44Z",
+   "summary": "As ransomware attacks surge in Japan, hackers have struck karaoke operators and other businesses. Bloomberg Opinion columnist Catherine Thorbecke says AI is making old security flaws easier to exploit, requiring a more coordinated response from governments and technology companies. (Source: Bloomberg)",
+   "id": 117
+  },
+  {
+   "title": "Waymo in Toronto",
+   "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T14:44:17Z",
+   "summary": "Article URL: https://waymo.com/blog/2026/10/waymo-in-toronto/ Comments URL: https://news.ycombinator.com/item?id=50118981 Points: 303 # Comments: 406",
+   "id": 118
+  },
+  {
+   "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+   "url": "https://calif.io/research/big-fish",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T14:44:02Z",
+   "summary": "Article URL: https://calif.io/research/big-fish Comments URL: https://news.ycombinator.com/item?id=50118977 Points: 171 # Comments: 48",
+   "id": 119
+  },
+  {
+   "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+   "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T14:26:51Z",
+   "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+   "id": 120
+  },
+  {
+   "title": "Blue Origin plans $330 million Florida expansion to ramp New Glenn launches",
+   "url": "https://www.cnbc.com/2026/10/16/blue-origin-new-glenn-florida-expansion.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T14:26:05Z",
+   "summary": "Blue Origin said it's targeting multiple flights per week of its New Glenn rocket by the end of the decade.",
+   "id": 121
+  },
+  {
+   "title": "Why Investors Are Turning to Bond ETFs",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/why-investors-are-turning-to-bond-etfs-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T14:24:27Z",
+   "summary": "Fixed-income ETFs are drawing investor interest as rising yields offer a chance to lock in around 5%. Paisley Nardini, the Head of Investment Strategy at Tema ETFs joins Bloomberg Open Interest to explain why some asset allocators are shifting gains from equities and how concerns about AI earnings growth and debt-funded spending are shaping the market outlook. (Source: Bloomberg)",
+   "id": 122
+  },
+  {
+   "title": "Drones Hit Russian Industrial Site Deep in Western Siberia",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/drones-hit-russian-industrial-site-deep-in-western-siberia",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T14:19:10Z",
+   "summary": "A Russian industrial facility in the Surgut district, which is home to several oil and gas assets, was hit in a drone attack.",
+   "id": 123
+  },
+  {
+   "title": "Show HN: Gemini 4 Argon plays StarCraft",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T14:18:44Z",
+   "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 224 # Comments: 101",
+   "id": 124
+  },
+  {
+   "title": "Citi's Kaiser Isn't Ready to Step In on Chip Stocks",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/citi-s-kaiser-isn-t-ready-to-step-in-on-chip-stocks-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T14:12:20Z",
+   "summary": "Stuart Kaiser, Citi's head of equity trading strategy, says stocks have endured a painful week beneath the surface, even as the S&P 500 has held near record levels. Kaiser also says valuations are demanding, with clients viewing earnings expectations for 2027 and 2028 as largely priced in, making it easier for risks to outweigh potential upside further out. He speaks on \"Bloomberg Surveillance.\" (Source: Bloomberg)",
+   "id": 125
+  },
+  {
+   "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+   "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-16T14:00:59Z",
+   "summary": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
+   "id": 126
+  },
+  {
+   "title": "Anthropic Signs First Data-Center Deal in Canada With EverWind",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/everwind-to-build-nova-scotia-data-center-lease-to-ai-developer",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T14:00:12Z",
+   "summary": "Anthropic PBC signed its first data-center lease in Canada, agreeing to buy capacity at a new project that’s worth more than C$10 billion ($7.1 billion) in the eastern province of Nova Scotia.",
+   "id": 127
+  },
+  {
+   "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+   "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T14:00:00Z",
+   "summary": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+   "id": 128
+  },
+  {
+   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T13:43:48Z",
+   "summary": "Article URL: https://machinelearning.apple.com/research/mlx-distributed-inference Comments URL: https://news.ycombinator.com/item?id=50118320 Points: 337 # Comments: 173",
+   "id": 129
+  },
+  {
+   "title": "Tesla Reveals Flying Roadster Built With SpaceX Tech",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/tesla-reveals-flying-roadster-built-with-spacex-tech-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T13:42:51Z",
+   "summary": "Elon Musk reveals a new prototype of Tesla's Roadster sports car at a SpaceX facility in Texas. The car includes air thrusters which can launch the vehicle into the sky. Musk showed off this capability at the event. The car won't go into production until 2028. Musk says this shows what can happen when his companies work together. Bloomberg's Craig Trudell reports. (Source: Bloomberg)",
+   "id": 130
+  },
+  {
+   "title": "Schwab CEO on AI Strategy, Investing Trends, and ‘Charley’",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/schwab-ceo-on-ai-strategy-investing-trends-charlie-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T13:11:04Z",
+   "summary": "Rick Wurster, president and CEO at The Charles Schwab Corporation, discusses customer trends in investing, efforts to attract younger investors, and why the firm is blocking unauthorized AI agents. He speaks on Bloomberg Television. (Corrects spelling of “Charley” in video headline) (Source: Bloomberg)",
+   "id": 131
+  },
+  {
+   "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+   "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T12:55:09Z",
+   "summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+   "id": 132
+  },
+  {
+   "title": "I love software rendering",
+   "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T12:52:08Z",
+   "summary": "Article URL: https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/ Comments URL: https://news.ycombinator.com/item?id=50117746 Points: 308 # Comments: 195",
+   "id": 133
+  },
+  {
+   "title": "China unveils draft export controls on AI technologies and chips",
+   "url": "https://www.ft.com/content/e0a1295c-4492-4fdd-aaf5-55678a9ef9bf?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T12:51:49Z",
+   "summary": "Expanded restrictions highlight Beijing’s determination to prevent transfer of most advanced technology overseas",
+   "id": 134
+  },
+  {
+   "title": "Apple Says iPhone Duo Demand Extraordinary After Delivery Delays",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/apple-iphone-duo-orders-slip-into-2027-amid-preorder-frenzy",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T12:50:52Z",
+   "summary": "Apple Inc. said demand for the new iPhone Duo has been “nothing short of extraordinary” after shipping estimates slipped to the end of January of next year just minutes after pre-orders opened on Friday.",
+   "id": 135
+  },
+  {
+   "title": "Tesla's Roadster reveal, Apple and Meta team up, Nike's India push and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/10/16/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T12:38:58Z",
+   "summary": "Here are five key things investors need to know to start the trading day.",
+   "id": 136
+  },
+  {
+   "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million",
+   "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T12:17:29Z",
+   "summary": "Elon Musk gave a record $158 million to the GOP’s Senate Leadership Fund, boosting its war chest as Republicans pour money into Texas to defend Ken Paxton.",
+   "id": 137
+  },
+  {
+   "title": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+   "source": "NVIDIA Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.1,
+   "published": "2026-10-16T12:00:00Z",
+   "summary": "NVIDIA today announced the availability of NVIDIA RTX Spark™ laptops, bringing together RTX graphics and NVIDIA’s full-stack AI platform in slim, premium Windows PCs for accelerated creation, immersive gaming and powerful local AI — rolling out from ASUS, Dell, HP, Lenovo, Microsoft and MSI.",
+   "id": 138
+  },
+  {
+   "title": "Nvidia, Meta and Apple Unveil New Open Models",
+   "url": "https://www.wsj.com/cio-journal/nvidia-meta-and-apple-unveil-new-open-models-501d4173?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T11:52:00Z",
+   "summary": "Plus, introducing the data center soft launch.",
+   "id": 139
+  },
+  {
+   "title": "The Morning Risk Report: AI Runs Into Its Next Big Obstacle",
+   "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-ai-runs-into-its-next-big-obstacle-e5c19c76?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T11:28:00Z",
+   "summary": "Plus: Big Tech is soft-launching data centers early and U.S. tariff pressure is prompting countries to tighten their forced-labor rules.",
+   "id": 140
+  },
+  {
+   "title": "Nvidia’s Huang and Broadcom’s Tan See the AI Boom From Slightly Different Places",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/nvidia-s-huang-and-broadcom-s-tan-see-the-ai-boom-from-slightly-different-places",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T11:02:01Z",
+   "summary": "The CEOs offer slightly different views on investor concerns",
+   "id": 141
+  },
+  {
+   "title": "AI Boom-or-Bust Scenarios Loom Large at World Financial Summit",
+   "url": "https://www.wsj.com/economy/global/ai-boom-or-bust-scenarios-loom-large-at-world-financial-summit-00edaeff?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T11:02:00Z",
+   "summary": "The economic possibilities—and potential perils—of the new technology dominated discussions at the IMF gathering in Bangkok this week.",
+   "id": 142
+  },
+  {
+   "title": "AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content",
+   "url": "https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T11:00:00Z",
+   "summary": "A network of AI-generated models is using comics’ material to funnel views to their OnlyFans and Fanvue accounts—and there’s not much comedians can do about it.",
+   "id": 143
+  },
+  {
+   "title": "ARK’s Wood Says CoreWeave Will Overcome Debt Fears on AI Demand",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/ark-s-wood-says-coreweave-will-overcome-debt-fears-on-ai-demand",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T10:49:59Z",
+   "summary": "Concerns over CoreWeave Inc.’s high borrowing costs are common for young companies raising money when interest rates are elevated, but investing in the AI computing supplier will pay off, according to Cathie Wood of ARK Investment Management LLC.",
+   "id": 144
+  },
+  {
+   "title": "Nscale IPO: Data Center Delays Show Risks for the Neoclouds",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/nscale-ipo-data-center-delays-show-risks-for-the-neoclouds",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T10:27:18Z",
+   "summary": "Angry workers and fires delay key buildout in the fjords",
+   "id": 145
+  },
+  {
+   "title": "Tesla’s New Roadster Takes Flight After Nearly a Decade of Delays",
+   "url": "https://www.wsj.com/business/autos/tesla-roadster-elon-musk-530c8e78?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T10:27:00Z",
+   "summary": "The sports car will test America’s appetite for high-end electric sports cars—and Tesla’s own thesis.",
+   "id": 146
+  },
+  {
+   "title": "Taiwan to Curb China AI Chip Exports to Align With US",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/taiwan-to-curb-china-ai-chip-exports-to-align-with-us-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T10:18:32Z",
+   "summary": "Taiwan plans to tighten export controls on AI chips in an effort to further align with US restrictions, joining a Trump administration clampdown on the smuggling of semiconductors to China. Neil Campling reports on Bloomberg Television. (Source: Bloomberg)",
+   "id": 147
+  },
+  {
+   "title": "China Proposes Export Controls on AI Technologies",
+   "url": "https://www.wsj.com/economy/trade/china-proposes-export-controls-on-ai-technologies-75ac2030?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T10:15:00Z",
+   "summary": "China is considering new export controls on artificial-intelligence technologies in a bid to safeguard the strategically critical industry amid intensifying competition.",
+   "id": 148
+  },
+  {
+   "title": "CoreWeave Faces Funding Risks as Costs Rise",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/coreweave-faces-funding-risks-as-costs-rise-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T09:39:34Z",
+   "summary": "CoreWeave has been become embroiled in a tug of war between investors who see rising bond yields as a rally-killer for the AI trade and those who think rising demand for computing power justifies the enthusiasm. Bloomberg's Neil Campling reports. (Source: Bloomberg)",
+   "id": 149
+  },
+  {
+   "title": "AI Agents Bring New Headaches to Online Sellers",
+   "url": "https://www.wsj.com/business/ai-agents-bring-new-headaches-to-online-sellers-d2dc84b4?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T09:30:00Z",
+   "summary": "AI agents inserting themselves between businesses and customers pose challenges for e-commerce players caught in the middle.",
+   "id": 150
+  },
+  {
+   "title": "Malaysia Unveils Six Chips in Bid to Move Up Technology Chain",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/malaysia-unveils-six-chips-in-bid-to-move-up-technology-chain",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T09:09:26Z",
+   "summary": "Malaysia is stepping up efforts to develop its own chips to push into higher-value areas of the semiconductor industry and capitalize on the artificial intelligence boom.",
+   "id": 151
+  },
+  {
+   "title": "Tesla Debuts 2026 Roadster ‘Flying’ Electric Sports Car",
+   "url": "https://www.nytimes.com/2026/10/15/business/tesla-roadster-2026-ev-sports-car.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-16T09:04:12Z",
+   "summary": "Elon Musk’s company and other automakers, like Jaguar and Bentley, are trying to sell very expensive electric cars to people who usually prefer gasoline-fueled luxury and performance.",
+   "id": 152
+  },
+  {
+   "title": "CoreWeave Stock Wipeout Exposes Divide Between AI Fear and Greed",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/coreweave-stock-wipeout-exposes-divide-between-ai-fear-and-greed",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T08:56:41Z",
+   "summary": "CoreWeave Inc. has become caught in a tug of war between investors who see rising bond yields as a potential rally killer for the AI trade and those who think demand for computing power will make those concerns seem passe before long.",
+   "id": 153
+  },
+  {
+   "title": "China Plans AI Export Curbs to Exert Control Over Key Tech",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T08:46:44Z",
+   "summary": "China proposed adding advanced artificial intelligence technologies to its export-control list, potentially restricting overseas transfers of AI models and chip designs in an effort to tighten control over homegrown advancements in a strategically important sector.",
+   "id": 154
+  },
+  {
+   "title": "Why Neuberger Has Neutral Stance on Global Stocks",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/why-neuberger-berman-has-neutral-stance-on-global-stocks-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T08:28:26Z",
+   "summary": "Neuberger Multi-Asset Strategies Co-CIO Maya Bhandari says the firm recently cut back its stance on global equities to “at target” for the first time in four years, with Europe still underweight due to its cyclical bias, heavy concentration in autos and banks, and limited AI exposure. She tells Bloomberg this is in contrast to Japan and China, with their stronger earnings and valuations. (Source: SBS Studio)",
+   "id": 155
+  },
+  {
+   "title": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
+   "url": "https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade",
+   "source": "NVIDIA Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.1,
+   "published": "2026-10-16T08:00:00Z",
+   "summary": "Mercedes-Benz and NVIDIA today announced that they will extend their strategic partnership to advance the next generation of automated driving systems.",
+   "id": 156
+  },
+  {
+   "title": "AI threatens democracy. But we are not powerless: here’s how to fight back | Carine Fouteau",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/16/ai-existential-threat-real-journalism-democracy-resistance",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T07:49:45Z",
+   "summary": "Tech platforms pillage public-interest journalism for profit. But we have leverage as they sow the seeds of their own downfall Carine Fouteau is president and publishing director of the French investigative news outlet Mediapart Big tech companies pose an immeasurable threat: socially, politically, militarily and ecologically. They are also causing a profound crisis of information. The tools they design now serve as weapons of mass destruction against democracy. There is so much at stake that an urgent and broad mobilisation is required. From the harvesting of personal data and the…",
+   "id": 157
+  },
+  {
+   "title": "Asia Tech's Muted Rebound Shows AI Doubts Persist: Market Analysis",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/asia-tech-s-muted-rebound-shows-ai-doubts-persist-mliv-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T07:41:04Z",
+   "summary": "Anna Edwards, Guy Johnson, Tom Mackenzie and David Savage break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
+   "id": 158
+  },
+  {
+   "title": "G7 economies plan simulated AI attacks on banks as cyber fears rise",
+   "url": "https://www.ft.com/content/ce1b9236-1e53-47f1-b1f9-443a9f430b0d?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T07:36:24Z",
+   "summary": "Finance ministers agree to hold tabletop drills to prepare against future cyber attacks",
+   "id": 159
+  },
+  {
+   "title": "Nvidia CEO Jensen Huang urges U.S.-China dialogue on 'potentially dangerous' AI",
+   "url": "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T07:28:06Z",
+   "summary": "Huang told CNBC he has ongoing \"dialogs\" with researchers in China.",
+   "id": 160
+  },
+  {
+   "title": "AI Capex, Gamble or Jackpot?: Market Snapshot",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/ai-capex-gamble-or-jackpot-market-snapshot-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T07:21:33Z",
+   "summary": "This week started with a striking warning from the Broadcom CEO, who likened the artificial intelligence market to a \"casino.\" The statement was followed by strong earnings from ASML and a better-than-expected outlook from TSMC, though neither was enough to stem a global tech stock rout. Bloomberg's \"The Opening Trade\" spoke to analysts and experts about what this tells us about the state of expenditure within the booming trade and whether its becoming an increasingly riskier bet. (Source: Bloomberg)",
+   "id": 161
+  },
+  {
+   "title": "European Stocks Outperform S&P 500 Amid Rotation Away From AI",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/european-shares-outperform-s-p-500-amid-defensive-tilt-from-ai",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T07:18:57Z",
+   "summary": "European stocks were set for their biggest weekly outperformance over the S&P 500 since April 2025 as the region benefits from a switch among investors out of the AI trade and from some positive earnings.",
+   "id": 162
+  },
+  {
+   "title": "Nscale's Flagship Data Center Hit by Delays Ahead of IPO",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/nscale-s-flagship-data-center-hit-by-delays-ahead-of-ipo-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T06:53:01Z",
+   "summary": "Artificial intelligence infrastructure firm Nscale is seeking to raise up to $3 billion in an initial public offering as soon as this month, just as investors are growing increasingly wary of the risks of the AI buildout. The UK firm has also been hit by regulatory hurdles, a fire and other delays during construction of a flagship data center in Norway. Bloomberg's Paula Doenecke reports. (Source: Bloomberg)",
+   "id": 163
+  },
+  {
+   "title": "What to know about Starshield, SpaceX's military-focused Starlink service",
+   "url": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-16T06:25:31Z",
+   "summary": "Elon Musk distinguished Starshield from Starlink, which he said could not be used for offensive military operations.",
+   "id": 164
+  },
+  {
+   "title": "Full Interview: Fed's Warsh on the Global Economy, AI",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/full-interview-fed-s-warsh-on-the-global-economy-ai-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T06:08:56Z",
+   "summary": "Federal Reserve Chairman Kevin Warsh speaks to IMF chief Kristalina Georgieva at an IMF event in Bangkok, Thailand. (Source: Bloomberg)",
+   "id": 165
+  },
+  {
+   "title": "Taiwan to Curb AI Chip Exports to China as Part of US Trade Deal",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T05:49:57Z",
+   "summary": "Taiwan is preparing to tighten export controls on AI chips to further align with US restrictions, according to a senior official in Taipei, joining a Trump administration clampdown on the smuggling of cutting-edge semiconductors to China.",
+   "id": 166
+  },
+  {
+   "title": "Schneider Gains Visibility Into 2028 on Data-Center Boom",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/schneider-hikes-guidance-again-on-soaring-data-center-demand",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T05:30:16Z",
+   "summary": "Schneider Electric SE raised its outlook again as soaring data-center demand extended visibility into 2027 and 2028, easing concerns that the AI infrastructure boom may be losing momentum.",
+   "id": 167
+  },
+  {
+   "title": "EM Stocks, FX Gain on Bets Fed Will Hold Rates This Month",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/emerging-market-stocks-gain-as-fed-s-warsh-backs-ai-optimism",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T05:16:58Z",
+   "summary": "Gauges of emerging-market currencies and stocks gained on Friday as the greenback extended losses and a selloff in shares related to artificial intelligence abated in Asia.",
+   "id": 168
+  },
+  {
+   "title": "The Folders Programming Language",
+   "url": "https://danieltemkin.com/esolangs/folders",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-16T05:11:28Z",
+   "summary": "Article URL: https://danieltemkin.com/esolangs/folders Comments URL: https://news.ycombinator.com/item?id=50114342 Points: 170 # Comments: 30",
+   "id": 169
+  },
+  {
+   "title": "The data centre IPO debacle that sparked a market meltdown",
+   "url": "https://www.ft.com/content/537c9a68-7b6f-41a7-80ff-acac5c52e80d?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T04:54:52Z",
+   "summary": "Decisions by Australian groups Firmus and AirTrunk have added to concerns about the AI borrowing frenzy",
+   "id": 170
+  },
+  {
+   "title": "Reliance Pushes Back After Musk Questioned Starlink India Delay",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/reliance-pushes-back-as-musk-questions-starlink-s-delay-in-india",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T04:38:53Z",
+   "summary": "Reliance Industries Ltd., led by billionaire Mukesh Ambani, pushed back against suggestions that it is trying to keep Elon Musk’s Starlink Inc. out of India, saying its own satellite venture is still awaiting regulatory clearances.",
+   "id": 171
+  },
+  {
+   "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+   "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+   "source": "Latent Space",
+   "source_type": "expert",
+   "source_weight": 1.0,
+   "published": "2026-10-16T04:16:45Z",
+   "summary": "Nick Cammarata out of nowhere with some major claims!",
+   "id": 172
+  },
+  {
+   "title": "Rakuten Sells Record ¥400 Billion of Bonds on Retail Demand",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/rakuten-prices-record-400-billion-bonds-as-retail-demand-grows",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-16T04:16:16Z",
+   "summary": "Rakuten Group Inc. priced ¥400 billion ($2.5 billion) of yen-denominated bonds on Friday, including debt aimed at individual investors, in its largest-ever yen bond sale.",
+   "id": 173
+  }
+ ]
+}
