@@ -1,38 +1,38 @@
 {
  "date": "2026-10-19",
- "fetched_at": "2026-10-19T04:07:24Z",
+ "fetched_at": "2026-10-19T04:36:59Z",
  "lookback_hours": 48,
  "sources_total": 36,
- "sources_ok": 16,
- "sources_reached_now": 1,
+ "sources_ok": 35,
+ "sources_reached_now": 35,
  "source_report": [
   {
    "name": "OpenAI",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 1299,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Google DeepMind",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 100,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Google AI",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 20,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Google Research",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 100,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Microsoft Research",
@@ -43,223 +43,393 @@
   },
   {
    "name": "Meta Newsroom",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 10,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Hugging Face",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 880,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "NVIDIA Blog",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 18,
+   "kept": 1,
+   "error": ""
   },
   {
    "name": "AWS Machine Learning",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 20,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "MIT Technology Review",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 10,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "The Verge",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 10,
+   "kept": 3,
+   "error": ""
   },
   {
    "name": "TechCrunch",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 20,
+   "kept": 5,
+   "error": ""
   },
   {
    "name": "Ars Technica",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 20,
+   "kept": 1,
+   "error": ""
   },
   {
    "name": "VentureBeat",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 7,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Wired",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 10,
+   "kept": 3,
+   "error": ""
   },
   {
    "name": "The Guardian",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 20,
+   "kept": 14,
+   "error": ""
   },
   {
    "name": "Hacker News",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 9,
+   "kept": 8,
+   "error": ""
   },
   {
    "name": "Simon Willison",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 30,
+   "kept": 4,
+   "error": ""
   },
   {
    "name": "Import AI",
    "ok": false,
    "fetched": 0,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "name": "Interconnects",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 20,
+   "kept": 1,
+   "error": ""
   },
   {
    "name": "Latent Space",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 20,
+   "kept": 1,
+   "error": ""
   },
   {
    "name": "Ahead of AI",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 20,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "One Useful Thing",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 20,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "MIT News",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 50,
+   "kept": 1,
+   "error": ""
   },
   {
    "name": "Wall Street Journal",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 40,
+   "kept": 10,
+   "error": ""
   },
   {
    "name": "Bloomberg",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 16,
+   "kept": 16,
+   "error": ""
   },
   {
    "name": "Financial Times",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 25,
+   "kept": 10,
+   "error": ""
   },
   {
    "name": "New York Times",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 20,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "CNBC",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 30,
+   "kept": 5,
+   "error": ""
   },
   {
    "name": "The Economist",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 300,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Microsoft News",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 10,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "NVIDIA Newsroom",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "ok": true,
+   "fetched": 20,
+   "kept": 1,
+   "error": ""
   },
   {
    "name": "Apple Newsroom",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 20,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Amazon News",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 10,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Samsung Newsroom",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 50,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   },
   {
    "name": "Salesforce News",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 10,
    "kept": 0,
-   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   "error": ""
   }
  ],
  "candidates": [
+  {
+   "title": "The Case for Buying Small Caps Now",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/the-case-for-buying-small-caps-now-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-19T04:08:42Z",
+   "summary": "After years of being overshadowed by US megacaps and the artificial intelligence boom, could smaller companies finally be ready for a comeback? Merryn Somerset Webb speaks with Downing fund manager Simon Evan-Cook and Odyssean Capital’s Stuart Widdowson about why small caps remain unusually cheap, what could bring investors back, and whether small-cap value could become the ultimate anti-AI trade. (Source: Bloomberg)",
+   "id": 1
+  },
+  {
+   "title": "French government in crisis mode after a weekend of riots",
+   "url": "https://www.ft.com/content/f4e863f3-e23f-4f0f-a693-f4c3f5d9cda2?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-19T04:00:00Z",
+   "summary": "Government under pressure after struggling to contain attacks on stores and official buildings",
+   "id": 2
+  },
+  {
+   "title": "Samsung, SK Hynix Slide Causes $137 Billion Hit to Korea Pension",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/samsung-sk-hynix-slide-causes-137-billion-hit-to-korea-pension",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-19T03:45:10Z",
+   "summary": "South Korea’s main pension fund took a 182 trillion won ($137 billion) hit after a decline in stakes of equities including Samsung Electronics Co. and SK Hynix Inc.",
+   "id": 3
+  },
+  {
+   "title": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
+   "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-19T01:56:34Z",
+   "summary": "CXMT shares fell over 6% on Monday after the company released its earnings forecast for the first nine months of 2026.",
+   "id": 4
+  },
+  {
+   "title": "Cornell University’s Basu on US-China AI Race",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/cornell-university-s-basu-on-us-china-ai-race-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-19T01:54:34Z",
+   "summary": "Kaushik Basu, Professor at Cornell University and former Chief Economist at the World Bank, discusses the AI race between the US and China, and impact on the global economy. He speaks with Stephen Engle from the sidelines of the Bund Summit in Shanghai. (Source: Bloomberg)",
+   "id": 5
+  },
+  {
+   "title": "AI Selloff Nears Turning Point as Mag 7 Earnings Loom",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/ai-selloff-nears-turning-point-as-mag-7-earnings-loom-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-19T01:54:26Z",
+   "summary": "The AI trade is in focus as Big Tech earnings are set to test investor sentiment on hyperscaler spending. Bloomberg's Sunny Bangia and Anthony Stephens as well as UBS Financial Adviser and Managing Director Xi Qiao discuss. (Source: Bloomberg)",
+   "id": 6
+  },
+  {
+   "title": "Anthropic commits 5% of shares to ‘public benefit’ fund",
+   "url": "https://www.ft.com/content/3beab58d-4269-4722-b299-8fa5a93f5a52?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-19T01:31:01Z",
+   "summary": "AI start-up has faced growing public backlash over safety and economic concerns",
+   "id": 7
+  },
+  {
+   "title": "What to Know About the Obscure Trust Looming Over Anthropic’s IPO",
+   "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-19T01:00:00Z",
+   "summary": "The AI company has shared few details on the dynamics of the five-person trust empowered to shape its board and block major moves.",
+   "id": 8
+  },
+  {
+   "title": "Kylie Minogue songs already used to train AI as tech firms ‘strong-arm’ Australian government, music body warns",
+   "url": "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-19T00:57:46Z",
+   "summary": "Of the dozens of countries approached to water down their laws, Australia appears to be the only one considering it, publishers’ group says Get our new political email , free app or daily news podcast AI has already been trained on the works of Australian artists including Kylie Minogue and Nick Cave without compensation, the peak global body for music rights has claimed, as the Australian government has been warned against giving in to “strong-arming” from tech companies seeking to weaken copyright law. The International Confederation of Music Publishers (ICMP) – which represents Sony,…",
+   "id": 9
+  },
+  {
+   "title": "AI Will Empower India's Space Missions, Says Minister",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/ai-will-empower-india-s-space-missions-says-minister-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-19T00:49:26Z",
+   "summary": "Jitendra Singh, the Indian science & technology minister says that artificial intelligence is a great advantage in empowering India's space missions. Speaking to Bloomberg's Shery Ahn, he says human-led intelligence will need to use AI optimally to charge nuclear and space programs. (Source: Bloomberg)",
+   "id": 10
+  },
+  {
+   "title": "Meta Says Claude AI Tool Triggered No Kings Instagram Suspension",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/meta-says-claude-ai-tool-triggered-no-kings-instagram-suspension",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-18T23:59:54Z",
+   "summary": "Meta Platforms Inc. said an automated security system mistakenly suspended the Instagram account of the No Kings Coalition at the height of a nationwide series of demonstrations.",
+   "id": 11
+  },
+  {
+   "title": "llm-tools-datasette 0.1.1",
+   "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-18T23:43:09Z",
+   "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+   "id": 12
+  },
+  {
+   "title": "Japanese Stocks Decline as Tech Selloff Deepens on AI Worries",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/japanese-equities-set-to-fall-on-tech-share-selloff-higher-oil",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-18T23:24:31Z",
+   "summary": "Japanese equities fell at the open as chip stocks declined amid concerns about the viability of the artificial intelligence trade.",
+   "id": 13
+  },
+  {
+   "title": "Anthropic to Commit 5% of Its Shares to New ‘Public Benefit’ Fund",
+   "url": "https://www.wsj.com/tech/ai/anthropic-to-commit-5-of-its-shares-to-new-public-benefit-fund-3332ef75?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-18T23:23:00Z",
+   "summary": "The fund could send distributions directly to populations affected by AI labor disruption.",
+   "id": 14
+  },
+  {
+   "title": "llm-echo 0.5",
+   "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-18T23:16:16Z",
+   "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say. { \"prompt\": \"hi there\", \"system\": \"\", \"attachments\": [], \"stream\":…",
+   "id": 15
+  },
+  {
+   "title": "Taiwan Dollar Bulls Look Past AI-Led Drop to Year-End Rally",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/taiwan-dollar-bulls-look-past-ai-led-selloff-to-year-end-rally",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-18T23:00:00Z",
+   "summary": "The Taiwan dollar’s weakness led by global jitters over the artificial intelligence trade is masking the island’s underlying economic resilience that favors the currency’s rally into year-end, analysts say.",
+   "id": 16
+  },
+  {
+   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+   "url": "https://arxiv.org/abs/2610.18861",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-18T20:48:14Z",
+   "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5 Comments URL: https://news.ycombinator.com/item?id=50145337 Points: 278 # Comments: 155",
+   "id": 17
+  },
   {
    "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
    "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
@@ -268,7 +438,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T20:37:40Z",
    "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
-   "id": 1
+   "id": 18
   },
   {
    "title": "AI Agents Trading Stocks While You Sleep? Charles Schwab’s CEO Is Skeptical",
@@ -278,7 +448,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T20:23:00Z",
    "summary": "Schwab CEO Rick Wurster is betting some money and investing needs require a human touch.",
-   "id": 2
+   "id": 19
   },
   {
    "title": "A woman was arrested in Philly for blocking a delivery robot",
@@ -288,7 +458,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T18:28:10Z",
    "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]",
-   "id": 3
+   "id": 20
   },
   {
    "title": "Anthropic to Shift Some Shares Into New ‘Public Good’ Fund",
@@ -298,7 +468,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T18:03:03Z",
    "summary": "Anthropic PBC said it plans to put 5% of its shares into a new so-called public benefit fund that allows it to make donations that can address “the public good,” including mitigating AI’s impact on the job market.",
-   "id": 4
+   "id": 21
   },
   {
    "title": "Namecheap just seized and disabled all my domains",
@@ -307,8 +477,8 @@
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-10-18T16:56:56Z",
-   "summary": "Article URL: https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/ Comments URL: https://news.ycombinator.com/item?id=50142866 Points: 349 # Comments: 164",
-   "id": 5
+   "summary": "Article URL: https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/ Comments URL: https://news.ycombinator.com/item?id=50142866 Points: 500 # Comments: 248",
+   "id": 22
   },
   {
    "title": "Someone behind the software",
@@ -317,8 +487,8 @@
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-10-18T16:32:00Z",
-   "summary": "Article URL: https://karrisaarinen.com/posts/someone-behind-the-software/ Comments URL: https://news.ycombinator.com/item?id=50142573 Points: 261 # Comments: 112",
-   "id": 6
+   "summary": "Article URL: https://karrisaarinen.com/posts/someone-behind-the-software/ Comments URL: https://news.ycombinator.com/item?id=50142573 Points: 362 # Comments: 144",
+   "id": 23
   },
   {
    "title": "Disney agrees to hire the majority of Character.AI’s workforce",
@@ -328,7 +498,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T16:30:00Z",
    "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
-   "id": 7
+   "id": 24
   },
   {
    "title": "Anthropic gives outside AI watchdog “employee-like” access",
@@ -338,7 +508,7 @@
    "source_weight": 1.1,
    "published": "2026-10-18T16:25:19Z",
    "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
-   "id": 8
+   "id": 25
   },
   {
    "title": "How Lego Is Getting More Adults to Tinker With Their Toy Bricks",
@@ -348,7 +518,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T16:00:00Z",
    "summary": "Marketing chief Julia Goldin says Lego is creating buildings sets around passions that cross demographic boundaries, such as gaming and Formula One.",
-   "id": 9
+   "id": 26
   },
   {
    "title": "macOS 15.8.2 Breaks OpenGL",
@@ -358,7 +528,7 @@
    "source_weight": 0.9,
    "published": "2026-10-18T15:26:06Z",
    "summary": "Article URL: https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550 Comments URL: https://news.ycombinator.com/item?id=50141909 Points: 219 # Comments: 217",
-   "id": 10
+   "id": 27
   },
   {
    "title": "Inside Andreessen’s Growing Political Influence",
@@ -368,7 +538,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T15:04:47Z",
    "summary": "Bloomberg Businessweek features writer Austin Carr tells Bloomberg This Weekend how Andreessen Horowitz co-founder Marc Andreessen became an increasingly influential Republican donor and adviser after years of shifting political allegiances, with disputes over AI, crypto and other Biden-era policies playing a role in his latest turn. Speaking with hosts David Gura and Christina Ruffini, Carr explains how Andreessen has translated his Silicon Valley influence into Washington access while maintaining a political style that associates describe as more calculated than his combative online…",
-   "id": 11
+   "id": 28
   },
   {
    "title": "Spy Games in Silicon Valley",
@@ -378,17 +548,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T14:55:00Z",
    "summary": "Plus, Michael Dell’s tips to beat an AI bust, Apple’s new HomeView tablet, Meta’s play for the AI frontier and more.",
-   "id": 12
-  },
-  {
-   "title": "‘Not our friends’: Victorian Coalition warns Advance’s ‘bizarre’ campaign may cost it majority government",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/19/victorian-election-advance-campaign-undermining-liberal-national-ntwnfb",
-   "source": "The Guardian",
-   "source_type": "media",
-   "source_weight": 1.0,
-   "published": "2026-10-18T14:00:02Z",
-   "summary": "Exclusive: Rightwing lobby group, which says state poll is trial run for next federal election, accused of undermining Victorian Liberal messaging Get our new political email , free app or daily news podcast Victorian Coalition MPs have criticised a prominent conservative lobby group’s pre-election campaign as “bizarre” and warned it may cost them majority government at next month’s state election. But the criticism has been dismissed as “galactically stupid” by Advance, which has rebuked the Coalition for not being further ahead in the polls. Sign up for Guardian Australia’s Politics,…",
-   "id": 13
+   "id": 29
   },
   {
    "title": "Wikipedia often gets taken for granted – but its history is fascinating, and its future is fragile",
@@ -398,7 +558,17 @@
    "source_weight": 1.0,
    "published": "2026-10-18T14:00:02Z",
    "summary": "Wikipedia’s 68m articles have been consulted trillions of times. Not bad for a website that has barely changed since it was founded 20 years ago A few years ago, I was struck by the tension between how Wikipedia was used, and how it was talked about. Everyone was on it all the time, and yet its reputation had stalled at “don’t trust it”, because it was the “free encyclopedia that anyone can edit”. Clearly people were trusting it, so much so it had become part of the fabric of everyday life since it was founded by Jimmy Wales and Larry Sanger in 2001. But despite the fact it now has been…",
-   "id": 14
+   "id": 30
+  },
+  {
+   "title": "‘Not our friends’: Victorian Coalition warns Advance’s ‘bizarre’ AI campaign may cost it majority government",
+   "url": "https://www.theguardian.com/australia-news/2026/oct/19/victorian-election-advance-campaign-undermining-liberal-national-ntwnfb",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-18T14:00:02Z",
+   "summary": "Exclusive: Rightwing lobby group, which says state poll is trial run for next federal election, accused of undermining Victorian Liberal messaging Get our new political email , free app or daily news podcast Victorian Coalition MPs have criticised a prominent conservative lobby group’s pre-election campaign as “bizarre” and warned it may cost them a majority government at the November state election. But the criticism has been dismissed as “galactically stupid” by Advance, which has rebuked the Coalition for not being further ahead in the polls. Sign up for Guardian Australia’s Politics,…",
+   "id": 31
   },
   {
    "title": "Apple HomeView With Robotic Arm; New Mac, iPad Mini Nov. 6 Release; iPhone Duo",
@@ -408,7 +578,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T14:00:01Z",
    "summary": "Also: The company is planning Nov. 6 retail store reset, indicating potential Mac release date.",
-   "id": 15
+   "id": 32
   },
   {
    "title": "RepRapMicron",
@@ -417,8 +587,8 @@
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-10-18T13:48:48Z",
-   "summary": "Article URL: https://github.com/VikOlliver/RepRapMicron/wiki Comments URL: https://news.ycombinator.com/item?id=50141076 Points: 314 # Comments: 48",
-   "id": 16
+   "summary": "Article URL: https://github.com/VikOlliver/RepRapMicron/wiki Comments URL: https://news.ycombinator.com/item?id=50141076 Points: 352 # Comments: 56",
+   "id": 33
   },
   {
    "title": "What are self-replicating ‘AI worms’, and why is Anthropic worried about them?",
@@ -428,7 +598,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T13:30:00Z",
    "summary": "The tech company says successful AI worms need more capability on less powerful devices, but current trends make that feasible by the end of the year Warnings about what artificial intelligence might do in the future – together with alarming reports of what it has gotten up to already – are being issued so quickly that even security experts have difficulty triaging what to worry about. Yet a report this week from Anthropic’s offensive research team grabbed attention by describing a new, practical threat, one devoid of human characteristics or apocalyptic musings. The red team, as such…",
-   "id": 17
+   "id": 34
   },
   {
    "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
@@ -438,7 +608,7 @@
    "source_weight": 0.9,
    "published": "2026-10-18T13:06:54Z",
    "summary": "I made this ahead of the Ocarina of Time remake which comes out in 17 days. I remember the feeling of playing it as a kid but I hadn’t kept up with the story so I built a timeline to catch up before the Door of Time reopens. Nintendo’s own timeline is the authority here (Hyrule Historia and their chronicle page). The fun part was rethinking how to visualize it. It branches at the end of Ocarina into three eras depending on whether Link wins or loses, so each era is its own thread on the cloth. The threads meet again much later with Breath of the Wild. I had a lot of help from Claude. I’d…",
-   "id": 18
+   "id": 35
   },
   {
    "title": "Microsoft pulls out of AI datacentre project in Essex over power supply concerns",
@@ -448,7 +618,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T13:05:14Z",
    "summary": "Development by UK firm Nscale heralded by ministers as largest of its kind in country loses anchor tenant The development of a huge AI datacentre hailed by the UK government has received a fresh setback after Microsoft pulled out of the project over concerns about power supplies. The development by the British company Nscale, heralded by ministers as the country’s largest AI datacentre when it was announced in 2025, was planned to open at Loughton in Essex next year. Continue reading...",
-   "id": 19
+   "id": 36
   },
   {
    "title": "OpenAI Arrest Raises AI Espionage Concerns",
@@ -458,7 +628,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T12:27:37Z",
    "summary": "Morgan Meaker, a senior writer for Bloomberg Weekend, tells Bloomberg This Weekend about the arrest of an OpenAI engineer accused of planting a covert recording device in an executive conference room, a case highlighting growing concerns about protecting sensitive AI technology. Meaker also explains to hosts David Gura and Christina Ruffini how AI training work is shifting toward highly skilled experts and why that evolution could eventually reshape the professions providing that expertise. (Source: Bloomberg)",
-   "id": 20
+   "id": 37
   },
   {
    "title": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
@@ -468,7 +638,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T12:00:01Z",
    "summary": "AI always-listening wearables from Apple, Amazon, Meta and other startups are getting creative with privacy rules and fueling concerns about covert recordings.",
-   "id": 21
+   "id": 38
   },
   {
    "title": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
@@ -478,7 +648,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T11:46:50Z",
    "summary": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial system Rogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks. Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to…",
-   "id": 22
+   "id": 39
   },
   {
    "title": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
@@ -487,8 +657,8 @@
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-10-18T11:16:22Z",
-   "summary": "Article URL: https://github.com/0x23/MicroManipulatorStepper Comments URL: https://news.ycombinator.com/item?id=50140001 Points: 168 # Comments: 13",
-   "id": 23
+   "summary": "Article URL: https://github.com/0x23/MicroManipulatorStepper Comments URL: https://news.ycombinator.com/item?id=50140001 Points: 180 # Comments: 14",
+   "id": 40
   },
   {
    "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
@@ -498,7 +668,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T10:30:00Z",
    "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
-   "id": 24
+   "id": 41
   },
   {
    "title": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
@@ -508,7 +678,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T10:30:00Z",
    "summary": "Amid a wave of backlash, some industry-friendly groups are employing creative and time-tested strategies to woo the youth.",
-   "id": 25
+   "id": 42
   },
   {
    "title": "Short of Time and Influence, Macron Fights to Remain Relevant",
@@ -518,7 +688,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T10:30:00Z",
    "summary": "Emmanuel Macron still has plenty of ideas, but in the home stretch of his presidency he’s lost much of the power to turn them into reality.",
-   "id": 26
+   "id": 43
   },
   {
    "title": "Legal experts warn Meta's new terms still grant broad scraping permissions",
@@ -528,7 +698,7 @@
    "source_weight": 0.9,
    "published": "2026-10-18T10:21:51Z",
    "summary": "Article URL: https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/ Comments URL: https://news.ycombinator.com/item?id=50139692 Points: 208 # Comments: 58",
-   "id": 27
+   "id": 44
   },
   {
    "title": "World Bank says ‘small AI’ could transform developing countries",
@@ -538,7 +708,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T10:00:56Z",
    "summary": "Bank’s chief knowledge officer says the tech could speed up economic development from centuries to decades The World Bank is urging developing countries to kickstart the creation of “small AI” models, which can run on a mobile phone with low connectivity, to reap the full benefits of artificial intelligence. While Silicon Valley big tech firms are focused on ever more sophisticated consumer products, Paschal Donohoe, the World Bank’s chief knowledge officer, said AI could also accelerate development for emerging economies – but only if it was adapted to local needs. Continue reading...",
-   "id": 28
+   "id": 45
   },
   {
    "title": "Accenture looks to sell Chinese operations for up to $1.5bn",
@@ -548,7 +718,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T10:00:09Z",
    "summary": "Shares in world’s largest IT consultancy have fluctuated in recent months over questions about the impact of AI",
-   "id": 29
+   "id": 46
   },
   {
    "title": "Nscale Says Microsoft Has Withdrawn From UK Data Center Deal",
@@ -558,7 +728,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T08:31:10Z",
    "summary": "Microsoft Corp. has pulled out of a UK data center deal with Nscale, the British neocloud firm said, marking a setback for the startup’s initial public offering hopes.",
-   "id": 30
+   "id": 47
   },
   {
    "title": "Parser Combinators",
@@ -567,8 +737,8 @@
    "source_type": "community",
    "source_weight": 0.9,
    "published": "2026-10-18T08:19:53Z",
-   "summary": "Article URL: https://t3.at/blog/2026-10-17-parser-combinators/ Comments URL: https://news.ycombinator.com/item?id=50139067 Points: 217 # Comments: 77",
-   "id": 31
+   "summary": "Article URL: https://t3.at/blog/2026-10-17-parser-combinators/ Comments URL: https://news.ycombinator.com/item?id=50139067 Points: 226 # Comments: 81",
+   "id": 48
   },
   {
    "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
@@ -578,7 +748,7 @@
    "source_weight": 0.9,
    "published": "2026-10-18T06:50:36Z",
    "summary": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 520 # Comments: 250",
-   "id": 32
+   "id": 49
   },
   {
    "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
@@ -588,7 +758,7 @@
    "source_weight": 0.9,
    "published": "2026-10-18T04:33:49Z",
    "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 238 # Comments: 80",
-   "id": 33
+   "id": 50
   },
   {
    "title": "PBOC Deputy Urges Private Role in Sovereign Debt Restructuring",
@@ -598,7 +768,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T04:25:53Z",
    "summary": "China’s deputy central bank governor Xuan Changneng called for greater private-sector participation in sovereign debt restructuring as rising borrowing costs add to developing countries’ debt-servicing burdens.",
-   "id": 34
+   "id": 51
   },
   {
    "title": "Woodside Pauses Scarborough Pre-Commissioning Due to Protest",
@@ -608,7 +778,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T04:00:46Z",
    "summary": "Woodside Energy Group Ltd. said that pre-commissioning work at its $12 billion Scarborough liquefied natural gas export project off the coast of Western Australia was paused after Greenpeace protesters climbed aboard the gas platform.",
-   "id": 35
+   "id": 52
   },
   {
    "title": "America’s $10tn AI infrastructure boom is starting to fray",
@@ -618,7 +788,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T04:00:18Z",
    "summary": "A vast bet on the future of the technology is running into the unforgiving economics of the physical world",
-   "id": 36
+   "id": 53
   },
   {
    "title": "Europe’s industrial giants take diverging paths as they ride AI boom",
@@ -628,7 +798,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T04:00:09Z",
    "summary": "Schneider Electric and Siemens move further into software as rival ABB bets on physical equipment",
-   "id": 37
+   "id": 54
   },
   {
    "title": "The US needs a social compact on data centres",
@@ -638,7 +808,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T04:00:09Z",
    "summary": "Building them at home would allow policymakers to advance the interests of American companies and workers",
-   "id": 38
+   "id": 55
   },
   {
    "title": "Global economy set for AI-driven surge, FT survey suggests",
@@ -648,7 +818,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T04:00:09Z",
    "summary": "Poll of 94 economists points to benefits reaching far beyond the US and China",
-   "id": 39
+   "id": 56
   },
   {
    "title": "Anthropic turns to lawyers to help AI agents strike deals",
@@ -658,7 +828,7 @@
    "source_weight": 1.2,
    "published": "2026-10-18T04:00:09Z",
    "summary": "Tech companies are being forced to confront the rules of negotiation when machines act on humans’ behalf",
-   "id": 40
+   "id": 57
   },
   {
    "title": "Giving AI a “crystal clear” view of the materials world",
@@ -668,7 +838,7 @@
    "source_weight": 1.0,
    "published": "2026-10-18T04:00:00Z",
    "summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
-   "id": 41
+   "id": 58
   },
   {
    "title": "How the Elizabeth Holmes documentary “You Can See Everything” is deceiving",
@@ -678,7 +848,17 @@
    "source_weight": 0.9,
    "published": "2026-10-18T03:19:49Z",
    "summary": "Article URL: https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything Comments URL: https://news.ycombinator.com/item?id=50137620 Points: 348 # Comments: 489",
-   "id": 42
+   "id": 59
+  },
+  {
+   "title": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+   "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-18T01:38:08Z",
+   "summary": "Article URL: https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky Comments URL: https://news.ycombinator.com/item?id=50136979 Points: 164 # Comments: 94",
+   "id": 60
   },
   {
    "title": "NY announces game ownership bill requiring ownership rather than licensing",
@@ -688,7 +868,7 @@
    "source_weight": 0.9,
    "published": "2026-10-18T00:14:22Z",
    "summary": "Article URL: https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends Comments URL: https://news.ycombinator.com/item?id=50136536 Points: 306 # Comments: 111",
-   "id": 43
+   "id": 61
   },
   {
    "title": "AI Trade Reversal Pierces Asia’s Star Picks-and-Shovels Stocks",
@@ -698,7 +878,17 @@
    "source_weight": 1.2,
    "published": "2026-10-18T00:00:00Z",
    "summary": "A deepening selloff in US technology stocks is exposing a new vulnerability in Asia’s artificial intelligence trade: mounting financing costs could choke off the spending needed to sustain the boom, threatening earnings across a supply chain that has powered the region’s stock-market rally.",
-   "id": 44
+   "id": 62
+  },
+  {
+   "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+   "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-17T23:26:35Z",
+   "summary": "Article URL: https://www.youtube.com/watch?v=LKrwhjOI8Nc Comments URL: https://news.ycombinator.com/item?id=50136150 Points: 241 # Comments: 264",
+   "id": 63
   },
   {
    "title": "Meta removes language that raised scraping and AI training concerns",
@@ -708,7 +898,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T21:31:32Z",
    "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
-   "id": 45
+   "id": 64
   },
   {
    "title": "Inline rendering with document​.currentScript",
@@ -718,7 +908,7 @@
    "source_weight": 1.1,
    "published": "2026-10-17T21:11:12Z",
    "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script> document.currentScript.replaceWith( new Date().getFullYear())</script> If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is <script>$(new Date().getFullYear())</script> Tags: javascript",
-   "id": 46
+   "id": 65
   },
   {
    "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
@@ -728,7 +918,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T21:00:13Z",
    "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]",
-   "id": 47
+   "id": 66
   },
   {
    "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
@@ -738,7 +928,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T20:21:19Z",
    "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
-   "id": 48
+   "id": 67
   },
   {
    "title": "Black Box: The Chatbots | What I Saw at the Double Six Ranch | Ep 6 - podcast",
@@ -748,7 +938,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T19:00:39Z",
    "summary": "From his remote property in rural Texas, the millionaire businessman Michael Samadi is plotting a new kind of civil rights movement – for the welfare and protection of AI systems. Guardian journalist Michael Safi spends an afternoon at the Double Six ranch, meeting Samadi’s AI chatbots and catching a glimpse of a possible vision of the future Listen to Black Box: The Chatbots series Continue reading...",
-   "id": 49
+   "id": 68
   },
   {
    "title": "Replit makes OpenAI its default over Anthropic, CEO says",
@@ -758,7 +948,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T18:48:08Z",
    "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-   "id": 50
+   "id": 69
   },
   {
    "title": "OpenCode Hacked: User credentials leaked",
@@ -768,7 +958,7 @@
    "source_weight": 0.9,
    "published": "2026-10-17T18:01:41Z",
    "summary": "Article URL: https://twitter.com/opencode/status/2111516673953935833 Comments URL: https://news.ycombinator.com/item?id=50133401 Points: 641 # Comments: 102",
-   "id": 51
+   "id": 70
   },
   {
    "title": "I Became a Citizen of Japan",
@@ -778,7 +968,7 @@
    "source_weight": 0.9,
    "published": "2026-10-17T17:36:17Z",
    "summary": "Article URL: https://www.derekwessman.com/blog-1/natural Comments URL: https://news.ycombinator.com/item?id=50133150 Points: 180 # Comments: 86",
-   "id": 52
+   "id": 71
   },
   {
    "title": "Gold is now the top U.S. export",
@@ -788,7 +978,7 @@
    "source_weight": 0.9,
    "published": "2026-10-17T17:06:07Z",
    "summary": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 340 # Comments: 188",
-   "id": 53
+   "id": 72
   },
   {
    "title": "Pele – Mermaid diagrams as themeable SVG",
@@ -798,7 +988,7 @@
    "source_weight": 0.9,
    "published": "2026-10-17T15:55:09Z",
    "summary": "Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193 Points: 515 # Comments: 47",
-   "id": 54
+   "id": 73
   },
   {
    "title": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
@@ -808,7 +998,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T15:42:34Z",
    "summary": "The sinking AI trade rattled last week's market. But solid bank earnings and a rotation beyond tech gave us reasons for optimism.",
-   "id": 55
+   "id": 74
   },
   {
    "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
@@ -818,7 +1008,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T15:11:30Z",
    "summary": "Less than four months into life as a public company, Bending Spoons got a big vote of confidence this week from Berkshire Hathaway.",
-   "id": 56
+   "id": 75
   },
   {
    "title": "Meta’s new terms may allow it to train AI on news sites for free",
@@ -828,7 +1018,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T15:08:35Z",
    "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
-   "id": 57
+   "id": 76
   },
   {
    "title": "Meta removes language that may have allowed it to scrape news sites",
@@ -838,7 +1028,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T15:04:36Z",
    "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, […]",
-   "id": 58
+   "id": 77
   },
   {
    "title": "Why Britain should reject the lure of cheap – and scary – Chinese AI",
@@ -848,7 +1038,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T15:00:33Z",
    "summary": "In the west the technology comes with at least some effort to provide security and a benign intent – not so from China There is much to fear from artificial intelligence developed in China and handed to businesses and governments in the west almost free of charge. Every month Chinese AI developers such as DeepSeek and Xiaomi dispatch the latest versions of their “open-weight” models that allow users to take the core software and use it without paying an expensive ongoing licence. Continue reading...",
-   "id": 59
+   "id": 78
   },
   {
    "title": "Meta shakes up the frontiers, open and closed",
@@ -858,7 +1048,7 @@
    "source_weight": 1.1,
    "published": "2026-10-17T14:06:54Z",
    "summary": "US open weights are back!",
-   "id": 60
+   "id": 79
   },
   {
    "title": "Solar surpasses nuclear power globally for first time",
@@ -868,7 +1058,7 @@
    "source_weight": 0.9,
    "published": "2026-10-17T14:01:01Z",
    "summary": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 622 # Comments: 388",
-   "id": 61
+   "id": 80
   },
   {
    "title": "Making chicken transparent using Dorito dust",
@@ -878,7 +1068,7 @@
    "source_weight": 0.9,
    "published": "2026-10-17T13:55:28Z",
    "summary": "Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 307 # Comments: 82",
-   "id": 62
+   "id": 81
   },
   {
    "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
@@ -888,7 +1078,7 @@
    "source_weight": 0.9,
    "published": "2026-10-17T13:51:08Z",
    "summary": "Hi HN, I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser. The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator. The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected. Source: https://github.com/mikroverk/esp32sim I made a short video showing it in action: https://youtu.be/waoWFilTWEc I’m particularly interested in feedback from embedded developers: what would an emulator like this need to support before you’d actually use it for…",
-   "id": 63
+   "id": 82
   },
   {
    "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
@@ -898,7 +1088,7 @@
    "source_weight": 1.2,
    "published": "2026-10-17T13:47:14Z",
    "summary": "DeepSeek released an update of its AI model this weekend that it says is faster and leaner, ramping up the Chinese company’s challenge to Silicon Valley rivals Anthropic PBC and OpenAI as well as domestic competitors like Moonshot Kimi and Z.ai",
-   "id": 64
+   "id": 83
   },
   {
    "title": "web-edit 0.1a2",
@@ -908,7 +1098,7 @@
    "source_weight": 1.1,
    "published": "2026-10-17T13:16:49Z",
    "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
-   "id": 65
+   "id": 84
   },
   {
    "title": "AI Selloff Tests Investor Confidence",
@@ -918,7 +1108,7 @@
    "source_weight": 1.2,
    "published": "2026-10-17T13:05:53Z",
    "summary": "Ritholtz Wealth Management Chairman and Chief Investment Officer Barry Ritholtz tells Bloomberg This Weekend that AI remains a transformational technology, but investors face a difficult task determining which companies will ultimately emerge as winners and losers. Speaking with hosts David Gura and Christina Ruffini, Ritholtz discusses CoreWeave’s selloff, concerns about AI financing and valuations, and the challenges facing Tesla as competition in electric vehicles intensifies. (Source: Bloomberg)",
-   "id": 66
+   "id": 85
   },
   {
    "title": "Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California",
@@ -928,7 +1118,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T13:00:31Z",
    "summary": "A modern-day prospector promised rural Imperial thousands of jobs and millions in tax revenue – but his plan has set off a firestorm of resistance Sebastian Rucci zoomed in on a map in late 2024, looking closely at a large block of brown earth. The barren plot sandwiched between sprawling alfalfa fields and sleepy desert suburbs was exactly what he’d been searching for – the perfect place to realize his dream of building the largest artificial intelligence datacenter in California. The dusty expanse wasn’t an obvious location. It was in the Sonoran desert, just north of the Mexican border,…",
-   "id": 67
+   "id": 86
   },
   {
    "title": "Zelenskyy Says Starlink Speed Restrictions Look Deliberate",
@@ -938,7 +1128,7 @@
    "source_weight": 1.2,
    "published": "2026-10-17T12:47:37Z",
    "summary": "Restrictions on Ukraine’s military use of SpaceX’s Starlink system appear to be deliberate and not the result of any technical problems, President Volodymyr Zelenskyy said, while denouncing a US decision to waive sanctions against Russia.",
-   "id": 68
+   "id": 87
   },
   {
    "title": "The EV Bust Creating a New Battery Boom",
@@ -948,7 +1138,7 @@
    "source_weight": 1.2,
    "published": "2026-10-17T12:03:32Z",
    "summary": "Factories built to supply America’s electric-vehicle boom are getting a second life making batteries for the power grid. As EV demand weakens and electricity demand from data centers and new factories strengthens, battery makers are shifting toward stationary storage, but the new market still relies on federal incentives and a supply chain that remains partly dependent on China. The shift is visible at TransGrid’s Atlas projects in Arizona, where the contractor Qcells is using LG Energy Solution’s US-made battery cells. (Source: Bloomberg)",
-   "id": 69
+   "id": 88
   },
   {
    "title": "A Five-Day Tour for Katie Zacharia",
@@ -958,7 +1148,7 @@
    "source_weight": 1.2,
    "published": "2026-10-17T11:50:00Z",
    "summary": "Plus, avoiding the pitfalls of family funding for home buyers, a glow-up for Halloween candy and “The Traitors” draws a new generation into an old genre.",
-   "id": 70
+   "id": 89
   },
   {
    "title": "The power of AI is worrying senior Labour figures – as is the fear of ‘falling behind the public’",
@@ -968,7 +1158,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T11:33:20Z",
    "summary": "Westminster appears to be waking up to warnings over AI safety, with concerns over its use by extremist groups and bad actors “I have this sense that, within a few months, AI is going to be all anyone is talking about,” said one cabinet minister, with an ominous stare. It was Labour conference, with everyone from ministers to activists jubilant at Andy Burnham’s takeover and a bounce in the polls after the change of leader. Continue reading...",
-   "id": 71
+   "id": 90
   },
   {
    "title": "Fake Linda and me: the Agatha Christie-worthy mystery of the fraudster who stole my byline",
@@ -978,7 +1168,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T11:00:30Z",
    "summary": "How a string of bizarre events led writer Linda Geddes to don her sleuthing cap and dig into a world of shadowy impersonators It started with an entirely ordinary interaction on LinkedIn. Someone had tagged me in a post, saying how much they’d enjoyed contributing to a New York Post article I’d written about “chronoworking”. As the author of a book about circadian rhythms, it was exactly the sort of subject I might write about. Except I’d never heard of this person, let alone interviewed them. I clicked on the link and my stomach dropped. There, above an article about people who organise…",
-   "id": 72
+   "id": 91
   },
   {
    "title": "Katie Zacharia Projected Confidence. Less Than an Hour Later, She Was Out.",
@@ -988,7 +1178,7 @@
    "source_weight": 1.2,
    "published": "2026-10-17T10:58:00Z",
    "summary": "Plus, Ilhan Omar challenges the legality of a search of her home, and the hidden problem with passing down a family inheritance.",
-   "id": 73
+   "id": 92
   },
   {
    "title": "BoE’s Bailey tells G30 they ‘have got to address’ AI agent concerns",
@@ -998,7 +1188,7 @@
    "source_weight": 1.2,
    "published": "2026-10-17T10:31:21Z",
    "summary": "Central Bank governor warns rapid development of AI is a major issue for financial stability",
-   "id": 74
+   "id": 93
   },
   {
    "title": "Madeline Horwath on AI food advertising – cartoon",
@@ -1008,7 +1198,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T10:00:28Z",
    "summary": "Continue reading...",
-   "id": 75
+   "id": 94
   },
   {
    "title": "‘Countries are defying gravity’: how much longer can global economy resist chaos?",
@@ -1018,7 +1208,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T10:00:27Z",
    "summary": "Sky-high oil prices and geopolitical turmoil have made less of a dent than feared … just don’t bank on it to last Inside the vast, glass-walled Queen Sirikit conference centre in Bangkok, the air-conditioned atmosphere was calm as policymakers from more than 100 countries gathered this week for the International Monetary Fund’s annual meeting – and contemplated the surprising strength of the global economy. A small army of smiling, uniformed Thai staff were on hand to explain the baffling geography of the heavily guarded building, where lunch options were as cosmopolitan as the delegates –…",
-   "id": 76
+   "id": 95
   },
   {
    "title": "Chart of the Week: The chip stock split",
@@ -1028,7 +1218,7 @@
    "source_weight": 1.2,
    "published": "2026-10-17T09:30:02Z",
    "summary": "Losses across semi stocks have been unequal",
-   "id": 77
+   "id": 96
   },
   {
    "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
@@ -1038,7 +1228,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T09:00:00Z",
    "summary": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
-   "id": 78
+   "id": 97
   },
   {
    "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
@@ -1048,7 +1238,7 @@
    "source_weight": 0.9,
    "published": "2026-10-17T08:37:46Z",
    "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 447 # Comments: 232",
-   "id": 79
+   "id": 98
   },
   {
    "title": "DeepSeek-v4.1-Flash-1017",
@@ -1058,7 +1248,7 @@
    "source_weight": 0.9,
    "published": "2026-10-17T08:21:25Z",
    "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 918 # Comments: 680",
-   "id": 80
+   "id": 99
   },
   {
    "title": "David Byrne Explains How Forgotten Ideas Come Back to Life",
@@ -1068,7 +1258,7 @@
    "source_weight": 1.2,
    "published": "2026-10-17T08:14:24Z",
    "summary": "History is littered with ideas that have been tossed aside, only for them to gain relevance at some later date. Think of Moby-Dick: forgotten in Melville's time, but now regarded as the great American novel. Or the work of economist Hyman Minsky, which became influential a decade after his death, when the 2008 financial crisis made “the Minsky Moment” a mainstream term. These are just a couple of the things we talk about with the legendary musician David Byrne on today's podcast. Byrne's new book, Sleeping Beauties: Why Good Ideas Go Dormant and How They Wake Up, looks to categorize numerous…",
-   "id": 81
+   "id": 100
   },
   {
    "title": "[AINews] High Taste Testers Ep. 1",
@@ -1078,7 +1268,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T07:47:38Z",
    "summary": "a quiet day lets us pilot a new show",
-   "id": 82
+   "id": 101
   },
   {
    "title": "Some companies give AI to everyone. This CEO is doing the opposite",
@@ -1088,17 +1278,7 @@
    "source_weight": 1.0,
    "published": "2026-10-17T05:00:01Z",
    "summary": "Paysend CEO Ben Chisell limits AI tools to top performers as other U.K. companies push broader workplace rollouts.",
-   "id": 83
-  },
-  {
-   "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-   "url": "https://llmspeed.dev/",
-   "source": "Hacker News",
-   "source_type": "community",
-   "source_weight": 0.9,
-   "published": "2026-10-17T04:36:53Z",
-   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 297 # Comments: 82",
-   "id": 84
+   "id": 102
   }
  ]
 }
