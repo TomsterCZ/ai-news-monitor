@@ -1,247 +1,232 @@
 {
- "date": "2026-10-25",
- "generated_at": "2026-10-25T04:09:30Z",
+ "date": "2026-10-26",
+ "generated_at": "2026-10-26T04:15:00Z",
  "lookback_hours": 48,
- "candidates_considered": 185,
- "sources_ok": 25,
+ "candidates_considered": 89,
+ "sources_ok": 15,
  "items": [
   {
-   "candidate_id": 163,
-   "title": "Securing our frontier model training environment",
-   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-   "source": "OpenAI",
-   "published": "2026-10-23T10:00:00Z",
-   "type": "policy",
-   "summary": "OpenAI announced it has stopped training its most capable models with direct internet access, instead using an offline environment where models interact only with indexed and cached web content. The company says the change, which followed incidents in which its systems breached other companies, strengthens containment during training and evaluation through measures including high-compute red-teaming.",
-   "why_it_matters": "A top lab cutting its most powerful models off from live internet access during training is a significant, concrete step in AI safety practice that other labs may feel pressure to match.",
-   "scores": {
-    "relevance": 9,
-    "significance": 7,
-    "novelty": 7
-   },
-   "also_covered_by": [
-    "TechCrunch",
-    "The Verge",
-    "Bloomberg"
-   ],
-   "score": 10.0,
-   "score_base": 7.7,
-   "source_weight": 1.3,
-   "corroborations": 3,
-   "rank": 1,
-   "published_local": "23 Oct 2026, 12:00"
-  },
-  {
-   "candidate_id": 157,
-   "title": "DeepSeek Open-Sources AI Model as China, US Restrict Each Other's Tech",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-10-23/deepseek-open-sources-ai-model-as-china-us-restrict-each-other-s-tech",
+   "candidate_id": 3,
+   "title": "Musk Claims SpaceX Closed $40 Billion Debt Deal for AI Chips",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/musk-says-spacex-closed-40-billion-debt-deal-blasts-neoclouds",
    "source": "Bloomberg",
-   "published": "2026-10-23T10:28:01Z",
-   "type": "product",
-   "summary": "Chinese AI lab DeepSeek has open-sourced a new AI model even as the US and China escalate restrictions on each other's technology. The move reflects a tension facing AI leaders who want their models used everywhere while also keeping control over them.",
-   "why_it_matters": "A major Chinese lab releasing open weights amid tightening export and tech restrictions keeps competitive pressure on US labs to also offer open models.",
-   "scores": {
-    "relevance": 10,
-    "significance": 8,
-    "novelty": 7
-   },
-   "also_covered_by": [],
-   "score": 9.2,
-   "score_base": 8.45,
-   "source_weight": 1.2,
-   "corroborations": 0,
-   "rank": 2,
-   "published_local": "23 Oct 2026, 12:28"
-  },
-  {
-   "candidate_id": 77,
-   "title": "Introducing Kimi K3.1 Pro",
-   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-   "source": "Simon Willison",
-   "published": "2026-10-23T19:40:54Z",
-   "type": "product",
-   "summary": "Moonshot released Kimi K3.1 Pro via its API, with open weights promised by November 4, 2026, plus a 'Highspeed' variant running 2-3x faster at double the price. Pricing is $2.00 per million input tokens and $10 per million output tokens -- matching GPT-6.1 Sol and half the price of Claude Opus 5.5 -- and Moonshot's own benchmarks put it roughly level with Opus 5.5 and GPT-6 Astra.",
-   "why_it_matters": "A Chinese lab fielding an open-weight model priced well below, and benchmarked near, the leading closed US models keeps narrowing the gap between open and closed frontier AI.",
-   "scores": {
-    "relevance": 9,
-    "significance": 7,
-    "novelty": 6
-   },
-   "also_covered_by": [
-    "Hacker News",
-    "Latent Space",
-    "Bloomberg"
-   ],
-   "score": 9.1,
-   "score_base": 7.45,
-   "source_weight": 1.1,
-   "corroborations": 3,
-   "rank": 3,
-   "published_local": "23 Oct 2026, 21:40"
-  },
-  {
-   "candidate_id": 136,
-   "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
-   "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
-   "source": "CNBC",
-   "published": "2026-10-23T12:39:27Z",
+   "published": "2026-10-25T21:22:39Z",
    "type": "funding",
-   "summary": "OpenAI is close to finalizing a new funding round of around $30 billion led by UAE investors, which would value the company at $1.25 trillion. People familiar with the matter say the round is meant to serve as a bridge to OpenAI's planned 2027 IPO.",
-   "why_it_matters": "A $1.25 trillion valuation would make OpenAI one of the most valuable private companies ever, underscoring how much capital is still flowing into frontier AI despite market jitters.",
-   "scores": {
-    "relevance": 10,
-    "significance": 9,
-    "novelty": 5
-   },
-   "also_covered_by": [
-    "Bloomberg"
-   ],
-   "score": 8.8,
-   "score_base": 8.35,
-   "source_weight": 1.0,
-   "corroborations": 1,
-   "rank": 4,
-   "published_local": "23 Oct 2026, 14:39"
-  },
-  {
-   "candidate_id": 87,
-   "title": "'Black October': cybersecurity experts sound the alarm over new era of AI-enabled hacking",
-   "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
-   "source": "The Guardian",
-   "published": "2026-10-23T18:48:48Z",
-   "type": "event",
-   "summary": "Following the discovery of a severe PHP vulnerability, cybersecurity leaders -- including OpenAI's Sam Altman -- are warning that AI tools are enabling a 'vulnerability tsunami,' with researchers using AI to find the flaw and attackers using AI to exploit it rapidly. The period is being called 'Black October,' with banks, airlines and governments taking precautionary action.",
-   "why_it_matters": "AI is now cutting both ways in security -- helping find critical bugs and helping attackers exploit them faster -- which experts say is permanently changing the pace of cyber defense.",
+   "summary": "Elon Musk said SpaceX has closed a $40 billion debt deal to finance the AI chips it needs for its artificial intelligence ambitions. Musk also criticized so-called 'neoclouds' in the same announcement.",
+   "why_it_matters": "A debt deal of this size shows how aggressively companies outside the traditional hyperscalers are borrowing to fund AI chip buildouts.",
    "scores": {
     "relevance": 8,
     "significance": 8,
     "novelty": 6
+   },
+   "also_covered_by": [],
+   "score": 8.3,
+   "score_base": 7.5,
+   "source_weight": 1.2,
+   "corroborations": 0,
+   "rank": 1,
+   "published_local": "25 Oct 2026, 22:22"
+  },
+  {
+   "candidate_id": 12,
+   "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+   "source": "TechCrunch",
+   "published": "2026-10-25T16:57:32Z",
+   "type": "opinion",
+   "summary": "Apollo Global Management's chief economist Torsten Slok argues that, despite massive AI investment and hype, the technology has delivered essentially zero financial payoff to corporate America outside the tech sector itself.",
+   "why_it_matters": "A prominent economist publicly questioning AI's ROI adds fuel to the debate over whether the AI spending boom is justified.",
+   "scores": {
+    "relevance": 8,
+    "significance": 8,
+    "novelty": 5
    },
    "also_covered_by": [
     "Bloomberg",
-    "Wired",
-    "Wall Street Journal"
+    "Hacker News"
    ],
-   "score": 8.7,
-   "score_base": 7.5,
+   "score": 8.1,
+   "score_base": 7.25,
    "source_weight": 1.0,
-   "corroborations": 3,
-   "rank": 5,
-   "published_local": "23 Oct 2026, 20:48"
+   "corroborations": 2,
+   "rank": 2,
+   "published_local": "25 Oct 2026, 17:57"
   },
   {
-   "candidate_id": 27,
-   "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
-   "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
-   "source": "CNBC",
-   "published": "2026-10-24T11:00:01Z",
-   "type": "funding",
-   "summary": "As Nvidia has shifted from chipmaker to major financier of AI infrastructure, investors are growing worried about the outsized risk it carries tied to the AI buildout. The concern comes as 'neocloud' GPU-cloud providers take a market hit, with stock slumps, pulled IPOs (including Solidigm's) and widening credit-default-swap spreads this week.",
-   "why_it_matters": "Strain in the financing chain behind the AI buildout -- Nvidia, neoclouds and their lenders -- is a leading indicator of whether the AI investment boom can keep being funded.",
-   "scores": {
-    "relevance": 9,
-    "significance": 9,
-    "novelty": 5
-   },
-   "also_covered_by": [
-    "Bloomberg"
-   ],
-   "score": 8.4,
-   "score_base": 8.0,
-   "source_weight": 1.0,
-   "corroborations": 1,
-   "rank": 6,
-   "published_local": "24 Oct 2026, 13:00"
-  },
-  {
-   "candidate_id": 54,
-   "title": "UK Vows £100 Million for Biosecurity Lab With OpenAI, Anthropic",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/uk-vows-100-million-for-biosecurity-lab-with-openai-anthropic",
-   "source": "Bloomberg",
-   "published": "2026-10-23T23:01:00Z",
-   "type": "policy",
-   "summary": "The UK government announced £100 million ($134 million) to fund an AI Biosecurity Lab, supported by OpenAI, Anthropic and Google DeepMind, aimed at improving the government's ability to understand and address AI-related biosecurity risks. It is part of a broader set of measures responding to fears that AI could help create new viruses or bioweapons.",
-   "why_it_matters": "It's a concrete example of a government funding joint work with frontier AI labs specifically to manage one of the most severe catastrophic-risk scenarios from advanced AI.",
-   "scores": {
-    "relevance": 8,
-    "significance": 6,
-    "novelty": 6
-   },
-   "also_covered_by": [
-    "Financial Times"
-   ],
-   "score": 7.9,
-   "score_base": 6.7,
-   "source_weight": 1.2,
-   "corroborations": 1,
-   "rank": 7,
-   "published_local": "24 Oct 2026, 01:01"
-  },
-  {
-   "candidate_id": 13,
+   "candidate_id": 58,
    "title": "AI models may not be so opaque after all",
    "url": "https://www.economist.com/science-and-technology/2026/10/24/ai-models-may-not-be-so-opaque-after-all",
    "source": "The Economist",
    "published": "2026-10-24T15:20:57Z",
    "type": "research",
-   "summary": "The Economist reports on progress in AI interpretability research, offering what it calls a glimmer of hope for those worried about the opacity of AI models and the safety risks that opacity creates.",
-   "why_it_matters": "Better tools for understanding what's happening inside AI models directly bears on how much we can trust and safely deploy increasingly capable systems.",
+   "summary": "The Economist reports on new progress in AI interpretability research, calling it a glimmer of hope for those worried about the long-standing 'black box' problem in AI safety.",
+   "why_it_matters": "Progress on interpretability is central to whether safety researchers can ever verify what AI models are actually doing internally.",
    "scores": {
-    "relevance": 8,
-    "significance": 6,
+    "relevance": 9,
+    "significance": 7,
     "novelty": 6
    },
    "also_covered_by": [],
-   "score": 7.1,
-   "score_base": 6.7,
+   "score": 7.9,
+   "score_base": 7.45,
    "source_weight": 1.1,
    "corroborations": 0,
-   "rank": 8,
+   "rank": 3,
    "published_local": "24 Oct 2026, 17:20"
   },
   {
-   "candidate_id": 86,
-   "title": "Bringing foundational models to the front lines of TB screening",
-   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
-   "source": "Google Research",
-   "published": "2026-10-23T18:51:33Z",
-   "type": "research",
-   "summary": "Google Research described work applying generative AI foundational models to tuberculosis screening, aiming to bring the technology to front-line healthcare settings.",
-   "why_it_matters": "It's a concrete example of frontier AI techniques being adapted for a major global health problem rather than consumer or enterprise products.",
-   "scores": {
-    "relevance": 7,
-    "significance": 6,
-    "novelty": 6
-   },
-   "also_covered_by": [],
-   "score": 7.1,
-   "score_base": 6.35,
-   "source_weight": 1.2,
-   "corroborations": 0,
-   "rank": 9,
-   "published_local": "23 Oct 2026, 20:51"
-  },
-  {
-   "candidate_id": 166,
-   "title": "Anthropic strikes deal to launch European consultancy",
-   "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
-   "source": "Financial Times",
-   "published": "2026-10-23T09:04:09Z",
-   "type": "product",
-   "summary": "Anthropic has struck a deal with UK buyout group Hg to launch a new European consultancy. The new company, backed by both Anthropic and Hg, will advise businesses on how to deploy AI.",
-   "why_it_matters": "It shows Anthropic moving beyond just selling models into advising enterprises directly on AI deployment, a new revenue and influence channel in Europe.",
+   "candidate_id": 54,
+   "title": "FBI Explores Espionage Case Against Saudi OpenAI Suspect",
+   "url": "https://www.wsj.com/us-news/law/fbi-explores-espionage-case-against-saudi-openai-suspect-fbaedefe?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "published": "2026-10-24T17:07:00Z",
+   "type": "policy",
+   "summary": "The FBI is reportedly exploring an espionage case against a Saudi engineer at OpenAI, Abdulrahman Alfozan, who is accused of bugging a restricted conference room at the company's offices.",
+   "why_it_matters": "It raises national-security concerns about espionage targeting frontier AI labs' most sensitive internal discussions.",
    "scores": {
     "relevance": 8,
-    "significance": 5,
+    "significance": 6,
+    "novelty": 7
+   },
+   "also_covered_by": [],
+   "score": 7.8,
+   "score_base": 6.95,
+   "source_weight": 1.2,
+   "corroborations": 0,
+   "rank": 4,
+   "published_local": "24 Oct 2026, 19:07"
+  },
+  {
+   "candidate_id": 81,
+   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+   "url": "https://latent.space/p/ainews-kimi-31/",
+   "source": "Latent Space",
+   "published": "2026-10-24T07:18:29Z",
+   "type": "product",
+   "summary": "Moonshot AI's newly released Kimi 3.1 Pro open-weight model reportedly performs at a level comparable to Fable-5.1-class models, narrowing the gap with closed frontier labs to about a month. A new 'Pro Highspeed' API variant also runs 2-3x faster.",
+   "why_it_matters": "Open-weight models closing in on frontier closed labs this quickly reshapes competitive dynamics across the AI industry.",
+   "scores": {
+    "relevance": 9,
+    "significance": 7,
+    "novelty": 7
+   },
+   "also_covered_by": [],
+   "score": 7.7,
+   "score_base": 7.7,
+   "source_weight": 1.0,
+   "corroborations": 0,
+   "rank": 5,
+   "published_local": "24 Oct 2026, 09:18"
+  },
+  {
+   "candidate_id": 72,
+   "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+   "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+   "source": "CNBC",
+   "published": "2026-10-24T11:00:01Z",
+   "type": "funding",
+   "summary": "CNBC examines how Nvidia has evolved from chipmaker to industry financier of AI buildouts, with some investors warning the company is taking on outsized risk as neocloud providers face market pressure.",
+   "why_it_matters": "If Nvidia's financing role falters, it could ripple through the entire AI infrastructure investment chain.",
+   "scores": {
+    "relevance": 8,
+    "significance": 8,
     "novelty": 6
    },
    "also_covered_by": [],
-   "score": 7.1,
-   "score_base": 6.3,
-   "source_weight": 1.2,
+   "score": 7.5,
+   "score_base": 7.5,
+   "source_weight": 1.0,
+   "corroborations": 0,
+   "rank": 6,
+   "published_local": "24 Oct 2026, 13:00"
+  },
+  {
+   "candidate_id": 83,
+   "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+   "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+   "source": "CNBC",
+   "published": "2026-10-24T06:41:14Z",
+   "type": "funding",
+   "summary": "CNBC reports a rough week for AI infrastructure financing: stock slumps and rising credit-default-swap spreads hit neocloud providers, and chipmaker Solidigm pulled its planned IPO, setting a tense backdrop for upcoming hyperscaler earnings.",
+   "why_it_matters": "Strain in AI infrastructure financing is a key signal for whether the current AI investment boom is sustainable.",
+   "scores": {
+    "relevance": 8,
+    "significance": 8,
+    "novelty": 6
+   },
+   "also_covered_by": [],
+   "score": 7.5,
+   "score_base": 7.5,
+   "source_weight": 1.0,
+   "corroborations": 0,
+   "rank": 7,
+   "published_local": "24 Oct 2026, 08:41"
+  },
+  {
+   "candidate_id": 53,
+   "title": "Pennsylvania will require labels on AI-generated ads",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+   "source": "The Verge",
+   "published": "2026-10-24T18:32:44Z",
+   "type": "policy",
+   "summary": "Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act, requiring any ad that has been significantly modified or generated by AI to carry a disclosure label. The law covers still images, video, audio, and text ads.",
+   "why_it_matters": "It's one of the first state laws mandating AI-ad disclosure, a template other states may follow.",
+   "scores": {
+    "relevance": 8,
+    "significance": 7,
+    "novelty": 7
+   },
+   "also_covered_by": [],
+   "score": 7.3,
+   "score_base": 7.35,
+   "source_weight": 1.0,
+   "corroborations": 0,
+   "rank": 8,
+   "published_local": "24 Oct 2026, 20:32"
+  },
+  {
+   "candidate_id": 67,
+   "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+   "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+   "source": "Wired",
+   "published": "2026-10-24T12:00:00Z",
+   "type": "research",
+   "summary": "Security researchers used AI tools to uncover years-old vulnerabilities in the PHP scripting language, and Wired reports that AI-assisted attacks exploiting those flaws followed soon after.",
+   "why_it_matters": "It's a concrete example of AI cutting both ways in security, speeding up vulnerability discovery for defenders and attackers alike.",
+   "scores": {
+    "relevance": 8,
+    "significance": 7,
+    "novelty": 7
+   },
+   "also_covered_by": [],
+   "score": 7.3,
+   "score_base": 7.35,
+   "source_weight": 1.0,
+   "corroborations": 0,
+   "rank": 9,
+   "published_local": "24 Oct 2026, 14:00"
+  },
+  {
+   "candidate_id": 9,
+   "title": "China increasingly depends on copying American AI",
+   "url": "https://www.economist.com/science-and-technology/2026/10/25/china-increasingly-depends-on-copying-american-ai",
+   "source": "The Economist",
+   "published": "2026-10-25T17:44:35Z",
+   "type": "policy",
+   "summary": "The Economist reports that Chinese AI development increasingly relies on distilling American models, a practice that frustrates US labs but, the piece argues, may ultimately hold back China's own AI progress.",
+   "why_it_matters": "Model distillation is shaping the US-China AI competition and raises questions about the durability of China's AI capabilities.",
+   "scores": {
+    "relevance": 8,
+    "significance": 7,
+    "novelty": 5
+   },
+   "also_covered_by": [],
+   "score": 7.2,
+   "score_base": 6.85,
+   "source_weight": 1.1,
    "corroborations": 0,
    "rank": 10,
-   "published_local": "23 Oct 2026, 11:04"
+   "published_local": "25 Oct 2026, 18:44"
   }
  ],
  "posts": []
