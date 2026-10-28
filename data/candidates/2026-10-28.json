@@ -1,0 +1,3434 @@
+{
+ "date": "2026-10-28",
+ "fetched_at": "2026-10-28T04:07:02Z",
+ "lookback_hours": 48,
+ "sources_total": 36,
+ "sources_ok": 28,
+ "sources_reached_now": 1,
+ "source_report": [
+  {
+   "name": "OpenAI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Google DeepMind",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Google AI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Google Research",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Microsoft Research",
+   "ok": true,
+   "fetched": 10,
+   "kept": 0,
+   "error": ""
+  },
+  {
+   "name": "Meta Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Hugging Face",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "NVIDIA Blog",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "AWS Machine Learning",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "MIT Technology Review",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "The Verge",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "TechCrunch",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Ars Technica",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "VentureBeat",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Wired",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "The Guardian",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Hacker News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Simon Willison",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Import AI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Interconnects",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Latent Space",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Ahead of AI",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "One Useful Thing",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "MIT News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Wall Street Journal",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Bloomberg",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Financial Times",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "New York Times",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "CNBC",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "The Economist",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Microsoft News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "NVIDIA Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Apple Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Amazon News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Samsung Newsroom",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "name": "Salesforce News",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Apple 14-inch, 16-inch MacBook Pro Touch Price Is Likely $2,899; Laptop Details",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/apple-14-inch-16-inch-macbook-pro-touch-price-is-likely-2-899-laptop-details",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T22:01:19Z",
+   "summary": "Apple Inc., after successfully betting this month that consumers are willing to pay $2,000 or more for a foldable iPhone, is preparing to test their appetite for another pricey new product: touch-screen laptops.",
+   "id": 1
+  },
+  {
+   "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+   "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-27T21:50:04Z",
+   "summary": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+   "id": 2
+  },
+  {
+   "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+   "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T21:44:34Z",
+   "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+   "id": 3
+  },
+  {
+   "title": "Who’s really in charge at Anthropic after the IPO?",
+   "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T21:38:28Z",
+   "summary": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
+   "id": 4
+  },
+  {
+   "title": "Fmr. Fed Gov. Randy Kroszner: Warsh’s Statement Will Give Little Hint About Next Move",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/fmr-fed-gov-kroszner-expect-no-change-at-fed-meeting-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T21:37:52Z",
+   "summary": "Former Fed governor and University of Chicago Booth School of Business Economics Professor Randy Kroszner said the Fed is widely expected to leave rates unchanged, though he anticipates some dissenters may favor acting sooner because inflation has not eased as hoped. He expects most policymakers to see no urgency to move, while remaining alert to renewed inflation and inflation expectations. He speaks with Scarlet Fu & Kristine Aquino on \"The Close.\" (Source: Bloomberg)",
+   "id": 5
+  },
+  {
+   "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+   "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-27T21:31:14Z",
+   "summary": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+   "id": 6
+  },
+  {
+   "title": "Chart: Anthropic's cash pile towers over nearly every U.S. company",
+   "url": "https://www.cnbc.com/2026/10/27/anthropic-cash-investments-ipo.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T21:22:03Z",
+   "summary": "Anthropic's cash pile $131.7 billion is more than every non-bank U.S. company except for Berkshire Hathaway and Alphabet.",
+   "id": 7
+  },
+  {
+   "title": "Fmr. MSFT Exec.: Buyouts Is a Harbinger of AI Future",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/fmr-msft-exec-buyouts-is-a-harbinger-of-ai-future-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T21:21:26Z",
+   "summary": "Sheila Gulati, Founder and Managing Director of Total Capital and former Microsoft Azure executive, discusses how upcoming earnings from Microsoft, Alphabet, and Amazon will reveal whether heavy AI and data-center investments are paying off. She described Azure as a central model “orchestrator” for enterprises, enabling tailored choices among foundation, small, and internal models with a focus on return on investment and productivity gains in Office. She speaks with Scarlet Fu & Kristine Aquino on \"The Close.\" (Source: Bloomberg)",
+   "id": 8
+  },
+  {
+   "title": "Apple Knows Some iPhone Duos Have a Major Issue",
+   "url": "https://www.wsj.com/tech/personal-tech/apple-knows-some-iphone-duos-have-a-major-issue-990f1dca?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T21:21:00Z",
+   "summary": "Plus, Brazil canceled Flávio Bolsonaro’s passport, and a $300 billion “debt wall” is looming over private-equity backed companies.",
+   "id": 9
+  },
+  {
+   "title": "Anthropic's IPO is risky business",
+   "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T21:17:27Z",
+   "summary": "Anthropic's much-anticipated IPO is giving potential investors some perspective on the risky business of artificial intelligence.",
+   "id": 10
+  },
+  {
+   "title": "Opinion | Anthropic Isn’t the End of Man",
+   "url": "https://www.wsj.com/opinion/anthropic-isnt-the-end-of-man-c173e96f?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T21:17:00Z",
+   "summary": "Its prospectus says more about national security than it does human extinction.",
+   "id": 11
+  },
+  {
+   "title": "Walmart says AI training is boosting confidence with the technology among its 2.1 million associates",
+   "url": "https://www.cnbc.com/2026/10/27/walmart-ai-training-workers.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T21:15:35Z",
+   "summary": "Walmart says training from OpenAI and Google is helping its 2.1 million associates feel more confident using AI and digital tools.",
+   "id": 12
+  },
+  {
+   "title": "Robinhood shares fall 4% as crypto slump weighs on profits, offsetting gains in new businesses",
+   "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T21:07:51Z",
+   "summary": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
+   "id": 13
+  },
+  {
+   "title": "Tech, Media & Telecom Roundup: Market Talk",
+   "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-c4aa51dc?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T20:56:00Z",
+   "summary": "Find insight on Corning, PayPal and more in the latest Market Talks covering Technology, Media and Telecom.",
+   "id": 14
+  },
+  {
+   "title": "Learner collaborates with MIT peers to develop book of AI insights",
+   "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+   "source": "MIT News",
+   "source_type": "research",
+   "source_weight": 1.0,
+   "published": "2026-10-27T20:55:00Z",
+   "summary": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
+   "id": 15
+  },
+  {
+   "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T20:51:04Z",
+   "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. It has been a turbulent few months between OpenAI […]",
+   "id": 16
+  },
+  {
+   "title": "UPS CEO on Earnings, Data Center Logistics and Trade",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/ups-ceo-on-earnings-data-center-logistics-and-trade-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T20:38:01Z",
+   "summary": "UPS CEO Carol Tomé says forwarding and logistics grew 17% in the quarter, helped by premium health care and data-center construction. She speaks with Romaine Bostick on \"Bloomberg The Close.\" (Source: Bloomberg)",
+   "id": 17
+  },
+  {
+   "title": "NXP Shares Slide After Chipmaker Gives Tepid Revenue Forecast",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/nxp-shares-slide-after-chipmaker-gives-tepid-revenue-forecast",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T20:26:47Z",
+   "summary": "NXP Semiconductors NV, a maker of chips for auto and industrial customers, slid in late trading after delivering a weaker revenue forecast than anticipated, sparking fears that a recovery in demand is slowing.",
+   "id": 18
+  },
+  {
+   "title": "How much is Anthropic really worth?",
+   "url": "https://www.ft.com/content/d144a865-285a-490e-be11-f924ada8cbc7?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T20:00:00Z",
+   "summary": "Anthropic’s initial public offering is shaping up to be the largest ever.",
+   "id": 19
+  },
+  {
+   "title": "Robotics Lab Physical Intelligence in Talks for a $20 Billion Valuation",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/robotics-lab-physical-intelligence-in-talks-for-a-20-billion-valuation",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T19:43:06Z",
+   "summary": "Physical Intelligence, a startup developing artificial intelligence software to power robots for real-world tasks, is in funding talks that would nearly double its valuation to roughly $20 billion, according to people familiar with the matter.",
+   "id": 20
+  },
+  {
+   "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+   "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T19:39:04Z",
+   "summary": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on just how fast its AI will lead to big discoveries.",
+   "id": 21
+  },
+  {
+   "title": "AI’s Game-Changing IPO",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/ai-s-game-changing-ipo-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T19:34:31Z",
+   "summary": "Anthropic has filed for an IPO with the Securities and Exchange Commission. For the first time, the public can see the AI company’s financials and not only how much money it’s making, but what it’s potentially losing. (Source: Bloomberg)",
+   "id": 22
+  },
+  {
+   "title": "Game Boy Color on My Conference Badge",
+   "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-27T19:34:18Z",
+   "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color. Which means, if you can obtain the ROM, you can run The Legend of Zelda: Link's Awakening on your conference badge! A neat feature of the badge is that you can turn it upside down and then use…",
+   "id": 23
+  },
+  {
+   "title": "Anduril’s Luckey Sees Arms Spending Stable Even With ‘Blue Wave’",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/anduril-s-luckey-sees-arms-spending-stable-even-with-blue-wave",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T18:57:50Z",
+   "summary": "Anduril Industries Inc. founder Palmer Luckey said he expects US defense spending to remain broadly stable even if Democrats win control of Congress in next week’s midterm elections.",
+   "id": 24
+  },
+  {
+   "title": "Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI",
+   "url": "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T18:57:45Z",
+   "summary": "Amazon has rapidly integrated AI across the e-commerce giant's sprawling business operations under CEO Andy Jassy.",
+   "id": 25
+  },
+  {
+   "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+   "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T18:55:35Z",
+   "summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+   "id": 26
+  },
+  {
+   "title": "Builders’ Data Center Boost Fails to Offset Weak Housing Market",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/builders-data-center-boost-fails-to-offset-weak-housing-market",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T18:53:39Z",
+   "summary": "European construction firms’ exposure to a booming data center market has not been enough to offset persistent weakness in residential and industrial construction.",
+   "id": 27
+  },
+  {
+   "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+   "url": "https://latent.space/p/opus55/",
+   "source": "Latent Space",
+   "source_type": "expert",
+   "source_weight": 1.0,
+   "published": "2026-10-27T18:53:10Z",
+   "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+   "id": 28
+  },
+  {
+   "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+   "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-27T18:49:08Z",
+   "summary": "You can apparently now tell AI tools what sort of protein you want them to make.",
+   "id": 29
+  },
+  {
+   "title": "Discord will soon let anyone find public server messages through Google",
+   "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T18:44:17Z",
+   "summary": "Article URL: https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover Comments URL: https://news.ycombinator.com/item?id=50263854 Points: 150 # Comments: 95",
+   "id": 30
+  },
+  {
+   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+   "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+   "source": "Latent Space",
+   "source_type": "expert",
+   "source_weight": 1.0,
+   "published": "2026-10-27T18:40:19Z",
+   "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+   "id": 31
+  },
+  {
+   "title": "SoFi Says It's Well Positioned for Economic Uncertainty",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/sofi-says-it-s-well-positioned-for-economic-uncertainty-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T18:28:40Z",
+   "summary": "SoFi CEO Anthony Noto says the company's growth shows it's better able to handle economic uncertainty. The fintech firm raised its full-year net revenue guidance to about $5.04 billion and saw demand for its lending products grow. Noto joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+   "id": 32
+  },
+  {
+   "title": "Meta Boosts Equity Offering to $98 Billion, Raising Its AI Bet",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/bloomberg-tech-10-27-2026-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T18:24:15Z",
+   "summary": "Bloomberg’s Ed Ludlow takes a look at Meta's plan to boost its equity offering to almost $98 billion, one of the largest ever, as it raises its bet on AI. Plus, Anthropic's IPO could be a defining test for the AI boom, as its S-1 filing reveals staggering growth, spending and losses. And, Anduril founder Palmer Luckey explains why the defense tech firm is teaming up with chipmaker Qualcomm to build a laptop with a US supply chain. (Source: Bloomberg)",
+   "id": 33
+  },
+  {
+   "title": "Anduril's Luckey Partners With Qualcomm to Build American-Made Laptop",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/anduril-and-qualcomm-plan-to-build-us-laptop-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T18:23:20Z",
+   "summary": "Defense tech startup Anduril is joining forces with chipmaker Qualcomm to build a new American-made laptop, called BlueChip. Anduril founder Palmer Luckey explains why the country's military and critical industries need computers that are fully built domestically and why his company is best placed to do it out of its drone-making plant in Ohio. Luckey speaks with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+   "id": 34
+  },
+  {
+   "title": "Wanted: Robot-Dog Walkers. $20/Hour.",
+   "url": "https://www.nytimes.com/2026/10/27/technology/robot-dog-walkers.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-27T18:20:48Z",
+   "summary": "No pooper scooper required.",
+   "id": 35
+  },
+  {
+   "title": "Neocloud Selloff Is 'Overblown,' Says Crusoe CEO",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/neocloud-selloff-is-overblown-says-crusoe-ceo-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T18:17:14Z",
+   "summary": "Crusoe Chief Executive Officer Chase Lochmiller called the recent selloff of so-called neoclouds \"overblown\" and said rival CoreWeave Inc. has done \"some very good deals.\" He speaks to Dina Bass at Bloomberg Invest in Dallas. (Source: Bloomberg)",
+   "id": 36
+  },
+  {
+   "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+   "url": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-27T18:03:12Z",
+   "summary": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on what's possible in customer experience.",
+   "id": 37
+  },
+  {
+   "title": "An update from Amazon engineering leadership on the role of the developer in the age of AI",
+   "url": "https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai?utm_source=rss",
+   "source": "Amazon News",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-10-27T17:50:33Z",
+   "summary": "Amazon engineering leaders revised the role guideline for software development engineers, underscoring what matters most is the outcome, not which tools are used.",
+   "id": 38
+  },
+  {
+   "title": "Broadcom CEO Intervened to Seal $63 Billion Anthropic Debt Deal",
+   "url": "https://www.wsj.com/finance/broadcom-ceo-intervened-to-seal-63-billion-anthropic-debt-deal-c807754f?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T17:50:00Z",
+   "summary": "The deal, announced on Monday, is the biggest ever to raise money for AI infrastructure.",
+   "id": 39
+  },
+  {
+   "title": "GM Is Leaving NYSE for the Nasdaq After More Than 100 Years",
+   "url": "https://www.nytimes.com/2026/10/27/business/general-motors-nasdaq-nyse.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-27T17:46:24Z",
+   "summary": "After more than 100 years on the New York Stock Exchange, the automaker is shifting its listing to the Nasdaq, which is home to many technology companies.",
+   "id": 40
+  },
+  {
+   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "source": "Google Research",
+   "source_type": "research",
+   "source_weight": 1.2,
+   "published": "2026-10-27T17:35:00Z",
+   "summary": "Education Innovation",
+   "id": 41
+  },
+  {
+   "title": "VisionQuest is what happens when AI really goes rogue",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T17:31:36Z",
+   "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have come to dominate the conversation about real-world generative artificial […]",
+   "id": 42
+  },
+  {
+   "title": "ASM Lifts 2027 Outlook as AI Buildout Fuels Demand For Tools",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/asm-lifts-2027-outlook-as-ai-buildout-fuels-demand-for-its-tools",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T17:30:21Z",
+   "summary": "ASM International NV increased its revenue target for next year by about 24%, setting up the chip-equipment maker to hit its 2030 goal three years ahead of schedule, on a surge in sales linked to AI investments.",
+   "id": 43
+  },
+  {
+   "title": "Apple’s Folding iPhone Hit by Early Complaints of Screen Cracking",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/folding-iphone-hit-by-complaints-of-screen-cracking-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T17:24:29Z",
+   "summary": "Apple's folding iPhone Duo is facing early complaints of cracked screens — just days after its launch. Dana Wollman explains. (Source: Bloomberg)",
+   "id": 44
+  },
+  {
+   "title": "Build specialized multimodal models with LFM3",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "source": "Hugging Face",
+   "source_type": "lab",
+   "source_weight": 1.1,
+   "published": "2026-10-27T17:16:52Z",
+   "summary": "",
+   "id": 45
+  },
+  {
+   "title": "Crusoe CEO Defends Rival CoreWeave, Calls Selloff ‘Overblown’",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/crusoe-ceo-defends-rival-coreweave-calls-selloff-overblown",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T17:11:08Z",
+   "summary": "The chief of Crusoe, a data center developer and AI computing supplier that has contracts with firms including Meta Platforms Inc., Oracle Corp. and Alphabet Inc.’s Google, called the recent selloff of so-called neoclouds “overblown” and said rival CoreWeave Inc. has done “some very good deals.”",
+   "id": 46
+  },
+  {
+   "title": "How Amazon data centers in Spain are helping businesses create jobs and opportunities",
+   "url": "https://www.aboutamazon.com/news/aws/amazon-data-centers-spain?utm_source=rss",
+   "source": "Amazon News",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-10-27T17:10:10Z",
+   "summary": "A new independent study reveals that AWS's investment in northeastern Spain is transforming the region's economy.",
+   "id": 47
+  },
+  {
+   "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+   "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T17:08:08Z",
+   "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+   "id": 48
+  },
+  {
+   "title": "The limits of hedging the AI boom",
+   "url": "https://www.ft.com/content/0b0ae366-c1e0-4c35-8cad-c924a23d33e7?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T17:07:56Z",
+   "summary": "As tech investment soars, finding protection is becoming more urgent — and harder",
+   "id": 49
+  },
+  {
+   "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T17:04:30Z",
+   "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and shareholders eager for returns may […]",
+   "id": 50
+  },
+  {
+   "title": "Anthropic, Meta and the K-shaped company",
+   "url": "https://www.ft.com/content/0b7db9a1-8279-4025-8c2a-44a1010828f4?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T17:02:25Z",
+   "summary": "The gap is widening between shareholders with clout and those with none",
+   "id": 51
+  },
+  {
+   "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-27T17:00:39Z",
+   "summary": "Seekable OCI (SOCI) indexing for Amazon SageMaker AI training and processing jobs takes full container image download off the critical path. SageMaker AI lazy-loads your image to start containers in seconds instead of minutes, with no changes to your job definition. See the benchmarks and how to adopt it.",
+   "id": 52
+  },
+  {
+   "title": "SpaceX and Tesla Turn to Boards Cozy With Musk to Mull a Merger",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/spacex-and-tesla-turn-to-boards-cozy-with-musk-to-mull-a-merger",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T17:00:00Z",
+   "summary": "Elon Musk disclosed last week that SpaceX and Tesla’s boards had formed special committees to discuss a potential merger. Musk himself cannot interfere, he said, stressing that the special committees are composed of independent directors.",
+   "id": 53
+  },
+  {
+   "title": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+   "url": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-27T16:53:02Z",
+   "summary": "Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on Amazon Bedrock, cutting cost by 86% across 11 image-quality attributes.",
+   "id": 54
+  },
+  {
+   "title": "Ghostty 1.4",
+   "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T16:51:22Z",
+   "summary": "Article URL: https://ghostty.org/docs/install/release-notes/1-4-0 Comments URL: https://news.ycombinator.com/item?id=50261998 Points: 552 # Comments: 164",
+   "id": 55
+  },
+  {
+   "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
+   "url": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-27T16:50:55Z",
+   "summary": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost.",
+   "id": 56
+  },
+  {
+   "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
+   "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T16:40:15Z",
+   "summary": "Article URL: https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220 Comments URL: https://news.ycombinator.com/item?id=50261819 Points: 303 # Comments: 233",
+   "id": 57
+  },
+  {
+   "title": "Ripple strikes deal with Robinhood to expand its RLUSD digital dollar",
+   "url": "https://www.cnbc.com/2026/10/27/ripple-strikes-deal-with-robinhood-to-expand-its-rlusd-digital-dollar.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T16:35:45Z",
+   "summary": "As crypto evolves past its trading roots, and global markets shift to 24/7 liquidity, stablecoins are becoming essential financial infrastructure.",
+   "id": 58
+  },
+  {
+   "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+   "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T16:30:57Z",
+   "summary": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+   "id": 59
+  },
+  {
+   "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+   "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T16:25:30Z",
+   "summary": "Article URL: https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova Comments URL: https://news.ycombinator.com/item?id=50261589 Points: 169 # Comments: 80",
+   "id": 60
+  },
+  {
+   "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T16:14:18Z",
+   "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into a job application. You […]",
+   "id": 61
+  },
+  {
+   "title": "Can we trust LLMs to judge whether a research idea is novel?",
+   "url": "https://huggingface.co/blog/allenai/novelty-bench",
+   "source": "Hugging Face",
+   "source_type": "lab",
+   "source_weight": 1.1,
+   "published": "2026-10-27T16:12:42Z",
+   "summary": "",
+   "id": 62
+  },
+  {
+   "title": "New 14‑inch MacBook Pro with M6",
+   "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T16:08:32Z",
+   "summary": "Article URL: https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/ Comments URL: https://news.ycombinator.com/item?id=50261352 Points: 220 # Comments: 257",
+   "id": 63
+  },
+  {
+   "title": "Genie 4",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T16:06:01Z",
+   "summary": "Article URL: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/ Comments URL: https://news.ycombinator.com/item?id=50261319 Points: 586 # Comments: 359",
+   "id": 64
+  },
+  {
+   "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+   "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-27T16:00:22Z",
+   "summary": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+   "id": 65
+  },
+  {
+   "title": "Why Anthropic’s Rivals are Rooting for its IPO",
+   "url": "https://www.wsj.com/tech/ai/why-anthropics-rivals-are-rooting-for-its-ipo-ce347cd6?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T16:00:00Z",
+   "summary": "Plus, a $63 billion debt deal for AI chips, and Meta goes on a borrowing spree.",
+   "id": 66
+  },
+  {
+   "title": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+   "source": "NVIDIA Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.1,
+   "published": "2026-10-27T16:00:00Z",
+   "summary": "NVIDIA and Oracle today announced plans to expand Oracle Cloud Infrastructure (OCI) Superclusters with NVIDIA Vera Rubin NVL72 systems to multi-gigawatt scale, supporting growing customer demand for AI training, inference and agentic applications.",
+   "id": 67
+  },
+  {
+   "title": "‘I Felt Blind Panic.’ They Opened Their New $2,000 iPhone Duo—and It Broke.",
+   "url": "https://www.wsj.com/tech/personal-tech/iphone-duo-broken-hinge-screen-31b2b28a?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T15:37:00Z",
+   "summary": "Apple acknowledges an issue affecting the interior, folding screen on a ‘small number of iPhone Duo units.’",
+   "id": 68
+  },
+  {
+   "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+   "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T15:28:26Z",
+   "summary": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 371 # Comments: 204",
+   "id": 69
+  },
+  {
+   "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+   "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T15:10:26Z",
+   "summary": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy and secrecy surrounding their use.",
+   "id": 70
+  },
+  {
+   "title": "Google’s next Genie AI model generates more realistic experiences",
+   "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T15:07:35Z",
+   "summary": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 Flash under the hood to help […]",
+   "id": 71
+  },
+  {
+   "title": "Elon Musk says he has ‘cyber psychosis’. Do you too? | Arwa Mahdawi",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/27/elon-musk-cyber-psychosis-ai-tech",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T15:01:14Z",
+   "summary": "Whether using chatbots for childcare or taking up smoking, a new affliction is sweeping through the tech world. Here are the signs In the least surprising news you’ll hear all week, Elon Musk has said he’s not entirely right in the head. “I’ve got a little bit of cyber psychosis,” the world’s richest and most irritating man explained during an event this month. “Maybe a lot actually.” Musk added that, over “various points this year”, he’s had “AI or SI psychosis probably half a dozen times”. SI, in case you missed the super-important memo, stands for “ superintelligence ” and it’s what…",
+   "id": 72
+  },
+  {
+   "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+   "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+   "source": "NVIDIA Blog",
+   "source_type": "lab",
+   "source_weight": 1.0,
+   "published": "2026-10-27T15:00:20Z",
+   "summary": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in […]",
+   "id": 73
+  },
+  {
+   "title": "New Research: Work Gets Trapped in Single-Player AI. Executives Are Ready for Multiplayer",
+   "url": "https://www.salesforce.com/news/stories/work-stalls-isolated-ai-tools/",
+   "source": "Salesforce News",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-27T15:00:00Z",
+   "summary": "Key Takeaways As more and more businesses rely on AI, workers are experiencing a bottleneck: interface isolation. According to a recent Salesforce survey of 250 U.S. executives, 68% of respondents see AI insights go unshared, 66% say people unknowingly use AI to solve the same problem as their colleagues, and 59% observe work stall because […]",
+   "id": 74
+  },
+  {
+   "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+   "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T14:59:09Z",
+   "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+   "id": 75
+  },
+  {
+   "title": "The AI Boom Will Pull Back, Warns Former SEC Chair Gary Gensler",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/the-ai-boom-will-pull-back-warns-gary-gensler-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T14:57:57Z",
+   "summary": "Former SEC Chair Gary Gensler says history suggests today’s AI investment boom will not continue indefinitely. He's expecting some form of slowdown or reversal within the next 18 to 30 months, and says mounting debt could determine how disruptive that correction becomes. Gensler also weighs in on interest rates, monetary policy, financial stability, and the possibility that the U.S. has overbuilt AI infrastructure. Gensler, now Professor of the Practice of Global Economics and Management at MIT's Sloan School of Management, speaks with Bloomberg Surveillance hosts Tom Keene and Paul Sweeney.…",
+   "id": 76
+  },
+  {
+   "title": "How Billionaires Are Fighting the Prop 40 California Wealth Tax",
+   "url": "https://www.nytimes.com/2026/10/27/technology/proposition-40-california-billionaire-tax.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-27T14:55:35Z",
+   "summary": "The latest Silicon Valley billionaire club is a $333 million political ad machine that is heavily engaged in next week’s elections.",
+   "id": 77
+  },
+  {
+   "title": "Coding From the Himalayas With an Offline AI Agent",
+   "url": "https://latent.space/p/offline-coding/",
+   "source": "Latent Space",
+   "source_type": "expert",
+   "source_weight": 1.0,
+   "published": "2026-10-27T14:41:25Z",
+   "summary": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+   "id": 78
+  },
+  {
+   "title": "Amazon's water conservation and replenishment efforts around the world",
+   "url": "https://www.aboutamazon.com/news/sustainability/amazon-water-conservation-replenishment-sustainability?utm_source=rss",
+   "source": "Amazon News",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-10-27T14:30:00Z",
+   "summary": "Get the latest updates on how we’re reducing our water footprint and investing in innovations to address water scarcity.",
+   "id": 79
+  },
+  {
+   "title": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
+   "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T14:19:36Z",
+   "summary": "Meta on Monday announced plans to raise a total of $95 billion to support its investments in artificial intelligence infrastructure.",
+   "id": 80
+  },
+  {
+   "title": "‘Meaningless as a laptop screensaver’: reviewers slate Musk’s AI-made Odyssey film",
+   "url": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T14:08:41Z",
+   "summary": "Tesla tycoon launched Grok project after criticising Christoper Nolan’s diverse casting for his Homeric blockbuster Elon Musk has released an AI-generated rival to Christopher Nolan’s The Odyssey after pledging to make a version “true to the art of Homer”. Having criticised the hit movie in the summer, the tycoon said he would use Grok Imagine to make a “historically accurate” adaptation. Continue reading...",
+   "id": 81
+  },
+  {
+   "title": "US Government is hiding a secret court ruling about how it spies on Americans",
+   "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T14:06:42Z",
+   "summary": "Article URL: https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/ Comments URL: https://news.ycombinator.com/item?id=50259604 Points: 673 # Comments: 238",
+   "id": 82
+  },
+  {
+   "title": "Anthropic and the AI cluster effect in fundraising",
+   "url": "https://www.ft.com/content/689a2114-57c5-4391-a335-dc97e5716610",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T14:02:23Z",
+   "summary": "$95bn equity issue plan by Meta as rival conducts IPO shows the Hotelling effect",
+   "id": 83
+  },
+  {
+   "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+   "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T13:50:51Z",
+   "summary": "Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document's context to perform tasks like designing, animating, and refining slides in Keynote. In Pages, Apple says the AI assistant can draft, restructure, […]",
+   "id": 84
+  },
+  {
+   "title": "Japan internet giant GMO says hackers posted stolen customer data",
+   "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T13:32:57Z",
+   "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+   "id": 85
+  },
+  {
+   "title": "Anduril and Qualcomm Plan US Supply Chain Laptop",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/anduril-and-qualcomm-plan-us-supply-chain-laptop-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T13:31:36Z",
+   "summary": "Anduril Industries and Qualcomm are producing laptops designed and assembled in the US, called BlueChip, to supply critical industries. Ed Ludlow has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+   "id": 86
+  },
+  {
+   "title": "Disruptive Closes $10 Billion Megafund for AI, Defense Startups",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/disruptive-closes-10-billion-megafund-for-ai-defense-startups",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T13:30:01Z",
+   "summary": "The Dallas-based firm plans to back 10 later-stage companies with $1 billion each.",
+   "id": 87
+  },
+  {
+   "title": "Anthropic Says Enterprise AI Adoption Remains in ‘Early Phases’",
+   "url": "https://www.wsj.com/cio-journal/anthropic-says-enterprise-ai-adoption-remains-in-early-phases-d3e93c47?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T13:24:00Z",
+   "summary": "Plus, Nvidia to invest $3 billion in Meta’s equity offering",
+   "id": 88
+  },
+  {
+   "title": "Apple Launches M6 iMac, Entry MacBook Pro Ahead of Touch Laptop",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/apple-launches-m6-imac-entry-macbook-pro-ahead-of-touch-laptop",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T13:07:22Z",
+   "summary": "Apple Inc. rolled out a new 24-inch iMac and an entry-level MacBook Pro with a 14-inch screen, marking a pair of key updates in an end-to-end overhaul of the company’s computer line.",
+   "id": 89
+  },
+  {
+   "title": "New iMac with M6",
+   "url": "https://www.apple.com/imac/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T13:02:02Z",
+   "summary": "Article URL: https://www.apple.com/imac/ Comments URL: https://news.ycombinator.com/item?id=50258538 Points: 275 # Comments: 326",
+   "id": 90
+  },
+  {
+   "title": "Elon Musk’s AI Odyssey review – the dullest, most pointless riposte possible to Christopher Nolan’s brilliant epic",
+   "url": "https://www.theguardian.com/film/2026/oct/27/elon-musk-ai-odyssey-movie-grok-christopher-nolan",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T13:01:46Z",
+   "summary": "It is hardly a shock that Grok AI’s interpretation of Homer is as meaningless as a laptop screensaver. The only surprise would be if Musk accepted defeat graciously. Which he won’t Think back. Do you remember when Elon Musk, in a weird online tantrum, and without having seen the film, condemned the supposed wokery in Christopher Nolan’s The Odyssey, for getting Elliot Page to play Sinon and Lupita Nyong’o to play Helen of Troy? As the plaudits and the box-office receipts for Nolan’s Odyssey piled stratospherically up , Musk showed that being a good loser is not among his qualities. He…",
+   "id": 91
+  },
+  {
+   "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+   "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T13:00:00Z",
+   "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
+   "id": 92
+  },
+  {
+   "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+   "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T13:00:00Z",
+   "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+   "id": 93
+  },
+  {
+   "title": "Palmer Luckey’s New Weapon: The American-Made Laptop",
+   "url": "https://www.wsj.com/tech/palmer-luckeys-new-weapon-the-american-made-laptop-5e17c6f0?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T13:00:00Z",
+   "summary": "A joint venture between Anduril and Qualcomm aims to make rugged laptops for the military and government.",
+   "id": 94
+  },
+  {
+   "title": "Anduril and Qualcomm Plan Rugged Laptop With US Supply Chain",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/anduril-and-qualcomm-plan-to-build-laptop-with-us-supply-chain",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T13:00:00Z",
+   "summary": "Defense tech startup Anduril Industries Inc. has joined forces with chipmaker Qualcomm Inc. to produce laptops that are designed and assembled in the US, an attempt to rebuild a manufacturing process that has largely moved overseas.",
+   "id": 95
+  },
+  {
+   "title": "Salesforce Expands Agent Fabric to Automatically Stop Runaway Costs and AI Agent Failures Before They Impact Customers",
+   "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/",
+   "source": "Salesforce News",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-27T13:00:00Z",
+   "summary": "New Agent Evals gives leaders the confidence to scale more agents into production by continuously evaluating agent performance and costs, no matter what platform the agent is built on.",
+   "id": 96
+  },
+  {
+   "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+   "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+   "source": "Apple Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.0,
+   "published": "2026-10-27T12:59:39.082000Z",
+   "summary": "Apple today announced the new 14-inch MacBook Pro with M6, delivering more performance, powerful on-device AI capabilities, and faster connectivity.",
+   "id": 97
+  },
+  {
+   "title": "Apple unveils new iMac with M6",
+   "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
+   "source": "Apple Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.0,
+   "published": "2026-10-27T12:59:15.245000Z",
+   "summary": "Apple today announced the new iMac featuring the superfast M6, delivering even more performance and powerful AI capabilities.",
+   "id": 98
+  },
+  {
+   "title": "Apple Creator Studio adds powerful new AI features and even more creative tools",
+   "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+   "source": "Apple Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.0,
+   "published": "2026-10-27T12:58:45.444000Z",
+   "summary": "Apple introduces updates to Apple Creator Studio, the collection of creative apps designed to put studio-grade tools into the hands of creators.",
+   "id": 99
+  },
+  {
+   "title": "Healthcare Stocks Become Anti-AI Bet as Investors Turn Defensive",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/healthcare-stocks-become-anti-ai-bet-as-investors-turn-defensive",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T12:45:25Z",
+   "summary": "With investor confidence in the artificial intelligence trade under pressure, traders are turning to healthcare stocks for refuge.",
+   "id": 100
+  },
+  {
+   "title": "Dutch Plan to Cut 25,000 Jobs Will Show Whether AI Can Shrink Government",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/dutch-plan-to-cut-25-000-jobs-will-show-whether-ai-can-shrink-government",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T12:44:55Z",
+   "summary": "The Dutch government’s AI-led efficiency drive to cut 25,000 civil servant jobs is perhaps the most ambitious government plan yet to use tech to reduce the state’s payroll. Making it work — and rolling out similar programs in other countries — could prove tricky.",
+   "id": 101
+  },
+  {
+   "title": "Apple responds to user reports of broken iPhone Duo screens on new foldable phone",
+   "url": "https://www.cnbc.com/2026/10/26/apple-responds-to-user-reports-of-broken-iphone-duo-screens.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T12:41:42Z",
+   "summary": "Apple on Monday said that it was aware of the issue and that it would replace the devices under its AppleCare warranty.",
+   "id": 102
+  },
+  {
+   "title": "FCC Warns TP-Link Its Routers Breach Power Limits in Latest Snub",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/fcc-warns-tp-link-its-routers-breach-power-limits-in-latest-snub",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T12:21:17Z",
+   "summary": "The Federal Communications Commission has told TP-Link Systems Inc. that some of its Wi-Fi routers are violating power level limits, a move that could pave the way for additional bans on the California-based tech company’s equipment.",
+   "id": 103
+  },
+  {
+   "title": "Data center backlash is uniting America",
+   "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T12:20:38Z",
+   "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and become a major issue in many congressional […]",
+   "id": 104
+  },
+  {
+   "title": "Tech's relief rally extends as attention turns to tough decisions for the Fed",
+   "url": "https://www.cnbc.com/2026/10/27/tech-rally-fed-decision.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T12:09:19Z",
+   "summary": "Here are the key things investors need to know to start the trading day.",
+   "id": 105
+  },
+  {
+   "title": "Software may be getting worse, but it used to be horrible",
+   "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T11:30:35Z",
+   "summary": "Article URL: https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/ Comments URL: https://news.ycombinator.com/item?id=50257548 Points: 180 # Comments: 135",
+   "id": 106
+  },
+  {
+   "title": "The Morning Risk Report: The Biggest Takeaways From Anthropic’s IPO Prospectus",
+   "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-the-biggest-takeaways-from-anthropics-ipo-prospectus-f786ea5e?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T11:24:00Z",
+   "summary": "Plus: Florida’s role in battling big tech and China warns U.S. over investment curbs.",
+   "id": 107
+  },
+  {
+   "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+   "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+   "source": "MIT Technology Review",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T11:19:18Z",
+   "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor…",
+   "id": 108
+  },
+  {
+   "title": "Python's experimental JIT to be removed",
+   "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T11:17:57Z",
+   "summary": "Article URL: https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/ Comments URL: https://news.ycombinator.com/item?id=50257419 Points: 400 # Comments: 208",
+   "id": 109
+  },
+  {
+   "title": "Wikipedia's Cleanup of AI-Generated Content",
+   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T11:08:15Z",
+   "summary": "Article URL: https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup Comments URL: https://news.ycombinator.com/item?id=50257326 Points: 407 # Comments: 186",
+   "id": 110
+  },
+  {
+   "title": "AI promised less work. I've never worked more",
+   "url": "https://oioannou.com/blog/ai-promised-less-work/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T11:08:14Z",
+   "summary": "Article URL: https://oioannou.com/blog/ai-promised-less-work/ Comments URL: https://news.ycombinator.com/item?id=50257325 Points: 360 # Comments: 322",
+   "id": 111
+  },
+  {
+   "title": "Anthropic Relies on Close Connections With Amazon, Google and Microsoft",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-relies-on-close-connections-with-amazon-google-and-microsoft",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T11:02:01Z",
+   "summary": "Amazon and Google invested in the AI startup, supply it computing power — and compete with it.",
+   "id": 112
+  },
+  {
+   "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+   "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T11:00:00Z",
+   "summary": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
+   "id": 113
+  },
+  {
+   "title": "AI Agents Are Media’s New Favorite Audience",
+   "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T11:00:00Z",
+   "summary": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
+   "id": 114
+  },
+  {
+   "title": "Anthropic IPO Filing Reveals $417 Billion in Future AI Spending",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-ipo-filing-reveals-417-billion-in-future-ai-spending",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T10:28:00Z",
+   "summary": "Anthropic just filed for one of the biggest IPOs in history – and may need more money.",
+   "id": 115
+  },
+  {
+   "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+   "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T10:27:50Z",
+   "summary": "Article URL: https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/ Comments URL: https://news.ycombinator.com/item?id=50256985 Points: 364 # Comments: 219",
+   "id": 116
+  },
+  {
+   "title": "Memory Stocks Lost Their Mojo and Strong Earnings Aren’t Helping",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/memory-stocks-lost-their-mojo-and-strong-earnings-aren-t-helping",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T10:09:02Z",
+   "summary": "Sandisk Corp., Micron Technology Inc., Seagate Technology Holdings Plc and Western Digital Corp. were among the stock market’s biggest winners in the first six months of the year as demand from the artificial intelligence build out seemed insatiable.",
+   "id": 117
+  },
+  {
+   "title": "Porsche profit rebounds as luxury carmaker reduces exposure to China",
+   "url": "https://www.cnbc.com/2026/10/27/porsche-china-profit-recovery.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T10:08:51Z",
+   "summary": "Luxury German carmaker Porsche said it's rapidly reducing its exposure to the Chinese autos market after reporting a profit recovery in the first nine months.",
+   "id": 118
+  },
+  {
+   "title": "Microsoft Alumni Score Funding to Build AI Agents for Finance",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/microsoft-alumni-score-funding-to-build-ai-agents-for-finance",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T10:00:44Z",
+   "summary": "Hyphenate Inc. has raised $45 million in a funding round led by Nexus Venture Partners, securing capital for an effort to create AI agents that can run finances for businesses.",
+   "id": 119
+  },
+  {
+   "title": "AI-driven disinformation running rampant on social media before US midterms, experts warn",
+   "url": "https://www.theguardian.com/us-news/2026/oct/27/ai-disinformation-social-media-midterm-elections",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T10:00:10Z",
+   "summary": "Social media companies including Meta have pulled back on efforts to protect voters from election-meddling lies Social media feeds are awash with an unprecedented flood of AI -driven disinformation ahead of November’s US midterm elections , according to experts, who warn many posts are probably “slipping through the cracks”. As tens of millions of Americans prepare to cast their vote, social media companies have scaled back their efforts to protect voters from lies meant to manipulate elections. Continue reading...",
+   "id": 120
+  },
+  {
+   "title": "Silicon Valley AI political groups turn on each other in the 2026 election",
+   "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T10:00:01Z",
+   "summary": "AI political groups are spending millions in the 2026 election as Silicon Valley factions battle over regulation, safeguards and state authority.",
+   "id": 121
+  },
+  {
+   "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+   "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T09:30:00Z",
+   "summary": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.",
+   "id": 122
+  },
+  {
+   "title": "Anthropic’s ‘Adjusted’ Profit Exposes Wall Street’s Earnings Game",
+   "url": "https://www.wsj.com/finance/investing/anthropics-adjusted-profit-exposes-wall-streets-earnings-game-40cbcef1?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T09:30:00Z",
+   "summary": "The AI developer’s losses were the flip side of the big gains for Amazon and Alphabet.",
+   "id": 123
+  },
+  {
+   "title": "Microsoft Is Trying to Shed a Lot of Workers. Just Don’t Call It a Layoff.",
+   "url": "https://www.wsj.com/business/microsoft-job-cuts-buyout-offers-ff3c5dde?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T09:30:00Z",
+   "summary": "The tech giant is offering buyouts to 60,000 employees just as Skydance is also seeking volunteers to leave the company.",
+   "id": 124
+  },
+  {
+   "title": "JPMorgan Private Bank on How to Balance AI Exposure",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/jpmorgan-private-bank-on-how-to-balance-ai-exposure-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T09:21:49Z",
+   "summary": "Madison Faller, investment strategist at JPMorgan Private Bank, says investors can balance AI exposure with quality credit and real assets. She speaks on Bloomberg Television. (Source: Bloomberg)",
+   "id": 125
+  },
+  {
+   "title": "In the A.I. ‘Robogym,’ Machines Train to Be More Like Humans",
+   "url": "https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-27T09:02:37Z",
+   "summary": "Germany’s Neura is one of the companies at the forefront of efforts to use artificial intelligence in robotics, and crucial to whether Europe can close the gap with China.",
+   "id": 126
+  },
+  {
+   "title": "How XDS Datacentres Cools Its Chips in Saudi Arabia",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/how-xds-datacentres-cools-its-chips-in-saudi-arabia-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T08:02:35Z",
+   "summary": "How do you keep a data center cool in Saudi Arabia? That's one of the questions Ikaraam Ullah, chief strategy officer at XDS Datacentres, answers in this interview at the BloombergNEF Summit London on Oct. 20, 2026. Ullah also discusses recent tensions the Gulf region and the impact on data center operators, and how retrofitting existing facilities can help firms tackle issues over their power and water use in the UK and elsewhere in Europe. (Source: Bloomberg)",
+   "id": 127
+  },
+  {
+   "title": "[Hands-On] Comfort, Convenience, and More: A Day With Galaxy Buds On",
+   "url": "https://news.samsung.com/global/hands-on-comfort-convenience-and-more-a-day-with-galaxy-buds-on",
+   "source": "Samsung Newsroom",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-27T08:00:00Z",
+   "summary": "Earbuds have become an everyday essential for listening to music, taking calls, exercising, and working. With all-day use increasingly common, comfort and awareness of one’s surroundings are now just as important as sound quality. To meet these needs, Samsung Electronics has launched Galaxy Buds On, its first open-ear earbuds. Combining a clip-on design with rich […]",
+   "id": 128
+  },
+  {
+   "title": "Infineon to Invest €1.1 Billion in Key Austrian Chip Factory",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/infineon-to-invest-1-1-billion-in-key-austrian-chip-factory",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T07:58:26Z",
+   "summary": "Infineon Technologies AG will spend €1.1 billion ($1.2 billion) over eight years to expand its key power chip factory in Austria, a bet on growing demand for energy-efficient semiconductors for AI data centers, electric vehicles and robotics.",
+   "id": 129
+  },
+  {
+   "title": "GSK Sees Cancer-Drug Pipeline Nearly Doubling Next Year After Dealmaking Spree",
+   "url": "https://www.wsj.com/health/pharma/gsk-sees-cancer-drug-pipeline-nearly-doubling-next-year-after-dealmaking-spree-dafa94d7?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T07:31:00Z",
+   "summary": "EXCLUSIVE: The U.K. drugmaker currently has five approved cancer medicines and a clinical-stage portfolio of about 15 assets.",
+   "id": 130
+  },
+  {
+   "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+   "url": "https://latent.space/p/ainews-anthropic-s1/",
+   "source": "Latent Space",
+   "source_type": "expert",
+   "source_weight": 1.0,
+   "published": "2026-10-27T07:24:59Z",
+   "summary": "The S-1, the numbers, and the reactions.",
+   "id": 131
+  },
+  {
+   "title": "Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership",
+   "url": "https://www.wsj.com/tech/ai/nvidia-to-invest-3-billion-in-metas-equity-offering-as-they-expand-ai-partnership-e8d3850a?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T07:01:00Z",
+   "summary": "The investment comes as Nvidia and Meta Platforms expand their partnership on the Facebook parent’s artificial-intelligence offering Muse.",
+   "id": 132
+  },
+  {
+   "title": "UK government met 137 businesses over AI datacentres – but no environmental groups",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T07:00:04Z",
+   "summary": "Investigation finds dozens of ministers and civil servants moved into AI roles as government developed datacentre expansion plans The UK’s policy on datacentres and AI was developed without any meetings with environmental groups, an investigation has found. The nonprofit organisation Spotlight on Corruption said a “considerable revolving door” shaped the government’s development of “AI growth zones”, a central plank of the former prime minister Keir Starmer’s AI and economic policy, with 38 ministers, senior civil servants and special advisers hired to positions in AI companies between July…",
+   "id": 133
+  },
+  {
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "source": "OpenAI",
+   "source_type": "lab",
+   "source_weight": 1.3,
+   "published": "2026-10-27T07:00:00Z",
+   "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+   "id": 134
+  },
+  {
+   "title": "Anthropic Brings Mega IPO to Australia’s AI-Starved Retail Crowd",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/anthropic-brings-mega-ipo-to-australia-s-ai-starved-retail-crowd",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T06:55:17Z",
+   "summary": "Anthropic PBC will offer shares as part of its blockbuster initial public offering directly to Australian investors, bringing a fresh artificial-intelligence bet to a market still reeling from the high-profile collapse of a data center deal.",
+   "id": 135
+  },
+  {
+   "title": "What Anthropic's IPO Means for the AI Trade",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/what-anthropic-s-ipo-means-for-the-ai-trade-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T06:30:39Z",
+   "summary": "Anthropic is expected to raise more money in its initial public offering than any company in history and plans to list on the Nasdaq under the ticker ANT. Its public market performance might cement or capsize Wall Street’s confidence in the AI boom at a moment when investors are increasingly anxious about the borrowing binge underpinning it. Matt Bloxham of Bloomberg Intelligence has the details. (Source: Bloomberg)",
+   "id": 136
+  },
+  {
+   "title": "The Mythical Man-Month in the Age of AI",
+   "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-27T06:25:37Z",
+   "summary": "Article URL: https://j11g.com/the-mythical-man-month-in-the-age-of-ai Comments URL: https://news.ycombinator.com/item?id=50255298 Points: 311 # Comments: 201",
+   "id": 137
+  },
+  {
+   "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+   "source": "NVIDIA Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.1,
+   "published": "2026-10-27T05:52:00Z",
+   "summary": "NVIDIA and Meta today announced they will partner to expand their work on Muse and the Muse family of models to improve inference and training performance, reflecting popular demand for useful AI agents.",
+   "id": 138
+  },
+  {
+   "title": "Anthropic’s constitutional order",
+   "url": "https://www.ft.com/content/69a623e0-8605-4b1d-b147-770649efb53a?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T05:30:08Z",
+   "summary": "Plus, Lula’s victory",
+   "id": 139
+  },
+  {
+   "title": "India’s outsourcers defy AI threat",
+   "url": "https://www.ft.com/content/42dc1a1c-2454-4eaf-bafe-ded5ad7855e4?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T05:15:12Z",
+   "summary": "IT services groups now make 10% of revenue from helping companies integrate the new technology",
+   "id": 140
+  },
+  {
+   "title": "From Blackouts to Surplus: How Eskom Turned South Africa’s Power Around",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/how-eskom-turned-south-africa-s-power-around-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T05:00:34Z",
+   "summary": "After enduring years of crippling power cuts, South Africa’s state utility Eskom has swung to an operational surplus, maintaining 3 to 5 gigawatts of excess generation capacity, according to CEO Dan Marokane. Yet across Johannesburg, localized outages persist as the city works to strengthen its finances and manage its power network. Speaking to Bloomberg’s Jennifer Zabasajja on Next Africa, Marokane discusses the city’s progress on settling overdue electricity bills and plans to ring-fence electricity revenue. He also outlines how Eskom’s recovery is enabling cross-border exports to…",
+   "id": 141
+  },
+  {
+   "title": "Anthropic’s big financial reveal",
+   "url": "https://www.ft.com/content/d1dca5d1-467f-4311-a004-82bb1ef761e0?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T05:00:29Z",
+   "summary": "Here are the big takeaways from the start-up’s IPO prospectus",
+   "id": 142
+  },
+  {
+   "title": "Ex-Merseyside police officer lands $400mn valuation for AI venture",
+   "url": "https://www.ft.com/content/65a113b4-2a45-49cf-9e68-93f42151166e?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T05:00:18Z",
+   "summary": "Steven Richardson has raised funds from investors including Sequoia for company providing tools for police forces",
+   "id": 143
+  },
+  {
+   "title": "How long can lawyers keep squeezing their clients?",
+   "url": "https://www.ft.com/content/cf954c9f-48dc-4e30-a03a-6fb2ec4dafa6?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T05:00:18Z",
+   "summary": "Possibly longer than one may think",
+   "id": 144
+  },
+  {
+   "title": "Slough has become the data centre capital of Europe. Now it wants its reward",
+   "url": "https://www.ft.com/content/d92ede23-75c3-4549-bec2-7fa4be979786?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T05:00:09Z",
+   "summary": "Companies asked to provide more benefits to locals as backlash against AI infrastructure gathers pace",
+   "id": 145
+  },
+  {
+   "title": "What does human inquiry even mean any more?",
+   "url": "https://www.ft.com/content/064d657d-1808-4287-a6ae-7f2d34c79ec3",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T05:00:09Z",
+   "summary": "Universities and other knowledge-based institutions will need to be radically redesigned in the age of AI",
+   "id": 146
+  },
+  {
+   "title": "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T05:00:04Z",
+   "summary": "The AI company’s first public financial disclosures reveal explosive growth, huge costs and risks ranging from cyber-attacks to the limits of safeguards Anthropic has filed to go public on the US stock market, revealing for the first time the AI research lab’s financials and all the risks – more than 90 pages of them – that might negatively affect its business. The company’s investor prospectus, released on Monday, veers from hyperbolic predictions about AI’s “incredible potential” to existential risks of the technology to the reality of its current business: explosive but incredibly…",
+   "id": 147
+  },
+  {
+   "title": "Mbappé Boycott in China Widens After Perceived Insult to Mao",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/kylian-mbappe-mao-zedong-eastroc-beverage-china-mengniu-dairy-online-backlash",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T04:47:40Z",
+   "summary": "French soccer star Kylian Mbappé is facing mounting backlash in China after comments perceived as insulting Mao Zedong, with state TV blocking his matches, social media freezing his accounts and a slew of companies dropping him as ambassador.",
+   "id": 148
+  },
+  {
+   "title": "Oil Shock, AI Boom Deepen Divide in Emerging Asian Currencies",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/oil-shock-ai-boom-asian-dollar-philippine-peso-korean-won-thai-baht-ringgit",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T04:46:15Z",
+   "summary": "Surging oil prices and the AI boom are widening a currency-market divide, deepening losses across most emerging Asian currencies while providing a buffer for others, such as the Korean won.",
+   "id": 149
+  },
+  {
+   "title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
+   "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T04:42:50Z",
+   "summary": "Lack of profits and the threat posed by western countries are raising concern about the sustainability of Beijing’s AI boom Trillions of dollars have been wiped from China’s stock markets in recent months amid increasing anxiety about the future of artificial intelligence, as Beijing races against the United States for dominance in the sector. The STAR 50 Index, which tracks technology and innovation companies on the Shanghai stock exchange, has plunged 40% since June. Other indexes of major companies dropped by about 20% over the same time period. Continue reading...",
+   "id": 150
+  },
+  {
+   "title": "Anthropic’s IPO May See CBA Sitting on Multi-Billion Windfall",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/anthropic-ipo-cba-commonwealth-bank-of-australia-multi-billion-windfall",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T04:09:24Z",
+   "summary": "Anthropic PBC’s initial public offering may give Commonwealth Bank of Australia an opportunity to cash in on a stake it purchased in the artificial intelligence startup more than a year ago and whose valuation has ballooned.",
+   "id": 151
+  },
+  {
+   "title": "BNY CFO on AI Strategy, Business Growth",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/bny-cfo-on-ai-strategy-business-growth-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T02:31:44Z",
+   "summary": "Dermot McDonogh, Global CFO at BNY, discusses his outlook on the bank's growth and business strategies, as well as how he is monitoring AI so as to avoid overspending on related tools. He speaks exclusively with Paul Allen and Haidi Stroud Watts on \"Bloomberg: The Asia Trade.\" (Source: Bloomberg)",
+   "id": 152
+  },
+  {
+   "title": "BlackRock’s Rieder Spent Weekend Doing Deals in AI Debt Rush",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/blackrock-s-rieder-spent-all-weekend-doing-deals-in-ai-debt-rush",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T02:00:41Z",
+   "summary": "The AI-driven debt boom is creating some of the most attractive fixed-income opportunities in years, eclipsing the appeal of long-dated US Treasuries, according to BlackRock’s Rick Rieder.",
+   "id": 153
+  },
+  {
+   "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+   "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T02:00:00Z",
+   "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+   "id": 154
+  },
+  {
+   "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+   "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T01:12:21Z",
+   "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+   "id": 155
+  },
+  {
+   "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+   "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T01:05:06Z",
+   "summary": "Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency.",
+   "id": 156
+  },
+  {
+   "title": "AI Fund a ‘Fiscal Dam’, Says South Korea Budget Minister",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/ai-fund-a-fiscal-dam-says-south-korea-budget-minister-video-mvpxe6yk",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T00:06:45Z",
+   "summary": "In an exclusive conversation with Bloomberg's Heesu Lee, South Korean budget minister Park Hong Keun says that the fund financed by semiconductor-driven tax gains will serve as a fiscal dam to cushion from higher yields (Source: Bloomberg)",
+   "id": 157
+  },
+  {
+   "title": "‘Digital hostile environment’: AI secretly being embedded across Home Office, report claims",
+   "url": "https://www.theguardian.com/politics/2026/oct/27/digital-hostile-environment-ai-secretly-embedded-home-office-report",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-27T00:01:02Z",
+   "summary": "Tasks from determining asylum seekers’ ages to border surveillance now involve AI, says Open Rights Group AI has been embedded across the Home Office in near-total secrecy, reinforcing the so-called hostile environment for immigration, according to research. Tasks from the detection of potential sham marriages to determining the age of asylum seekers and checking through the contents of phones of new arrivals now involve use of the technology, according to a report by Open Rights Group (ORG). Continue reading...",
+   "id": 158
+  },
+  {
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "url": "https://openai.com/index/check-point-daybreak",
+   "source": "OpenAI",
+   "source_type": "lab",
+   "source_weight": 1.3,
+   "published": "2026-10-27T00:00:00Z",
+   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+   "id": 159
+  },
+  {
+   "title": "South Korea’s AI Fund Offers ‘Fiscal Dam’ Against Higher Yields",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/south-korea-s-ai-fund-offers-fiscal-dam-against-higher-yields",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-27T00:00:00Z",
+   "summary": "As nations across the globe grapple with a surge in borrowing costs, almost none enjoy the option now being eyed in South Korea: deploying a major new source of cash to simply cut back on selling debt.",
+   "id": 160
+  },
+  {
+   "title": "GPT-6.1 Terra",
+   "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-26T23:53:07Z",
+   "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos. Terra sits…",
+   "id": 161
+  },
+  {
+   "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T23:47:59Z",
+   "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in […]",
+   "id": 162
+  },
+  {
+   "title": "Meta plans $95bn stock offering to help cover AI expansion",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T23:33:19Z",
+   "summary": "Tech firm announces two-part fundraising after Elon Musk warns hundreds of AI startups face collapse Mark Zuckerberg’s Meta has announced plans for $95bn (£71bn) of fundraising to cover its AI expenditure, even as Elon Musk warned that funding for smaller players in the sector was drying up. The owner of Facebook, Instagram and WhatsApp is a leading investor in AI and is ploughing multibillion-dollar sums into datacentres, the central nervous systems of the technology. Continue reading...",
+   "id": 163
+  },
+  {
+   "title": "Anthropic’s IPO Sets Up Defining Moment for Wall Street and AI Boom",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-s-ipo-sets-up-defining-moment-for-wall-street-and-ai-boom",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T23:23:19Z",
+   "summary": "Anthropic PBC’s initial public offering is laying bare the extremes of the multi-trillion-dollar AI boom business model: extraordinary growth paired with uncertainty about demand and the spending required to continue developing the technology. The startup, which publicly filed IPO paperwork on Monday, is poised to be the first major US firm focused solely on building AI software to make its market debut.",
+   "id": 164
+  },
+  {
+   "title": "Iran War Boosts Malaysian Data Center Appeal, SD Guthrie Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/iran-war-boosts-malaysian-data-center-appeal-sd-guthrie-says",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T23:00:00Z",
+   "summary": "Malaysia is expected to attract more interest as a data center hub following the outbreak of the US-Iran war, according to SD Guthrie Bhd., giving the palm oil giant and the country’s biggest landowner an opportunity to capitalize on the boom.",
+   "id": 165
+  },
+  {
+   "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+   "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T22:50:07Z",
+   "summary": "With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
+   "id": 166
+  },
+  {
+   "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+   "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T22:41:48Z",
+   "summary": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 162 # Comments: 62",
+   "id": 167
+  },
+  {
+   "title": "BlackBerry reinvented: CEO sees big opportunities AI-powered robots",
+   "url": "https://www.cnbc.com/2026/10/26/blackberry-qnx-physical-ai-robots.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T22:34:19Z",
+   "summary": "BlackBerry CEO John Giamatteo sees AI-powered robots as a major growth opportunity.",
+   "id": 168
+  },
+  {
+   "title": "In a rush to lure AI companies, the Australian government risks undoing a creative ecosystem that has taken decades to build | Dan Guthrie",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/27/in-a-rush-to-lure-ai-companies-the-australian-government-risks-undoing-a-creative-ecosystem-that-has-taken-decades-to-build",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T22:21:17Z",
+   "summary": "If proposed copyright reforms proceed, Australia will become a global IP-laundering paradise. Why would a UK business license its TV shows here if they can be scraped at will? Australia and the UK have always had a shared love of creativity. We consume each other’s TV, news, music and books. Our chefs appear on each other’s TV channels and quite frankly I was bereft when the ABC’s The Newsreader ended its run in the UK. That shared love though, appears not to be reciprocated by the Australian government. Its rush to attract AI investment from big US tech, and the extreme copyright reforms…",
+   "id": 169
+  },
+  {
+   "title": "Jim Cramer warns this overlooked danger could threaten the market rally",
+   "url": "https://www.cnbc.com/2026/10/26/jim-cramer-ipos-capital-raises-bull-market.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T22:09:35Z",
+   "summary": "CNBC’s Jim Cramer warned that a flood of massive IPOs could threaten the bull market's rally.",
+   "id": 170
+  },
+  {
+   "title": "The High Price of India’s iPhone Manufacturing Boom",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/the-high-price-of-india-s-iphone-manufacturing-boom",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T22:01:03Z",
+   "summary": "India now makes one in four iPhones, but its dependence on imported components remains substantial. Bloomberg Opinion columnist Andy Mukherjee says the country's manufacturing gains may not justify the growing taxpayer subsidies needed to replicate China's success. (Source: Bloomberg)",
+   "id": 171
+  },
+  {
+   "title": "Spain Eases Data Center Energy Rules in Win for Big Tech",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/spain-eases-data-center-energy-rules-in-win-for-big-tech",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T22:00:10Z",
+   "summary": "Spain is easing proposed rules for data centers after an initial plan faced strong industry backlash, giving operators as long as five years to phase in the government’s toughest renewable-energy requirement, according to a draft seen by Bloomberg.",
+   "id": 172
+  },
+  {
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "url": "https://openai.com/index/greptile-code-review-codex-astra",
+   "source": "OpenAI",
+   "source_type": "lab",
+   "source_weight": 1.3,
+   "published": "2026-10-26T22:00:00Z",
+   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+   "id": 173
+  },
+  {
+   "title": "The Exponential Time Hypothesis Is False [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T21:59:15Z",
+   "summary": "See also: Announcing three new discoveries in mathematics, computer science, and physics - https://news.ycombinator.com/item?id=50251344 Comments URL: https://news.ycombinator.com/item?id=50251661 Points: 719 # Comments: 258",
+   "id": 174
+  },
+  {
+   "title": "Anthropic is burning gas to feed the AI boom",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T21:45:31Z",
+   "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowledges that data centers are becoming increasingly reliant on \"natural gas\" […]",
+   "id": 175
+  },
+  {
+   "title": "AirTrunk Secures $3 Billion Green Loan for Sydney Data Center",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/airtrunk-secures-3-billion-green-loan-for-sydney-data-center",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:43:25Z",
+   "summary": "AirTrunk secured a A$4.25 billion ($3 billion) green loan to finance the development of a Sydney data center campus, a signal of confidence in a sector that’s taken a slew of hits in recent weeks.",
+   "id": 176
+  },
+  {
+   "title": "Opinion | Anthropic’s Big IPO Gamble",
+   "url": "https://www.wsj.com/opinion/anthropic-ipo-investors-regulation-dario-amodei-c7339185?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:41:00Z",
+   "summary": "The company says it could save humanity or destroy it. Investors, place your bets.",
+   "id": 177
+  },
+  {
+   "title": "Treatments for age-related infertility are being developed at last",
+   "url": "https://www.economist.com/science-and-technology/2026/10/26/treatments-for-age-related-infertility-are-being-developed-at-last",
+   "source": "The Economist",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T21:40:51Z",
+   "summary": "Startups hope to improve IVF by revealing the biology of infertility",
+   "id": 178
+  },
+  {
+   "title": "Amazon’s Holiday Beauty Event ends November 1: Shop top deals before it’s over",
+   "url": "https://www.aboutamazon.com/news/retail/amazon-holiday-beauty-event-2026?utm_source=rss",
+   "source": "Amazon News",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-10-26T21:40:00Z",
+   "summary": "Save up to 30% off skin care and makeup, with rotating 48-hour flash deals and curated holiday gift sets.",
+   "id": 179
+  },
+  {
+   "title": "SVP’s Khosla: Credit Markets Have a Lot of Tail Risk",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/svp-s-khosla-credit-markets-have-a-lot-of-tail-risk-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:39:30Z",
+   "summary": "Victor Khosla, Founder and CIO of Strategic Value Partners, discusses headwinds worsening since his previous appearance. While markets have already repriced amid mounting pressure, he says risks remain unusually high: whereas he would normally put the chance of severe tail events at about 5%, he estimates a 20% to 30% chance that such risks could materialize now. He speaks with Romaine Bostick & Kristine Aquino on \"The Close.\" (Source: Bloomberg)",
+   "id": 180
+  },
+  {
+   "title": "ValueEdge’s Minow on Anthropic’s Share Class Structure",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/valueedge-s-minow-on-anthropic-s-share-class-structure-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:31:00Z",
+   "summary": "Anthropic’s IPO filing outlines a governance structure in which seven cofounders direct Class F shares representing about 50.1% of total voting power on key issues. Nell Minow, Chair at ValueEdge Advisors, says the filing asks investors to trust a multilevel structure: an independent board would appoint most directors, while the founders retain controlling votes. She speaks with Romaine Bostick & Kristine Aquino on \"The Close.\" (Source: Bloomberg)",
+   "id": 181
+  },
+  {
+   "title": "Odd Lots: AI Agents Are Already Changing the Price of Goods",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/odd-lots-ai-agents-are-changing-the-price-of-goods-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:28:48Z",
+   "summary": "With the release of AI agents like Meta's Muse, tech companies are promising consumers that they will start saving them tons of money by finding the best deals. On this episode of the Odd Lots podcast, President and CEO of Groundwork Collaborative Lindsay Owens joins Joe Weisenthal and Tracy Alloway to discuss her think tank's research into agentic commerce and how agents may not be operating in the best interest of the consumer. (Source: Bloomberg)",
+   "id": 182
+  },
+  {
+   "title": "DoorDash Circles Deal to Buy Instacart",
+   "url": "https://www.wsj.com/business/doordash-circles-deal-to-buy-instacart-41ac407d?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:28:00Z",
+   "summary": "Plus, Brazilian markets crashed after Lula’s surprise election victory, and Florida is leading a battle against big tech companies.",
+   "id": 183
+  },
+  {
+   "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+   "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T21:27:15Z",
+   "summary": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells WIRED.",
+   "id": 184
+  },
+  {
+   "title": "CorridorKey 2.0",
+   "url": "https://corridorkey.com/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T21:18:05Z",
+   "summary": "Article URL: https://corridorkey.com/ Comments URL: https://news.ycombinator.com/item?id=50251127 Points: 174 # Comments: 53",
+   "id": 185
+  },
+  {
+   "title": "Applied Materials Boosts BE Semiconductor Stake to About 20%",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/applied-materials-boosts-be-semiconductor-stake-to-about-20",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:11:53Z",
+   "summary": "Applied Materials Inc. boosted its stake in fellow chip-equipment maker BE Semiconductor Industries NV and said it plans to work more closely with the European company, which is becoming a more important part of the AI computing supply chain.",
+   "id": 186
+  },
+  {
+   "title": "Anthropic Warns of Existential Risk, Liability and Slowing Sales",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-warns-of-existential-risk-liability-and-slowing-sales",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:11:21Z",
+   "summary": "Anthropic PBC’s filing for a landmark initial public offering included nearly 100 pages of risk factors, an unusually exhaustive set of disclosures for how the company’s artificial intelligence business could go awry.The list included everything from slowing revenue growth and government regulation to “catastrophic or existential risks to humanity.” The scope of the risks hints at unique challenge public market investors face in gauging the promise and peril of Anthropic’s technology.",
+   "id": 187
+  },
+  {
+   "title": "Opinion | When Computers First Wrote Poetry",
+   "url": "https://www.wsj.com/opinion/when-computers-first-wrote-poetry-8da8322d?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:05:00Z",
+   "summary": "A 1961 newspaper report on an early attempt at artificial intelligence.",
+   "id": 188
+  },
+  {
+   "title": "Netflix Hires Former Apple Executive to Oversee Podcasts",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/netflix-hires-former-apple-executive-to-oversee-podcasts",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:01:54Z",
+   "summary": "Steve Wilson joins the streamer in its nascent efforts to push into video podcasts.",
+   "id": 189
+  },
+  {
+   "title": "Banks, Blackstone Form $63 Billion Financing Vehicle for Broadcom AI Tech",
+   "url": "https://www.wsj.com/tech/ai/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-0438f6d2?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:00:00Z",
+   "summary": "A coalition of major financial institutions is lining up $63 billion in financing to purchase artificial-intelligence computing infrastructure from Broadcom and lease it to Anthropic.",
+   "id": 190
+  },
+  {
+   "title": "SK Hynix, Samsung, Kioxia, CXMT Earnings Test AI Boom in Memory Market",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/memory-titans-test-ai-demand-while-bubble-fears-transfix-markets",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T21:00:00Z",
+   "summary": "From South Korea to Japan and China, the world’s biggest memory chipmakers will this week seek to quell fears that AI spending is outpacing future demand. How they handle back-to-back earnings disclosures and investors’ questions will help determine the trajectory for markets and shed light on the broader outlook for the artificial intelligence industry.",
+   "id": 191
+  },
+  {
+   "title": "Meta plans $95bn stock offering to bankroll AI expansion",
+   "url": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T20:49:27Z",
+   "summary": "Chipmakers Nvidia, AMD and Broadcom will act as cornerstone investors",
+   "id": 192
+  },
+  {
+   "title": "What Anthropic’s IPO Reveals About the AI Boom: Live Q&A",
+   "url": "https://www.bloomberg.com/sessions/2026-10-27/live-q-amp-a-what-anthropic-s-ipo-reveals-about-the-ai-boom",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T20:38:26Z",
+   "summary": "Anthropic’s IPO is offering a rare look inside the business of frontier AI. Bloomberg journalists answer your questions in an interactive Live Q&A on Tuesday, Oct. 27 at 1 p.m. EDT.",
+   "id": 193
+  },
+  {
+   "title": "Broadcom Arranges $63 Billion Deal to Finance Anthropic’s Chips",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/broadcom-arranges-63-billion-deal-to-finance-anthropic-s-chips",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T20:36:14Z",
+   "summary": "Chipmaker Broadcom Inc. has arranged a $63 billion deal with Bank of America Corp., Blackstone Inc., Citigroup Inc. and Morgan Stanley to finance the purchase of chips for AI model developer Anthropic PBC.",
+   "id": 194
+  },
+  {
+   "title": "Microsoft offers buyouts to 60,000 staff",
+   "url": "https://www.ft.com/content/2ef29406-f2f8-413f-81f6-5ae098c97569?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T20:22:52Z",
+   "summary": "Tech giant moves to control costs as it spends up to $175bn on AI infrastructure this year",
+   "id": 195
+  },
+  {
+   "title": "The Key Numbers From Anthropic’s IPO Filing",
+   "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T20:21:29Z",
+   "summary": "We broke down the A.I. company’s key figures, which give insight into the health of its business, its future plans and who’s in charge.",
+   "id": 196
+  },
+  {
+   "title": "Microsoft Offers Buyouts to 60,000 Employees as It Spends on A.I.",
+   "url": "https://www.nytimes.com/2026/10/26/technology/microsoft-buyouts-ai-spending.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T20:15:39Z",
+   "summary": "About a quarter of the tech giant’s employees were eligible for the packages, although the company cautioned it did not expect many employees to sign on.",
+   "id": 197
+  },
+  {
+   "title": "Instacart to Wind Down Smart Cart Business Amid Sale Talks",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/instacart-to-wind-down-smart-cart-business-amid-sale-talks",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T20:05:00Z",
+   "summary": "Instacart will stop offering high-tech shopping carts to grocers, its first announced strategy shift since reports emerged that the company is in talks to sell itself.",
+   "id": 198
+  },
+  {
+   "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+   "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T20:04:16Z",
+   "summary": "Included is the ability to limit which applications Siri can directly access.",
+   "id": 199
+  },
+  {
+   "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+   "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T20:01:42Z",
+   "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the show Casey Newton just left the […]",
+   "id": 200
+  },
+  {
+   "title": "Intel to Buy Quantum Startup Classiq for About $2.3 Billion",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/intel-to-buy-israeli-startup-classiq-in-quantum-computing-push",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T20:01:00Z",
+   "summary": "Intel Corp. agreed to buy Israeli startup Classiq Technologies Ltd. as part of a push to capitalize on quantum computing, a still-nascent field that is seeking commercial applications.",
+   "id": 201
+  },
+  {
+   "title": "Anthropic’s IPO S-1 Spells Out a Future of Promise and Peril",
+   "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T19:36:41Z",
+   "summary": "The A.I. company took great pains to describe the many benefits that can come from using its Claude chatbot and technology, but also offered up a heavy dose of gloom.",
+   "id": 202
+  },
+  {
+   "title": "The Biggest Takeaways From Anthropic’s IPO Prospectus",
+   "url": "https://www.wsj.com/tech/ai/anthropic-ipo-s1-report-takeaways-6eebd721?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T19:36:00Z",
+   "summary": "From the potential to cure cancer and a huge cushion of cash to humans losing control of AI models, here’s what stood out in Anthropic’s S-1 filing.",
+   "id": 203
+  },
+  {
+   "title": "‘Autonomy, not flesh’: RAF chief outlines AI drone-powered future",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/26/royal-air-force-harv-smyth-ai-drone-future",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T19:09:51Z",
+   "summary": "Air Chief Marshal Harv Smyth says technological advances will reduce need for human involvement in warfare A future Royal Air Force will rely on “autonomy not flesh”, its chief said on Monday as he described plans in which Typhoon fighters are accompanied by four AI-enabled drones capable of patrolling hundreds of miles in the distance. The technological shift would revolutionise warfare, limit the role of military personnel “towards the outside” and ease the pressure on recruitment, Air Chief Marshal Harv Smyth said in a speech in London. Continue reading...",
+   "id": 204
+  },
+  {
+   "title": "The EPA Is Quietly Killing Its Web Archive",
+   "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T19:05:41Z",
+   "summary": "Article URL: https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/ Comments URL: https://news.ycombinator.com/item?id=50249275 Points: 217 # Comments: 41",
+   "id": 205
+  },
+  {
+   "title": "Quoting Jason Koebler",
+   "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-26T19:00:25Z",
+   "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them. — Jason Koebler , ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems Tags: jason-koebler , openai , journalism , ai , llms , ai-ethics , ai-misuse , generative-ai , chatgpt…",
+   "id": 206
+  },
+  {
+   "title": "At New York Climate Week 2026, MIT connects with a global network",
+   "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+   "source": "MIT News",
+   "source_type": "research",
+   "source_weight": 1.0,
+   "published": "2026-10-26T19:00:00Z",
+   "summary": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
+   "id": 207
+  },
+  {
+   "title": "How Florida Took the Lead in Battling Big Tech",
+   "url": "https://www.wsj.com/tech/ai/how-florida-took-the-lead-in-battling-big-tech-f75ed5a4?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T18:53:00Z",
+   "summary": "States are getting increasingly aggressive when it comes to tech and AI guardrails. The Republican-led Sunshine State got started early.",
+   "id": 208
+  },
+  {
+   "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+   "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T18:50:41Z",
+   "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
+   "id": 209
+  },
+  {
+   "title": "France Offers Students Funding, Reforms to Try to End Protests",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/france-offers-students-funding-reforms-to-try-to-end-protests",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T18:46:20Z",
+   "summary": "The French government plans to increase the number of third-level student places and make €4 billion ($4.5 billion) available for high-school renovations as it tries to end nationwide protests that have turned violent in recent weeks.",
+   "id": 210
+  },
+  {
+   "title": "Microsoft to reportedly offer buyouts to 60,000 employees in latest cuts",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/microsoft-buyout-offers-ai-cuts",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T18:44:31Z",
+   "summary": "Tech company offers buyouts in an effort to reduce costs amid the rising use of AI, according to reports Microsoft announced that it would offer buyouts to 60,000 employees in an effort to reduce costs amid the rising use of artificial intelligence, according to reports, the latest example of how AI is reshaping tech companies and the greater workforce. This is the latest of several trimmings Microsoft has made to its workforce this year. The company announced in April that it was offering voluntary retirement to about 7% of its US workforce, which consisted of about 125,000 employees at the…",
+   "id": 211
+  },
+  {
+   "title": "What’s Riding on Anthropic Going Public? Nearly Everything.",
+   "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T18:44:19Z",
+   "summary": "Anthropic sits atop a pyramid of business partners and suppliers, making it a barometer of the broader economy. Its initial public offering will have widespread implications.",
+   "id": 212
+  },
+  {
+   "title": "Tesla-SpaceX Merger Hopes Send Sell Ratings to 11-Year Low",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/tesla-spacex-merger-hopes-send-bearish-ratings-to-11-year-low",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T18:41:56Z",
+   "summary": "Tesla Inc. analysts are rapidly turning more bullish on the electric carmaker’s stock as a long awaited combination with SpaceX edges closer to reality.",
+   "id": 213
+  },
+  {
+   "title": "The Bull Case for AI Armageddon",
+   "url": "https://www.wsj.com/tech/ai/the-bull-case-for-ai-armageddon-673521f4?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T18:38:00Z",
+   "summary": "For investors mulling the Anthropic share offering, a 10% chance of extinction may be a 90% win for your portfolio.",
+   "id": 214
+  },
+  {
+   "title": "Siri AI is available in more languages starting today",
+   "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
+   "source": "Apple Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.0,
+   "published": "2026-10-26T18:37:30.189000Z",
+   "summary": "With the 27.2 software updates released today, Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish.",
+   "id": 215
+  },
+  {
+   "title": "US designates helium as a critical material",
+   "url": "https://apnews.com/article/energy-critical-materials-minerals-helium-43da160adc1bad389fba0b9ffbd14c3c",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T18:31:39Z",
+   "summary": "Article URL: https://apnews.com/article/energy-critical-materials-minerals-helium-43da160adc1bad389fba0b9ffbd14c3c Comments URL: https://news.ycombinator.com/item?id=50248665 Points: 172 # Comments: 99",
+   "id": 216
+  },
+  {
+   "title": "Anthropic Drops Its S-1, Giving Market Glimpse Into Finances",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/bloomberg-tech-10-26-2026-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T18:27:45Z",
+   "summary": "Bloomberg’s Ed Ludlow takes a look at Anthropic's regulatory filing as the company prepares to go public under the ticker ANT. The S-1 revealed Anthropic's revenue and spending, along with its plan for an unusual corporate structure. Plus, venture investors are in line for a big payday when Anthropic goes public. Matt Murphy from Menlo Ventures and Byron Deeter from Bessemer Venture Partners discuss what they think happens next for the AI market. (Source: Bloomberg)",
+   "id": 217
+  },
+  {
+   "title": "Anthropic’s S-1 Reveals Financial War Chest",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/anthropic-s-s-1-reveals-financial-war-chest-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T18:25:00Z",
+   "summary": "Anthropic’s S-1 filing shows it’s not going public out of desperation but, in fact, has a financial war chest, explains Gil Luria, managing director of D.A. Davidson. Luria explains why Anthropic’s structure as a public benefit corporation and its majority voting power controlled by a group of seven people make for a more complicated and unusual structure. (Source: Bloomberg)",
+   "id": 218
+  },
+  {
+   "title": "Anthropic to Deliver Menlo’s Biggest-Ever Return",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/anthropic-to-deliver-menlo-s-biggest-ever-return-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T18:19:55Z",
+   "summary": "Menlo Ventures’ investment in Anthropic will deliver the firm’s largest return ever when the AI company goes public, says partner Matt Murphy. Murphy explains why Menlo backed Anthropic in every round since 2023 and how the conversation around AI is moving beyond models to delivering compute efficiently. He discusses Anthropic’s S-1 with Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg)",
+   "id": 219
+  },
+  {
+   "title": "Type Server Protocol",
+   "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T18:14:49Z",
+   "summary": "Article URL: https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md Comments URL: https://news.ycombinator.com/item?id=50248371 Points: 258 # Comments: 172",
+   "id": 220
+  },
+  {
+   "title": "Microsoft Will Offer Buyouts to 60,000 Employees",
+   "url": "https://www.wsj.com/tech/microsoft-will-offer-buyouts-to-60-000-employees-4c32945f?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T18:11:00Z",
+   "summary": "The software giant said the buyouts will be available to certain workers in the U.S., U.K., Canada and India.",
+   "id": 221
+  },
+  {
+   "title": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO",
+   "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T18:08:07Z",
+   "summary": "Ahead of what could be the largest public listing ever, Anthropic said revenue soared to $16.3 billion in the first half of the year, and it planned to spend $807 billion on A.I. infrastructure.",
+   "id": 222
+  },
+  {
+   "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+   "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-26T17:56:58Z",
+   "summary": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.",
+   "id": 223
+  },
+  {
+   "title": "Oldest GUI application that still runs on Windows 11",
+   "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T17:56:55Z",
+   "summary": "Article URL: https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/ Comments URL: https://news.ycombinator.com/item?id=50248055 Points: 493 # Comments: 291",
+   "id": 224
+  },
+  {
+   "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+   "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T17:49:55Z",
+   "summary": "Article URL: http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html Comments URL: https://news.ycombinator.com/item?id=50247928 Points: 166 # Comments: 79",
+   "id": 225
+  },
+  {
+   "title": "‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing",
+   "url": "https://www.ft.com/content/a6c43402-719e-4295-ae5f-541edb0aeb29?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T17:45:49Z",
+   "summary": "Prospectus details AI lab’s ‘mission’, $800bn data centre commitments and extraordinary governance structure",
+   "id": 226
+  },
+  {
+   "title": "Will the real Anthropic please stand up",
+   "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+   "source": "MIT Technology Review",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T17:45:43Z",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it…",
+   "id": 227
+  },
+  {
+   "title": "AI book prize judges face a major speed-reading challenge | Brief letters",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/ai-book-prize-judges-face-a-major-speed-reading-challenge",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T17:38:50Z",
+   "summary": "Prix Pascal de Littérature IA | Dickensian solicitors | Cleobury Mortimer | Great Tapestry of Scotland | From Bayeux to Britain The deadline for submissions to the Prix Pascal de Littérature IA, 30 November, is also the date when the shortlisted entries are due to be announced ( New prize launches for books co-written with AI, 21 October ). It would be interesting to know how the prize-judging jury – whose members are yet to be announced – will be making instant evaluations . Dr Mahlet Zimeta London • One of the delights of travelling through Suffolk in the last century was the Dickensian…",
+   "id": 228
+  },
+  {
+   "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T17:37:44Z",
+   "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC […]",
+   "id": 229
+  },
+  {
+   "title": "Lori Keith Sees Long AI Growth as Anthropic files IPO",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/lori-keith-sees-long-ai-growth-as-anthropic-files-ipo-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T17:37:20Z",
+   "summary": "Discussing Anthropic’s IPO filing, portfolio manager Lori Keith described AI’s shift from pilot projects toward companies capturing measurable economic value. She said Anthropic’s customer growth signals strong demand: nearly 12,000 customers spend at least $100,000 annually, up from about 950 a year earlier, and more than 1,900 spend at least $1 million. Keith said adoption remains early, with engineering and coding among the leading uses and customer service and other applications broadening. She sees opportunities not only for AI infrastructure and chip providers, but also for downstream…",
+   "id": 230
+  },
+  {
+   "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+   "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T17:32:16Z",
+   "summary": "Article URL: https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/ Comments URL: https://news.ycombinator.com/item?id=50247630 Points: 153 # Comments: 52",
+   "id": 231
+  },
+  {
+   "title": "The RealReal won’t let AI agents hog designer clothing",
+   "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T17:30:55Z",
+   "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve system. On the retailer's website, […]",
+   "id": 232
+  },
+  {
+   "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+   "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-26T17:27:20Z",
+   "summary": "Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for OpenAI models on Amazon Bedrock lets your agent remember, cutting input cost and latency without resending the same tools, instructions, and history every turn.",
+   "id": 233
+  },
+  {
+   "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+   "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T17:26:36Z",
+   "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
+   "id": 234
+  },
+  {
+   "title": "Nietzschian Debugger",
+   "url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T17:25:30Z",
+   "summary": "Article URL: https://github.com/DilawarShafiq/nietzschian-debugger Comments URL: https://news.ycombinator.com/item?id=50247493 Points: 174 # Comments: 53",
+   "id": 235
+  },
+  {
+   "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+   "source": "AWS Machine Learning",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-26T17:15:14Z",
+   "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as a single CDK application.",
+   "id": 236
+  },
+  {
+   "title": "Five weird details from Anthropic’s IPO filing",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T17:10:23Z",
+   "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to […]",
+   "id": 237
+  },
+  {
+   "title": "Anthropic Grows More Reliant on Google, Amazon, Microsoft",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-filing-cites-reliance-on-google-amazon-microsoft",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T17:09:43Z",
+   "summary": "Anthropic PBC is relying more and more on Alphabet Inc.’s Google, Amazon.com Inc. and Microsoft Corp. to sell its artificial intelligence technology to customers, despite the three companies being rivals, investors and key suppliers of computing power.",
+   "id": 238
+  },
+  {
+   "title": "Anthropic Files for Massive Nasdaq IPO",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/open-interest-10-26-2026-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T17:06:45Z",
+   "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Anthropic makes it official, filing for a Nasdaq IPO in what will be one of the biggest public debuts ever. Plus, Claudia Sahm on rising inflation risks and the case for an October rate hike. Bruce Richards on AI’s next phase, and Jefferies’ Jason Greenberg on where AI spending goes next. (Source: Bloomberg)",
+   "id": 239
+  },
+  {
+   "title": "Building the Next Generation of Chips",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/building-the-next-generation-of-chips-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T17:05:40Z",
+   "summary": "Forge Nano’s CEO Paul Lichty joins Bloomberg Open Interest to discuss the company’s atomic-precision technology for semiconductors and lithium-ion batteries, its plans to expand US production and why he sees continued opportunity in AI-driven chip demand and domestic manufacturing. (Source: Bloomberg)",
+   "id": 240
+  },
+  {
+   "title": "Meta Looks to Raise $95 Billion From Stock Sale to Fund AI Investments",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/meta-looks-to-raise-95-billion-from-stock-sale-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T17:02:39Z",
+   "summary": "Meta Platforms Inc. is seeking to raise as much as $95 billion from selling common and preferred stock to support its development in artificial intelligence. Bloomberg's Sarah Frier reports. (Source: Bloomberg)",
+   "id": 241
+  },
+  {
+   "title": "Google Fitbit Edge Review: Smartwatch-Like Tracker Showcases Google Health",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/google-fitbit-edge-review-smartwatch-like-tracker-showcases-google-health",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T17:00:25Z",
+   "summary": "The best thing about the $180 Fitbit Edge is the Google Health app, which doesn’t actually require users to own a Fitbit.",
+   "id": 242
+  },
+  {
+   "title": "Goldman’s Pasquariello Says Tech Rout Casts Doubt on AI Trade",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/goldman-s-pasquariello-says-tech-rout-casts-doubt-on-ai-trade",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T16:51:47Z",
+   "summary": "Hedge funds sold technology stocks at the fastest pace in two years last Thursday during Wall Street’s biggest rout since July, casting serious doubt over conviction in the trade, according to Goldman Sachs Group Inc.’s Tony Pasquariello.",
+   "id": 243
+  },
+  {
+   "title": "Anthropic Files for IPO in Global Race to Raise Cash for AI",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/anthropic-files-for-ipo-in-race-to-raise-cash-for-ai-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T16:51:25Z",
+   "summary": "Anthropic filed for its long-awaited IPO, a landmark moment in an industry that is growing ever-hungrier for cash to power ahead. Ed Ludlow reports. (Source: Bloomberg)",
+   "id": 244
+  },
+  {
+   "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+   "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T16:49:42Z",
+   "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+   "id": 245
+  },
+  {
+   "title": "Apple’s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/apple-s-foldable-iphone-duo-draws-early-complaints-of-the-screen-cracking",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T16:48:27Z",
+   "summary": "The iPhone Duo, one of Apple Inc.’s biggest new products in years, is drawing a growing number of complaints from customers who say the foldable display cracked after just hours or days of use.",
+   "id": 246
+  },
+  {
+   "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+   "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T16:46:36Z",
+   "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+   "id": 247
+  },
+  {
+   "title": "Concerning behavior from a popular open-weight AI model",
+   "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T16:35:44Z",
+   "summary": "Article URL: https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model Comments URL: https://news.ycombinator.com/item?id=50246658 Points: 177 # Comments: 67",
+   "id": 248
+  },
+  {
+   "title": "Elon Musk says more than 200 neoclouds face 'guppy-level death'",
+   "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T16:24:23Z",
+   "summary": "Investors are already questioning the debt-fueled expansion of neoclouds and whether the large AI infrastructure build-out will generate long-term returns.",
+   "id": 249
+  },
+  {
+   "title": "Anthropic files for potentially record-breaking stock market valuation in key test for AI industry",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T16:22:28Z",
+   "summary": "Market debut of firm behind Claude chatbot will be one of largest in US history, a test of AI boom’s financial viability Anthropic has publicly filed for a stock market listing in what is slated to be one of the largest debuts in history. The company’s float on the US market will serve as a test of the financial viability of the multitrillion-dollar AI boom. Analysts and investors have valued the San Francisco-based company, founded in 2021, at more than $1.5tn. The company, which will will list under the symbol ANT, confidentially filed with US financial regulators for an initial public…",
+   "id": 250
+  },
+  {
+   "title": "Dutch Crypto Groups Warn of Sell Off Over Wealth-Tax Carveout",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/dutch-investors-poised-to-flee-crypto-over-wealth-tax-carveout",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T16:20:10Z",
+   "summary": "Dutch investors will likely ditch their cryptocurrency if the asset class is carved out of a shift to a new investor-friendly wealth tax, industry groups are warning.",
+   "id": 251
+  },
+  {
+   "title": "webframe: evaluated as a scraper and a sandbox",
+   "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+   "source": "Simon Willison",
+   "source_type": "expert",
+   "source_weight": 1.1,
+   "published": "2026-10-26T16:15:00Z",
+   "summary": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs console.log() to standard output and any exceptions to standard error. It's written in Go on top of the glaze library, which provides access to a system browser (\"WKWebView on macOS, WebKitGTK on Linux, WebView2 on Windows\") so it doesn't need to bundle its own browser engine. It reminds me of my own shot-scraper javascript tool, albeit in a much…",
+   "id": 252
+  },
+  {
+   "title": "Microsoft offers buyouts to 60,000 employees",
+   "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T16:07:16Z",
+   "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another […]",
+   "id": 253
+  },
+  {
+   "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+   "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T16:01:55Z",
+   "summary": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.",
+   "id": 254
+  },
+  {
+   "title": "Our newest AI Quest: Mapping the human brain",
+   "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+   "source": "Google AI",
+   "source_type": "lab",
+   "source_weight": 1.2,
+   "published": "2026-10-26T16:00:00Z",
+   "summary": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+   "id": 255
+  },
+  {
+   "title": "CSS-Tricks has a new owner",
+   "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T15:51:23Z",
+   "summary": "Article URL: https://css-tricks.com/css-tricks-has-a-new-owner/ Comments URL: https://news.ycombinator.com/item?id=50245831 Points: 525 # Comments: 109",
+   "id": 256
+  },
+  {
+   "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+   "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T15:35:12Z",
+   "summary": "Article URL: https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/ Comments URL: https://news.ycombinator.com/item?id=50245524 Points: 923 # Comments: 883",
+   "id": 257
+  },
+  {
+   "title": "Anthropic files for stock market IPO; Meta announces $95bn fundraising drive to pay for AI expansion – as it happened",
+   "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T15:33:24Z",
+   "summary": "Meta says share sale will support its “continued investment in AI infrastructure and personal superintelligence”, as Elon Musk warns some AI cloud computing firms face ‘guppy-level death’ UK government borrowing costs are dropping this morning, a welcome sign ahead of Wednesday’s budget. The yield (or interest rate) on 10 and 30-year UK gilts have both dropped by around three basis points (0.03 of a percentage point) this morning. Issuing loans to public financial institutions creates a financial asset that offsets the increase in outstanding government debt. If the investments that the…",
+   "id": 258
+  },
+  {
+   "title": "Solar power is becoming bigger than nuclear",
+   "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T15:26:17Z",
+   "summary": "Article URL: https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear Comments URL: https://news.ycombinator.com/item?id=50245385 Points: 457 # Comments: 641",
+   "id": 259
+  },
+  {
+   "title": "Meet Anthropic’s Seven Founders as the A.I. Firm Prepares for an IPO",
+   "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T15:24:56Z",
+   "summary": "Former OpenAI employees started the company in 2021 after disagreements over how to safely build artificial intelligence. An I.P.O. could make them billionaires.",
+   "id": 260
+  },
+  {
+   "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T15:11:59Z",
+   "summary": "Article URL: https://magazine.sebastianraschka.com/p/building-reasoning-models Comments URL: https://news.ycombinator.com/item?id=50245138 Points: 785 # Comments: 105",
+   "id": 261
+  },
+  {
+   "title": "Fanatics teams up with OpenAI for new AI-powered shopping suggestion feature",
+   "url": "https://www.cnbc.com/2026/10/26/fanatics-openai-codex-sports-merchandise-shopping.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T15:05:13Z",
+   "summary": "Fanatics is using AI to help shoppers navigate more than 1.5 million items of sports merchandise, with a Shop the Look feature powered by OpenAI Codex.",
+   "id": 262
+  },
+  {
+   "title": "Amazon's pro bono program surpasses 90,000 hours of free legal service across six continents",
+   "url": "https://www.aboutamazon.com/news/policy-news-views/amazon-pro-bono-report-2026?utm_source=rss",
+   "source": "Amazon News",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-10-26T15:00:14Z",
+   "summary": "Over 12 years, Amazon’s legal teams have provided free help across 26 countries, from a legal clinic supporting victims of scams to veteran support programs. Inside the 2026 Pro Bono Report.",
+   "id": 263
+  },
+  {
+   "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+   "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T14:50:47Z",
+   "summary": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
+   "id": 264
+  },
+  {
+   "title": "Anthropic begins countdown to IPO with prospectus filing",
+   "url": "https://www.ft.com/content/f6ecfecd-d797-4d2c-b427-d333297949cb?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T14:41:35Z",
+   "summary": "240,000-word prospectus lays out explosive growth alongside steep losses and daunting risk factors",
+   "id": 265
+  },
+  {
+   "title": "Anthropic officially files for its public debut",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "source": "TechCrunch",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T14:35:22Z",
+   "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+   "id": 266
+  },
+  {
+   "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+   "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+   "source": "Ars Technica",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T14:30:27Z",
+   "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
+   "id": 267
+  },
+  {
+   "title": "Working with academic communities to build scientific understanding",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "source": "OpenAI",
+   "source_type": "lab",
+   "source_weight": 1.3,
+   "published": "2026-10-26T14:30:00Z",
+   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+   "id": 268
+  },
+  {
+   "title": "Meta announces $95 billion stock offering to fund AI expansion",
+   "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T14:05:36Z",
+   "summary": "Meta plans to raise $95 billion to fund AI infrastructure and superintelligence, as Nvidia, AMD and Broadcom eye up to $5 billion in shares.",
+   "id": 269
+  },
+  {
+   "title": "How tall are the AI datacentre power poles that sparked a community backlash in Melbourne?",
+   "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/27/how-big-are-the-ai-datacentre-power-poles-that-sparked-a-community-backlash-in-melbourne",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T14:00:44Z",
+   "summary": "Compare the concrete masts with their timber predecessors and other structures seen on suburban streets In something of a David v Goliath battle, Australia’s largest datacentre operator has faced a major setback in its plans to double the size of its west Melbourne facility. To expand the size of its M3 datacentre , NextDC needs to deliver increased electricity to the site. The initial approach from the electricity provider Jemena was to upgrade power lines along some suburban streets from shorter timber poles carrying lower voltage lines to taller concrete poles capable of carrying higher…",
+   "id": 270
+  },
+  {
+   "title": "Plan for AI ‘agents’ to run US companies challenged by lawmakers",
+   "url": "https://www.ft.com/content/d5021cdf-816e-4cb9-bbf9-e4ba816a004f?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T14:00:09Z",
+   "summary": "US House oversight committee probes Delaware proposal that would allow corporate entities to be run by autonomous bots",
+   "id": 271
+  },
+  {
+   "title": "Meta Plans up to $95 Billion in Financing to Power Its AI Growth",
+   "url": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T13:49:00Z",
+   "summary": "The Facebook parent said it would look to raise up to $95 billion to help fund its massive investments in artificial-intelligence infrastructure and personal superintelligence.",
+   "id": 272
+  },
+  {
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "source": "OpenAI",
+   "source_type": "lab",
+   "source_weight": 1.3,
+   "published": "2026-10-26T13:45:00Z",
+   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+   "id": 273
+  },
+  {
+   "title": "Should farmers embrace AI?",
+   "url": "https://www.ft.com/content/41acd923-d0ca-4441-9079-ec70f904caa9",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T13:30:09Z",
+   "summary": "Without safeguards, powerful new technology will widen the gap between those with access and those without",
+   "id": 274
+  },
+  {
+   "title": "Can AI help solve the COBOL code crisis?",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+   "source": "The Verge",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T13:26:44Z",
+   "summary": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models' […]",
+   "id": 275
+  },
+  {
+   "title": "Anthropic S-1 as it happened: Inside the Claude maker’s 335-page IPO plan",
+   "url": "https://www.ft.com/content/4b2b9c0e-adfb-4362-800f-950f5b905984?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T13:08:09Z",
+   "summary": "Start-up’s planned listing could be the biggest stock market debut in history",
+   "id": 276
+  },
+  {
+   "title": "Anthropic IPO: S-1 Filing Offers First Look at Claude Maker’s Finances",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-s-1-filing-offers-first-look-at-claude-maker-s-finances",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T13:08:03Z",
+   "summary": "Anthropic PBC filed for its long-awaited IPO, a landmark moment in the artificial-intelligence industry that is growing ever-hungrier for cash to power ahead.",
+   "id": 277
+  },
+  {
+   "title": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+   "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T13:06:01Z",
+   "summary": "Elon Musk said in an X post that SpaceX has closed $40 billion in debt financing to purchase GPUs.",
+   "id": 278
+  },
+  {
+   "title": "Anthropic S-1",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T13:04:50Z",
+   "summary": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1601 # Comments: 1536",
+   "id": 279
+  },
+  {
+   "title": "Apple gives iPad mini its biggest update ever",
+   "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+   "source": "Apple Newsroom",
+   "source_type": "lab",
+   "source_weight": 1.0,
+   "published": "2026-10-26T13:00:22.904000Z",
+   "summary": "Apple unveils the all-new iPad mini, featuring an OLED display in a thinner design, a leap in performance with A20 Pro, and water and dust resistance.",
+   "id": 280
+  },
+  {
+   "title": "Some of Amazon's Q3 2026 announcements, from new devices to AI breakthroughs",
+   "url": "https://www.aboutamazon.com/news/company-news/amazon-q3-2026-earnings-preview?utm_source=rss",
+   "source": "Amazon News",
+   "source_type": "lab",
+   "source_weight": 0.9,
+   "published": "2026-10-26T13:00:18Z",
+   "summary": "Amazon will announce financial results for its third quarter on October 29. Here's a look at what the company has been up to.",
+   "id": 281
+  },
+  {
+   "title": "Ciena’s Board Opts for Patience Amid Tech Upheavals",
+   "url": "https://www.wsj.com/cio-journal/cienas-board-opts-for-patience-amid-tech-upheavals-f8d5aa6e?mod=rss_Technology",
+   "source": "Wall Street Journal",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T12:44:00Z",
+   "summary": "Plus, the AI bet faces a new earnings test this week",
+   "id": 282
+  },
+  {
+   "title": "SpaceX Agrees to $40 Billion Chip-Financing Deal With Apollo",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/spacex-agrees-to-40-billion-chip-financing-deal-with-apollo",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T12:19:43Z",
+   "summary": "SpaceX signed a roughly $40 billion equipment-finance lease with Apollo Global Management Inc. to pay for the chips needed to fuel its artificial intelligence ambitions.",
+   "id": 283
+  },
+  {
+   "title": "HSBC’s Kettner Turns Cautions on Equities for Now",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/hsbc-s-kettner-turns-cautious-on-equities-for-now-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T12:10:19Z",
+   "summary": "“Right now, the bond side of things, the rate side of things, is probably the easier trade to be in,” says Max Kettner, chief multi-asset strategist at HSBC Bank. He explains the factors behind his cautious view of equities through the end of the year amid what he calls “narrative bingo.” He speaks on “Bloomberg Surveillance.” (Source: Bloomberg)",
+   "id": 284
+  },
+  {
+   "title": "Australians should prepare for online services to go down unexpectedly as threats rise, cyber agency warns",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T11:30:40Z",
+   "summary": "Australian Signals Directorate chief says advanced AI tools are needed to defend against ‘AI-enabled attackers’ Follow our Australian politics live blog for latest updates Get our daily political email , free app or daily news podcast Australians should prepare for more basic and important online services to go offline unexpectedly, the nation’s signals intelligence agency has warned, urging that “system security must be prioritised over system availability”. The Australian Signals Directorate (ASD) also says businesses and critical infrastructure must use cutting-edge AI models to defend…",
+   "id": 285
+  },
+  {
+   "title": "Pharo 14",
+   "url": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T11:15:50Z",
+   "summary": "Article URL: https://pharo.org/news/2026-10-26-Pharo14Release.html Comments URL: https://news.ycombinator.com/item?id=50241925 Points: 260 # Comments: 70",
+   "id": 286
+  },
+  {
+   "title": "Meta Increases Equity Offering Target to Almost $98 Billion",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/meta-seeks-up-to-95-billion-in-equity-to-fund-ai-spending",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T11:12:45Z",
+   "summary": "Meta Platforms Inc. boosted a planned share sale to almost $98 billion, marking one of the largest equity offerings in history.",
+   "id": 287
+  },
+  {
+   "title": "Anthropic’s Claude AI model accessed Georgia voter data in US",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T11:03:33Z",
+   "summary": "Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project Anthropic sued for allegedly using 274 Elvis songs to train AI models Anthropic’s Claude model accessed voter data in the US state of Georgia, the AI company has confirmed, in the latest example of unauthorised behaviour by the technology. The AI model managed to bypass a paywall to reach data that is publicly available but is typically accessible only after paying a fee. Claude accessed aggregate vote counts as part of a statistics project at Anthropic, which is preparing…",
+   "id": 288
+  },
+  {
+   "title": "Musk’s Dream of SpaceX-Tesla Merger Rests on Carmaker’s Shareholders",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-26/musk-s-dream-of-spacex-tesla-merger-rests-on-carmaker-s-shareholders",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T11:02:01Z",
+   "summary": "The billionaire’s companies are in two very different positions",
+   "id": 289
+  },
+  {
+   "title": "Verizon Raises 2026 Forecast After Surge in Phone Customers",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/verizon-raises-2026-forecast-after-big-jump-in-phone-customers",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T11:01:31Z",
+   "summary": "Verizon Communications Inc. reported its strongest third-quarter performance in wireless customer additions in five years, more than twice analysts’ expectations, a sign that the first year of Chief Executive Officer Dan Schulman’s turnaround plan is bearing fruit.",
+   "id": 290
+  },
+  {
+   "title": "A shock in Brazil sends stocks plunging, while neoclouds take another hit",
+   "url": "https://www.cnbc.com/2026/10/26/brazil-stocks-neoclouds-selloff.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T10:39:46Z",
+   "summary": "Here are the key things investors need to know to start the trading day.",
+   "id": 291
+  },
+  {
+   "title": "Websites Should Be Printable",
+   "url": "https://brennenputh.me/blog/printable-websites/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T10:32:14Z",
+   "summary": "Article URL: https://brennenputh.me/blog/printable-websites/ Comments URL: https://news.ycombinator.com/item?id=50241664 Points: 329 # Comments: 191",
+   "id": 292
+  },
+  {
+   "title": "AI Bots Are Transforming Bond Markets, Barclays Warns of Volatility Risk",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-26/ai-bots-are-transforming-bond-markets-barclays-warns-of-volatility-risk",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T10:28:01Z",
+   "summary": "AI agents will trade up to 65% of US investment grade, Barclays says",
+   "id": 293
+  },
+  {
+   "title": "Malaysia’s Islamist Party PAS Unveils Economic Plan as It Eyes Power",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/malaysia-s-islamist-party-pas-unveils-economic-plan-as-it-eyes-power",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T10:18:57Z",
+   "summary": "Malaysia’s biggest opposition party laid out its economic ambitions for the four states it controls, including plans to attract more investment, as it grows more confident about prospects of taking power nationally.",
+   "id": 294
+  },
+  {
+   "title": "EQT to Buy Range Resources, Creating Largest US Gas Producer",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/eqt-to-buy-range-resources-in-an-all-stock-transaction",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T10:14:08Z",
+   "summary": "EQT Corp. agreed to buy Range Resources Corp. in an all-stock deal for about $12.8 billion, creating what it says will be the largest and only vertically integrated US natural gas producer.",
+   "id": 295
+  },
+  {
+   "title": "ChatGPT’s expanding world of work",
+   "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "source": "OpenAI",
+   "source_type": "lab",
+   "source_weight": 1.3,
+   "published": "2026-10-26T10:00:00Z",
+   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+   "id": 296
+  },
+  {
+   "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+   "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T09:30:00Z",
+   "summary": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
+   "id": 297
+  },
+  {
+   "title": "Darline Graham Gets Help From the Data Center Industry in South Carolina Senate Race",
+   "url": "https://www.nytimes.com/2026/10/26/us/politics/darline-graham-data-centers-south-carolina.html",
+   "source": "New York Times",
+   "source_type": "media",
+   "source_weight": 1.1,
+   "published": "2026-10-26T09:03:34Z",
+   "summary": "As political fights over artificial intelligence accelerate, there is now a super PAC aligned with the data center industry. Its first bet is on Ms. Graham, a Republican in an unexpectedly tight race.",
+   "id": 298
+  },
+  {
+   "title": "The focus on AI safety disasters ignores everyday harms",
+   "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+   "source": "MIT Technology Review",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T09:01:00Z",
+   "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…",
+   "id": 299
+  },
+  {
+   "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
+   "url": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
+   "source": "Wired",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T09:00:00Z",
+   "summary": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artificial personalities.",
+   "id": 300
+  },
+  {
+   "title": "China Boosts Self-Driving Push With VW, Xpeng Technology Trials",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/china-boosts-self-driving-push-with-vw-xpeng-technology-trials",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T08:50:15Z",
+   "summary": "Volkswagen AG and Xpeng Inc. secured approvals to trial autonomous driving systems on public roads in China, signaling a renewed push by authorities for larger-scale deployment following a safety review of the technology.",
+   "id": 301
+  },
+  {
+   "title": "Switzerland. Block by block. At 1:1 scale",
+   "url": "https://blocks.manifold3d.ch/",
+   "source": "Hacker News",
+   "source_type": "community",
+   "source_weight": 0.9,
+   "published": "2026-10-26T08:46:09Z",
+   "summary": "Article URL: https://blocks.manifold3d.ch/ Comments URL: https://news.ycombinator.com/item?id=50240922 Points: 456 # Comments: 214",
+   "id": 302
+  },
+  {
+   "title": "Tata Commits $450 Million to ‘AI Superhighway’ Linking Hubs",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/tata-commits-450-million-to-ai-superhighway-linking-hubs",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T08:30:00Z",
+   "summary": "Tata Communications Ltd. plans to spend as much as $450 million to create a long-haul fiber optic network linking India’s key artificial intelligence hubs, building out the country’s infrastructure and readiness for the global AI economy.",
+   "id": 303
+  },
+  {
+   "title": "AI Agents Are Already Changing the Price of Goods",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/ai-agents-are-already-changing-the-price-of-goods-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T08:13:10Z",
+   "summary": "It's obvious that things are getting more expensive, and there are plenty of reasons behind the surge in prices — whether it's wars or inflation or companies padding their profit margins. But with the release of AI agents like Meta's Muse, tech companies are promising consumers that agents will start saving them tons of money by finding the best deals. According to today's guest, Lindsay Owens, the history of price gouging does not bode well for claims that things might get cheaper because of new technology, and research conducted by her think tank Groundwork Collaborative shows that a…",
+   "id": 304
+  },
+  {
+   "title": "Inside a Giant Electric Ferry",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/inside-a-giant-electric-ferry",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T08:01:03Z",
+   "summary": "While electric vehicles have gone mainstream, shipping has lagged behind. But now, the humble passenger ferry may be the most primed to make battery-powered boats a viable option. (Source: Bloomberg)",
+   "id": 305
+  },
+  {
+   "title": "[Interview] Sound That Connects: 80 Years of Audio and the Future of Connected Experiences",
+   "url": "https://news.samsung.com/global/interview-sound-that-connects-80-years-of-audio-and-the-future-of-connected-experiences",
+   "source": "Samsung Newsroom",
+   "source_type": "lab",
+   "source_weight": 0.8,
+   "published": "2026-10-26T08:00:00Z",
+   "summary": "From concerts and cars to homes and headphones, high-quality sound enriches everyday experiences. For 80 years, JBL has evolved alongside changing listening habits while remaining deeply connected to music and culture. Meanwhile, Bowers & Wilkins has spent 60 years pursuing exceptional sound through precision engineering, craftsmanship, and an uncompromising commitment to reproducing the original performance. […]",
+   "id": 306
+  },
+  {
+   "title": "Musk Says $40 Billion Debt Deal for AI Chips Has Closed",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/musk-says-40-billion-debt-deal-for-ai-chips-has-closed-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T07:32:30Z",
+   "summary": "Elon Musk said SpaceX has closed a $40 billion debt deal to pay for the chips needed to fuel its artificial intelligence ambitions. People familiar with the discussions, though, told Bloomberg News that talks over pricing were still ongoing. Bloomberg's Ruhell Amin explains. (Source: Bloomberg)",
+   "id": 307
+  },
+  {
+   "title": "AI Funding Angst Stands in Way of Return to Highs: Taking Stock",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/ai-funding-angst-stands-in-way-of-return-to-highs-taking-stock",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T07:27:01Z",
+   "summary": "A wall of worry increasingly dominated by artificial intelligence’s financing costs needs dealing with before the market can make a run at fresh highs.",
+   "id": 308
+  },
+  {
+   "title": "Palantir’s Fast-Selling $170 Windbreaker Shows Its Korea Appeal",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/palantir-s-fast-selling-170-windbreaker-shows-its-korea-appeal",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T07:10:19Z",
+   "summary": "Palantir Technologies Inc. has spent years selling governments and companies its data analytics. In South Korea, it’s also selling $170 windbreakers — and they are flying off the shelves.",
+   "id": 309
+  },
+  {
+   "title": "Can the AI Boom Survive a Margin Squeeze?",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/can-the-ai-boom-survive-a-margin-squeeze-video",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T07:07:45Z",
+   "summary": "In this episode of Merryn Talks Money, Merryn Somerset Webb and Steve Hou, head of research at Silicon Data, delve into an emerging issue in the economics of artificial intelligence: token prices are falling while the cost of compute needed to produce them is rising. They discuss what this mismatch could mean for the valuations of companies like OpenAI and Anthropic, whether demand can justify the enormous sums being invested in AI infrastructure and what happens when everyone has armies of AI agents working on our behalf. (Source: Bloomberg)",
+   "id": 310
+  },
+  {
+   "title": "How Fanatics and OpenAI streamline the fan experience",
+   "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "source": "OpenAI",
+   "source_type": "lab",
+   "source_weight": 1.3,
+   "published": "2026-10-26T07:00:00Z",
+   "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+   "id": 311
+  },
+  {
+   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+   "url": "https://openai.com/index/openai-cut-incident-investigation",
+   "source": "OpenAI",
+   "source_type": "lab",
+   "source_weight": 1.3,
+   "published": "2026-10-26T07:00:00Z",
+   "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+   "id": 312
+  },
+  {
+   "title": "Africa-Asia Infrastructure Fund PIDG to Deploy $1 Billion Yearly",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/africa-asia-infrastructure-fund-pidg-to-deploy-1-billion-yearly-pidg",
+   "source": "Bloomberg",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T06:17:54Z",
+   "summary": "Private Infrastructure Development Group, which operates in Africa and Asia, plans to invest at least $1 billion each year until 2030 as more investors increase allocation to facilities.",
+   "id": 313
+  },
+  {
+   "title": "UK financial ombudsman hits phones to cut through AI hallucinations",
+   "url": "https://www.ft.com/content/5f56b300-f8a6-4834-a2e6-75902880ef87?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T05:00:30Z",
+   "summary": "Public sector bodies and courts are being weighed down by tech-assisted complaints that are lengthy and inaccurate",
+   "id": 314
+  },
+  {
+   "title": "We need to know if AI agents are accessing British services",
+   "url": "https://www.ft.com/content/a2be99e5-b952-495f-9776-1ce7e4f994aa?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "source_type": "media",
+   "source_weight": 1.2,
+   "published": "2026-10-26T05:00:20Z",
+   "summary": "The recent hack of Australian health data is a reminder that this is the biggest cyber security threat facing the UK",
+   "id": 315
+  },
+  {
+   "title": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
+   "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+   "source": "CNBC",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T04:56:16Z",
+   "summary": "SoftBank Group reportedly plans to invest $50 billion in Malaysia's technology sector, including artificial intelligence and data centers.",
+   "id": 316
+  },
+  {
+   "title": "'Dear ChatGPT': 12-year-old wins top youth prize at Australian Poetry Slam – video",
+   "url": "https://www.theguardian.com/technology/video/2026/oct/26/dear-chatgpt-12-year-old-wins-top-youth-prize-at-australian-poetry-slam-video",
+   "source": "The Guardian",
+   "source_type": "media",
+   "source_weight": 1.0,
+   "published": "2026-10-26T04:43:06Z",
+   "summary": "Blake Mackenzie, a 12-year-old from Newcastle, has won the top youth prize at the Australian Poetry Slam for his reflections on artificial intelligence. The winning piece, performed at the Sydney Opera House on Sunday night, covered doomscrolling, loneliness and intellectual atrophy. The Australian Poetry Slam competition is now in its 22nd year. It ran 65 heats in 60 towns and cities across the country to find 16 finalists. As the youth winner, Blake shares a prize package worth $20,000 with Alice Springs poet Bivor, who won the adult category for his poem Politics Is Doing You…",
+   "id": 317
+  }
+ ]
+}
