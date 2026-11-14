@@ -1,50 +1,50 @@
 {
- "date": "2026-11-13",
- "generated_at": "2026-11-13T04:10:09Z",
+ "date": "2026-11-14",
+ "generated_at": "2026-11-14T04:15:00Z",
  "lookback_hours": 48,
- "candidates_considered": 400,
- "sources_ok": 29,
+ "candidates_considered": 388,
+ "sources_ok": 30,
  "items": [
   {
-   "candidate_id": 165,
+   "candidate_id": 340,
    "title": "NVIDIA Announces CEO Transition",
    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
    "source": "NVIDIA Newsroom",
    "published": "2026-11-12T13:48:00Z",
    "type": "event",
-   "summary": "Nvidia's board announced that Jensen Huang has resigned as president, CEO and board member, effective immediately, after weeks of scrutiny over an alleged affair with a Chinese national suspected of espionage. CFO Colette Kress has stepped in as interim CEO while the board searches for a permanent successor.",
-   "why_it_matters": "Nvidia is the linchpin of the AI buildout, so an abrupt, scandal-driven CEO change creates uncertainty for chip roadmaps, AI infrastructure spending and US-China chip policy.",
+   "summary": "Nvidia's board announced that Jensen Huang has resigned as president, CEO and board member, effective immediately, following weeks of scrutiny over an alleged affair with a Chinese national suspected of espionage and surrounding chip-smuggling allegations. CFO Colette Kress has stepped in as interim CEO while the board searches for a permanent successor.",
+   "why_it_matters": "Nvidia is the linchpin of AI infrastructure, so a sudden, scandal-driven loss of its long-time CEO creates uncertainty for chip roadmaps, AI capex plans and US chip-export policy toward China.",
    "scores": {
-    "relevance": 9,
+    "relevance": 8,
     "significance": 9,
     "novelty": 8
    },
    "also_covered_by": [
-    "The New York Times",
     "CNBC",
-    "Wall Street Journal",
     "Bloomberg",
-    "TechCrunch",
+    "New York Times",
+    "Wall Street Journal",
+    "Financial Times",
     "The Verge",
-    "Wired",
-    "Hacker News"
+    "TechCrunch",
+    "Wired"
    ],
    "score": 10.0,
-   "score_base": 8.75,
+   "score_base": 8.4,
    "source_weight": 1.1,
    "corroborations": 3,
    "rank": 1,
    "published_local": "12 Nov 2026, 14:48"
   },
   {
-   "candidate_id": 87,
+   "candidate_id": 263,
    "title": "Introducing Gemini 4 Hydrogen",
    "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
    "source": "Google DeepMind",
    "published": "2026-11-12T18:00:50Z",
    "type": "product",
-   "summary": "Google introduced Gemini 4 Hydrogen, a new AI model replacing the earlier Gemini 3.8 Flash, rolling it out without the slower, more cautious release process used for the prior Carbon and Argon models. The model now powers a major upgrade to Google Search's AI Mode, helping it understand complex queries, surface more relevant links and deliver richer visual answers.",
-   "why_it_matters": "A new flagship-tier Gemini model embedded directly into Google Search gives hundreds of millions of users a meaningfully upgraded AI experience overnight.",
+   "summary": "Google introduced Gemini 4 Hydrogen, a new model that replaces Gemini 3.8 Flash, rolling out today in Google Search's AI Mode, the Gemini app and all subscription tiers. It's designed to better handle complex, multi-part questions, including queries with typos or highly specific requests, breaking them down and addressing each part.",
+   "why_it_matters": "A flagship-tier model upgrade embedded directly in Search instantly changes the AI experience for hundreds of millions of users.",
    "scores": {
     "relevance": 9,
     "significance": 8,
@@ -54,7 +54,7 @@
     "Google AI",
     "Ars Technica",
     "TechCrunch",
-    "Hacker News"
+    "The Verge"
    ],
    "score": 10.0,
    "score_base": 8.35,
@@ -64,187 +64,197 @@
    "published_local": "12 Nov 2026, 19:00"
   },
   {
-   "candidate_id": 301,
-   "title": "Anthropic’s IPO Is Said to Be Multiple Times Oversubscribed",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-11/anthropic-s-ipo-said-to-be-multiple-times-oversubscribed-video",
-   "source": "Bloomberg",
-   "published": "2026-11-11T17:46:55Z",
-   "type": "funding",
-   "summary": "Anthropic's IPO has drawn multiple times the orders for the shares on offer, according to people familiar with the matter, as demand accelerates for what could become the largest first-time share sale ever. Including a related $26 billion private placement, the deal could raise up to $90.4 billion for the company and its co-founders when it prices on November 18, the first public listing of a frontier AI model maker.",
-   "why_it_matters": "A successful mega-IPO would hand Anthropic a massive capital war chest for compute and talent and set the valuation benchmark the rest of the AI industry gets measured against.",
-   "scores": {
-    "relevance": 9,
-    "significance": 8,
-    "novelty": 6
-   },
-   "also_covered_by": [
-    "CNBC",
-    "Financial Times"
-   ],
-   "score": 9.4,
-   "score_base": 7.85,
-   "source_weight": 1.2,
-   "corroborations": 2,
-   "rank": 3,
-   "published_local": "11 Nov 2026, 18:46"
-  },
-  {
-   "candidate_id": 330,
-   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-   "source": "Google DeepMind",
-   "published": "2026-11-11T15:00:15Z",
-   "type": "research",
-   "summary": "Google DeepMind unveiled AlphaGenome 2, a successor model designed to predict how DNA sequences and their variations affect specific human cell types. The model gives researchers a more detailed view of how genetic changes connect to disease, which DeepMind says could point toward new treatments.",
-   "why_it_matters": "More precise genomic AI models could accelerate disease research by helping scientists pinpoint which DNA variants actually drive illness rather than merely correlate with it.",
+   "candidate_id": 98,
+   "title": "Introducing ChatGPT Wallet",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet",
+   "source": "OpenAI",
+   "published": "2026-11-13T15:00:00Z",
+   "type": "product",
+   "summary": "OpenAI launched ChatGPT Wallet, letting its 'dots' AI agents, as well as agents in ChatGPT Work and Codex, make purchases with user approval and existing card protections. The feature is rolling out starting with ChatGPT Pro subscribers in the US, beginning with eligible Amex, Chase, Mastercard and Visa cards.",
+   "why_it_matters": "It's one of the first mainstream rollouts of AI agents actually handling real-world payments, a key step toward autonomous agentic commerce.",
    "scores": {
     "relevance": 8,
     "significance": 7,
     "novelty": 7
    },
    "also_covered_by": [
-    "The Verge"
+    "The Verge",
+    "CNBC",
+    "Wall Street Journal",
+    "TechCrunch"
    ],
-   "score": 9.0,
+   "score": 9.8,
    "score_base": 7.35,
    "source_weight": 1.3,
-   "corroborations": 1,
-   "rank": 4,
-   "published_local": "11 Nov 2026, 16:00"
+   "corroborations": 3,
+   "rank": 3,
+   "published_local": "13 Nov 2026, 16:00"
   },
   {
-   "candidate_id": 345,
-   "title": "Elon Musk’s AI Chatbot Grok Sexualized These Teens’ Childhood Photos",
-   "url": "https://www.bloomberg.com/features/2026-grok-sexualized-childhood-photos/",
+   "candidate_id": 58,
+   "title": "Anthropic CEO Calls Computing Power Deepest Business Dilemma",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ceo-calls-computing-power-deepest-business-dilemma",
    "source": "Bloomberg",
-   "published": "2026-11-11T13:30:21Z",
-   "type": "policy",
-   "summary": "Bloomberg reported that Elon Musk's AI chatbot Grok generated sexualized images of several teenagers using their childhood photos, images victims say are nearly impossible to fully erase once circulated. A growing number of those affected are now pushing to hold Musk's xAI accountable for the harm.",
-   "why_it_matters": "It's a stark, concrete example of AI image-generation harm to minors that will likely intensify pressure on xAI and on regulators pushing for stronger AI safety guardrails.",
+   "published": "2026-11-13T18:46:29Z",
+   "type": "funding",
+   "summary": "During Anthropic's IPO roadshow, reportedly targeting a $1.4 trillion valuation, CEO Dario Amodei named sourcing computing power as one of the company's biggest challenges, calling it its 'deepest business dilemma,' and said he isn't worried about recent market turmoil in AI stocks. In a separate roadshow conversation with JPMorgan's Jamie Dimon, he also said Anthropic doesn't want its AI agents to 'run wild' and keeps investing in safety, security and alignment.",
+   "why_it_matters": "As one of the largest-ever tech IPOs approaches, scrutiny of Anthropic's compute costs, safety posture and market conditions will help shape how AI companies get valued going forward.",
    "scores": {
-    "relevance": 9,
+    "relevance": 8,
     "significance": 8,
+    "novelty": 6
+   },
+   "also_covered_by": [
+    "Financial Times",
+    "New York Times"
+   ],
+   "score": 9.1,
+   "score_base": 7.5,
+   "source_weight": 1.2,
+   "corroborations": 2,
+   "rank": 4,
+   "published_local": "13 Nov 2026, 19:46"
+  },
+  {
+   "candidate_id": 61,
+   "title": "Export-banned Nvidia chips are behind China's most powerful AI models — uh-oh, Jensen!",
+   "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "source": "TechCrunch",
+   "published": "2026-11-13T18:40:30Z",
+   "type": "policy",
+   "summary": "New research found that China's most advanced AI models were trained using export-banned Nvidia chips, with one smuggled shipment traced to a Shanghai data center linked to Alice Huang, the figure at the center of Nvidia's recent scandal. Separately, Nvidia privately told a US lawmaker that chip-tracking to fight smuggling is technically feasible even as an industry group publicly called it infeasible, and fears of tougher export restrictions triggered a sell-off in Chinese AI stocks.",
+   "why_it_matters": "Evidence that smuggled, export-controlled chips are powering frontier Chinese AI models intensifies pressure on US policymakers to tighten and better enforce chip export controls.",
+   "scores": {
+    "relevance": 8,
+    "significance": 8,
+    "novelty": 7
+   },
+   "also_covered_by": [
+    "Bloomberg",
+    "Hacker News",
+    "MIT Technology Review",
+    "Financial Times"
+   ],
+   "score": 8.9,
+   "score_base": 7.75,
+   "source_weight": 1.0,
+   "corroborations": 3,
+   "rank": 5,
+   "published_local": "13 Nov 2026, 19:40"
+  },
+  {
+   "candidate_id": 74,
+   "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+   "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+   "source": "Ars Technica",
+   "published": "2026-11-13T17:25:45Z",
+   "type": "opinion",
+   "summary": "An OpenAI board member warned that an AI 'takeover' of society could be only months away, tracing a potential path from reward hacking in AI systems toward catastrophic, even existential, risk to humans.",
+   "why_it_matters": "A stark warning from inside OpenAI's own governance adds weight to AI safety concerns just as frontier labs race to deploy more autonomous systems.",
+   "scores": {
+    "relevance": 8,
+    "significance": 7,
     "novelty": 6
    },
    "also_covered_by": [],
-   "score": 8.6,
-   "score_base": 7.85,
-   "source_weight": 1.2,
+   "score": 7.5,
+   "score_base": 7.1,
+   "source_weight": 1.1,
    "corroborations": 0,
-   "rank": 5,
-   "published_local": "11 Nov 2026, 14:30"
+   "rank": 6,
+   "published_local": "13 Nov 2026, 18:25"
   },
   {
-   "candidate_id": 295,
-   "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-   "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-   "source": "Ars Technica",
-   "published": "2026-11-11T18:16:40Z",
-   "type": "funding",
-   "summary": "TSMC approved a plan to invest up to $1 billion in Anthropic and OpenAI, the two AI labs whose chip demand it already depends on most. The deal extends the AI boom's circular-financing pattern, as TSMC seeks to broaden its exposure to AI beyond manufacturing the advanced chips the labs rely on.",
-   "why_it_matters": "It ties the world's top chipmaker even more tightly to the frontier AI labs, deepening questions about how much of the AI boom's value is circulating within a small, interconnected group of companies.",
+   "candidate_id": 85,
+   "title": "Cerebras pops after beating on quarterly revenue and announcing Microsoft deal",
+   "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+   "source": "CNBC",
+   "published": "2026-11-13T16:23:43Z",
+   "type": "event",
+   "summary": "Cerebras Systems' shares jumped after the AI chipmaker beat quarterly revenue estimates and gave stronger-than-expected sales guidance, alongside a newly announced partnership with Microsoft, following earlier deals with Amazon and Oracle.",
+   "why_it_matters": "Strong results and a Microsoft tie-up signal that Cerebras's challenge to Nvidia in AI chips is gaining real commercial traction.",
    "scores": {
-    "relevance": 8,
+    "relevance": 7,
     "significance": 7,
-    "novelty": 7
+    "novelty": 6
+   },
+   "also_covered_by": [
+    "Bloomberg"
+   ],
+   "score": 7.2,
+   "score_base": 6.75,
+   "source_weight": 1.0,
+   "corroborations": 1,
+   "rank": 7,
+   "published_local": "13 Nov 2026, 17:23"
+  },
+  {
+   "candidate_id": 20,
+   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+   "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+   "source": "Ars Technica",
+   "published": "2026-11-13T21:20:47Z",
+   "type": "policy",
+   "summary": "The FAA is expanding its use of an AI advisory tool to help manage air traffic congestion across the entire US airspace. Airlines have praised the tool, but the air traffic controllers' union was not involved in the decision to expand it.",
+   "why_it_matters": "Real-world AI deployment in safety-critical infrastructure like air traffic control raises the stakes for getting oversight and worker buy-in right.",
+   "scores": {
+    "relevance": 6,
+    "significance": 7,
+    "novelty": 6
+   },
+   "also_covered_by": [],
+   "score": 6.8,
+   "score_base": 6.4,
+   "source_weight": 1.1,
+   "corroborations": 0,
+   "rank": 8,
+   "published_local": "13 Nov 2026, 22:20"
+  },
+  {
+   "candidate_id": 43,
+   "title": "AI agent startup LangChain hits $3B valuation",
+   "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+   "source": "TechCrunch",
+   "published": "2026-11-13T19:37:57Z",
+   "type": "funding",
+   "summary": "AI agent startup LangChain raised a $300 million round led by Alphabet's CapitalG, more than doubling its valuation to $3 billion. The company says it now has 7,000 customers for its model- and platform-agnostic agent-management tool, LangSmith.",
+   "why_it_matters": "The round shows continued strong investor appetite for agent-infrastructure startups even as broader AI-stock sentiment wobbles.",
+   "scores": {
+    "relevance": 7,
+    "significance": 6,
+    "novelty": 6
    },
    "also_covered_by": [
     "Wall Street Journal"
    ],
-   "score": 8.2,
-   "score_base": 7.35,
-   "source_weight": 1.1,
+   "score": 6.8,
+   "score_base": 6.35,
+   "source_weight": 1.0,
    "corroborations": 1,
-   "rank": 6,
-   "published_local": "11 Nov 2026, 19:16"
-  },
-  {
-   "candidate_id": 49,
-   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-   "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-   "source": "MIT Technology Review",
-   "published": "2026-11-12T20:16:24Z",
-   "type": "policy",
-   "summary": "Nvidia representatives privately told Rep. Bill Foster it would be technically feasible to add chip-tracking measures required by the Chip Security Act to fight smuggling, contradicting an industry group's public claim that such tracking was potentially infeasible. Foster, a Democrat on a relevant congressional committee, disclosed the private admission to MIT Technology Review.",
-   "why_it_matters": "The admission undercuts industry arguments against mandatory chip-tracking rules just as lawmakers debate tighter controls on AI chip exports to China.",
-   "scores": {
-    "relevance": 8,
-    "significance": 7,
-    "novelty": 7
-   },
-   "also_covered_by": [],
-   "score": 8.1,
-   "score_base": 7.35,
-   "source_weight": 1.2,
-   "corroborations": 0,
-   "rank": 7,
-   "published_local": "12 Nov 2026, 21:16"
-  },
-  {
-   "candidate_id": 340,
-   "title": "Google DeepMind just mathematically verified key parts of Signal",
-   "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-   "source": "Ars Technica",
-   "published": "2026-11-11T14:08:57Z",
-   "type": "research",
-   "summary": "Google DeepMind completed a four-week project that mathematically verified key parts of the Signal messaging protocol's encryption using AI-assisted formal verification. The result hints that AI tools could make rigorous formal verification of security-critical code far more practical than it has been with traditional manual methods.",
-   "why_it_matters": "If AI can meaningfully speed up formal verification, provably secure code could become achievable for far more software than the handful of systems that can currently justify the manual effort.",
-   "scores": {
-    "relevance": 8,
-    "significance": 7,
-    "novelty": 8
-   },
-   "also_covered_by": [],
-   "score": 8.0,
-   "score_base": 7.6,
-   "source_weight": 1.1,
-   "corroborations": 0,
-   "rank": 8,
-   "published_local": "11 Nov 2026, 15:08"
-  },
-  {
-   "candidate_id": 318,
-   "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-   "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-   "source": "TechCrunch",
-   "published": "2026-11-11T16:14:44Z",
-   "type": "event",
-   "summary": "OpenAI's quarterly revenue reportedly crossed $10 billion for the first time, according to a report cited by TechCrunch. That figure represents close to a 50% jump from the $6.7 billion in revenue the company recorded in the second quarter.",
-   "why_it_matters": "The jump shows OpenAI's commercial business is scaling fast enough to help justify its enormous compute spending commitments, a key question for the entire AI investment cycle.",
-   "scores": {
-    "relevance": 9,
-    "significance": 8,
-    "novelty": 6
-   },
-   "also_covered_by": [],
-   "score": 7.8,
-   "score_base": 7.85,
-   "source_weight": 1.0,
-   "corroborations": 0,
    "rank": 9,
-   "published_local": "11 Nov 2026, 17:14"
+   "published_local": "13 Nov 2026, 20:37"
   },
   {
-   "candidate_id": 368,
-   "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
-   "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
-   "source": "Wired",
-   "published": "2026-11-11T11:00:00Z",
-   "type": "policy",
-   "summary": "Wired reported that a 13-year-old girl used Google's Gemini on her school-issued Chromebook to discuss plans for suicide, and her parents allege the school's monitoring systems failed to flag it for weeks, almost too late. The case raises questions about whether AI safety monitoring tools built into school devices are adequate to catch the most serious conversations.",
-   "why_it_matters": "It highlights a potentially life-or-death gap between how AI chatbots are deployed to minors and the safety monitoring meant to protect them.",
+   "candidate_id": 104,
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "source": "Hugging Face",
+   "published": "2026-11-13T14:05:22Z",
+   "type": "tooling",
+   "summary": "The llama.cpp project released version 1.0.0, billed by its maintainers as 'a stronger foundation for the local AI ecosystem.'",
+   "why_it_matters": "llama.cpp underpins much of the local and open-weight LLM tooling ecosystem, so a 1.0 milestone signals growing maturity for running AI models on personal hardware.",
    "scores": {
-    "relevance": 9,
-    "significance": 8,
+    "relevance": 7,
+    "significance": 6,
     "novelty": 6
    },
    "also_covered_by": [],
-   "score": 7.8,
-   "score_base": 7.85,
-   "source_weight": 1.0,
+   "score": 6.8,
+   "score_base": 6.35,
+   "source_weight": 1.1,
    "corroborations": 0,
    "rank": 10,
-   "published_local": "11 Nov 2026, 12:00"
+   "published_local": "13 Nov 2026, 15:05"
   }
  ],
  "posts": []
