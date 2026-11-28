@@ -1,245 +1,249 @@
 {
- "date": "2026-11-27",
- "generated_at": "2026-11-27T02:15:00Z",
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T04:11:03Z",
  "lookback_hours": 48,
- "candidates_considered": 210,
- "sources_ok": 22,
+ "candidates_considered": 146,
+ "sources_ok": 19,
  "items": [
   {
-   "candidate_id": 35,
+   "candidate_id": 69,
    "title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
    "url": "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
    "source": "New York Times",
-   "published": "2026-11-26T12:04:01Z",
+   "published": "2026-11-27T02:45:41Z",
    "type": "policy",
-   "summary": "Nvidia has halted chip shipments to Malaysia, Singapore, Thailand and Indonesia after Washington issued a new rule requiring companies in those countries to obtain licenses before buying advanced AI chips. The move is meant to close a remote-access loophole that let Chinese firms tap GPU computing power through the region.",
-   "why_it_matters": "It shows the US is widening its chip-export dragnet beyond China itself, directly threatening the Southeast Asian data-center buildout that has become a key channel for AI compute.",
+   "summary": "Nvidia halted chip shipments to four Southeast Asian countries after a new US rule began requiring companies there to obtain licenses to buy advanced AI chips. The move follows Washington's effort to close a loophole that let Chinese firms access restricted hardware through the region.",
+   "why_it_matters": "Tighter export licensing requirements could reshape where AI chips flow globally and intensify the US-China competition over advanced computing.",
    "scores": {
     "relevance": 9,
     "significance": 9,
     "novelty": 7
    },
    "also_covered_by": [
-    "TechCrunch",
     "Wall Street Journal",
-    "CNBC"
+    "TechCrunch",
+    "CNBC",
+    "Bloomberg"
    ],
    "score": 10.0,
    "score_base": 8.5,
    "source_weight": 1.1,
    "corroborations": 3,
    "rank": 1,
-   "published_local": "26 Nov 2026, 13:04"
+   "published_local": "27 Nov 2026, 03:45"
   },
   {
-   "candidate_id": 122,
-   "title": "S&P Says It May Downgrade Nvidia’s Ratings on Governance Worries",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-25/s-p-says-it-may-downgrade-nvidia-s-ratings-on-governance-worries",
-   "source": "Bloomberg",
-   "published": "2026-11-25T18:56:21Z",
-   "type": "event",
-   "summary": "S&P Global Ratings is considering cutting Nvidia's credit rating by one notch, citing rising management and governance risk following the departure and subsequent return of CEO Jensen Huang. The warning ties the chipmaker's financial standing directly to boardroom turmoil at the center of the global AI buildout.",
-   "why_it_matters": "Nvidia's credit rating underpins financing for much of the AI data-center boom, so a governance-driven downgrade could ripple through borrowing costs across the sector.",
-   "scores": {
-    "relevance": 9,
-    "significance": 8,
-    "novelty": 7
-   },
-   "also_covered_by": [
-    "TechCrunch",
-    "CNBC"
-   ],
-   "score": 9.7,
-   "score_base": 8.1,
-   "source_weight": 1.2,
-   "corroborations": 2,
-   "rank": 2,
-   "published_local": "25 Nov 2026, 19:56"
-  },
-  {
-   "candidate_id": 137,
-   "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-   "source": "The Verge",
-   "published": "2026-11-25T17:44:57Z",
-   "type": "policy",
-   "summary": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites in orbit as part of its 'Starmind' initiative, the agency's first approval of its kind. Google and Blue Origin are also pursuing orbital AI data centers, but SpaceX is now first to clear this regulatory hurdle.",
-   "why_it_matters": "It's the first regulatory green light for putting AI compute in orbit, a frontier that could reshape where data centers get built and how power and cooling constraints on Earth are sidestepped.",
+   "candidate_id": 13,
+   "title": "The Guardian view on AI and the Riemann hypothesis: a triumph of intelligence, a test of democracy | Editorial",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/27/the-guardian-view-on-ai-and-the-riemann-hypothesis-a-triumph-of-intelligence-a-test-of-democracy",
+   "source": "The Guardian",
+   "published": "2026-11-27T18:07:43Z",
+   "type": "research",
+   "summary": "AI has helped crack a mathematical problem that has defied mathematicians since 1859, reportedly involving mathematician Levent Alpöge. The breakthrough is being framed as a landmark demonstration of AI's growing power in scientific discovery.",
+   "why_it_matters": "It signals that AI systems can now help resolve problems that stumped human mathematicians for over 150 years, raising urgent questions about who controls and regulates such capability.",
    "scores": {
     "relevance": 8,
-    "significance": 7,
+    "significance": 8,
     "novelty": 9
    },
    "also_covered_by": [
-    "CNBC",
-    "Bloomberg"
+    "VentureBeat",
+    "New York Times"
    ],
-   "score": 8.7,
-   "score_base": 7.85,
+   "score": 9.1,
+   "score_base": 8.25,
    "source_weight": 1.0,
    "corroborations": 2,
-   "rank": 3,
-   "published_local": "25 Nov 2026, 18:44"
+   "rank": 2,
+   "published_local": "27 Nov 2026, 19:07"
   },
   {
-   "candidate_id": 210,
-   "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
-   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
-   "source": "Latent Space",
-   "published": "2026-11-25T04:29:07Z",
-   "type": "product",
-   "summary": "Google DeepMind's new Gemini 4 Neon model beats rival models Astra and Fable on the LiveBench benchmark, and cuts the runtime of a TypeScript/Rust coding benchmark by 48.6%. Latent Space's AINews digest frames the release as marking Google DeepMind's full return to the frontier-lab tier.",
-   "why_it_matters": "A new model that measurably outperforms top rivals on independent benchmarks reshuffles the competitive order among frontier labs.",
-   "scores": {
-    "relevance": 10,
-    "significance": 8,
-    "novelty": 7
-   },
-   "also_covered_by": [],
-   "score": 8.4,
-   "score_base": 8.45,
-   "source_weight": 1.0,
-   "corroborations": 0,
-   "rank": 4,
-   "published_local": "25 Nov 2026, 05:29"
-  },
-  {
-   "candidate_id": 158,
-   "title": "New York bans AI toys, including those using internet to talk to children",
-   "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
-   "source": "The Guardian",
-   "published": "2026-11-25T15:29:21Z",
-   "type": "policy",
-   "summary": "New York Governor Kathy Hochul signed a five-year ban on manufacturing and selling AI chatbot toys, including talking stuffed animals and internet-connected dolls that converse with children. The state's attorney general said she would 'not hesitate to enforce' the law, which follows research from Common Sense Media documenting safety failures such as exposure to inappropriate content.",
-   "why_it_matters": "It's one of the first outright state bans on a category of consumer AI product, aimed squarely at child safety, and could set a template for other states.",
-   "scores": {
-    "relevance": 8,
-    "significance": 7,
-    "novelty": 7
-   },
-   "also_covered_by": [
-    "TechCrunch"
-   ],
-   "score": 7.8,
-   "score_base": 7.35,
-   "source_weight": 1.0,
-   "corroborations": 1,
-   "rank": 5,
-   "published_local": "25 Nov 2026, 16:29"
-  },
-  {
-   "candidate_id": 105,
-   "title": "JPMorgan Sees $450 Billion AI Debt Blitz in 2027 Before Plateau",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-25/jpmorgan-sees-450-billion-ai-debt-blitz-in-2027-before-plateau",
+   "candidate_id": 53,
+   "title": "Nvidia, AI Fears Jolt Markets: Market Snapshot",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-27/nvidia-ai-fears-jolt-markets-market-snapshot-video",
    "source": "Bloomberg",
-   "published": "2026-11-25T21:17:21Z",
-   "type": "funding",
-   "summary": "JPMorgan Chase analysts forecast that companies will tap public high-grade debt markets for $450 billion in 2027 to finance AI-related capital expenditures, even as they see a growth plateau looming further down the road for the industry.",
-   "why_it_matters": "It's a concrete number on just how much debt financing the AI buildout is expected to require, and a warning that the growth underpinning it may not last indefinitely.",
-   "scores": {
-    "relevance": 8,
-    "significance": 7,
-    "novelty": 4
-   },
-   "also_covered_by": [
-    "CNBC"
-   ],
-   "score": 7.8,
-   "score_base": 6.6,
-   "source_weight": 1.2,
-   "corroborations": 1,
-   "rank": 6,
-   "published_local": "25 Nov 2026, 22:17"
-  },
-  {
-   "candidate_id": 127,
-   "title": "US Genesis Mission Looks to AI to Accelerate Science",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-25/us-genesis-mission-looks-to-ai-to-accelerate-science-video",
-   "source": "Bloomberg",
-   "published": "2026-11-25T18:30:27Z",
-   "type": "policy",
-   "summary": "One year after launch, the US Department of Energy's Genesis Mission has grown to nearly 300 AI-driven research projects spanning energy, biology, advanced manufacturing and national security. DOE Undersecretary for Science Dario Gil described using AI to simulate the power grid 1,000 times faster and to accelerate nuclear and fusion development, with a goal of doubling US R&D productivity within a decade.",
-   "why_it_matters": "It's a concrete look at how a national government is trying to harness AI to speed up science itself, at a scale that could affect energy and nuclear research timelines.",
+   "published": "2026-11-27T08:26:29Z",
+   "type": "event",
+   "summary": "Nvidia reinstated Jensen Huang as CEO, sending tech stocks soaring, though it wasn't enough to fully calm broader jitters over AI valuations. Strategists and tech leaders questioned whether the market swings signal a new era for AI investment.",
+   "why_it_matters": "Leadership stability at the world's most valuable AI chipmaker is a bellwether for confidence in the entire AI trade.",
    "scores": {
     "relevance": 8,
     "significance": 7,
     "novelty": 5
    },
-   "also_covered_by": [],
-   "score": 7.6,
+   "also_covered_by": [
+    "CNBC",
+    "New York Times",
+    "Wall Street Journal",
+    "The Guardian"
+   ],
+   "score": 8.8,
    "score_base": 6.85,
    "source_weight": 1.2,
-   "corroborations": 0,
-   "rank": 7,
-   "published_local": "25 Nov 2026, 19:30"
+   "corroborations": 3,
+   "rank": 3,
+   "published_local": "27 Nov 2026, 09:26"
   },
   {
-   "candidate_id": 138,
-   "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-   "source": "TechCrunch",
-   "published": "2026-11-25T17:35:58Z",
-   "type": "policy",
-   "summary": "A coalition of 42 state attorneys general is trying to block Character.AI's bankruptcy sale, which would include the private chat histories of more than 21 million U.S. accounts, including 2.1 million registered to minors. The AGs say the sale of such sensitive personal data should not proceed as part of the Chapter 11 process.",
-   "why_it_matters": "It raises the question of whether a failed AI company's most sensitive asset, years of users' intimate chat logs, can simply be auctioned off as a bankruptcy asset.",
+   "candidate_id": 8,
+   "title": "OpenAI countersues Apple for stealing trade secrets",
+   "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "published": "2026-11-27T18:20:05Z",
+   "type": "event",
+   "summary": "OpenAI has countersued Apple, accusing the iPhone maker of stealing trade secrets and of coercing and threatening suppliers that work with both companies. OpenAI separately accuses Apple of pressuring suppliers to shun its devices and using unfair employment agreements to stop talent from leaving.",
+   "why_it_matters": "The widening legal fight between two of tech's most powerful companies could reshape how AI hardware makers compete for suppliers and talent.",
    "scores": {
     "relevance": 8,
     "significance": 7,
     "novelty": 6
    },
    "also_covered_by": [
-    "The Verge"
+    "Bloomberg"
    ],
-   "score": 7.5,
+   "score": 8.3,
    "score_base": 7.1,
-   "source_weight": 1.0,
+   "source_weight": 1.2,
    "corroborations": 1,
-   "rank": 8,
-   "published_local": "25 Nov 2026, 18:35"
+   "rank": 4,
+   "published_local": "27 Nov 2026, 19:20"
   },
   {
-   "candidate_id": 129,
-   "title": "ElevenLabs in Early Talks for Funding at $33 Billion Value",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-25/elevenlabs-in-early-talks-for-2027-funding-at-33-billion-value",
-   "source": "Bloomberg",
-   "published": "2026-11-25T18:24:57Z",
-   "type": "funding",
-   "summary": "ElevenLabs, which builds AI voice models and agents, is in early discussions for a new funding round targeting a $33 billion valuation, according to people familiar with the matter.",
-   "why_it_matters": "A valuation of that size for a voice-AI specialist signals how much investor appetite remains for AI infrastructure bets even as broader AI stocks wobble.",
+   "candidate_id": 91,
+   "title": "Andrew Bailey says unreleased AI models have raised encryption concerns",
+   "url": "https://www.ft.com/content/450920b9-82b8-4a66-960b-5740aa7f94ae?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "published": "2026-11-26T17:13:40Z",
+   "type": "policy",
+   "summary": "Bank of England governor Andrew Bailey said unreleased AI models have raised concerns that breakthroughs in mathematics could threaten the encryption underpinning financial systems. The warning reflects growing worry that advancing AI capabilities could expose weaknesses in the cryptography used across banking and commerce.",
+   "why_it_matters": "A central bank governor publicly flagging AI-driven cryptography risk signals financial regulators now treat AI capability growth as a systemic risk.",
    "scores": {
-    "relevance": 8,
-    "significance": 6,
-    "novelty": 6
+    "relevance": 7,
+    "significance": 8,
+    "novelty": 7
    },
    "also_covered_by": [],
-   "score": 7.5,
-   "score_base": 6.7,
+   "score": 8.2,
+   "score_base": 7.4,
    "source_weight": 1.2,
    "corroborations": 0,
-   "rank": 9,
-   "published_local": "25 Nov 2026, 19:24"
+   "rank": 5,
+   "published_local": "26 Nov 2026, 18:13"
   },
   {
-   "candidate_id": 173,
-   "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
-   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-   "source": "Hacker News",
-   "published": "2026-11-25T13:33:07Z",
-   "type": "research",
-   "summary": "Google published a collection of research papers, under the name 'Cogentic,' covering integer factorization, discrete logarithms and related computational problems, posted to its google-research GitHub repository. The release drew heavy engagement on Hacker News, with 452 points and 338 comments.",
-   "why_it_matters": "Integer factorization and discrete logs underpin much of modern cryptography, so new research results in this area from a major lab draw outsized attention from both researchers and security practitioners.",
+   "candidate_id": 39,
+   "title": "Nvidia Blackwell Tech Used at China Site Tied to Alice Huang",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang",
+   "source": "Bloomberg",
+   "published": "2026-11-27T11:45:46Z",
+   "type": "policy",
+   "summary": "Chinese firms installed Nvidia's powerful Blackwell semiconductors, including a GB300 NVL72 rack, in a Shanghai data center linked to Alice Huang, the figure at the center of a controversy involving the chipmaker. The hardware was reportedly offered as collateral for a 96 million yuan ($14 million) loan from a Shanghai bank.",
+   "why_it_matters": "It raises fresh questions about whether restricted Nvidia AI chips are reaching China despite export controls.",
    "scores": {
     "relevance": 8,
     "significance": 7,
     "novelty": 7
    },
    "also_covered_by": [],
-   "score": 6.9,
+   "score": 8.1,
    "score_base": 7.35,
-   "source_weight": 0.9,
+   "source_weight": 1.2,
+   "corroborations": 0,
+   "rank": 6,
+   "published_local": "27 Nov 2026, 12:45"
+  },
+  {
+   "candidate_id": 74,
+   "title": "China Hedge Fund Star Builds Operating System Kernel for AI",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/china-hedge-fund-star-builds-operating-system-kernel-for-ai",
+   "source": "Bloomberg",
+   "published": "2026-11-27T01:29:38Z",
+   "type": "product",
+   "summary": "An AI startup founded by one of China's most successful hedge fund managers is preparing to release its first product: the core of an operating system designed for AI agents rather than humans.",
+   "why_it_matters": "It points to a new category of infrastructure software built specifically to run autonomous AI agents instead of traditional human-facing operating systems.",
+   "scores": {
+    "relevance": 8,
+    "significance": 6,
+    "novelty": 8
+   },
+   "also_covered_by": [],
+   "score": 8.0,
+   "score_base": 7.2,
+   "source_weight": 1.2,
+   "corroborations": 0,
+   "rank": 7,
+   "published_local": "27 Nov 2026, 02:29"
+  },
+  {
+   "candidate_id": 17,
+   "title": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+   "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+   "source": "CNBC",
+   "published": "2026-11-27T16:43:14Z",
+   "type": "product",
+   "summary": "AI shopping agents from OpenAI, Meta, Google and others are being used by consumers for Black Friday shopping, but Amazon and a growing number of retail sites are blocking or restricting their access. The friction highlights tension between AI agent platforms and retailers protective of their own sales channels.",
+   "why_it_matters": "How retailers respond to AI shopping agents will shape whether agentic commerce becomes a mainstream way people shop, or stays limited by platform gatekeeping.",
+   "scores": {
+    "relevance": 7,
+    "significance": 7,
+    "novelty": 6
+   },
+   "also_covered_by": [
+    "Bloomberg",
+    "The Guardian"
+   ],
+   "score": 7.5,
+   "score_base": 6.75,
+   "source_weight": 1.0,
+   "corroborations": 2,
+   "rank": 8,
+   "published_local": "27 Nov 2026, 17:43"
+  },
+  {
+   "candidate_id": 23,
+   "title": "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push",
+   "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+   "source": "CNBC",
+   "published": "2026-11-27T14:52:40Z",
+   "type": "event",
+   "summary": "SAP is reportedly considering cutting at least 10,000 jobs, around 9% of its global workforce, as it reshapes its software business around AI. The move would follow similar AI-related restructuring at other major tech companies.",
+   "why_it_matters": "It's one of the largest announced workforce reductions yet explicitly tied to AI-driven restructuring at a major enterprise software vendor.",
+   "scores": {
+    "relevance": 7,
+    "significance": 8,
+    "novelty": 5
+   },
+   "also_covered_by": [
+    "Bloomberg"
+   ],
+   "score": 7.3,
+   "score_base": 6.9,
+   "source_weight": 1.0,
+   "corroborations": 1,
+   "rank": 9,
+   "published_local": "27 Nov 2026, 15:52"
+  },
+  {
+   "candidate_id": 118,
+   "title": "Backlash over AI power costs threatens $67bn NextEra-Dominion deal",
+   "url": "https://www.ft.com/content/1f4095cb-c032-414f-9858-554c8b82b145?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "published": "2026-11-26T11:00:06Z",
+   "type": "event",
+   "summary": "A proposed $67bn tie-up between NextEra and Dominion is facing fierce opposition as anger over soaring electricity bills, driven partly by AI data center power demand, spills into the deal's path on Wall Street.",
+   "why_it_matters": "It shows how rising electricity costs tied to AI infrastructure growth are now directly threatening major utility-sector M&A.",
+   "scores": {
+    "relevance": 6,
+    "significance": 7,
+    "novelty": 6
+   },
+   "also_covered_by": [],
+   "score": 7.2,
+   "score_base": 6.4,
+   "source_weight": 1.2,
    "corroborations": 0,
    "rank": 10,
-   "published_local": "25 Nov 2026, 14:33"
+   "published_local": "26 Nov 2026, 12:00"
   }
  ],
  "posts": []
